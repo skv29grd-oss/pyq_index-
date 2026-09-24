@@ -1,0 +1,634 @@
+UPSC CSE Prelims PYQ - Question Stem Index, PART 2 of 3 (topic-search index, not full MCQs)
+Source: 'Prelims PYQ (2011-2025).pdf' (Physics Wallah / PW OnlyIAS publication), PYQs folder in Drive.
+THIS FILE (Part 2) contains Sections B-E below: Modern History (89 Qs), Art and Culture (61 Qs),
+Polity (161 Qs), Indian Economy (173 Qs) -- all topic-wise, Prelims 2011-2022, all FULL.
+PART 1 ('Prelims_Index.txt', same folder): full Prelims 2025/2024/2023 year-wise papers + Section A
+(Ancient History 27 Qs, Medieval History 30 Qs).
+PART 3 ('Prelims_Index_Part3_Environment-Geography-ScienceTech.txt', same folder): Section F Environment
+and Ecology (184 Qs), Section G Geography (118 Qs), Section H Science and Technology (130 Qs).
+COVERAGE NOTE: Parts 1 + 2 + 3 together now cover the ENTIRE source book (all 8 topic chapters,
+Sections A-H, plus the three latest full year papers). Nothing remains uncaptured.
+
+======================================================================
+SECTION B: MODERN HISTORY (Prelims 2011-2022, topic-wise) -- FULL (89 Qs)
+======================================================================
+
+--- The Advent of the Europeans in India ---
+MoH Q1 (2022): Statements: Dutch established factories/warehouses on east coast on lands granted by Gajapati rulers; Alfonso de Albuquerque captured Goa from Bijapur Sultanate; English East India Company established a factory at Madras on land leased from a representative of Vijayanagara empire. Which correct?
+MoH Q2 (2021): In first quarter of 17th century, in which of the following was/were the factory/factories of English East India Company located? Broach, Chicacole, Trichinopoly.
+
+--- British Expansion in India ---
+MoH Q3 (2018): Which statement does NOT apply to the system of Subsidiary Alliance introduced by Lord Wellesley?
+
+--- Economic Policies of The British ---
+MoH Q4 (2020): Pairs: Aurang-In-charge of treasury of the State, Banian-Indian agent of the East India Company, Mirasidar-Designated revenue payer to the State. Which correctly matched?
+MoH Q5 (2020): Which statement correctly explains impact of Industrial Revolution on India in first half of 19th century?
+MoH Q6 (2019): Which group of plants was domesticated in the 'New World' and introduced into the 'Old World'?
+MoH Q7 (2018): Economically, one of the results of British rule in India in 19th century was:
+MoH Q8 (2018): Staple commodities of export by English East India Company from Bengal in mid-18th century were:
+MoH Q9 (2017): Who was/were associated with introduction of Ryotwari Settlement in India during British Rule? Lord Cornwallis, Alexander Read, Thomas Munro.
+MoH Q10 (2017): The Trade Disputes Act of 1929 provided for:
+MoH Q11 (2017): Statements: Factories Act 1881 passed to fix wages of industrial workers and allow workers to form trade unions; N.M. Lokhande pioneer in organizing labour movement in British India. Which correct?
+MoH Q12 (2015): Who was/were economic critic/critics of colonialism in India? Dadabhai Naoroji, G. Subramania Iyer, R.C. Dutt.
+MoH Q13 (2012): Ryotwari Settlement: rent paid directly by peasants to Government; government gave Pattas to Ryots; lands surveyed and assessed before taxed. Which correct?
+MoH Q14 (2012): Most effective contribution by Dadabhai Naoroji to Indian National Movement: exposed economic exploitation of India by British; interpreted ancient Indian texts and restored self-confidence; stressed need for eradication of social evils. Which correct?
+MoH Q15 (2012): Introduced into India by the English: assessment of land revenue on basis of nature of soil/quality of crops; use of mobile cannons in warfare; cultivation of tobacco and red chillies. Which was/were?
+MoH Q16 (2011): The tendency for increased litigation after Lord Cornwallis's 1793 land settlement traced to which provision?
+MoH Q17 (2011): "Home Charges" during colonial rule constituted by which funds? Support of India Office London; salaries/pensions of British personnel in India; funds for waging wars outside India.
+
+--- Administrative Changes After 1857 ---
+MoH Q18 (2012): Principal feature(s) of Government of India Act 1919: diarchy in executive government of provinces; separate communal electorates for Muslims; devolution of legislative authority by centre to provinces.
+MoH Q19 (2012): Distribution of powers between Centre and States in Indian Constitution based on scheme provided in: Morley-Minto Reforms 1909/Montagu-Chelmsford Act 1919/GoI Act 1935/Indian Independence Act 1947
+MoH Q20 (2011): Purpose of Indian Parliamentary Committee set up by Sir William Wedderburn and W.S. Caine in 1893?
+MoH Q21 (2013): The Ilbert Bill controversy was related to:
+MoH Q22 (2014): Object(s) of Queen Victoria's Proclamation (1858): disclaim intention to annex Indian States; place Indian administration under British Crown; regulate East India Company's trade with India.
+MoH Q23 (2015): The Government of India Act of 1919 clearly defined:
+MoH Q24 (2016): The Montague-Chelmsford Proposals were related to:
+MoH Q25 (2017): In Indian history, the principle of 'dyarchy' refers to:
+MoH Q26 (2017): The object of the Butler Committee of 1927 was to:
+MoH Q27 (2018): In Federation established by GoI Act 1935, residuary powers given to:
+MoH Q28 (2019): Statements about Charter Act of 1813: ended trade monopoly of EIC except tea/China trade; asserted sovereignty of British Crown over Indian territories; revenues of India controlled by British Parliament. Which correct?
+MoH Q29 (2021): Statements: Montagu-Chelmsford Reforms 1919 recommended voting rights to all women above 21; GoI Act 1935 gave women reserved seats in legislature. Which correct?
+
+--- Peasants and Tribal Movements ---
+MoH Q30 (2011): Which provided a common factor for tribal insurrection in India in 19th century?
+MoH Q31 (2013): The demand for Tebhaga Peasant Movement in Bengal was for:
+MoH Q32 (2018): After Santhal Uprising subsided, measure(s) taken by colonial government: territories called 'Santhal Paraganas' created; illegal for Santhal to transfer land to non-Santhal. Which correct?
+MoH Q33 (2020): Indigo cultivation in India declined by beginning of 20th century because of:
+MoH Q34 (2020): "Ulgulan" or Great Tumult refers to which event? (Revolt of 1857/Mappila Rebellion 1921/Indigo Revolt 1859-60/Birsa Munda's Revolt 1899-1900)
+
+--- Socio-Religious Reforms ---
+MoH Q35 (2012): During freedom struggle, why was National Social Conference formed?
+MoH Q36 (2012): Statements on Brahmo Samaj: opposed idolatry; denied need for priestly class; popularized doctrine that Vedas are infallible. Which correct?
+MoH Q37 (2016): Satya Shodhak Samaj organized: (movement for upliftment of tribals in Bihar/temple-entry movement in Gujarat/anti-caste movement in Maharashtra/peasant movement in Punjab)
+MoH Q38 (2016): Calcutta Unitarian Committee, Tabernacle of New Dispensation, Indian Reform Association -- Keshab Chandra Sen associated with establishment of which?
+MoH Q39 (2020): Rakhmabai case of 1884 revolved around: women's right to education; age of consent; restitution of conjugal rights.
+
+--- Indian National Movement-I (1905-1918) ---
+MoH Q40 (2022): Freedom fighters Barindra Kumar Ghosh, Jogesh Chandra Chatterjee, Rash Behari Bose -- who actively associated with Ghadar Party?
+MoH Q41 (2011): Reason for Gandhi to organise satyagraha on behalf of Kheda peasants?
+MoH Q42 (2014): Partition of Bengal by Curzon 1905 lasted until:
+MoH Q43 (2014): The Ghadar was: revolutionary association HQ San Francisco/nationalist org operating from Singapore/militant org HQ Berlin/Communist movement HQ Tashkent
+MoH Q44 (2015): Which movement contributed to split in Congress into 'moderates' and 'extremists'? Swadeshi/Quit India/Non-Cooperation/Civil Disobedience
+MoH Q45 (2016): Main reason for split in Congress at Surat 1907?
+MoH Q46 (2016): 'Swadeshi' and 'Boycott' adopted as methods of struggle for first time during: Agitation against Partition of Bengal/Home Rule Movement/Non-Cooperation Movement/visit of Simon Commission
+MoH Q47 (2018): Very significant aspect of Champaran Satyagraha?
+MoH Q48 (2019): Swadeshi Movement: contributed to revival of indigenous artisan crafts; National Council of Education established as part of Swadeshi Movement. Which correct?
+
+--- Indian National Movement-II (1918-1929) ---
+MoH Q49 (2011): Recommended by Nehru Report: complete independence for India; joint electorates with reservation of seats for minorities; provision of fundamental right for people in constitution. Which was/were?
+MoH Q50 (2012): The Rowlatt Act aimed at:
+MoH Q51 (2012): Lahore Session of INC (1929) significance: passed resolution demanding complete independence; rift between extremists/moderates resolved; resolution rejecting two-nation theory. Which correct?
+MoH Q52 (2013): People of India agitated against arrival of Simon Commission because:
+MoH Q53 (2014): The 1929 Session of INC significant because:
+MoH Q54 (2015): Rowlatt Satyagraha: Rowlatt Act based on recommendations of 'Sedition Committee'; in Rowlatt Satyagraha Gandhi tried to utilise Home Rule League; demonstrations against Simon Commission coincided with Rowlatt Satyagraha. Which correct?
+MoH Q55 (2018): In 1920, which changed its name to "Swarajya Sabha"? All India Home Rule League/Hindu Mahasabha/South Indian Liberal Federation/The Servants of India Society
+
+--- Indian National Movement-III (1930-1947) ---
+MoH Q56 (2022): Proposals of Cripps Mission: Constituent Assembly to have members nominated by Provincial Assemblies and Princely States; any Province not prepared to accept new Constitution could sign separate agreement with Britain. Which correct?
+MoH Q57 (2011): Which observation is NOT true about the Quit India Movement of 1942?
+MoH Q58 (2011): Usha Mehta well-known for, w.r.t. Indian freedom struggle:
+MoH Q59 (2012): Congress ministries resigned in seven provinces in 1939, because:
+MoH Q60 (2013): Quit India Movement launched in response to: Cabinet Mission Plan/Cripps Proposals/Simon Commission Report/Wavell Plan
+MoH Q61 (2014): The Radcliffe Committee was appointed to:
+MoH Q62 (2015): Congress Socialist Party statements: advocated boycott of British goods and evasion of taxes; wanted to establish dictatorship of proletariat; advocated separate electorate for minorities and oppressed classes; release only prisoners not charged with violence. Which correct?
+MoH Q63 (2015): Who organised march on Tanjore coast to break Salt Law April 1930? V.O. Chidambaram Pillai/C. Rajagopalachari/K. Kamaraj/Annie Besant
+MoH Q64 (2015): Cabinet Mission statements: recommended federal government; enlarged powers of Indian courts; provided for more Indians in ICS. Which correct?
+MoH Q65 (2016): The plan of Sir Stafford Cripps envisaged that after Second World War:
+MoH Q66 (2017): Chronological sequence: Mutiny in Royal Indian Navy; Quit India Movement launched; Second Round Table Conference.
+MoH Q67 (2019): British colonial rule statements: Gandhi instrumental in abolition of 'indentured labour'; at Lord Chelmsford's War Conference Gandhi did not support resolution on recruiting Indians for WWI; after Salt Law breaking, INC declared illegal by colonial rulers. Which correct?
+MoH Q68 (2020): The Gandhi-Irwin Pact included: invitation to Congress for Round Table Conference; withdrawal of Ordinances re Civil Disobedience Movement; acceptance of enquiry into police excesses; release only of prisoners not charged with violence. Which correct?
+MoH Q69 (2021): With reference to 8th August 1942, which statement is correct? Quit India Resolution adopted by AICC/Viceroy's Executive Council expanded to include more Indians/Congress ministries resigned in seven provinces/Cripps proposed Indian Union with full Dominion Status after WWII
+MoH Q70 (2021): Shah Nawaz Khan, Prem Kumar Sehgal, Gurbaksh Singh Dhillon remembered as: leaders of Swadeshi and Boycott Movement/members of Interim Government 1946/members of Drafting Committee/officers of Indian National Army
+
+--- Development of Education ---
+MoH Q71 (2018): Regarding Wood's Dispatch, which statements true? Grants-in-Aid system introduced; establishment of universities recommended; English as medium of instruction at all levels recommended.
+MoH Q72 (2018): Which led to introduction of English Education in India? Charter Act 1813; General Committee of Public Instruction 1823; Orientalist and Anglicist Controversy.
+MoH Q73 (2018): Pairs (Institution-Founder): Sanskrit College Benares-William Jones; Calcutta Madrasa-Warren Hastings; Fort William College-Arthur Wellesley. Which correct?
+MoH Q74 (2020): Wellesley established Fort William College at Calcutta because:
+MoH Q75 (2021): Associated as Secretary with Hindu Female School (later Bethune Female School)? Annie Besant/Debendranath Tagore/Ishwar Chandra Vidyasagar/Sarojini Naidu
+
+--- Prominent Personalities in Modern History ---
+MoH Q76 (2012): Parties established by Dr. B.R. Ambedkar: Peasants and Workers Party of India; All India Scheduled Castes Federation; Independent Labour Party.
+MoH Q77 (2012): Mahatma Gandhi undertook fast unto death in 1932, mainly because:
+MoH Q78 (2013): Annie Besant was: responsible for starting Home Rule Movement; founder of Theosophical Society; once President of INC. Which correct?
+MoH Q79 (2015): Statements: first woman President of INC was Sarojini Naidu; first Muslim President of INC was Badruddin Tyabji. Which correct?
+MoH Q80 (2017): Pairs: Radhakanta Deb-first President of British Indian Association; Gazulu Lakshminarasu Chetty-founder of Madras Mahajan Sabha; Surendranath Banerjee-Founder of Indian Association. Which correctly matched?
+MoH Q81 (2018): Wrote biographies of Mazzini, Garibaldi, Shivaji, Shrikrishna; stayed in America; elected to Central Assembly. Who? Aurobindo Ghosh/Bipin Chandra Pal/Lala Lajpat Rai/Motilal Nehru
+MoH Q82 (2018): Which event happened earliest? Dayanand established Arya Samaj/Dinabandhu Mitra wrote Neeldarpan/Bankim Chandra wrote Anandmath/Satyendranath Tagore first Indian to succeed in ICS exam
+MoH Q83 (2019): Pairs (Movement-Organization Leader): All India Anti-Untouchability League-Mahatma Gandhi; All India Kisan Sabha-Swami Sahajanand Saraswati; Self-Respect Movement-E.V. Ramaswami Naicker. Which correctly matched?
+MoH Q84 (2019): Pairs (Person-Position): Sir Tej Bahadur Sapru-President All India Liberal Federation; K.C. Neogy-Member Constituent Assembly; P.C. Joshi-General Secretary Communist Party of India. Which correctly matched?
+MoH Q85 (2020): Book "Desher Katha" by Sakharam Ganesh Deuskar: warned against Colonial States' hypnotic conquest of mind; inspired swadeshi street plays/folk songs; use of 'desh' specific to Bengal region. Which correct?
+MoH Q86 (2020): Vital-Vidhvansak, first monthly journal targeting untouchable people, published by: Gopal Baba Walangkar/Jyotiba Phule/Mohandas Gandhi/Bhimrao Ramji Ambedkar
+MoH Q87 (2021): Madanapalle, Andhra Pradesh: Pingali Venkayya designed tricolour flag here/Pattabhi Sitaramaiah led Quit India in Andhra/Rabindranath Tagore translated National Anthem from Bengali to English here/Madame Blavatsky & Olcott set up Theosophical Society HQ here. Which correct?
+MoH Q88 (2021): Associated with 'Song from Prison', translation of ancient Indian religious lyrics in English: Bal Gangadhar Tilak/Jawaharlal Nehru/Mohandas Gandhi/Sarojini Naidu
+
+--- Constitutional Developments ---
+MoH Q89 (2013): Members of Constituent Assembly from Provinces were: directly elected by people; nominated by INC and Muslim League; elected by Provincial Legislative Assemblies; selected by Government for expertise.
+
+MODERN HISTORY (Q1-89) FULL ANSWER KEY: 1-b 2-a 3-c 4-b 5-a 6-a 7-c 8-d 9-c 10-d 11-b 12-d 13-c 14-a 15-d 16-d 17-b 18-c 19-c 20-a 21-c 22-a 23-b 24-d 25-b 26-a 27-c 28-a 29-b 30-d 31-a 32-c 33-b 34-d 35-b 36-b 37-c 38-b 39-b 40-d 41-a 42-b 43-a 44-a 45-b 46-a 47-c 48-c 49-b 50-b 51-a 52-c 53-b 54-b 55-d 56-b 57-a 58-a 59-d 60-b 61-c 62-d 63-b 64-a 65-c 66-c 67-b 68-b 69-a 70-d 71-a 72-d 73-c 74-b 75-c 76-c 77-c 78-c 79-b 80-b 81-c 82-b 83-d 84-d 85-a 86-a 87-c 88-c 89-c
+
+======================================================================
+SECTION C: ART AND CULTURE (Prelims 2011-2022, topic-wise) -- FULL (61 Qs)
+======================================================================
+
+--- Indian Architecture ---
+AC Q1 (2022): Pairs (Site of Ashoka's rock edicts-Location in State): Dhauli-Odisha, Erragudi-Andhra Pradesh, Jaugada-Madhya Pradesh, Kalsi-Karnataka. How many correctly matched?
+AC Q2 (2022): PM inaugurated new Circuit House near Somnath Temple, Veraval. Statements: Somnath is one of Jyotirlinga shrines; description given by Al-Biruni; Pran Pratishtha of present-day temple done by President S. Radhakrishnan. Which correct?
+AC Q3 (2021): Which statement is correct? Ajanta Caves lie in gorge of Waghora river/Sanchi Stupa lies in gorge of Chambal river/Pandu-Lena Cave Shrines lie in gorge of Narmada river/Amaravati Stupa lies in gorge of Godavari river
+AC Q4 (2018): Statements: White marble used in Buland Darwaza and Khankah at Fatehpur Sikri; red sandstone and marble used in Bara Imambara and Rumi Darwaza at Lucknow. Which correct?
+AC Q5 (2016): Common to Ajanta and Mahabalipuram: built in same period; belong to same religious denomination; have rock-cut monuments. Which correct?
+AC Q6 (2014): Pairs (Famous sculpture-Site): Mahaparinirvana of Buddha-Ajanta; Varaha Avatar of Vishnu rescuing Earth-Mount Abu; Arjuna's Penance/Descent of Ganga-Mamallapuram. Which correctly matched?
+AC Q7 (2014): Ibadat Khana at Fatehpur Sikri was: mosque for Royal Family/Akbar's private prayer chamber/hall where Akbar held discussions with scholars of various religions/room where nobles of different religions gathered
+AC Q8 (2013): Indian rock-cut architecture: caves at Badami are oldest surviving rock-cut caves in India; Barabar rock-cut caves originally made for Ajivikas by Chandragupta Maurya; at Ellora caves made for different faiths. Which correct?
+
+--- Temple Architecture ---
+AC Q9 (2021) [Chausath Yogini Temple, Morena]: Statements: circular temple built during Kachchhapaghata Dynasty; only circular temple built in India; meant to promote Vaishnava cult; design inspired the Indian Parliament building. Which correct?
+AC Q10 (2012): The Nagara, the Dravida and the Vesara are: three main racial groups of Indian subcontinent/three main linguistic divisions/three main styles of Indian Temple Architecture/three main musical gharanas
+AC Q11 (2019): Building 'Kalyana Mandapam' was notable feature in temple construction in kingdom of: Chalukya/Chandela/Rashtrakuta/Vijayanagara
+AC Q12 (2017) [Sun temples]: Which is/are famous for Sun temples? Arasavalli, Amarkantak, Omkareshwar. How many/which?
+AC Q13 (2015): Made earliest among: Lingaraja Temple at Bhubaneswar/Rock-cut Elephant at Dhauli/Rock-cut Monuments Mahabalipuram/Varaha Image at Udayagiri
+AC Q14 (2014): The term 'Panchayatan' (in cultural history) refers to: assembly of village elders/religious sect/style of temple construction/administrative functionary
+
+--- Indian Paintings ---
+AC Q15 (2018): Well-known painting "Bani Thani" belongs to: Bundi/Jaipur/Kangra/Kishangarh school
+AC Q16 (2017): Painting of Bodhisattva Padmapani famous for illustrated paintings at: Ajanta/Badami/Bagh/Ellora
+AC Q17 (2015): 'Kalamkari' painting refers to: hand-painted cotton textile South India/handmade drawing on bamboo handicrafts NE India/block-painted woollen cloth Western Himalayan region/hand-painted decorative silk cloth North-Western India
+AC Q18 (2013) [mural paintings]: Ajanta Caves, Lepakshi Temple, Sanchi Stupa -- which is/are also known for mural paintings?
+
+--- Indian Music ---
+AC Q19 (2018): Statements: most Tyagaraja Kritis are devotional songs in praise of Lord Krishna; Tyagaraja created several new ragas; Annamacharya and Tyagaraja contemporaries; Annamacharya Keertanas devotional songs in praise of Lord Venkateshwara. Which correct?
+AC Q20 (2012) [Dhrupad]: Statements: Dhrupad originated/developed in Rajput kingdoms during Mughal period; Dhrupad primarily devotional/spiritual music; Dhrupad alap uses Sanskrit syllables from Mantras. Which correct?
+
+--- Indian Dance Forms ---
+AC Q21 (2017) [Manipuri Sankirtana]: Statements: it is a song and dance performance; cymbals only musical instruments used; performed to narrate life/deeds of Lord Krishna. Which correct?
+AC Q22 (2014) [Sattriya dance]: Statements: combination of music, dance and drama; centuries-old living tradition of Vaishnavites of Assam; based on classical Ragas and Talas of devotional songs composed by Tulsidas, Kabir, Mirabai. Which correct?
+AC Q23 (2014): Pairs: Garba-Gujarat, Mohiniattam-Odisha, Yakshagana-Karnataka. Which correctly matched?
+AC Q24 (2013) ['Tribhanga' pose]: Pose in dance and dramatics called 'Tribhanga' -- which statement best describes it?
+AC Q25 (2012): Distinguish Kuchipudi and Bharatanatyam: dancers occasionally speaking dialogues found in Kuchipudi but not Bharatnatyam; dancing on brass plate feature of Bharatnatyam but not Kuchipudi. Which correct?
+
+--- Martial Arts in India ---
+AC Q26 (2014) ['Kalaripayattu']: What is 'Kalaripayattu'? ancient Bhakti cult of Shaivism South India/ancient style bronze-brass work Coromandel area/ancient form dance-drama living tradition Malabar/ancient martial art living tradition parts of South India
+
+--- Culture in India / Philosophies / Jainism & Buddhism ---
+AC Q27 (2022) [Sangam literature]: Which statement about Sangam literature in ancient South India correct? Sangam poems devoid of reference to material culture/social classification of Varna known to Sangam poets/Sangam poems no reference to warrior ethics/Sangam literature refers to magical forces as irrational
+AC Q28 (2022): "Yoga Vasistha" translated into Persian by Nizamuddin Panipati during reign of: Akbar/Humayun/Shahjahan/Aurangzeb
+AC Q29 (2021): Terms 'Halbi, Ho and Kui' pertain to: dance forms NW India/musical instruments/prehistoric cave paintings/tribal languages
+AC Q30 (2020) ['Paramitas']: Correct description of term Paramitas: earliest Dharmashastra texts in aphoristic (sutra) style/philosophical schools rejecting authority of Vedas/perfections whose attainment led to Bodhisattva path/powerful merchant guilds of early Medieval South India
+AC Q31 (2020): Statements: Sthaviravadins belong to Mahayana Buddhism; Lokottaravadin sect offshoot of Mahasanghika sect; deification of Buddha by Mahasanghikas fostered Mahayana Buddhism. Which correct?
+AC Q32 (2020): Pairs (Famous Place-Present State): Bhilsa-Madhya Pradesh, Dwarasamudra-Maharashtra, Girinagar-Gujarat, Sthanesvara-Uttar Pradesh. Which correctly matched?
+AC Q33 (2020): Pairs: Parivrajaka-Renunciant and Wanderer, Shramana-Priest with high status, Upasaka-Lay follower of Buddhism. Which correctly matched?
+AC Q34 (2019) [Mahayana Buddhism features]: Deification of Buddha; Trading the path of Bodhisattvas; Image worship and rituals -- which is/are features of Mahayana Buddhism?
+AC Q35 (2018): Pairs (Tradition-State): Chapchar Kut festival-Mizoram, Khongjom Parba ballad-Manipur, Thang-Ta dance-Sikkim. Which correctly matched?
+AC Q36 (2018) ["Sthanakvasi" sect]: "Sthanakvasi" sect belongs to which religious practice? Buddhism/Jainism/Vaishnavism/Shaivism
+AC Q37 (2018) [future Buddha]: Who among following is a future Buddha, to come to save the world? Avalokiteshvara/Lokesvara/Maitreya/Padmapani
+AC Q38 (2017) [Jainism sects]: Statements: Sautrantika and Sammitiya were sects of Jainism; Sarvastivadin held constituents of phenomena not wholly momentary but existed forever in latent form. Which correct?
+AC Q39 (2017): Pairs (Traditions-Communities): Chaliha Sahib Festival-Sindhis, Nanda Raj Jaat Yatra-Gonds, Wari-Warkari-Santhals. Which correctly matched?
+AC Q40 (2016) [Bodhisattva]: Statements: concept of Bodhisattva central to Hinayana sect; Bodhisattva a compassionate one on way to enlightenment; Bodhisattva delays own salvation to help all sentient beings. Which correct?
+AC Q41 (2016): Which ancient Indian book has love story of son of founder of Shunga dynasty? Swapnavasavadatta/Malavikagnimitra/Meghadoota/Ratnavali
+AC Q42 (2014/2015) [kingdoms associated with life of Buddha]: Avanti, Gandhara, Kosala, Magadha -- which associated with life of the Buddha?
+AC Q43 (2014): Designations 'Mahattara' and 'Pattakila' in Medieval India used for: Military officers/Village headmen/Specialists in Vedic rituals/Chiefs of craft guilds
+AC Q44 (2014) [tree-planting festival/campaign]: Month-long ecologically important campaign/festival where communities plant saplings of fruit-bearing trees: Bhutia and Lepcha/Gond and Korku/Irula and Toda/Sahariya and Agariya
+AC Q45 (2014) [Chaitra/Saka calendar]: Chaitra (Saka Era) corresponds to which Gregorian date in a normal year of 365 days? 22 March (or 21 March)/15 May (or 16 May)/21 March (or 30 March)/21 April (or 20 April)
+AC Q46 (2014): Pairs (Buddhist shrine-Location): Tabo monastery/temple complex-Spiti Valley, Lhotsava Lhakhang-Zanskar Valley, Alchi Temple Complex-Ladakh. Which correctly matched?
+AC Q47 (2014): Statements: 'Bijak' composition of teachings of Saint Dadu Dayal; Philosophy of PushtiMarg propounded by Madhvacharya. Which correct?
+AC Q48 (2014) [Manganiyars]: Community of people called Manganiyars well-known for: martial arts NE India/musical tradition NW India/classical vocal music South India/Pietra dura tradition Central India
+AC Q49 (2014) [Classical languages]: Gujarati, Kannada, Telugu -- which declared 'Classical Language(s)' by Government?
+AC Q50 (2014) [six systems of Indian Philosophy]: Which pair does NOT form part of six systems of Indian Philosophy? Mimamsa and Vedanta/Nyaya and Vaisheshika/Lokayata and Kapila/Sankhya and Yoga
+AC Q51 (2014) ['Satyameva Jayate' motto source]: National motto 'Satyameva Jayate' inscribed below Emblem of India taken from: Katha Upanishad/Chandogya Upanishad/Aitareya Upanishad/Mundaka Upanishad
+AC Q52 (2013) [Bhakti Saints]: Dadu Dayal, Guru Nanak, Tyagaraja -- who was/were preaching when Lodi dynasty fell and Babur took over?
+AC Q53 (2013) [Sankhya school]: Statements: Sankhya does not accept theory of rebirth/transmigration of soul; Sankhya holds self-knowledge leads to liberation and not any exterior influence/agent. Which correct?
+AC Q54 (2013) [Chaityas vs Viharas]: Difference between Chaitya (place of worship) and Vihara (dwelling place of monks) -- which statement correct?
+AC Q55 (2013) [Nirvana in Buddhism]: Best describes concept of Nirvana in Buddhism: extinction of flame of desire/complete annihilation of self/state of bliss and rest/mental stage beyond all comprehension
+AC Q56 (2013) [Jain doctrine]: Statements: surest way of annihilating Karma is to practise penance; every object, even smallest particle, has a soul; Karma is bane of soul and must be ended. Which applicable?
+AC Q57 (2012) [common to Buddhism and Jainism]: Avoidance of extremities of penance/enjoyment; indifference to authority of Vedas; denial of efficacy of rituals -- which common to both?
+AC Q58 (2011) [Jain philosophy - world created/maintained by]: Universal law/Universal Truth/Universal Faith/Universal Soul
+AC Q59 (2012) ["Bhumisparsha mudra"]: Lord Buddha's image shown with hand gesture "Bhumisparsha mudra" symbolises what?
+AC Q60 (2022) [Jaina texts]: Nettipakarana, Parishishta Parvan, Avadanasataka, Trishashtilakshana Mahapurana -- which are Jaina texts?
+AC Q61 (2022): Pairs (Historical person-Known as): Aryadeva-Jaina scholar, Dignaga-Buddhist scholar, Nathamuni-Vaishnav scholar. How many pairs correctly matched?
+
+ART AND CULTURE (Q1-61) FULL ANSWER KEY (source omits Q60's answer): 1-b 2-a 3-a 4-d 5-b 6-c 7-c 8-c 9-c 10-c 11-d 12-a 13-b 14-c 15-d 16-a 17-a 18-b 19-b 20-b 21-b 22-b 23-c 24-a 25-a 26-d 27-b 28-a 29-d 30-c 31-b 32-a 33-b 34-b 35-b 36-b 37-c 38-b 39-a 40-b 41-b 42-d 43-b 44-b 45-a 46-c 47-d 48-b 49-c 50-c 51-d 52-b 53-b 54-b 55-a 56-d 57-b 58-a 59-b 60-(not given in source) 61-c
+
+======================================================================
+SECTION D: POLITY (Prelims 2011-2022, topic-wise) -- FULL (161 Qs)
+======================================================================
+
+--- Historical Background ---
+Pol Q1 (2022): GoI Act 1919: functions of Provincial Govt divided into "Reserved" and "Transferred" subjects. Which treated as "Reserved" -- Admin of Justice, Local Self-Government, Land Revenue, Police?
+Pol Q2 (2012): Distribution of powers between Centre and States in Indian Constitution based on scheme in: Morley-Minto Reforms 1909/Montagu-Chelmsford Act 1919/GoI Act 1935/Indian Independence Act 1947
+
+--- Basic Concepts ---
+Pol Q3 (2019): Part of a country's "social capital": proportion of literates/stock of buildings & infrastructure/size of working-age population/level of mutual trust and harmony in society
+Pol Q4 (2020): Common agreement between Gandhism and Marxism: final goal of stateless society/class struggle/abolition of private property/economic determinism
+Pol Q5 (2020): Characteristic appropriate for bureaucracy in India: agency for widening scope of parliamentary democracy/agency for strengthening structure of federalism/agency for facilitating political stability & economic growth/agency for implementation of public policy
+Pol Q6 (2021): Best defines the term 'State': community of persons in definite territory with organised government/politically organised people of definite territory with authority to govern/people living in territory long-term with own culture/society with central authority, executive, judiciary
+Pol Q7 (2021): Best safeguard of liberty in liberal democracy: committed judiciary/centralization of powers/elected government/separation of powers
+Pol Q8 (2021): Position of Right to Property in India: legal right for citizens only/legal right for any person/fundamental right for citizens only/neither fundamental nor legal right
+
+--- Salient Features of the Constitution ---
+Pol Q9 (2022): If area brought under Fifth Schedule, which statement best reflects consequence? prevents transfer of tribal land to non-tribals/creates local self-govt body/converts area into Union Territory/State declared Special Category State
+Pol Q10 (2013): Implied principles in parliamentary govt: Members of Cabinet are Members of Parliament; Ministers hold office till confidence of Parliament; Cabinet headed by Head of State. Which correct?
+Pol Q11 (2014): Which Schedule contains provisions on anti-defection? Second/Fifth/Eighth/Tenth
+Pol Q12 (2015): Provisions in Fifth and Sixth Schedule made in order to: protect Scheduled Tribes interests/determine boundaries between States/determine powers of Panchayats/protect border States
+Pol Q13 (2017): Right to vote and be elected in India is a: Fundamental Right/Natural Right/Constitutional Right/Legal Right
+Pol Q14 (2017): Principle underlying Cabinet form of Government: arrangement minimising criticism/mechanism for speeding activities/mechanism ensuring collective responsibility of Govt to people/device for strengthening head of govt
+Pol Q15 (2017): Not a feature of Indian federalism: independent judiciary/powers clearly divided between Centre-States/federating units given unequal Rajya Sabha representation/result of agreement among federating units
+Pol Q16 (2017): Main advantage of parliamentary form of govt: executive & legislature work independently/continuity of policy, more efficient/executive remains responsible to legislature/govt cannot be changed without election
+Pol Q17 (2019): Under which Schedule can transfer of tribal land to private parties for mining be declared null and void? Third/Fifth/Ninth/Twelfth
+Pol Q18 (2019): Ninth Schedule introduced during PM-ship of: Jawaharlal Nehru/Lal Bahadur Shastri/Indira Gandhi/Morarji Desai
+Pol Q19 (2020): Statements: Constitution of India defines structure in terms of federalism/secularism/FR/democracy; Constitution provides for 'Judicial review' to safeguard liberties. Which correct?
+Pol Q20 (2021): Essential feature indicating federal character: judiciary independence safeguarded/Union Legislature has elected reps from constituent units/Union Cabinet can have elected reps from regional parties/FRs enforceable by Courts
+
+--- Preamble ---
+Pol Q21 (2013): 'Economic Justice' objective provided in: Preamble & FR/Preamble & DPSP/FR & DPSP/None
+Pol Q22 (2017): Objective NOT embodied in Preamble: Liberty of thought/Economic liberty/Liberty of expression/Liberty of belief
+Pol Q23 (2017): Mind of makers of Constitution reflected in: Preamble/FR/Directive Principles/Fundamental Duties Principles
+Pol Q24 (2018): Most appropriate relationship between law and liberty: more laws=less liberty/no laws=no liberty/if liberty, laws made by people/laws changed too often=liberty in danger
+Pol Q25 (2019): Most appropriate definition of liberty: protection against tyranny of political rulers/absence of restraint/opportunity to do whatever one likes/opportunity to develop oneself fully
+Pol Q26 (2020): The Preamble to Constitution of India is: part but has no legal effect/not part & no legal effect either/part & has same legal effect as any other part/part but no legal effect independently
+Pol Q27 (2021): Exact constitutional status of India on 26 Jan 1950: Democratic Republic/Sovereign Democratic Republic/Sovereign Secular Democratic Republic/Sovereign Socialist Secular Democratic Republic
+
+--- Citizenship ---
+Pol Q28 (2021): Statements: only one citizenship and one domicile; citizen by birth only can become Head of State; foreigner once granted citizenship cannot be deprived under any circumstances. Which correct?
+
+--- Fundamental Rights ---
+Pol Q29 (2022): Writs statements: Mandamus won't lie against private org unless entrusted with public duty; Mandamus won't lie against Company even if Govt Company; any public-minded person can petition for Quo Warranto. Which correct?
+Pol Q30 (2011): National minority status statements: can establish/administer exclusive educational institutions; President automatically nominates rep to Lok Sabha; can derive benefits from PM's 15-Point Programme. Which correct?
+Pol Q31 (2017): Envisaged by Right against Exploitation: prohibition of traffic in human beings/forced labour; abolition of untouchability; protection of minorities interests; prohibition of child employment in factories/mines. Which?
+Pol Q32 (2017): Correct relationship between Rights and Duties: correlative with Duties/personal & independent of society & Duties/Rights not Duties important for advancement/Duties not Rights important for stability
+Pol Q33 (2017): Implication of equality in society is absence of: Privileges/Restraints/Competition/Ideology
+Pol Q34 (2017): Correct statement: Rights are claims of State against citizens/Rights are privileges incorporated in Constitution/Rights are claims of citizens against State/Rights are privileges of few against many
+Pol Q35 (2018): Statements: Parliament can place particular law in Ninth Schedule; validity of law in Ninth Schedule cannot be examined by court & no judgement made. Which correct?
+Pol Q36 (2018): Main features of "Rule of Law": Limitation of Powers; Equality before law; People's responsibility to Govt; Liberty and civil rights. Which correct?
+Pol Q37 (2018): Right to Privacy as intrinsic part of Right to Life/Personal Liberty -- which Article correctly implies it? Art 14 & provisions under 42nd Amendment/Art 17 & DPSP in Part IV/Art 21 & freedoms in Part III/Art 24 & provisions under 44th Amendment
+Pol Q38 (2019): Which Article safeguards right to marry person of one's choice? Article 19/21/25/29
+Pol Q39 (2020): Category of FR incorporating protection against untouchability as discrimination: Right against Exploitation/Right to Freedom/Right to Constitutional Remedies/Right to Equality
+Pol Q40 (2020): Other than FR, which parts reflect UDHR 1948 principles/provisions? Preamble; DPSP; Fundamental Duties. Which?
+Pol Q41 (2021): 'Right to Privacy' protected under which Article? 15/19/21/29
+Pol Q42 (2021): Legislation conferring unguided/uncontrolled discretionary power on executive violates which Article? 14/28/32/44
+
+--- DPSP ---
+Pol Q43 (2012): DPSP provisions -- Gandhian Principles: uniform civil code; organizing village panchayats; promoting cottage industries; securing leisure/cultural opportunities for workers. Which are Gandhian?
+Pol Q44 (2012): Provisions with bearing on Education: DPSP; Rural/Urban Local Bodies; Fifth Schedule; Sixth Schedule; Seventh Schedule. Which?
+Pol Q45 (2013): Fundamental for governance of country per Article 37: FR/Fundamental Duties/DPSP/FR & Fundamental Duties
+Pol Q46 (2014): Promotion of international peace/security included in: Preamble/DPSP/Fundamental Duties/Ninth Schedule
+Pol Q47 (2015): DPSP statements: principles spell out socio-economic democracy; provisions not enforceable by any court. Which correct?
+Pol Q48 (2015): Ideal of 'Welfare State' enshrined in: Preamble/DPSP/FR/Seventh Schedule
+Pol Q49 (2017): Principle added to DPSP by 42nd Amendment: equal pay for equal work/participation of workers in management/right to work, education, public assistance/securing living wage & humane work conditions
+Pol Q50 (2017): DPSP constitute limitations upon: legislative function; executive function. Which?
+Pol Q51 (2020): Which part of Constitution declares ideal of Welfare State? DPSP/FR/Preamble/Seventh Schedule
+Pol Q52 (2020): Provisions in Part IV: enforceable by courts; not enforceable by any court; principles influence law-making by States. Which correct?
+Pol Q53 (2020): Separation of judiciary from executive enjoined by: Preamble/DPSP/Seventh Schedule/conventional practice
+Pol Q54 (2020): Legal Services Authorities provide free legal services to: income <1 lakh; Transgender income <2 lakh; OBC income <3 lakh; All Senior Citizens. Which combination?
+Pol Q55 (2021): Concentration of wealth under Indian Constitution violates: Right to Equality/DPSP/Right to Freedom/Concept of Welfare
+
+--- Fundamental Duties ---
+Pol Q56 (2011): NOT a fundamental duty: vote in public elections/develop scientific temper/safeguard public property/abide by Constitution & respect ideals
+Pol Q57 (2012): Among Fundamental Duties: preserve rich heritage of composite culture; protect weaker sections from social injustice; develop scientific temper & spirit of inquiry; strive for excellence individually/collectively. Which are?
+Pol Q58 (2015): "To uphold and protect Sovereignty, Unity and Integrity of India" provision in: Preamble/DPSP/FR/Fundamental Duties
+Pol Q59 (2017): True of Fundamental Duties: legislative process provided to enforce; correlative to legal duties. Which?
+
+--- Constitutional Amendments ---
+Pol Q60 (2022): Statements: bill amending Constitution requires prior recommendation of President; when Amendment Bill presented to President, obligatory to give assent; Amendment Bill must be passed by both Houses by special majority, no joint sitting provision. Which correct?
+Pol Q61 (2013): Statements: amendment to Constitution can be initiated only by introduction of bill in Lok Sabha; if amendment affects federal character, requires ratification by legislature of all States. Which correct?
+Pol Q62 (2019): Statements: 44th Amendment introduced article placing election of PM beyond judicial review; SC struck down 99th Amendment as violative of judiciary independence. Which correct?
+Pol Q63 (2019): Statements: no High Court has jurisdiction to declare central law constitutionally invalid; amendment to Constitution cannot be questioned by Supreme Court. Which correct?
+
+--- Emergency Provisions ---
+Pol Q64 (2017): NOT necessarily consequences of President's rule proclamation in State: Dissolution of State Legislative Assembly; Removal of Council of Ministers; Dissolution of local bodies. Which?
+Pol Q65 (2018): If President exercises power under Article 356 of a State: Assembly automatically dissolved/Legislature's powers exercisable by/under Parliament authority/Article 19 suspended/President can make laws for State
+
+--- Systems of Government ---
+Pol Q66 (2011): Authorization for withdrawal of funds from Consolidated Fund of India must come from: President/Parliament/PM/Union Finance Minister
+Pol Q67 (2011): All revenues received by Union Govt credited to: Contingency Fund/Public Account/Consolidated Fund/Deposits and Advances Fund
+Pol Q68 (2014): Constitutional Government is one which: restricts individual liberty for State Authority interest; restricts State Authority for individual liberty interest. Which correct?
+Pol Q69 (2015): Parliamentary System of Govt in India exists because: Lok Sabha directly elected/Parliament can amend Constitution/Rajya Sabha cannot be dissolved/Council of Ministers responsible to Lok Sabha
+Pol Q70 (2017): Democracy's superior virtue lies in: intelligence/character of ordinary men and women/methods for strengthening executive leadership/superior individual with dynamism/band of dedicated party workers
+Pol Q71 (2020): Parliamentary System of Govt is one in which: all parties represented in Govt/Govt responsible to Parliament, can be removed by it/Govt elected by people, removable by them/Govt chosen by Parliament but fixed term
+Pol Q72 (2020): Constitutional government by definition is: Govt by legislature/Popular govt/Multi-party govt/Limited govt
+Pol Q73 (2021): Constitutional government means: representative govt with federal structure/govt whose Head has nominal powers/govt whose Head has real powers/govt limited by terms of Constitution
+Pol Q74 (2021): How Indian parliamentary model differs from British model: British Parliament supreme/sovereign in legislation, Indian Parliament's power limited; matters of constitutionality of Amendment referred to Constitution Bench of SC. Which correct?
+
+--- President ---
+Pol Q75 (2012): President's duty to cause laid before Parliament: Report of Union Finance Commission; Report of Public Accounts Committee; Report of CAG; Report of National Commission for SCs. Which?
+Pol Q76 (2014): Statements: President makes rules for convenient transaction of Govt business & allocation among Ministers; all executive actions expressed in name of PM. Which correct?
+Pol Q77 (2015): Statements: Executive Power of Union vested in PM; PM is ex-officio Chairman of Civil Services Board. Which correct?
+Pol Q78 (2018): Election of President statements: value of vote of each MLA varies State to State; value of vote of MPs of Lok Sabha more than value of vote of MPs of Rajya Sabha. Which correct?
+
+--- Vice-President ---
+Pol Q79 (2013): Statements: Chairman and Deputy Chairman of Rajya Sabha not members of that House; nominated members of both Houses have no voting right in presidential election but can vote in VP election. Which correct?
+
+--- Prime Minister ---
+Pol Q80 (2012): PM of India at time of appointment: need not be member of either House but must become member within 6 months/must become member of Lok Sabha within 6 months/must already be member of either House/must be member of Lok Sabha
+
+--- Parliament (38 Qs) ---
+Pol Q81 (2022) [Deputy Speaker]: Statements: election of Deputy Speaker on date fixed by Speaker; mandatory that Deputy Speaker candidate from opposition or ruling party; Deputy Speaker has same powers as Speaker while presiding, no appeal against rulings; motion for appointment moved by Speaker seconded by PM. Which correct?
+Pol Q82 (2022) [exclusive powers of Lok Sabha]: To ratify declaration of Emergency; to pass no-confidence motion against Council of Ministers; to impeach President. Which exclusive to Lok Sabha?
+Pol Q83 (2022): Statements: Constitution classifies ministers into 4 ranks (Cabinet, MoS Independent Charge, MoS, Deputy Minister); total ministers incl PM shall not exceed 15% of total Lok Sabha members. Which correct?
+Pol Q84 (2012) [adjournment motion]: Purpose of adjournment motion in Parliament: discussion on urgent public importance/opposition collects info from ministers/reduction of specific amounts in demand for grants/postpone proceedings for inappropriate behaviour
+Pol Q85 (2012): Statements: UTs not represented in Rajya Sabha; CEC adjudicates election disputes; per Constitution Parliament consists of Lok Sabha & Rajya Sabha only. Which correct?
+Pol Q86 (2012) [Lok Sabha Speaker]: Statements: holds office during pleasure of President; need not be member at election but must become within 6 months; if resigning, letter addressed to Deputy Speaker. Which correct?
+Pol Q87 (2012) [special powers of Rajya Sabha]: To change territory/name of State; to pass resolution empowering Parliament to legislate on State List & create All India Services; to amend election procedure of President; to determine functions of EC. Which?
+Pol Q88 (2012) [joint sitting]: Deadlock between Lok Sabha and Rajya Sabha calls for joint sitting during passage of: Ordinary Legislation; Money Bill; Constitution Amendment Bill. Which?
+Pol Q89 (2012) [Delimitation Commission]: Statements: orders of Delimitation Commission cannot be challenged in Court; when orders laid before House/Assembly they cannot effect modifications. Which correct?
+Pol Q90 (2011): When annual Union Budget not passed by Lok Sabha: modified & re-presented/referred to Rajya Sabha for suggestions/FM asked to resign/PM submits resignation of Council of Ministers
+Pol Q91 (2011) ['vote-on-account' vs 'interim budget']: Difference statements: vote-on-account used by regular Govt, interim budget by caretaker Govt; vote-on-account only expenditure, interim budget both expenditure & receipts. Which correct?
+Pol Q92 (2012) [methods of Parliamentary control over public finance]: Placing Annual Financial Statement; withdrawal of money from CFI only after Appropriation Bill; supplementary grants/vote-on-account; periodic macroeconomic review by Parliamentary Budget Office; introducing Finance Bill. Which?
+Pol Q93 (2013) [PAC]: Statements: consists of not more than 25 members of Lok Sabha; scrutinises appropriation/finance accounts of Govt; examines CAG report. Which correct?
+Pol Q94 (2013): Statements: Council of Ministers collectively responsible to Parliament; Union Ministers hold office during pleasure of President; PM communicates to President proposals for legislation. Which correct?
+Pol Q95 (2013) [Money Bill amended by Rajya Sabha]: If substantially amended by Rajya Sabha: Lok Sabha may proceed accepting/not accepting recommendations/Lok Sabha cannot consider further/Lok Sabha sends to Rajya Sabha for reconsideration/President calls joint sitting
+Pol Q96 (2013) [international treaties & State subjects]: Parliament can make law for whole/part of India implementing international treaties: with consent of all States/majority of States/States concerned/without consent of any State
+Pol Q97 (2014) [No-Confidence Motion]: Statements: no mention in Constitution; can be introduced in Lok Sabha only. Which correct?
+Pol Q98 (2014) [largest Parliamentary Committee]: Committee on Public Accounts/Estimates/Public Undertakings/Petitions
+Pol Q99 (2014) [Cabinet Secretariat functions]: Preparation of agenda for Cabinet Meetings; Secretariat assistance to Cabinet Committees; Allocation of financial resources to Ministries. Which?
+Pol Q100 (2015) [Rajya Sabha & Money Bill]: Statements: Rajya Sabha has no power to reject/amend Money Bill; cannot vote on Demands for Grants; cannot discuss Annual Financial Statement. Which correct?
+Pol Q101 (2015) [joint sitting passage]: Bill referred to joint sitting of both Houses passed by: simple majority present & voting/three-fourths majority/two-thirds majority of Houses/absolute majority
+Pol Q102 (2016) [Parliament legislating on State List]: Power acquired if resolution passed by: Lok Sabha simple majority total membership/Lok Sabha 2/3rd total membership/Rajya Sabha simple majority total membership/Rajya Sabha 2/3rd members present & voting
+Pol Q103 (2016): Statements: Bill pending in Lok Sabha lapses on prorogation; Bill pending in Rajya Sabha (not passed by LS) doesn't lapse on LS dissolution. Which correct?
+Pol Q104 (2017) [Lok Sabha nomination]: Nomination paper filed by: anyone residing in India/resident of constituency/any citizen on electoral roll of a constituency/any citizen of India
+Pol Q105 (2017): Statements: winning candidate in LS/Assembly election must get ≥50% votes to be declared elected; per Constitution, Lok Sabha Speaker post to majority party & Deputy Speaker to Opposition. Which correct?
+Pol Q106 (2017) [Parliament control over Council of Ministers]: Through Adjournment motion; Questions hour; Supplementary questions. Which?
+Pol Q107 (2017) [private member's bill]: Statements: presented by MP not elected but nominated by President; recently passed for first time in history. Which correct?
+Pol Q108 (2018): Statements: in first Lok Sabha, largest opposition party was Swatantra Party; "Leader of Opposition" recognised first in 1969; if party <75 members, leader cannot be recognised as LoP. Which correct?
+Pol Q109 (2018) [Committee scrutinising delegated legislation]: Committee on Government Assurances/Subordinate Legislation/Rules Committee/Business Advisory Committee
+Pol Q110 (2018) [Money Bill - NOT correct]: About taxation provisions/custody of CFI or Contingency Fund/appropriation of money out of Contingency Fund/regulation of borrowing of money by Govt -- which statement NOT correct?
+Pol Q111 (2019) [Office of Profit]: Statements: Parliament (Prevention of Disqualification) Act 1959 exempts posts from disqualification on 'Office of Profit'; Act amended five times; term 'Office of Profit' well-defined in Constitution. Which correct?
+Pol Q112 (2019) [review of independent regulators]: Ad Hoc Committee by Parliament; Parliamentary Dept Related Standing Committee; Finance Commission; Financial Sector Legislative Reforms Commission; NITI Aayog. Which?
+Pol Q113 (2020): Statements: person eligible to vote can be made minister in State for 6 months even if not Legislature member; convicted person sentenced 5 yrs permanently disqualified even after release. Which correct?
+Pol Q114 (2020): Statements: President can summon Parliament session at place he thinks fit; Constitution provides three sessions/year but not mandatory; no minimum number of days Parliament required to meet. Which correct?
+Pol Q115 (2020) [Rajya Sabha equal powers]: Equal powers with Lok Sabha in: creating new All India Services/amending Constitution/removal of govt/making cut motions
+Pol Q116 (2020) [Macro Economic Framework Statement]: Mandated by: long standing parliamentary convention/Article 112 & 110(1)/Article 113/FRBM Act 2003
+Pol Q117 (2021) [multiple LS constituencies]: Statements: no law restricting candidates contesting from 3 constituencies; Shri Devi Lal in 1991 contested from 3 LS constituencies; if wins all, party bears bye-election cost. Which correct?
+Pol Q118 (2020) [MPLADS funds]: Statements: funds must be for durable infra assets; specified portion must benefit SC/ST; funds sanctioned yearly, unused can't carry forward; district authority must inspect ≥10% work yearly. Which correct?
+
+--- Supreme Court ---
+Pol Q119 (2022): Statements: per H.N. Sanyal Committee report, Contempt of Courts Act 1971 passed; Constitution empowers SC & HC to punish for contempt of themselves; Constitution defines Civil & Criminal Contempt; Parliament vested with powers to make laws on Contempt of Court. Which correct?
+Pol Q120 (2022): Statements: Govt law officers/legal firms recognised as advocates, corporate lawyers/patent attorneys excluded; Bar Councils have power to lay rules on legal education/college recognition. Which correct?
+Pol Q121 (2012) [original jurisdiction of SC]: Dispute between GoI and State(s); dispute re elections to either House; dispute between GoI and UT; dispute between two or more States. Which included?
+Pol Q122 (2014) [Centre-State disputes]: Falls under SC's: Advisory/Appellate/Original/Writ jurisdiction
+Pol Q123 (2012) [safeguarding SC autonomy]: President must consult CJI for SC Judge appointments; SC Judges removable only by CJI; salaries charged on CFI, legislature has no vote; all SC staff appointments made by Govt only after consulting CJI. Which correct?
+Pol Q124 (2014) [power to increase SC judges]: Vested in: President/Parliament/CJI/Law Commission
+Pol Q125 (2019): Statements: motion to impeach SC Judge cannot be rejected by LS Speaker per Judges (Inquiry) Act 1968; Constitution defines 'incapacity and proved misbehaviour'; process details given in Judges (Inquiry) Act 1968; motion needs backing by each House with majority + 2/3rd present&voting. Which correct?
+Pol Q126 (2019) [Article 142 - prohibition/limitation]: Could mean: EC decisions while discharging duties cannot be challenged in court/SC not constrained by laws made by Parliament/President can declare Financial Emergency without Cabinet counsel/State Legislatures cannot make laws on certain matters without Union concurrence
+Pol Q127 (2021): Statements: retired SC judge can be called back & act as SC judge by CJI with President's prior permission; HC has power to review its own judgement as SC does. Which correct?
+Pol Q128 (2015) [custodian of Constitution]: President/PM/Lok Sabha Secretariat/Supreme Court of India
+
+--- Judicial Review ---
+Pol Q129 (2017): Judicial Review implies: power to pronounce on constitutionality of laws & executive orders/power to question wisdom of laws/power to review all legislative enactments before assent/power to review its own judgements
+
+--- Subordinate Court ---
+Pol Q130 (2013) [NALSA]: Statements: objective to provide free/competent legal services to weaker sections on equal opportunity basis; issues guidelines for State Legal Services Authorities. Which correct?
+
+--- State Legislature ---
+Pol Q131 (2015): Statements: Legislative Council can be larger in size than half of Legislative Assembly; Governor nominates Chairman of Legislative Council. Which correct?
+Pol Q132 (2018): Statements: Speaker of Legislative Assembly vacates office if ceases to be member; Speaker vacates office immediately if Assembly dissolved. Which correct?
+
+--- Centre-State Relations ---
+Pol Q133 (2013) [Legislative Assembly of State]: Governor makes customary address at commencement of first session; if no rule on matter, Legislature follows Lok Sabha rule. Which correct?
+Pol Q134 (2019) [Governor eminent outsider suggestion]: First Administrative Reforms Commission (1966)/Rajamannar Committee (1969)/Sarkaria Commission (1983)/National Commission to Review Working of Constitution (2000)
+Pol Q135 (2014) [sales tax nature]: Tax imposed by Central Govt/imposed by Centre but collected by State/imposed by State but collected by Centre/imposed & collected by State
+
+--- Governor ---
+Pol Q136 (2013): Correct statement: same person cannot be Governor of 2+ States simultaneously/HC Judges appointed by State Governor like SC Judges by President/no procedure for removal of Governor in Constitution/UT with legislature, CM appointed by Lt Governor on majority basis
+Pol Q137 (2014) [discretionary powers of Governor]: Report to President for President's rule; Appointing Ministers; Reserving bills for President's consideration; Making rules for State business. Which?
+Pol Q138 (2016): Statements: Chief Secretary appointed by Governor; Chief Secretary has fixed tenure. Which correct?
+Pol Q139 (2018): Statements: no criminal proceedings against Governor during term; emoluments/allowances not diminished during term. Which correct?
+
+--- Local Government: Panchayats and Municipalities ---
+Pol Q140 (2011): 73rd Amendment Act 1992 provides for: Constitution of District Planning Committees; State Election Commissions conduct panchayat elections; establishment of State Finance Commissions. Which?
+Pol Q141 (2011) [Metropolitan Planning Committee]: Statements: constituted under Constitution provisions; prepares draft development plans for metropolitan area; sole responsibility for implementing Govt-sponsored schemes. Which correct?
+Pol Q142 (2012) [PESA, Gram Sabha powers]: Power to prevent land alienation in Scheduled Areas; ownership of minor forest produce; recommendation required for mining lease in Scheduled Areas. Which?
+Pol Q143 (2013) [PESA 1996 - NOT objective]: To provide self-governance/recognize traditional rights/create autonomous regions in tribal areas/free tribal people from exploitation
+Pol Q144 (2013) [FRA 2006 - authority to initiate process]: State Forest Dept/District Collector/Tahsildar-BDO-Mandal Revenue Officer/Gram Sabha
+Pol Q145 (2015) [fundamental object of Panchayati Raj]: People's participation; political accountability; democratic decentralisation; financial mobilisation. Which?
+Pol Q146 (2016): Statements: minimum age for Panchayat membership 25 yrs; reconstituted Panchayat after premature dissolution continues only for remainder period. Which correct?
+Pol Q147 (2016) [Gram Nyayalaya Act]: Statements: Gram Nyayalaya hears only civil cases not criminal; Act allows local social activists as mediators. Which correct?
+Pol Q148 (2017) [local self-govt best explained as]: Federalism/Democratic decentralisation/Administrative delegation/Direct democracy
+
+--- Anti Defection Law ---
+Pol Q149 (2022): Statements: law specifies nominated legislator cannot join party within 6 months of being appointed to House; law doesn't specify timeframe for presiding officer to decide defection case. Which correct?
+
+--- Constitutional Bodies ---
+Pol Q150 (2022) [AG & Solicitor General]: Statements: AG & SG are only officers allowed to participate in Parliament meetings; AG submits resignation when Govt appointing him resigns; EC resolves disputes on splits/mergers of recognized parties. Which correct?
+Pol Q151 (2012) [13th Finance Commission recommendations]: GST design with compensation package; job creation design; devolution of specified share of central taxes as grants to local bodies. Which?
+Pol Q152 (2011) [Finance Commission]: Encourages inflow of foreign capital for infra/facilitates distribution of finances among PSUs/ensures transparency in financial admin/none correct
+Pol Q153 (2012) [CAG importance beyond efficient fund use]: exercises exchequer control on behalf of Parliament during financial emergency; CAG reports discussed by PAC; CAG report info used by investigating agencies; CAG has judicial powers re PSU audit. Which correct?
+Pol Q154 (2013) [Attorney General powers]: Take part in LS proceedings; be member of LS committee; speak in LS; vote in LS. Which can AG do?
+Pol Q155 (2017): Statements: EC of India is 5-member body; Union MHA decides election schedule. Which correct?
+Pol Q156 (2021) [nodal agency for FRA 2006]: Ministry of Environment/Ministry of Panchayati Raj/Ministry of Rural Development/Ministry of Tribal Affairs
+
+--- Non-Constitutional Bodies ---
+Pol Q157 (2013) [NDC]: Statements: NDC is organ of Planning Commission; Economic & Social Planning in Concurrent List; Constitution prescribes Panchayats prepare plans for economic development. Which correct?
+Pol Q158 (2013) [NDC composition]: PM; Chairman Finance Commission; Ministers of Union Cabinet; CMs of States. Which constitute?
+Pol Q159 (2013) [bodies NOT mentioned in Constitution]: National Development Council; Planning Commission; Zonal Councils. Which don't find mention?
+Pol Q160 (2014) [associated with 'Planning' in India]: Finance Commission; National Development Council; Union Rural Development Ministry; Union Urban Development Ministry; Parliament. Which?
+
+--- Governance ---
+Pol Q161 (2021) [administrative reform bodies]: Statements: N. Gopalaswami Ayengar Committee suggested minister+secretary for administrative reform subject; Dept of Personnel constituted 1970 on ARC 1966 recommendation, placed under PM's charge. Which correct?
+
+POLITY (Q1-161) FULL ANSWER KEY: 1-c 2-c 3-d 4-a 5-d 6-a 7-d 8-b 9-a 10-a 11-d 12-a 13-c 14-a 15-d 16-c 17-b 18-a 19-d 20-a 21-b 22-a 23-a 24-b 25-d 26-c 27-b 28-a 29-a 30-c 31-c 32-a 33-a 34-c 35-a 36-c 37-c 38-b 39-d 40-d 41-c 42-a 43-b 44-d 45-c 46-b 47-c 48-b 49-d 50-d 51-a 52-d 53-c 54-b 55-a 56-a 57-c 58-d 59-b 60-b 61-d 62-c 63-d 64-b 65-b 66-b 67-c 68-b 69-d 70-a 71-b 72-d 73-c 74-c 75-c 76-a 77-d 78-a 79-b 80-a 81-a 82-c 83-b 84-a 85-d 86-c 87-d 88-b 89-c 90-d 91-b 92-d 93-b 94-b 95-a 96-c 97-c 98-b 99-c 100-b 101-a 102-d 103-b 104-c 105-d 106-d 107-d 108-b 109-b 110-c 111-a 112-c 113-a 114-c 115-c 116-d 117-b 118-a 119-a 120-b 121-c 122-c 123-a 124-b 125-d 126-c 127-a 128-d 129-a 130-c 131-d 132-a 133-c 134-c 135-a 136-d 137-c 138-c 139-d 140-d 141-a 142-b 143-c 144-d 145-c 146-b 147-b 148-b 149-b 150-d 151-c 152-d 153-c 154-d 155-d 156-d 157-b 158-b 159-d 160-c 161-b
+
+SECTION E: INDIAN ECONOMY (Prelims 2011-2022, topic-wise) -- FULL (173 Qs)
+
+--- Economic Growth ---
+Ec Q1 (2018): Increase in absolute & per capita real GNP does not connote higher economic development, if? (industrial output fails to keep pace with agricultural output/agricultural output fails to keep pace with industrial output/poverty and unemployment increase/imports grow faster than exports)
+Ec Q2 (2011): Statements: growth rate of GDP steadily increased last five years; growth rate in per capita income steadily increased last five years. Which correct?
+
+--- Planning in India and Economic Reforms ---
+Ec Q3 (2020) [post-1991 liberalisation]: Worker productivity increased urban decreased rural; % rural workforce share steadily increased; rural non-farm economy growth increased; rural employment growth rate decreased. Which correct?
+Ec Q4 (2019) [Five-Year Plans]: Second Plan thrust towards substitution of basic & capital goods industries; Fourth Plan corrected trend of wealth/power concentration; Fifth Plan first integrated financial sector. Which correct?
+Ec Q5 (2017) [post-1991 liberalisation]: Share of agriculture in GDP increased enormously; share of exports in world trade increased; FDI inflows increased; forex reserves increased enormously. Which code?
+Ec Q6 (2014): Main objective of 12th Five-Year Plan? (inclusive growth & poverty reduction/inclusive & sustainable growth/sustainable & inclusive growth to reduce unemployment/faster sustainable more inclusive growth)
+Ec Q7 (2012) ['Inclusive Governance']: Permitting NBFCs to do banking; establishing DPCs in districts; increasing govt spending on public health; strengthening Mid-day Meal Scheme. Which code essentially part of Inclusive Governance?
+
+--- Agriculture ---
+Ec Q8 (2020) [rice price factors]: MSP; Government's trading; Government's stockpiling; Consumer subsidies. Which code?
+Ec Q9 (2020) [chemical fertilisers]: retail price of chemical fertilisers market-driven not admin by Govt; Ammonia input of urea produced from natural gas; Sulphur raw material for phosphoric acid fertilizer, by-product of oil refineries. Which correct?
+Ec Q10 (2020) [public investment in agriculture]: Fixing MSP for all crops; Computerization of PACS; Social Capital development; Free electricity to farmers; Waiver of agri loans; Setting up cold storage by govts. Which code?
+Ec Q11 (2020) [Kisan Credit Card scheme]: short-term credit for: Working Capital farm assets; Purchase combine harvesters/tractors/mini trucks; Consumption requirements farm households; Post-harvest expense; Construction of family house+village cold storage. Which code?
+Ec Q12 (2020) [MSP/procurement]: procurement at MSP unlimited in any State/UT for all cereals/pulses/oil-seeds; MSP fixed at level market price will never rise. Which correct?
+Ec Q13 (2019) [FCI economic cost]: economic cost of foodgrains to FCI = MSP + bonus paid to farmers plus? (transportation only/interest cost only/procurement incidentals+distribution cost/procurement incidentals+charges for godowns)
+Ec Q14 (2019) [agri commodity imports]: highest imports in value last five years among? (Spices/Fresh fruits/Pulses/Vegetable oils)
+Ec Q15 (2019) [land reforms]: which correct? (ceiling laws aimed at family holdings not individual/major aim was providing agri land to landless/resulted in cash crops as predominant cultivation/land reforms permitted no exemptions to ceiling limits)
+Ec Q16 (2019) [rice exports]: Largest exporter of rice in world last five years? (China/India/Myanmar/Vietnam)
+Ec Q17 (2018) [edible oils]: quantity imported edible oils more than domestic production last five years; Govt imposes no customs duty on all imported edible oils. Which correct?
+Ec Q18 (2018) [MSP crops - Cabinet Committee announced MSP for which]: Areca nut, Barley, Coffee, Finger millet, Groundnut, Sesamum, Turmeric - which combination?
+Ec Q19 (2017) [National Agriculture Market scheme advantages]: pan-India electronic trading portal for agri commodities; farmers access to nationwide markets with prices commensurate with quality. Which code?
+Ec Q20 (2016) [drip irrigation advantages]: Reduction in weed; Reduction in soil salinity; Reduction in soil erosion. Which code?
+Ec Q21 (2015) [FRP of sugarcane approved by]: (CCEA/Commission for Agricultural Costs & Prices/Directorate of Marketing & Inspection/Agricultural Produce Market Committee)
+Ec Q22 (2015) [agri markets regulated under]: (Essential Commodities Act 1955/APMC Act enacted by States/Agricultural Produce (Grading & Marking) Act 1937/Food Products Order 1956 & Meat and Food Products Order 1973)
+Ec Q23 (2015): Accelerated Irrigation Benefits Programme launched 1996-97 loan assistance to poor farmers; Command Area Development Programme launched 1974-75 for water-use efficiency. Which correct?
+Ec Q24 (2015) [substitution of steel for wooden ploughs]: example of? (Labour-augmenting tech progress/Capital-augmenting tech progress/Capital-reducing tech progress/None)
+Ec Q25 (2015) ['Seed Village Concept' main objective]: encouraging farmers use own farm seeds discouraging buying from others/training in quality seed production make available to others at affordable cost/earmarking villages exclusively for certified seeds/identifying entrepreneurs providing tech & finance to set up seed companies
+
+--- Industry ---
+Ec Q26 (2020) ['West Texas Intermediate' refers to grade of]: (Crude oil/Bullion/Rare earth elements/Uranium)
+Ec Q27 (2020) [TRIMS]: Quantitative restrictions on imports by foreign investors prohibited; apply to investment measures related to trade in goods & services; not concerned with regulation of foreign investment. Which code?
+Ec Q28 (2019) [Coal sector]: nationalised by Govt under Indira Gandhi; coal blocks allocated on lottery basis; India self-sufficient in coal now (till recently imported to meet shortage). Which correct?
+Ec Q29 (2016) [purpose of 'UDAY' scheme]: (technical/financial assistance to renewable energy startups/electricity to every household by 2018/replacing coal-based power plants with natural gas/nuclear/solar/wind/providing financial turnaround & revival of power distribution companies)
+Ec Q30 (2016) [purpose of 'District Mineral Foundations' in India]: Promoting mineral exploration in mineral-rich districts; Protecting interests of persons affected by mining; Authorizing State Govts to issue licences for mineral exploration. Which code?
+Ec Q31 (2012) [recent policy initiatives to promote manufacturing sector growth]: Setting up National Investment & Manufacturing Zones; benefit of single window clearance; establishing Technology Acquisition & Development Fund. Which code?
+Ec Q32 (2012) [Eight Core Industries combined weight 37.90% in IIP]: which among Eight Core Industries? (Cement/Fertilizer/Natural Gas/Refinery products/Textiles - which combination)
+Ec Q33 (2012) [why India imports coal despite large reserves]: policy to save own reserves for future & import for present; most power plants coal-based can't get sufficient domestic supplies; Steel companies need coking coal which must be imported. Which correct?
+
+--- Inflation ---
+Ec Q34 (2021) [most inflationary in effect]: (Repayment of public debt/Borrowing from public to finance budget deficit/Borrowing from banks to finance budget deficit/Creation of new money to finance budget deficit)
+Ec Q35 (2021) [step at time of economic recession]: (Cut tax rates + increase interest rate/Increase expenditure on public projects/Increase tax rates + reduce interest rate/Reduction of expenditure on public projects)
+Ec Q36 (2021) [demand-pull inflation caused/increased by]: Expansionary policies; Fiscal stimulus; Inflation-indexing wages; Higher purchasing power; Rising interest rates. Which code?
+Ec Q37 (2020): weightage of food higher in CPI than WPI; WPI doesn't capture services price changes which CPI does; RBI adopted WPI as key measure of inflation. Which correct?
+Ec Q38 (2015): Controlling inflation is Govt of India's sole responsibility; RBI has no role in controlling inflation; Decreased money circulation helps control inflation; Increased money circulation helps control inflation. Which correct?
+Ec Q39 (2013): Inflation benefits the debtors; Inflation benefits the bond-holders. Which correct?
+Ec Q40 (2013) [most inflationary]: (Repayment of public debt/Borrowing from public to finance budget deficit/Borrowing from banks to finance budget deficit/Creating new money to finance budget deficit)
+Ec Q41 (2011) [persistent high inflation recent past - possible reasons]: switchover to commercial crops reduced food grain cultivation area ~30%; consumption patterns changed with rising incomes; food supply chain structural constraints. Which correct?
+
+--- Money Market ---
+Ec Q42 (2021) [demand for good increases if, other things unchanged]: price of substitute increases; price of complement increases; inferior good & consumer income increases; its price falls. Which correct?
+Ec Q43 (2020) ["Gold Tranche"/Reserve Tranche refers to]: (loan system of World Bank/operation of a Central Bank/credit system granted by WTO to members/credit system granted by IMF to members)
+Ec Q44 (2020): 'Commercial Paper' short-term unsecured promissory note; 'Certificate of Deposit' long-term instrument issued by RBI to a corporation; 'Call Money' short-term finance for interbank transactions; 'Zero-Coupon Bonds' interest-bearing short term bonds issued by SCBs to corporations. Which correct?
+Ec Q45 (2016) [Bitcoins]: tracked by Central Banks of countries; anyone with Bitcoin address can send/receive; online payments sent without either side knowing identity of other. Which code?
+Ec Q46 (2016) [purpose of Sovereign Gold Bond Scheme & Gold Monetization Scheme]: bring idle gold in households into economy; promote FDI in gold/jewellery sector; reduce dependence on gold imports. Which code?
+Ec Q47 (2014) [venture capital means]: (short-term capital to industries/long-term start-up capital to new entrepreneurs/funds to industries incurring losses/funds for replacement & renovation of industries)
+Ec Q48 (2013) [rise in general price level caused by]: Increase in money supply; Decrease in aggregate level of output; Increase in effective demand. Which code?
+Ec Q49 (2012) [measures resulting in increase in money supply]: Purchase of govt securities from public by Central Bank; Deposit of currency in commercial banks by public; Borrowing by govt from Central Bank; Sale of govt securities to public by Central Bank. Which code?
+Ec Q50 (2011) [why Govt disinvesting equity in CPSEs]: intends to use revenue earned mainly to pay back external debt; Govt no longer intends to retain management control of CPSEs. Which correct?
+Ec Q51 (2011) [purpose of promoting 'Mega Food Parks']: good infrastructure for food processing industry; increase processing of perishable items reduce wastage; provide emerging eco-friendly food processing tech to entrepreneurs. Which code?
+
+--- Banking Sector in India ---
+Ec Q52 (2022): if inflation too high RBI likely to buy govt securities; if rupee rapidly depreciating RBI likely to sell dollars; if interest rates in USA/EU fall likely to induce RBI to buy dollars. Which correct?
+Ec Q53 (2022): credit rating agencies regulated by RBI; ICRA is public limited company; Brickwork Ratings is Indian credit rating agency. Which correct?
+Ec Q54 (2022) [Banks Board Bureau BBB]: Governor of RBI is Chairman of BBB; BBB recommends selection of heads for PSBs; BBB helps PSBs in developing strategies & capital raising plans. Which correct?
+Ec Q55 (2022) [responsible for maintaining price stability by controlling inflation]: (Dept of Consumer Affairs/Expenditure Management Commission/Financial Stability & Development Council/RBI)
+Ec Q56 (2021): Governor of RBI appointed by Central Govt; Constitution gives Central Govt right to issue directions to RBI in public interest; Governor draws power from RBI Act. Which correct?
+Ec Q57 (2021) [Urban Cooperative banks]: supervised/regulated by local boards set up by State Govts; can issue equity/preference shares; brought under Banking Regulation Act 1949 via 1966 Amendment. Which correct?
+Ec Q58 (2021) [central bank's 'lender of last resort' function refers to]: Lending to trade/industry bodies when fail to borrow elsewhere; Providing liquidity to banks with temporary crisis; Lending to govts to finance budgetary deficits. Which code?
+Ec Q59 (2020) [immunity to India from another global financial crisis]: Not depending on short-term foreign borrowings; Opening up to more foreign banks; Maintaining full capital account convertibility. Which code?
+Ec Q60 (2020) [withdraw Rs.1,00,000 cash from Demand Deposit Account, immediate effect on aggregate money supply]: (reduce by 1,00,000/increase by 1,00,000/increase by more than 1,00,000/leave unchanged)
+Ec Q61 (2020) ["Interest Coverage Ratio" of firm importance]: helps understand present risk of firm bank is going to give loan to; helps evaluate emerging risk; higher ICR worse ability to service debt. Which code?
+Ec Q62 (2020) [RBI adopting expansionist monetary policy would NOT do]: Cut and optimise SLR; Increase Marginal Standing Facility Rate; Cut Bank Rate and Repo Rate. Which code?
+Ec Q63 (2020): DCCBs deliver more credit to agriculture vs SCBs/RRBs; DCCBs important function to fund PACS. Which correct?
+Ec Q64 (2019) [Service Area Approach implemented under purview of]: (Integrated Rural Development Programme/Lead Bank Scheme/MGNREGS/National Skill Development Mission)
+Ec Q65 (2019) [Chairman of public sector banks selected by]: (Banks Board Bureau/RBI/Union Ministry of Finance/Management of concerned bank)
+Ec Q66 (2019) [not included in assets of commercial bank]: (Advances/Deposits/Investments/Money at call and short notice)
+Ec Q67 (2019) [issued by registered foreign portfolio investors to overseas investors without registering directly]: (Certificate of Deposits/Commercial Paper/Promissory Note/Participatory Note)
+Ec Q68 (2019) [not most likely measure Govt/RBI takes to stop slide of rupee]: Curbing imports & promoting exports; Encouraging Indian borrowers to issue rupee denominated Masala Bonds; Easing conditions relating to ECBs; Following expansionary monetary policy - which NOT likely
+Ec Q69 (2018): CAR is amount banks maintain to offset loss if account-holders fail to repay dues; CAR decided by each individual bank. Which correct?
+Ec Q70 (2018) [meaning of legal tender money]: (tendered in courts of law to defray fee/money creditor under compulsion to accept in settlement/bank money like cheques/drafts/bills/metallic money in circulation)
+Ec Q71 (2018): RBI manages Govt of India Securities but not State Govt Securities; Treasury bills issued by Govt of India, no state treasury bills; Treasury bills issued at discount from par value. Which correct?
+Ec Q72 (2018) [governance of public sector banking]: Capital infusion into PSBs by Govt steadily increased last decade; merger of associate banks with parent SBI has been affected. Which correct?
+Ec Q73 (2017) [Monetary Policy Committee MPC]: decides RBI's benchmark interest rates; 12-member body incl. Governor, reconstituted every year; functions under chairmanship of Union Finance Minister. Which code?
+Ec Q74 (2016) ['Payment Banks' establishment, financial inclusion]: Mobile telephone cos & supermarket chains owned/controlled by residents eligible to be promoters; Payment Banks can issue both credit & debit cards; Payment Banks cannot undertake lending activities. Which code?
+Ec Q75 (2016) ['Core Banking Solution' term]: network enabling customers operate accounts from any branch regardless of where opened; effort to increase RBI's control over commercial banks via computerization; procedure by which bank with NPAs taken over by another bank. Which code?
+Ec Q76 (2016) [purpose of 'Marginal Cost of Funds based Lending Rate' MCLR]: improve transparency in methodology for determining interest rates on advances; ensure availability of bank credit at fair rates to borrowers & banks. Which code?
+Ec Q77 (2015) ['Pradhan Mantri Jan-Dhan Yojana' launched for]: (housing loans cheaper interest/promoting women's SHGs backward areas/promoting financial inclusion in country/financial help to marginalized communities)
+Ec Q78 (2015) [RBI reduces SLR by 50bps, likely effect]: (GDP growth rate increases drastically/FIIs may bring more capital/SCBs may cut lending rates/may drastically reduce liquidity to banking system)
+Ec Q79 (2015) ['Basel III Accord' seeks to]: (develop national strategies for conservation of biological diversity/improve banking sector's ability to deal with financial & economic stress & improve risk management/reduce greenhouse gas emissions with heavier burden on developed countries/transfer technology from developed to poor countries for CFC replacement)
+Ec Q80 (2015) [component of Monetary Policy]: Bank rate; Open market operations; Public debt; Public Revenue. Which code?
+Ec Q81 (2014) ['Marginal Standing Facility Rate' & 'Net Demand and Time Liabilities' terms used in relation to]: (Banking operations/Communications networking/Military strategies/Supply-demand of agri products)
+Ec Q82 (2014) [Business Correspondent (Bank Saathi) facilities in branchless areas]: enables draw subsidies/social security benefits in villages; enables rural beneficiaries make deposits & withdrawals. Which code?
+Ec Q83 (2014) [purpose of 'Statutory Reserve Requirements']: enable Central Bank control amount of advances banks can create; make people's deposits with banks safe & liquid; prevent commercial banks making excessive profits; force banks have sufficient vault cash for day-to-day requirements. Which code?
+Ec Q84 (2013) [supply of money same, increase in demand for money - result]: (fall in level of prices/increase in rate of interest/decrease in rate of interest/increase in level of income & employment)
+Ec Q85 (2013) ['Open Market Operations' refers to]: (borrowing by scheduled banks from RBI/lending by commercial banks to industry/trade/purchase & sale of govt securities by RBI/none)
+Ec Q86 (2013) [Priority Sector Lending by banks constitutes lending to]: (Agriculture/Micro & small enterprises/Weaker sections/All of the above)
+Ec Q87 (2013) [grants/grants direct credit assistance to rural households]: Regional Rural Banks; NABARD; Land Development Banks. Which code?
+Ec Q88 (2013) [RBI regulates commercial banks in matters of]: Liquidity of assets; Branch expansion; Merger of banks; Winding-up of banks. Which code?
+Ec Q89 (2013) [liquid assets decreasing order of liquidity]: Demand deposits; Time deposits; Savings deposits; Currency. Correct sequence?
+Ec Q90 (2012) [RBI acts as bankers' bank, implies]: Other banks retain deposits with RBI; RBI lends funds to commercial banks in need; RBI advises commercial banks on monetary matters. Which code?
+Ec Q91 (2012) [basic aid of Lead Bank Scheme]: (big banks open offices each district/stiff competition among nationalized banks/individual banks adopt particular district for intensive development/all banks make intensive efforts to mobilise deposits)
+Ec Q92 (2011) [why "teaser loans" by commercial banks cause of economic concern]: aspect of subprime lending, banks exposed to defaulter risk; mostly given to inexperienced entrepreneurs for manufacturing/export units. Which correct?
+Ec Q93 (2011) [highest share in disbursement of credit to agriculture & allied activities]: (Commercial Banks/Cooperative Banks/Regional Rural Banks/Microfinance Institutions)
+Ec Q94 (2011) [can aid furthering Govt's objective of inclusive growth]: Promoting Self-Help Groups; Promoting Micro/Small/Medium Enterprises; Implementing Right to Education Act. Which code?
+
+--- Taxation ---
+Ec Q95 (2011) [microfinance service/services rendered under]: Credit facilities; Savings facilities; Insurance facilities; Fund Transfer facilities. Which code?
+Ec Q96 (2019/2021) [money multiplier in economy increases with]: (Increase in CRR/Increase in SLR/Increase in banking habit of people/Increase in population of country)
+Ec Q97 (2017) [advantages of implementing GST]: replace multiple taxes, create single market in India; drastically reduce Current Account Deficit & increase forex reserves; enormously increase growth/size of economy overtake China. Which code?
+Ec Q98 (2012) [circumstances 'capital gains' may arise]: increase in sales of product; natural increase in value of property owned; purchase a painting, growth in value due to increased popularity. Which code?
+Ec Q99 (2011) [NOT a feature of "Value Added Tax"]: (multi-point destination-based system/tax levied on value addition at each stage of production-distribution chain/tax on final consumption of goods/services borne by consumer/basically subject of Central Govt, States only facilitator)
+
+--- Public Finance ---
+Ec Q100 (2022) [expenditure by organization/company]: Acquiring new technology is capital expenditure; Debt financing considered capital expenditure, equity financing revenue expenditure. Which correct?
+Ec Q101 (2022): share of household financial savings goes to govt borrowings; dated securities issued at market related rates at auctions large component of internal debt. Which correct?
+Ec Q102 (2021) [main cause of worry from creation of black money]: Diversion of resources to real estate/luxury housing; Investment in unproductive activities/precious stones/jewellery/gold; Large donations to political parties, growth of regionalism; Loss of revenue to State Exchequer due to tax evasion. Which is main effect?
+Ec Q103 (2020) [non-financial debt includes]: Housing loans owed by households; Amounts outstanding on credit cards; Treasury bills. Which code?
+Ec Q104 (2017): Tax revenue as % of GDP steadily increased last decade; Fiscal deficit as % of GDP steadily increased last decade. Which correct?
+Ec Q105 (2016) [persistent deficit budget - actions to reduce deficit]: Reducing revenue expenditure; Introducing new welfare schemes; Rationalising subsidies; Reducing import duty. Which code?
+Ec Q106 (2016) [included in capital budget of Govt of India]: Expenditure on acquisition of assets (roads/buildings/machinery); Loans received from foreign govts; Loans/advances granted to States/UTs. Which code?
+Ec Q107 (2016) ['Financial Stability and Development Council']: organ of NITI Aayog; headed by Union Finance Minister; monitors macroprudential supervision of economy. Which code?
+Ec Q108 (2015) [14th Finance Commission]: increased share of States in central divisible pool 32% to 42%; made recommendations on sector-specific grants. Which code?
+Ec Q109 (2015) [Union Govt]: Dept of Revenue responsible for preparation of Union Budget presented to Parliament; no amount withdrawn from Consolidated Fund without Parliament authorization; all disbursements from Public Account also need Parliament authorization. Which correct?
+Ec Q110 (2015) [decrease in tax to GDP ratio indicates]: Slowing economic growth rate; Less equitable distribution of national income. Which code?
+
+--- External Sector of India ---
+Ec Q111 (2022) ["Rapid Financing Instrument" & "Rapid Credit Facility" related to lending by]: (Asian Development Bank/IMF/UNEP Finance Initiative/World Bank)
+Ec Q112 (2022): increase in NEER indicates appreciation of rupee; increase in REER indicates improvement in trade competitiveness; increasing domestic inflation trend relative to others causes increasing divergence between NEER & REER. Which correct?
+Ec Q113 (2022) [ECBs/currency]: Tight US Fed monetary policy could lead to capital flight; Capital flight may increase interest cost of firms with existing ECBs; Devaluation of domestic currency decreases currency risk of ECBs. Which correct?
+Ec Q114 (2021) [effect of devaluation necessarily]: Improves competitiveness of domestic exports in foreign markets; Increases foreign value of domestic currency; Improves trade balance. Which correct?
+Ec Q115 (2021) [can be included in FDI]: Foreign currency convertible bonds; Foreign institutional investment with certain conditions; Global depository receipts; Non-resident external deposits. Which code?
+Ec Q116 (2020) [India's international trade]: merchandise exports less than imports; imports of iron/steel/chemicals/fertilisers/machinery decreased recently; services exports more than services imports; overall trade/current account deficit. Which code?
+Ec Q117 (2019) [factors reducing risk of currency crisis]: IT sector forex earnings; increasing govt expenditure; remittances from Indians abroad. Which code?
+Ec Q118 (2019): most of India's external debt owed by governmental entities; all India's external debt denominated in US dollars. Which correct?
+Ec Q119 (2019) [PPP]: PPP exchange rates compare prices of goods/services in different countries; India sixth largest economy in PPP dollars. Which correct?
+Ec Q120 (2018) [India enacted GI Act 1999 to comply with obligations to]: (ILO/IMF/UNCTAD/WTO)
+Ec Q121 (2017) ['National Intellectual Property Rights Policy']: reiterates commitment to Doha Development Agenda/TRIPS; DIPP nodal agency for regulating IPR in India. Which correct?
+Ec Q122 (2016) [term 'import cover' best describes]: (ratio value of imports to GDP/total value of imports in a year/ratio between value of exports & imports/number of months of imports payable by country's international reserves)
+Ec Q123 (2016) [context of 'amber box, blue box, green box' terms]: (WTO affairs/SAARC affairs/UNFCCC affairs/India-EU FTA negotiations)
+Ec Q124 (2016) [IMFC]: discusses global economy matters, advises IMF; World Bank participates as observer in IMFC meetings. Which correct?
+Ec Q125 (2015): Real GDP growth rate steadily increased last decade; GDP at market prices (rupees) steadily increased last decade. Which correct?
+Ec Q126 (2015) [persistent deficit budget - reduce deficit actions]: Reducing revenue expenditure; Introducing new welfare schemes; Rationalising subsidies; Expanding industries. Which code?
+Ec Q127 (2015) [convertibility of rupee implies]: (convert rupee notes to gold/allowing value fixed by market forces/freely permitting conversion rupee to other currencies & vice versa/developing international market for currencies in India)
+Ec Q128 (2015) [problem of international liquidity related to non-availability of]: (goods & services/gold & silver/dollars & other hard currencies/exportable surplus)
+Ec Q129 (2014) [Union Budget Non-Plan Expenditure covers]: Defence expenditure; Interest payments; Salaries & pensions; Subsidies. Which code?
+Ec Q130 (2014) [Balance of Payments Current Account constitutes]: Balance of trade; Foreign assets; Balance of invisibles; SDR. Which code?
+Ec Q131 (2013) [Capital Account constitutes]: Foreign Loans; Foreign Direct Investment; Private Remittances; Portfolio Investment. Which code?
+Ec Q132 (2013) [foreign-exchange reserves include which group of items]: (forex assets+SDR+loans from foreign countries/forex assets+gold RBI+SDR/forex assets+loans WB+SDR/forex assets+gold RBI+loans WB)
+Ec Q133 (2012) [would include FDI in India]: Subsidiaries of foreign companies; Majority foreign equity holding Indian companies; Companies exclusively financed by foreign companies; Portfolio investment. Which code?
+Ec Q134 (2012) [price of currency in international market decided by]: World Bank; Demand for goods/services by country; Stability of govt of concerned country; Economic potential of country. Which code?
+Ec Q135 (2011) [XIX Commonwealth Games - visit by foreign nationals amounted to]: (Export/Import/Production/Consumption)
+Ec Q136 (2011) [actions to reduce current account deficit]: Devaluing domestic currency; Reduction in export subsidy; Adopting policies attracting greater FDI/FII. Which help?
+Ec Q137 (2011) [IMF correct statement]: (can grant loans to any country/only developed countries/only member countries/central bank of a country)
+Ec Q138 (2011) [FDI vs FII important difference]: FII brings mgmt skills+tech, FDI only capital; FII increases capital availability generally, FDI targets specific sectors; FDI flows only into secondary market, FII targets primary; FII considered more stable than FDI - which best represents
+
+--- Security Market in India ---
+Ec Q139 (2022) [advantages of "Inflation-Indexed Bonds (IIBs)"]: Govt can reduce coupon rates; IIBs protect investors from inflation uncertainty; interest+capital gains on IIBs not taxable. Which correct?
+Ec Q140 (2022) [activities constitute a real sector]: Farmers harvesting crops; Textile mills converting cotton to fabrics; Commercial bank lending to trading company; Corporate body issuing Rupee Denominated Bonds overseas. Which code?
+Ec Q141 (2021) [Indian Govt Bond Yields influenced by]: Actions of US Federal Reserve; Actions of RBI; Inflation and short-term interest rates. Which code?
+Ec Q142 (2021): Retail investors via Demat can invest in Treasury Bills/Govt Debt Bonds in primary market; NDS-OM govt securities trading platform of RBI; CDSL jointly promoted by RBI and BSE. Which correct?
+Ec Q143 (2020) [FDI in India major characteristic]: (investment through capital instruments essentially in listed company/largely non-debt creating capital flow/investment involving debt-servicing/investment by foreign institutional investors in Govt Securities)
+
+--- Human Development and Sustainable Development ---
+Ec Q144 (2021) ['Water Credit']: puts microfinance tools to work in water/sanitation sector; global initiative under WHO and World Bank; aims enable poor meet water needs without depending on subsidies. Which correct?
+Ec Q145 (2019) [official poverty lines higher in some States because]: (poverty rates vary State to State/price levels vary State to State/Gross State Product varies State to State/quality of public distribution varies State to State)
+Ec Q146 (2018) [human capital formation as concept process enables]: Individuals accumulate more capital; Increasing knowledge/skill/capacities of people; Accumulation of tangible wealth; Accumulation of intangible wealth. Which code?
+Ec Q147 (2018) [despite high saving economy, capital formation may not increase output due to]: (weak admin machinery/illiteracy/high population density/high capital-output ratio)
+Ec Q148 (2013) [obtain full benefits of demographic dividend, India should]: (promote skill development/introduce more social security schemes/reduce infant mortality rate/privatisation of higher education)
+Ec Q149 (2012) [National Rural Livelihood Mission improves livelihood via]: setting up manufacturing industries/agribusiness centres; strengthening self-help groups & skill development; supplying seeds/fertilisers/pump-sets/irrigation equipment free. Which code?
+Ec Q150 (2012) [National Rural Health Mission - ASHA jobs]: accompanying women to health facility for antenatal check-up; using pregnancy test kits for early detection; providing nutrition/immunisation info; conducting delivery of baby. Which code?
+Ec Q151 (2012) ['Janani Suraksha Yojana' endeavour]: promote institutional deliveries; monetary assistance to mother for delivery cost; wage loss due to pregnancy/confinement. Which correct?
+Ec Q152 (2012) [ESI Social Security coverage for employees of]: Hotels/restaurants; Motor transport undertakings; Newspaper establishments; Private medical institutions. Which code?
+Ec Q153 (2012) [National Water Mission properly implemented - impact]: urban water needs met via recycling waste-water; coastal cities water needs met via ocean water tech; Himalayan rivers linked to peninsular rivers; farmers' borewell/pump-set expenses reimbursed by Govt. Which correct?
+Ec Q154 (2012) [DRDAs help reduce rural poverty]: act as PRIs in backward regions; undertake area-specific studies of poverty causes; secure inter-sectoral/interdepartmental coordination; watch over & ensure effective utilisation of anti-poverty funds. Which code?
+
+--- Important Index and Reports ---
+Ec Q155 (2016) [India's ranking in 'Ease of Doing Business Index' declared by]: (OECD/World Economic Forum/World Bank/WTO)
+Ec Q156 (2015) ['Index of Eight Core Industries' highest weight given to]: (Coal production/Electricity generation/Fertiliser production/Steel production)
+Ec Q157 (2014) [publication 'World Economic Outlook' brought out by]: (IMF/UNDP/World Economic Forum/World Bank)
+Ec Q158 (2013) [Disguised unemployment generally means]: (large number remain unemployed/alternative employment not available/marginal productivity of labour is zero/productivity of workers is low)
+Ec Q159 (2012) [Multi-dimensional Poverty Index, Oxford Poverty & Human Development with UNDP, covers]: Deprivation of education/health/assets/services at household level; Purchasing power parity at national level; Extent of budget deficit/GDP growth rate at national level. Which code?
+
+--- Important Concepts in Economy ---
+Ec Q160 (2022) [Convertible Bonds]: option to exchange bond for equity pays lower interest rate; option to convert affords indexation to rising consumer prices. Which correct?
+Ec Q161 (2018) [commodity provided free to public by Govt, then]: (opportunity cost zero/opportunity cost ignored/opportunity costs transferred from consumers to tax-paying public/opportunity cost transferred from consumers of product to Govt)
+Ec Q162 (2014) [interest rate decreased in economy - will]: (decrease consumption expenditure/increase tax collection of Govt/increase investment expenditure/increase total savings)
+Ec Q163 (2013) [economic growth in country X will necessarily occur if]: (technical progress in world economy/population growth in X/capital formation in X/volume of world trade grows)
+Ec Q164 (2013) [national income of country for given period equal to]: (total value goods/services produced by nationals/sum total consumption+investment expenditure/sum personal income of all individuals/money value of final goods & service produced)
+Ec Q165 (2013) [balance of payments is systematic record of]: (all import/export transactions during year/goods exported during year/economic transaction between govt of one country to another/capital movements from one country to another)
+Ec Q166 (2013) [increase in Bank Rate generally indicates that]: (market rate of interest likely to fall/Central Bank no longer making loans to commercial banks/Central Bank following easy money policy/Central Bank following tight money policy)
+Ec Q167 (2013) [in India, deficit financing used for raising resources for]: (economic development/redemption of public debt/adjusting balance of payments/reducing foreign debt)
+Ec Q168 (2011) [economic growth usually coupled with]: (Deflation/Inflation/Stagflation/Hyperinflation)
+Ec Q169 (2011) [lowering of Bank Rate by RBI leads to]: (more liquidity in market/less liquidity in market/no change in liquidity/mobilization of more deposits by commercial banks)
+Ec Q170 (2011) [describes "fiscal stimulus"]: (massive investment by Govt in manufacturing sector to meet demand surge/intense affirmative action of Govt to boost economic activity/Govt's intensive action on financial institutions to ensure loan disbursement to agriculture & allied for food inflation containment/extreme affirmative action by Govt for financial inclusion)
+Ec Q171 (2011) [rapid increase in inflation rate attributed to "base effect" - what is it]: (impact of deficiency in supply due to crop failure/impact of surge in demand due to rapid growth/impact of price levels of previous year on calculation of inflation rate/none of above correct)
+Ec Q172 (2011) [India regarded as country with "Demographic Dividend" due to]: (high population below 15 years/high population in 15-64 years group/high population above 65 years/high total population)
+Ec Q173 (2011) ["closed economy" is economy in which]: (money supply fully controlled/deficit financing takes place/only exports take place/neither exports nor imports take place)
+
+INDIAN ECONOMY (Q1-173) FULL ANSWER KEY: 1-c 2-d 3-b 4-a 5-b 6-d 7-c 8-d 9-b 10-c 11-b 12-d 13-c 14-d 15-b 16-b 17-a 18-c 19-c 20-c 21-a 22-b 23-b 24-b 25-b 26-a 27-c 28-a 29-d 30-b 31-d 32-c 33-b 34-d 35-b 36-a 37-c 38-c 39-a 40-d 41-b 42-a 43-d 44-c 45-b 46-c 47-b 48-d 49-c 50-d 51-d 52-b 53-b 54-b 55-d 56-c 57-b 58-b 59-c 60-d 61-a 62-b 63-b 64-c 65-a 66-c 67-d 68-d 69-a 70-b 71-c 72-a 73-a 74-c 75-c 76-c 77-c 78-c 79-b 80-c 81-a 82-c 83-a 84-b 85-c 86-d 87-c 88-c 89-d 90-d 91-c 92-a 93-a 94-b 95-c 96-c 97-c 98-b 99-d 100-a 101-c 102-d 103-a 104-a 105-a 106-a 107-c 108-a 109-c 110-a 111-b 112-c 113-a 114-a 115-a 116-d 117-b 118-d 119-d 120-d 121-c 122-d 123-a 124-c 125-b 126-a 127-c 128-c 129-c 130-c 131-b 132-d 133-a 134-b 135-a 136-a 137-c 138-a 139-a 140-a 141-d 142-b 143-b 144-d 145-b 146-c 147-d 148-a 149-b 150-a 151-a 152-d 153-b 154-b 155-c 156-b 157-a 158-c 159-a 160-c 161-c 162-c 163-c 164-d 165-a 166-d 167-a 168-b 169-a 170-b 171-c 172-b 173-d
