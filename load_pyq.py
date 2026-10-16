@@ -49,6 +49,10 @@ if __name__ == '__main__':
         recs += mains_2026(f'{os_dir}/UPSC CSE 2026 General Studies-{"I"*i if i<4 else "IV"}.txt', f'GS{i}')
         if i == 4:
             recs += gs4_theory_2026(f'{os_dir}/UPSC CSE 2026 General Studies-IV.txt')
+    # completeness gate: each 2026 Mains paper carries exactly 250 marks; a partial parse fails loudly
+    for g in ('GS1', 'GS2', 'GS3', 'GS4'):
+        tot = sum(float(r['marks']) for r in recs if r['paper'] == g and r['year'] == '2026')
+        assert tot == 250, f'{g} 2026 parsed marks = {tot}, expected 250 - parser missed questions'
     json.dump(recs, open('mains_recs.json', 'w'), ensure_ascii=False)
     P = [l for fn in sorted(glob.glob(f'{os_dir}/Prelims_Index*.txt')) for l in open(fn, errors='ignore').read().splitlines()]
     P += prelims_2026(f'{os_dir}/UPSC CSE 2026 prelims paper.txt')
