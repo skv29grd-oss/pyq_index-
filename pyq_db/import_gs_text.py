@@ -8,10 +8,10 @@ def main(fn, paper, year, src):
     L = open(fn, encoding='utf-8').read().splitlines()
     rows, n = [], 0
     for k, l in enumerate(L):
-        m = re.search(r'\(Answer in (\d+) words\)\s*$', l)
+        m = re.search(r'\(Answer in (\d+) words\)', l)
         if not m or DEV.search(l):
             continue
-        mk = re.search(r'\((\d+(?:\.\d+)?)\s*Marks?\)', ' '.join(L[k + 1:k + 3]))
+        mk = re.search(r'[\(\[](\d+(?:\.\d+)?)\s*Marks?[\)\]]', ' '.join([l] + L[k + 1:k + 3]))
         stem = re.sub(r'^\s*[\*\-•]?\s*', '', l[:m.start()]).strip()
         n += 1
         rows.append(dict(id=f'M{year}-{paper}-{n:02d}', exam='Mains', year=year, paper=paper, qno=n, part='', section='',

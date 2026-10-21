@@ -12,7 +12,7 @@ One CSV per paper: `Prelims YYYY.csv`, `Mains GS1 YYYY.csv` ... `Mains GS4 YYYY.
 | Year | Prelims | Mains GS1-4 | Essay | Notes |
 |---|---|---|---|---|
 | 2026 | 100/100 | 20/20/20/19 (GS4: 13 Sec A parts + 6 case studies) | 8 topics | answers and subject/topic tags pending |
-| 2025 | old index | GS1 done (`Mains GS1 2025.csv`); GS2-4 pending | 8 topics (done, `Essay Paper 2025.csv`) | needs Mains GS2-4 papers; Prelims to convert |
+| 2025 | old index | GS1, GS2 done; GS3-4 pending | 8 topics (done, `Essay Paper 2025.csv`) | needs Mains GS3-4 papers; Prelims to convert |
 | 2024 and earlier | old index | old index | missing | pending |
 
 `import_gs_text.py <transcript> <GSn> <year> <source>` imports a bilingual transcribed Mains paper into `Mains GSn YEAR.csv` (flag `transcribed`).
