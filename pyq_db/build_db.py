@@ -128,7 +128,10 @@ if __name__ == '__main__':
         allr += mains_gs(y, p, fn)
     allr += mains_gs4(y, 'UPSC CSE 2026 General Studies-IV.txt')
     allr += essay(y, 'UPSC CSE 2026 mains essay paper.txt')
-    write(allr, f'{y}.csv')
+    names = {('Prelims', 'GS-I'): f'Prelims {y}.csv', ('Essay', 'Essay'): f'Essay Paper {y}.csv'}
+    for key in sorted({(r['exam'], r['paper']) for r in allr}):
+        nm = names.get(key, f'Mains {key[1]} {y}.csv')
+        write([r for r in allr if (r['exam'], r['paper']) == key], nm)
     import collections
     c = collections.Counter((r['exam'], r['paper']) for r in allr)
     print(dict(c))
