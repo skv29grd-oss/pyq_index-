@@ -5,14 +5,14 @@ import re, csv, sys, os
 FIELDS = ['id','exam','year','paper','qno','part','section','marks','word_limit','subject','topic','stem','options','answer','source','quality_flag']
 DEV = re.compile(r'[ऀ-ॿ]')
 def main(fn, paper, year, src):
-    L = open(fn, encoding='utf-8').read().splitlines()
+    L = open(fn, encoding='utf-8').read().replace('\u200b', '').splitlines()
     rows, n = [], 0
     for k, l in enumerate(L):
         m = re.search(r'\(Answer in (\d+) words\)', l)
         if not m or DEV.search(l):
             continue
         mk = re.search(r'[\(\[](\d+(?:\.\d+)?)\s*Marks?[\)\]]', ' '.join([l] + L[k + 1:k + 3]))
-        stem = re.sub(r'^\s*[\*\-•]?\s*', '', l[:m.start()]).strip()
+        stem = re.sub(r'^\s*[\*\-•]?\s*(?:English:\s*)?', '', l[:m.start()]).strip()
         n += 1
         rows.append(dict(id=f'M{year}-{paper}-{n:02d}', exam='Mains', year=year, paper=paper, qno=n, part='', section='',
                          marks=mk.group(1) if mk else '', word_limit=m.group(1), subject='', topic='', stem=stem,
