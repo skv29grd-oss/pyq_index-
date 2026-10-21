@@ -1,6 +1,6 @@
 # pyq_db: unified PYQ records (revamp)
 
-One CSV per paper: `Prelims YYYY.csv`, `Mains GS1 YYYY.csv` ... `Mains GS4 YYYY.csv`, `Essay Paper YYYY.csv`. `build_db.py` builds them from the raw paper files. Same 16 columns in every file.
+One CSV per paper: `Prelims PYQ YYYY.csv`, `Mains GS1 YYYY.csv` ... `Mains GS4 YYYY.csv`, `Essay Paper YYYY.csv`. `build_db.py` builds them from the raw paper files. Same 16 columns in every file.
 
 `id, exam, year, paper, qno, part, section, marks, word_limit, subject, topic, stem, options, answer, source, quality_flag`
 
