@@ -12,4 +12,5 @@ One CSV per year: `YYYY.csv`, built by `build_db.py` from the raw paper files. S
 | Year | Prelims | Mains GS1-4 | Essay | Notes |
 |---|---|---|---|---|
 | 2026 | 100/100 | 20/20/20/19 (GS4: 13 Sec A parts + 6 case studies) | 8 topics | answers and subject/topic tags pending |
-| 2025 and earlier | old index | old index | missing | Mains 2025 incomplete in old index; needs source PDFs |
+| 2025 | old index | old index (GS Mains 2025 incomplete) | 8 topics (done) | needs Mains GS1-4 papers; Prelims to convert |
+| 2024 and earlier | old index | old index | missing | pending |
