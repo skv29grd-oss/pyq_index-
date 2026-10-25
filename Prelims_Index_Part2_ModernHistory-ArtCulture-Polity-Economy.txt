@@ -2,7 +2,7 @@ UPSC CSE Prelims PYQ - Question Stem Index, PART 2 of 3 (topic-search index, not
 Source: 'Prelims PYQ (2011-2025).pdf' (Physics Wallah / PW OnlyIAS publication), PYQs folder in Drive.
 THIS FILE (Part 2) contains Sections B-E below: Modern History (89 Qs), Art and Culture (61 Qs),
 Polity (161 Qs), Indian Economy (173 Qs) -- all topic-wise, Prelims 2011-2022, all FULL.
-PART 1 ('Prelims_Index.txt', same folder): full Prelims 2025/2024/2023 year-wise papers + Section A
+PART 1 ('Prelims_Index.txt', same folder): full Prelims 2024/2023 year-wise papers + Section A
 (Ancient History 27 Qs, Medieval History 30 Qs).
 PART 3 ('Prelims_Index_Part3_Environment-Geography-ScienceTech.txt', same folder): Section F Environment
 and Ecology (184 Qs), Section G Geography (118 Qs), Section H Science and Technology (130 Qs).

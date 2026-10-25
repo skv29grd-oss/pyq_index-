@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2025
+2013-2024
 
 GS-3
 
@@ -17,10 +17,6 @@ ECONOMY
 Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth, Development, Employment); Inclusive growth and issues therein
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-1 2025 Distinguish between the Human Development Index (HDI) and the Inequality-adjusted Human Development Index (IHDI) with special reference to India. Why is the IHDI considered a better indicator of inclusive growth? Inequality-adjusted HDI 10
-
-2 2025 What are the challenges before the Indian economy when the world is moving away from free trade and multilateralism to protectionism and bilateralism? How can these challenges be met? Protectionism 10
 
 3 2024 What is the need for expanding the regional air connectivity in India? In this context, discuss the government's UDAN Scheme and its achievements. UDAN Air 15
 
@@ -82,8 +78,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2025 Explain how the Fiscal Health Index (FHI) would be used as a tool for assessing the fiscal performance of states in India. In what way can it encourage the states to adopt prudent and sustainable Government Budgeting policies? Fiscal Health Index 15
-
 2 2021 Distinguish between Capital Budget and Revenue Budget. Explain the components of both these Budgets. Components of Budget 10
 
 3 2020 Explain the rationale behind the Goods and Services Tax (Compensation to States) Act of 2017. How has COVID-19 impacted the GST compensation fund and created new federal tensions? GST 15
@@ -138,8 +132,6 @@ Effects of Liberalisation on the economy; Changes in Industrial policy & their e
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-1 2025 Discuss the rationale of the Production Linked Incentive (PLI) scheme. What are its achievements? In what way can the functioning and outcomes of the scheme be improved? PLI 15
-
 2 2018 How would the recent phenomena of protectionism and currency manipulations in world trade affect macroeconomic stability of India? Protectionism 15
 
 3 2017 "Industrial growth rate has lagged behind in the overall growth of Gross-Domestic-Product (GDP) in the post-reform period." Give reasons. How far the recent changes in Industrial Policy are capable of increasing the industrial growth rate? Industrial Policy 15
@@ -159,8 +151,6 @@ AGRICULTURE
 Major crops, Cropping Patterns in various parts of the country, Different types of Irrigation and Irrigation systems.
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-1 2025 Explain the factors influencing the decision of farmers on the selection of high value crops in India. High value crops 10
 
 2 2024 What are the major challenges faced by Indian irrigation system in recent times? State the measures taken by the government for efficient irrigation management. Irrigation efficiency 15
 
@@ -213,10 +203,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Food processing and related industries in India (scope & significance, location, upstream-downstream requirements, supply chain management); Storage, transport & marketing of agro-produce and related issues & constraints; Economics of animal-rearing
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-1 2025 Examine the scope of the food processing industries in India. Elaborate the measures taken by the government in the food processing industries for generating employment opportunities. FPI Scope 15
-
-2 2025 Elaborate the scope and significance of supply chain management in the agricultural commodities in India. Supply Chain Management 10
 
 3 2024 Elucidate the importance of buffer stocks for stabilizing agricultural prices in India. What are the challenges associated with the storage of buffer stock? Discuss. Buffer Stock 15
 
@@ -330,14 +316,6 @@ Conservation; Environmental pollution and degradation; Environmental Impact Asse
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2025 Write a review on India's climate commitments under the Paris Agreement (2015) and mention how these have been further strengthened in COP26 (2021). In this direction, how has the first Nationally Determined Contribution intended by India been updated in 2022? COP26 15
-
-2 2025 Mineral resources are fundamental to the country's economy and these are exploited by mining. Why is mining considered an environmental hazard? Explain the remedial measures required to reduce the environmental hazard due to mining. Mining 15
-
-3 2025 Examine the factors responsible for depleting groundwater in India. What are the steps taken by the government to mitigate such depletion of groundwater? Groundwater 15
-
-4 2025 Seawater intrusion in the coastal aquifers is a major concern in India. What are the causes of seawater intrusion and the remedial measures to combat this hazard? Seawater intrusion 10
-
 5 2024 What role do environmental NGOs and activists play in influencing Environmental Impact Assessment (EIA) outcomes for major projects in India? Cite four examples with all important details. NGO for EIA 10
 
 6 2024 Industrial pollution of river water is a significant environmental issue in India. Discuss the various mitigation measures to deal with this problem and also the government's initiatives in this regard. Industrial waste 15
@@ -408,12 +386,6 @@ S&T developments and everyday applications & effects; Awareness in fields of IT,
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2025 How does nanotechnology offer significant advancements in the field of agriculture? How can this technology help to uplift the socio-economic status of farmers? Nanotech for agriculture 15
-
-2 2025 How can India achieve energy independence through clean technology by 2047? How can biotechnology play a crucial role in this endeavour? Energy independence 10
-
-3 2025 What is Carbon Capture, Utilization and Storage (CCUS)? What is the potential role of CCUS in tackling climate change? CCUS 10
-
 4 2024 The world is facing an acute shortage of clean and safe freshwater. What are the alternative technologies which can solve this crisis? Briefly discuss any three such technologies citing their key merits and demerits. Freshwater 15
 
 5 2024 What is the present world scenario of intellectual property rights with respect to life materials? Although India is second in the world to file patents, still only a few have been commercialized. Explain the reasons behind this less commercialization. IPR 10
@@ -462,10 +434,6 @@ Achievements of Indians in S&T; Indigenisation of technology & development of ne
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-1 2025 India aims to become a semiconductor manufacturing hub. What are the challenges faced by the semiconductor industry in India? Mention the salient features of the India Semiconductor Mission. Semiconductor 15
-
-2 2025 The fusion energy programme in India has steadily evolved over the past few decades. Mention India's contributions to the international fusion energy project - International Thermonuclear Experimental Reactor (ITER). What will be the implications of the success of this project on the future of energy? Nuclear/Fusion Energy 15
-
 3 2024 What are asteroids? How real is the threat of them causing extinction of life? What strategies have been developed to prevent such a catastrophe? Asteroids 10
 
 4 2024 What is the technology being employed for electronic toll collection on highways? What are its advantages and limitations? What are the proposed changes that will make this process seamless? Would this transition carry any potential hazards? Toll collection 10
@@ -504,10 +472,6 @@ Linkages between Development & spread of Extremism; Linkages of Organized crime 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-1 2025 The Government of India recently stated that Left Wing Extremism (LWE) will be eliminated by 2026. What do you understand by LWE and how are the people affected by it? What measures have been taken by the government to eliminate LWE? LWE Elimination by 2026 10
-
-2 2025 Terrorism is a global scourge. How has it manifested in India? Elaborate with contemporary examples. What are the counter measures adopted by the State? Explain. Manifestation of Terrorism 10
-
 3 2024 Explain how narco-terrorism has emerged as a serious threat across the country. Suggest suitable measures to counter narco-terrorism. Narco-Terrorism 10
 
 4 2023 Give out the major sources of terror funding in India and the efforts being made to curtail these sources. In the light of this, also discuss the aim and objective of the No Money for Terror (NMFT) Conference recently held at New Delhi in November 2022. Terror Financing 15
@@ -545,10 +509,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Border Areas (security challenges and management thereof); Security forces & agencies (mandate); Role of External State & Non-State actors in creating internal security challenges
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-1 2025 What are the major challenges to internal security and peace process in the North-Eastern States? Map the various peace accords and agreements initiated by the government in the past decade. North East 15
-
-2 2025 Why is maritime security vital to protect India's sea trade? Discuss maritime and coastal security challenges and the way forward. Maritime Border 15
 
 3 2024 India has a long and troubled border with China and Pakistan fraught with contentious issues. Examine the conflicting issues and security challenges along the border. Also give out the development being undertaken in these areas under the Border Area Development Programme (BADP) and Border Infrastructure and Management (BIM) Scheme. BADP, BIM 15
 
@@ -628,4 +588,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 
 14 2013 Cyber warfare is considered by some defense analysts to be a larger threat than even Al Qaeda or terrorism. What do you understand by Cyber warfare? Outline the cyber threats which India is vulnerable to and bring out the state of the country's preparedness to deal with the same. Cyber warfare 10
 
-[NOTE: This is a plain-text extraction of the TATHASTU Institute Of Civil Services GS-3 (Economy, Infrastructure, Agriculture, Environment, S&T, Disaster Management, Internal Security) Mains PYQ compilation (2013-2025), OCR-cleaned where possible. Cross-check against the source PDF (GS_3_PYQs_2013_25__lyst1780640677913.pdf in the PYQs folder) for exact original wording if needed for citation.]
+[NOTE: This is a plain-text extraction of the TATHASTU Institute Of Civil Services GS-3 (Economy, Infrastructure, Agriculture, Environment, S&T, Disaster Management, Internal Security) Mains PYQ compilation (2013-2024), OCR-cleaned where possible. Cross-check against the source PDF (GS_3_PYQs_2013_25__lyst1780640677913.pdf in the PYQs folder) for exact original wording if needed for citation.]
+
+[NOTE: 2025 and 2026 papers live only in pyq_db/<year>/ (web-verified); this index covers 2011-2024.]

@@ -45,11 +45,10 @@ Corrections made:
 
 Kept as printed (not errors in this file): GS4 2025 Q11 (MGNREGA) gives no percentage for the "remaining period" wage; three independent copies print it that way.
 
-**Known issue:** the raw 2026 text files in the repo root (`UPSC CSE 2026 *.txt`) still carry the errors listed above. `build_db.py` therefore writes only to `_staging_raw_build/`, never over the verified year folders.
+**Single copy rule:** each year exists in one place only. 2025 and 2026 live only here; their records were removed from the old `*_Index.txt` files and the raw 2026 text files were deleted (still in git history). The old indexes now cover Prelims 2011-2024 and Mains 2013-2024. `load_pyq.py` (repo root) reads each year from exactly one source and fails if a year appears twice.
 
 ## Scripts
 
 - `import_gs_text.py <transcript> <GSn> <year> <source>` → `YEAR/YEAR Mains GSn.csv` (flag `transcribed`).
 - `import_gs4_text.py <transcript> <year> <source>` → `YEAR/YEAR Mains GS4.csv`.
 - `import_prelims_text.py <transcript.md> <year> <source>` → `YEAR/YEAR Prelims GS1.csv`.
-- `build_db.py` → rebuilds 2026 from the raw text files into `_staging_raw_build/` (for comparison only).

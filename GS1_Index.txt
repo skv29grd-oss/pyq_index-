@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2025
+2013-2024
 
 GS-1
 
@@ -18,13 +18,7 @@ Salient aspects of Art, Architecture, Literature from Ancient to Modern Times
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2025 Discuss the salient features of the Harappan
-
-architecture. IVC Architecture 10 2 2025 Examine the main aspects of Akbar's religious
-
-syncretism. Akbar 10 3 2025 "The sculptors filled the Chandella artform with resilient
-
-vigor and breadth of life." Elucidate. Chandella 10 4 2024 Underline the changes in the field of society and
+4 2024 Underline the changes in the field of society and
 
 economy from the Rig Vedic to the later Vedic period.
 
@@ -153,18 +147,6 @@ Sangam Literature 10
 Mid-18th century - Present (significant events, personalities, issues); Freedom struggle (various stages, important contributors from different parts of the country)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-1 2025
-
-The ethos of civil service in India stand for the combination of professionalism with nationalistic consciousness
-
-Civil Service 10
-
-2 2025
-
-Mahatma Jotirao Phule's writings and efforts of social reforms touched issues of almost all subaltern classes. Discuss.
-
-Jyotibha Phule 15
 
 3 2024 What were the events that led to the Quit India
 
@@ -332,12 +314,6 @@ Post-Independence Consolidation and Reorganisation within country
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2025
-
-Trace India's consolidation process during early phase of independence in terms of polity, economy, education and international relations.
-
-Trace Consolidation Process 15
-
 2 2022
 
 The political and administrative reorganization of states and territories has been a continuous ongoing process since the mid-nineteenth century. Discuss with examples.
@@ -379,10 +355,6 @@ Critically examine the compulsions which prompted India to play a decisive roles
 World History: 18th century events (e.g. Industrial revolution, WWs, redrawn boundaries, colonisation, decolonisation); Political philosophies (communism, capitalism, socialism) and their effect on society
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-1 2025 The French Revolution has enduring relevance to the
-
-contemporary world. Explain. French Revolution 15
 
 2 2024
 
@@ -467,12 +439,6 @@ SOCIETY
 Salient features of Indian Society; Diversity of India; Social Empowerment, Communalism, Regionalism & Secularism
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-1 2025
-
-Does tribal development in India centre around two axes, those of displacement and of rehabilitation? Give your opinion.
-
-Tribal Rehabilitation 15
 
 2 2024
 
@@ -650,12 +616,6 @@ Population and associated issues; Poverty and Development issues
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2025
-
-Achieving sustainable growth with emphasis on environmental protection could come into conflict with poor people's needs in a country like India — Comment.
-
-Environment VS Development 15
-
 2 2024 What is the concept of a 'demographic winter'? Is the
 
 world moving towards such a situation? Elaborate. Demographic Winter 10
@@ -734,10 +694,6 @@ Urbanization problems and remedies
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2025 How does smart city in India address the issues of urban
-
-poverty and distributive justice? Smart City 10
-
 2 2024
 
 Why do large cities tend to attract more migrants than smaller towns? Discuss in the light of conditions in developing countries.
@@ -811,10 +767,6 @@ out of the speedy process of urbanization in India. Problems 10
 Effects of Globalization on Indian society
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-1 2025 Do you think that globalization results in only an
-
-aggressive consumer culture? Justify your answer. Consumerism 15
 
 2 2024
 
@@ -919,10 +871,6 @@ GEOGRAPHY
 Salient Features of World Physical Geography; Important Geophysical phenomena (earthquakes, tsunami, volcanoes, cyclones); Geographical features and location
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-1 2025 What are Tsunamis? How and where are they formed?
-
-What are their consequences? Explain with examples. Tsunami 10
 
 2 2024 What is sea surface temperature rise? How does it
 
@@ -1050,12 +998,6 @@ Changes in critical geographical features and in flora and fauna and the effect 
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2025
-
-How are climate change and the sea level rise affecting the very existence of many island nations? Discuss with examples.
-
-CC & Island 10
-
 2 2023 Discuss the consequences of climate change on the
 
 food security in tropical countries. CC & Food Security 10
@@ -1163,16 +1105,6 @@ the urban habitat of the world. Heat Islands 5
 Distribution of key Natural Resources (World, South Asia, Indian subcontinent)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-1 2025
-
-Discuss the distribution and density of population in the Ganga River Basin with special reference to land, soil and water resources.
-
-Ganga Basin 15
-
-2 2025 Explain briefly the ecological and economic benefits of
-
-solar energy generation in India with suitable examples. Solar Energy 10
 
 3 2024
 
@@ -1296,30 +1228,6 @@ Factors responsible for location of Industries (primary, secondary, tertiary; In
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2025
-
-How can Artificial Intelligence (AI) and drones be effectively used along with GIS and RS techniques in locational and areal planning?
-
-Areal planning 15
-
-2 2025
-
-How do you account for the growing food industry's links with increased health concerns in modern society? Illustrate your answer with the Indian experience.
-
-Food Industry 15
-
-3 2025
-
-What are non-farm primary activities? How are these activities related to physiographic features in India? Discuss with suitable examples.
-
-Non-farming activities 10
-
-4 2025
-
-Give a geographical explanation of the distribution of off-shore oil reserves of the world. How are they different from the on-shore occurrences of oil reserves?
-
-Oil 15
-
 5 2023
 
 From being net food importer in 1960s, India has emerged as a net food exporter to the world. Provide reasons.
@@ -1397,3 +1305,5 @@ industry in India (cotton). Cotton 5
 Do you agree that there is a growing trend of opening new sugar mills in the Southern states of India? Discuss with justification
 
 Sugar 5
+
+[NOTE: 2025 and 2026 papers live only in pyq_db/<year>/ (web-verified); this index covers 2011-2024.]
