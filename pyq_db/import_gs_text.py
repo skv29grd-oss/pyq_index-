@@ -17,7 +17,8 @@ def main(fn, paper, year, src):
         rows.append(dict(id=f'M{year}-{paper}-{n:02d}', exam='Mains', year=year, paper=paper, qno=n, part='', section='',
                          marks=mk.group(1) if mk else '', word_limit=m.group(1), subject='', topic='', stem=stem,
                          options='', answer='', source=src, quality_flag='untagged;transcribed' + ('' if mk else ';marks_missing')))
-    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), f'Mains {paper} {year}.csv')
+    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), str(year), f'{year} Mains {paper}.csv')
+    os.makedirs(os.path.dirname(out), exist_ok=True)
     with open(out, 'w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, FIELDS); w.writeheader(); w.writerows(rows)
     print(out, len(rows), 'questions; marks total', sum(float(r['marks'] or 0) for r in rows))

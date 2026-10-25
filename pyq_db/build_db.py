@@ -117,7 +117,11 @@ def essay(year, fn):
     return rows
 
 def write(rows, name):
-    with open(f'{OUT}/{name}', 'w', encoding='utf-8', newline='') as f:
+    # Raw rebuilds go to a staging folder, never over the web-verified YEAR/ files.
+    # The raw 2026 .txt papers contain known errors (see README); diff staging against YEAR/ before promoting anything.
+    stage = f'{OUT}/_staging_raw_build'
+    os.makedirs(stage, exist_ok=True)
+    with open(f'{stage}/{name}', 'w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, FIELDS); w.writeheader(); w.writerows(rows)
 
 if __name__ == '__main__':
@@ -128,9 +132,9 @@ if __name__ == '__main__':
         allr += mains_gs(y, p, fn)
     allr += mains_gs4(y, 'UPSC CSE 2026 General Studies-IV.txt')
     allr += essay(y, 'UPSC CSE 2026 mains essay paper.txt')
-    names = {('Prelims', 'GS-I'): f'Prelims {y}.csv', ('Essay', 'Essay'): f'Essay Paper {y}.csv'}
+    names = {('Prelims', 'GS-I'): f'{y} Prelims GS1.csv', ('Essay', 'Essay'): f'{y} Mains Essay.csv'}
     for key in sorted({(r['exam'], r['paper']) for r in allr}):
-        nm = names.get(key, f'Mains {key[1]} {y}.csv')
+        nm = names.get(key, f'{y} Mains {key[1]}.csv')
         write([r for r in allr if (r['exam'], r['paper']) == key], nm)
     import collections
     c = collections.Counter((r['exam'], r['paper']) for r in allr)

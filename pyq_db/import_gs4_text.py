@@ -58,7 +58,8 @@ def main(fn, year, src):
         rows.append(dict(id=f'M{year}-GS4-{q:02d}', exam='Mains', year=year, paper='GS4', qno=q, part='', section='B',
             marks=mk, word_limit=wl, subject='Ethics', topic='', stem=norm(' '.join(case)) + ' || ' + ' '.join(parts),
             options='', answer='', source=src, quality_flag='untagged;case_study;transcribed' + ('' if mk else ';marks_missing')))
-    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), f'Mains GS4 {year}.csv')
+    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), str(year), f'{year} Mains GS4.csv')
+    os.makedirs(os.path.dirname(out), exist_ok=True)
     with open(out, 'w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, FIELDS); w.writeheader(); w.writerows(rows)
     print(out, len(rows))

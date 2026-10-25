@@ -35,7 +35,8 @@ def main(fn, year, src):
     nums = [r['qno'] for r in rows]
     print('questions', len(rows), 'missing', sorted(set(range(1, 101)) - set(nums)), 'dups', sorted({x for x in nums if nums.count(x) > 1}), 'bad', bad)
     if '--dry' in sys.argv: return rows
-    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), f'Prelims PYQ {year}.csv')
+    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), str(year), f'{year} Prelims GS1.csv')
+    os.makedirs(os.path.dirname(out), exist_ok=True)
     with open(out, 'w', encoding='utf-8', newline='') as f:
         w = csv.DictWriter(f, FIELDS); w.writeheader(); w.writerows(sorted(rows, key=lambda r: r['qno']))
     print(out)
