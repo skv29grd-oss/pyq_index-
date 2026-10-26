@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2022 (2023 onwards: pyq_db/)
+2013-2021 (2022 onwards: pyq_db/)
 
 GS-2
 
@@ -17,16 +17,6 @@ POLITY
 Historical underpinnings, evolution; Features, amendments, significant provisions & basic structure ; Comparison of Indian constitutional scheme with that of other countries.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-11 2022
-
-The most significant achievement of modern law in India is the constitutionalization of environmental problems by the Supreme Court. Discuss this statement with the help of relevant case laws.
-
-Environment 10
-
-12 2022 "Right of movement and residence throughout the territory of India are freely available to the Indian citizens, but these rights are not absolute." Comment. Article 19 10
-
-13 2022 Critically examine the procedures through which the Presidents of India and France are elected. France 15
 
 14 2021
 
@@ -104,18 +94,6 @@ Union and State Legislatures (structure, functioning, conduct of business, power
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-6 2022 Discuss the essential conditions for the exercise of the legislative powers by the Governor. Discuss the legality of the re-promulgation of ordinances by the Governor without placing them before the Legislature.
-
-Governor 15
-
-7 2022
-
-Discuss the procedures to decide the disputes arising out of the election of a Member of the Parliament or State Legislature under The Representation of the People Act, 1951. What are the grounds on which the election of any returned candidate may be declared void? What remedy is available to the aggrieved party against the decision? Refer to the case laws.
-
-RoPA 1951 15
-
-8 2022 Discuss the role of the Vice-Presidents of India as the chairman of the Rajyasabha. Vice-President 10
-
 9 2021
 
 Explain the constitutional provisions under which Legislative Councils are established. Review the working and current status of Legislative Councils with suitable illustrations.
@@ -180,8 +158,6 @@ Separation of Powers (between different organs, dispute redressal mechanisms, in
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-4 2022 To what extent, in your opinion, has the decentralisation of power in India changed the governance landscape at the grassroots?
-
 5 2021 Discuss the desirability of greater representation to women in the higher judiciary to ensure diversity, equity and inclusiveness.
 
 Women in Judiciary 10/15
@@ -225,10 +201,6 @@ Basic Structure Doctrine
 Functions & responsibilities of the Union and the States; issues and challenges of federal structure. Devolution of powers and finances to local levels; challenges therein.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-5 2022 "While the national political parties in India favour centralisation, the regional parties are in favour of State autonomy." Comment.
-
-Federalism 15
 
 6 2020
 
@@ -313,10 +285,6 @@ Appointment to various Constitutional posts; Constitutional Bodies (powers, func
 Qs. No. YEAR QUESTION TOPIC MARKS
 
 NCPCR 15
-
-7 2022 Discuss the role of the Election Commission of India in light of the evolution of the Model Code of Conduct. EC 15
-
-8 2022 Discuss the role of the National Commission for Backward Classes in the wake of its transformation from a statutory body to a constitutional body. NCBC 10
 
 9 2021
 
@@ -422,12 +390,6 @@ Welfare Schemes (centre, states; performance, mechanisms, protection of vulnerab
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-3 2022 Besides the welfare schemes, India needs deft management of unemployment and inflation to serve the poor and the underprivileged sections of society. Discuss. Performance of institutions and bodies constituted for Women 15
-
-4 2022 The Rights of Persons with Disabilities Act, 2016 remains only a legal document without intense sensitisation of government functionaries and citizens regarding disability. Comment. PWD 2016 10
-
-5 2022 In the context of neo-liberal paradigm of development planning, multi-level planning is expected to make operations cost effective and remove many implementation blockages.-Discuss. Mechanism 15
-
 6 2019 The need for cooperation among various service sector has been an inherent component of development discourse. Partnership bridges bring the gap among the sectors. It also sets in motion a culture of 'Collaboration' and 'team spirit'. In the light of statements above examine India's Development process. Partnership 15
 
 7 2019 Performance of welfare schemes that are implemented for vulnerable sections is not so effective due to absence of their awareness and active involvement at all stages of policy process - Discuss. Performance 15
@@ -468,8 +430,6 @@ Social Sector & Social Services (health, education, human resources - issues in 
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-4 2022 The Right of Children to Free and Compulsory Education Act, 2009 remains inadequate in promoting an incentive-based system for children's education without generating awareness about the importance of schooling. Analyse. Education 15
-
 5 2021 Has digital illiteracy, particularly in rural areas, coupled with lack of Information and Communication Technology (ICT) accessibility hindered socio-economic development? Examine with justification. Literacy 15
 
 6 2021 'Earn while you learn' scheme needs to be strengthened to make vocational education and skill training meaningful. Comment. Scheme 10
@@ -507,8 +467,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Government Policies & Interventions for development of various sectors (issues in their design, implementation)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-2 2022 Reforming the government delivery system through the Direct Benefit Transfer Scheme is a progressive step, but it has its limitations too. Comment. DBT 10
 
 3 2021 Though women in post-Independent India have excelled in various fields, the social attitude towards women and the feminist movement has been patriarchal. Apart from women education and women empowerment schemes, what interventions can help change this milieu? Women in Sectors 15
 
@@ -554,8 +512,6 @@ Development Processes & Development industry (role of NGOs, SHGs, groups & assoc
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-5 2022 Do you agree with the view that increasing dependence on donor agencies for development reduces the importance of community participation in the development process? Justify your answer. Donor 15
-
 6 2021 Can microfinancing of women SHGs break the vicious cycle of gender inequality, poverty and malnutrition? Explain with examples. SHG 10
 
 7 2021 Can Civil Society and Non-Governmental Organizations present an alternative model of public service delivery to benefit the common citizen? Discuss the challenges of this alternative model. NGO and Civil Society 15
@@ -596,8 +552,6 @@ INTERNATIONAL RELATIONS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-2 2022 'India is an age-old friend of Sri Lanka.' Discuss India's role in the recent crisis in Sri Lanka in light of the preceding statement. Sri Lanka 10
-
 3 2017 "China is using its economic relations and positive trade surplus as tools to develop potential military power status in Asia", In the light of this statement, discuss its impact on India as her neighbor. China 10
 
 4 2016 Increasing cross-border terrorist attacks in India and growing interference in the internal affairs of several member-states by Pakistan are not conducive for the future of SAARC (South Asian Association for Regional Cooperation). Explain with suitable examples. Pakistan 12.5
@@ -623,8 +577,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Effect of Policies & Politics of Developed and Developing countries on India (India's interests, diaspora)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-6 2022 'Clean energy is the order of the day.' Describe briefly India's changing policy towards climate change in the context of various international fora. Climate Policy 15
 
 7 2021 The USA is facing an existential threat in the form of a China, that is much more challenging than the erstwhile Soviet Union. Explain. US-China 10
 
@@ -657,10 +609,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Important International institutions, agencies, fora (structure, mandate); Bilateral, Regional, Global groupings & Agreements (involving and/or affecting India)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-7 2022 Do you think the 2U2 (India, Israel, UAE and USA) is a new grouping in global politics? How similar and dissimilar is this organisation when compared to BIMSTEC and SAARC? I2U2 15
-
-8 2022 What are India's objectives in BIMSTEC? Point out the similarities and dissimilarities between the two organisations, BIMSTEC and SAARC. BIMSTEC 10
 
 9 2021 The newly formed tri-nation partnership AUKUS is aimed at countering China's ambitions in the Indo-Pacific region. Is it going to supersede the existing partnerships in the region? Discuss the strength and impact of AUKUS in the present scenario. AUKUS/China 15
 

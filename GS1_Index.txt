@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2022 (2023 onwards: pyq_db/)
+2013-2021 (2022 onwards: pyq_db/)
 
 GS-1
 
@@ -17,14 +17,6 @@ ART AND CULTURE
 Salient aspects of Art, Architecture, Literature from Ancient to Modern Times
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-10 2022 Evaluate the nature of the Bhakti literature and its
-
-contribution to Indian culture. Bhakti Literature 10 11 2022 How will you explain that medieval Indian temple
-
-sculptures represent the social life of those days? Medieval Sculpture 10 12 2022 Discuss the main contributions of Gupta period and
-
-Chola period to Indian heritage and culture. Gupta Chola 15
 
 13 2021
 
@@ -123,16 +115,6 @@ Sangam Literature 10
 Mid-18th century - Present (significant events, personalities, issues); Freedom struggle (various stages, important contributors from different parts of the country)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-7 2022
-
-Why did the armies of the British East India Company - mostly comprising of Indian soldiers - win consistently against the more numerous and better equipped armies of the then Indian rulers? Give reasons.
-
-British vs Indian Army 10
-
-8 2022 Why was there a sudden spurt in famines in colonial
-
-India since the mid-eighteenth century? Give reasons. Famine 10
 
 9 2021
 
@@ -270,12 +252,6 @@ Post-Independence Consolidation and Reorganisation within country
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-2 2022
-
-The political and administrative reorganization of states and territories has been a continuous ongoing process since the mid-nineteenth century. Discuss with examples.
-
-Political and Administrative reorganization 10
-
 3 2021
 
 Access the main administrative issues and socio-cultural problems in the integration process of Indian princely states.
@@ -385,22 +361,6 @@ SOCIETY
 Salient features of Indian Society; Diversity of India; Social Empowerment, Communalism, Regionalism & Secularism
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-9 2022
-
-Given the diversities among tribal communities in India, in which specific contexts should they be considered as a single category?
-
-Tribal as single category 10
-
-10 2022 Analyse the salience of 'sect' in Indian society vis-a-vis
-
-caste, region and religion. Sect 15
-
-11 2022
-
-Are tolerance, assimilation, and pluralism the key elements in the making of an Indian form of secularism? Justify your answer.
-
-Secularism 15
 
 12 2021
 
@@ -588,12 +548,6 @@ Urbanization problems and remedies
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-4 2022
-
-How is the growth of Tier 2 cities related to the rise of a new middle class with an emphasis on the culture of consumption?
-
-Consumerism 10
-
 5 2021
 
 What are the main socio-economic implications arising out of development of IT industries in major cities of India
@@ -651,16 +605,6 @@ out of the speedy process of urbanization in India. Problems 10
 Effects of Globalization on Indian society
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-3 2022 Explore and evaluate the impact of 'Work From Home' on
-
-family relationships. Family Relationships 10
-
-4 2022
-
-Elucidate the relationship between globalization and new technology in a world of scarce resources, with special reference to India.
-
-Technology & Globalisation 15
 
 5 2019 Are we losing our local identity for the global identity?
 
@@ -739,18 +683,6 @@ GEOGRAPHY
 Salient Features of World Physical Geography; Important Geophysical phenomena (earthquakes, tsunami, volcanoes, cyclones); Geographical features and location
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-9 2022 Describe the characteristics and types of primary rocks. Primary Rocks 10
-
-10 2022
-
-Discuss the meaning of color-coded weather warnings for cyclone-prone areas given by the India Meteorological Department.
-
-Cyclone Naming 10
-
-11 2022 The troposphere is a very significant atmospheric layer
-
-that determines weather processes. How? Troposphere 15
 
 12 2021 Mention the global occurrence of volcanic eruptions in
 
@@ -940,18 +872,6 @@ Distribution of key Natural Resources (World, South Asia, Indian subcontinent)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-6 2022 Discuss the natural resource potentials of 'Deccan Trap'. Deccan Trap 10
-
-7 2022 Examine the potential of wind energy in India and explain
-
-the reasons for their limited spatial spread. Wind Energy 10
-
-8 2022
-
-Describing the distribution of rubber producing countries, indicate the major environmental issues faced by them.
-
-Rubber 15
-
 9 2021 Discuss the multidimensional implications of uneven
 
 distribution of mineral oil in the world. Oil 15
@@ -1045,14 +965,6 @@ Atomic Energy 10
 Factors responsible for location of Industries (primary, secondary, tertiary; India, world)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-6 2022 What are the forces that influence ocean currents?
-
-Describe their role in fishing Industry of the world. Fishing 10
-
-7 2022 Mention the significance of straits and isthmus in
-
-international trade. Straits Isthmus 15
 
 8 2021
 

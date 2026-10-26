@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2022 (2023 onwards: pyq_db/)
+2013-2021 (2022 onwards: pyq_db/)
 
 GS-3
 
@@ -17,10 +17,6 @@ ECONOMY
 Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth, Development, Employment); Inclusive growth and issues therein
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-11 2022 Economic growth in the recent past has been led by an increase in labour productivity. Explain this statement. Suggest the growth pattern that will lead to creation of more jobs without compromising labour productivity. Growth & Employment 15
-
-12 2022 Is inclusive growth possible under market economy? State the significance of financial inclusion in achieving economic growth in India. Capitalism & Inclusive Growth 10
 
 13 2021 Do you agree that the Indian economy has recently experienced V-shaped recovery? Give reasons in support of your answer. Growth Recovery 15
 
@@ -86,10 +82,6 @@ Infrastructure (energy, ports, roads, airports, railways); Investment models
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-1 2022 Do you think India will meet 50 percent of its energy needs from renewable energy by 2030? Justify your answer. How will the shift of subsidies from fossil fuels to renewables help achieve the above objective? Explain. Renewable energy by 2030 15
-
-2 2022 Why is Public Private Partnership (PPP) required in infrastructural projects? Examine the role of PPP model in the redevelopment of Railway Stations in India. PPP Railways 10
-
 3 2021 Investment in infrastructure is essential for more rapid and inclusive economic growth. Discuss in the light of India's experience. Investment in Infrastructure 15
 
 4 2020 Explain the meaning of investment in an economy in terms of capital formation. Discuss the factors to be considered while designing a concession agreement between a public entity and a private entity. Investment 15
@@ -136,8 +128,6 @@ Major crops, Cropping Patterns in various parts of the country, Different types 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-5 2022 What is Integrated Farming System? How is it helpful to small and marginal farmers in India? Integrated farming system 10
-
 6 2021 What are the major factors responsible for making water a bane in agricultural areas? Water crisis 15
 
 7 2020 Elaborate on the National Watershed Project and how it has helped in sustaining agriculture in water-stressed areas. Watershed 10
@@ -180,10 +170,6 @@ Food processing and related industries in India (scope & significance, location,
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-4 2022 What are the main bottlenecks in upstream and downstream process of marketing of agricultural products in India? Agricultural Marketing 15
-
-5 2022 Elaborate the scope and significance of the food processing industry in India. FPI Scope 10
-
 6 2021 What are the salient features of the National Food Security Act, 2013? How has the Food Security Bill helped in eliminating hunger and malnutrition in India? NFSA 15
 
 7 2020 What are the challenges and opportunities of food processing sector in the country? How can income of the farmers be substantially increased by encouraging food processing? FPI Challenges 10
@@ -222,8 +208,6 @@ Farm subsidies and MSP and issues therein (direct and indirect); PDS (objectives
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-2 2022 What are the major challenges of Public Distribution System (PDS) in India? How can it be made effective and transparent? PDS challenges 10
-
 3 2019 What are the reformative steps taken by the government to make MSP food grain distribution system more effective? PDS Reforms 15
 
 4 2018 What do you mean by Minimum Support Price (MSP)? How will MSP rescue the farmers from the low income trap? MSP 10
@@ -243,10 +227,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 DISASTER MANAGEMENT
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-4 2022 Explain the causes and effects of coastal erosion in India. What are the available coastal management techniques for combating the hazard? Coastal Erosion 15
-
-5 2022 Explain the mechanism and occurrence of cloudburst in the context of the Indian subcontinent. Discuss two recent examples. Cloudburst 10
 
 6 2021 Describe the various causes and the effects of landslides. Mention the important components of the National Landslide Risk Management Strategy. Landslide 15
 
@@ -277,12 +257,6 @@ ENVIRONMENT
 Conservation; Environmental pollution and degradation; Environmental Impact Assessment; El Nino and La Nina fallouts
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-10 2022 Discuss global warming and mention its effects on the global climate. Explain the control measures to bring down the level of greenhouse gases which cause global warming, in the light of the Kyoto Protocol, 1997. Kyoto 15
-
-11 2022 Discuss in detail the photochemical smog emphasizing its formation, effects and mitigation. Explain the 1999 Gothenburg Protocol. Smog 10
-
-12 2022 Each year a large amount of plant material, cellulose, is deposited on the surface of Planet Earth. What are the natural processes this cellulose undergoes before yielding carbon dioxide, water and other end products? Cellulose 10
 
 13 2021 Describe the major outcomes of the 26th session of the Conference of the Parties (COP) to the United Nations Framework Convention on Climate Change (UNFCCC). What are the commitments made by India in this conference? COP26 15
 
@@ -338,10 +312,6 @@ S&T developments and everyday applications & effects; Awareness in fields of IT,
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-9 2022 Launched on 25th December, 2021, what are the key features and goals of the James Webb Space Telescope which has made it much superior to its predecessor Space Telescopes? JWT 15
-
-10 2022 The increase in life expectancy in the country has led to newer health challenges in the community. What are those challenges and what steps need to be taken to meet them? Life expectancy 10
-
 11 2021 What are the research and developmental achievements in applied biotechnology? How will these achievements help to uplift the poorer sections of society? Biotech for poor 15
 
 12 2021 How is S-400 air defence system technically superior to any other system presently available in the world? S-400 10
@@ -376,10 +346,6 @@ Achievements of Indians in S&T; Indigenisation of technology & development of ne
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-6 2022 Introduce the system in the spacecraft launched from Sriharikota. Explain the role of the 'Virtual Launch Control Centre' at Vikram Sarabhai Space Centre which contributed to the successful launch. 10
-
-7 2022 What is the basic principle behind vaccine development? How do vaccines work? What approaches were adopted by the Indian vaccine manufacturers to produce COVID-19 vaccines? Vaccine development 15
-
 7 2021 The Nobel Prize in Physics of 2014 was jointly awarded to Akasaki, Amano and Nakamura for the invention of Blue LEDs in 1990s. How has this invention impacted the everyday life of human beings? Blue LED 15
 
 8 2019 How is the government of India protecting traditional knowledge of medicine from patenting by pharmaceutical companies? TKDL 15
@@ -408,10 +374,6 @@ Linkages between Development & spread of Extremism; Linkages of Organized crime 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-6 2022 Naxalism is a social, economic and developmental issue manifesting as a violent internal security threat. In this context, discuss the emerging issues and suggest a multilayered strategy to tackle the menace of Naxalism. LWE manifestation 15
-
-7 2022 Discuss the types of organised crimes. Describe the linkages between terrorists and organised crime that exist at the national and transnational levels. Types of OC & Linkages 10
-
 8 2021 Analyse the complexity and intensity of terrorism, its causes, linkages and obnoxious nexus. Also, suggest measures required to be taken to eradicate the menace of terrorism. Determinants of LWE 15
 
 9 2020 What are the determinants of left-wing extremism in the affected areas of India? What strategy should the civil administration and security forces adopt to counter the threat in Eastern part of India? Determinants of LWE 10
@@ -439,8 +401,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Border Areas (security challenges and management thereof); Security forces & agencies (mandate); Role of External State & Non-State actors in creating internal security challenges
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-5 2022 What are the maritime security challenges in India? Discuss the organisational and procedural initiatives taken to improve the maritime security. Maritime Border 15
 
 6 2021 Analyse the multidimensional internal security challenges posed by external state and non-state actors, cross-border attacks. Also, discuss the impact of these attacks. Cross-border/external state/non-state actors, cyber 10
 
@@ -485,8 +445,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Basics of Cyber Security; Role of media and social-networking sites in internal security challenges; Internal security challenges through communication networks.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-4 2022 What are the different elements of cyber security? Keeping in view the challenges in cyber security, examine the extent to which India has successfully developed a comprehensive National Cyber Security Strategy. Elements of cyber security 10
 
 5 2020 Discuss different types of cyber crimes and measures required to be taken to fight the menace. Types of cyber crimes and measures 10
 

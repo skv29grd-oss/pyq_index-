@@ -1,4 +1,4 @@
-TATHASTU Institute Of Civil Services - PREVIOUS YEAR QUESTIONS (SUBJECT & TOPIC WISE) 2013-2022 (2023 onwards: pyq_db/) - GS-4 (ETHICS)
+TATHASTU Institute Of Civil Services - PREVIOUS YEAR QUESTIONS (SUBJECT & TOPIC WISE) 2013-2021 (2022 onwards: pyq_db/) - GS-4 (ETHICS)
 
 ===================================================================
 SECTION-A: THEORY QUESTIONS
@@ -6,7 +6,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Ethics and Human Interface, Determinants and Consequences of Ethics in Human Actions; Dimensions of Ethics; Ethics in Private and Public Relationships]
 
-5 2022 It is believed that adherence to ethics in human actions would ensure smooth functioning of an organization/system. If so, what does ethics seek to promote in human life? How do ethical values assist in the resolution of conflicts faced by him in his day-to-day functioning? Role of Ethics 10
 6 2019 What are the basic principles of public life? Illustrate any three of these with suitable examples. Principles of Public Life 10
 7 2018 What does this quotation mean to you in the present context: "Falsehood takes the place of truth when it results in unblemished common good." - Tirukkural. Means V/S End 10
 8 2018 With regard to the morality of actions, one view is that means is of paramount importance and the other view is that the ends justify the means. Which view do you think is more appropriate? Justify your answer. Means V/S End 10
@@ -20,7 +19,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Human Values - Lessons from the Lives and Teachings of Great Leaders, Reformers and Administrators; Role of Family, Society and Educational Institutions in Inculcating Values]
 
-1 2022 Describe and discuss the ethical issues involved in the use of online methods (meetings, approvals, teaching, telemedicine) particularly for vulnerable sections of society. Online Education 10
 2 2020 Education is not an injunction, it is an effective and pervasive tool for all-round development of an individual and social transformation. Examine the New Education Policy, 2020 (NEP 2020) in light of the above statement. NEP 2020 10
 3 2020 The current internet expansion has instilled a different set of cultural values which are in conflict with traditional values. Discuss. Conflict with Traditional Values 10
 4 2016 Our attitudes towards life, work, other people and society are generally shaped unconsciously by family and social surroundings. (a) Discuss undesirable values prevalent in today's educated Indians. (b) How can such undesirable attitudes be changed and socio-ethical values cultivated in aspiring/serving civil servants? Undesirable Attitude 10
@@ -43,8 +41,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Aptitude and Foundational Values for Civil Service: Integrity, Impartiality and Non-partisanship, Objectivity, Dedication to Public Service, Empathy, Tolerance and Compassion towards weaker sections]
 
-4 2022 Apart from Integrity, other attributes that empower civil servants to be more competent are: (i) Intellectual moral qualities, (ii) Devotion to duty, (iii) Empathy and compassion, (iv) Probity in public life. Explain with suitable illustration. Multiple Moral Attributes 10
-5 2022 Conflict of interest and critical decisions -- Explain with suitable illustrations. Conflict of Interest 10
 6 2021 Constitutional morality is a vital value that facilitates human being with digitalization competency to tackle challenges of the civil servants. Justify. Integrity Empowers 10
 7 2021 Should impartial and non-partisan be considered indispensable qualities to make a successful civil servant? Discuss with illustrations. Non-partisanship 10
 8 2021 Identify five ethical traits on which one can plot the performance of a civil servant. Justify their inclusion in the matrix. 5 Ethical Traits 10
@@ -74,7 +70,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Public/Civil Service Values and Ethics in Public Administration: Status and Problems; Ethical Concerns and Dilemmas in Government and Private Institutions; Laws, Rules, Regulations and Conscience as Sources of Ethical Guidance; Accountability and Ethical Governance; Strengthening of Ethical and Moral Values in Governance; Ethical Issues in International Relations and Funding; Corporate Governance]
 
-5 2022 The Rules and Regulations provided to all civil servants are same, yet there is difference in performance. Positive minded officers interpret Rules in favour of the case; negative minded officers cannot achieve goals with the same Rules. Discuss with illustrations. Positive Minded Officers 10
 6 2021 An independent and empowered social audit mechanism is an absolute must in every sphere of public service, including the judiciary, to ensure performance, accountability and ethical conduct. Elaborate. Social Audit Mechanism 10
 7 2021 Refugees should not be turned back to a country where they would face persecution or human rights violation. Examine with reference to ethical dimensions violated by a nation claiming to be democratic with an open society. Refugees 10
 8 2021 Besides domain knowledge, a public official needs innovativeness and creativity of a high order while resolving ethical dilemmas. Discuss with a suitable example. Innovation for Dilemma 10
@@ -100,8 +95,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Ethical issues in international relations and funding, Corporate governance]
 
-6 2022 Corporate sector's contribution to wealth/employment is increasing, but bringing unprecedented onslaught on climate and environment. Is Corporate Social Responsibility (CSR) efficient and sufficient to fulfil social responsibilities? Critically examine. CSR 10
-7 2022 Russia-Ukraine war: what ethical issues are crucial to consider while launching a war and its continuation? Illustrate. War 10
 8 2020 Discuss the role of ethics and values in enhancing Comprehensive National Power (CNP) components: human capital, soft power, social harmony. CNP 10
 9 2017 "The will to power exists, but it can be tamed and guided by rationality and principles of moral duty." Examine in the context of international relations. Principles of Moral Duty 10
 10 2020 Increased national wealth did not result in equitable distribution of its benefits - created only "enclaves of modernity and prosperity for a small minority at the cost of the majority." Justify. Equitable Distribution 10
@@ -111,8 +104,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Probity in Governance: Concept of Public Service; Philosophical Basis of Governance and Probity; Information Sharing and Transparency in Government, Right to Information]
 
-4 2022 What do you understand by 'good governance'? How far have recent e-Governance initiatives helped beneficiaries? e-Governance 10
-5 2022 "Wisdom lies in knowing what to reckon with and what to overlook." Does an administrator's preoccupation with periphery over core issues lead to travesty of justice? Critically evaluate. Wisdom for Governance 10
 6 2019 There is a view that the Official Secrets Act is an obstacle to implementation of the RTI Act. Do you agree? Discuss. OSA V/S RTI 10
 7 2018 What do you understand by probity in governance? Suggest measures for ensuring probity in government. Probity in Governance 10
 8 2016 "The Right to Information Act is not just about citizens' empowerment alone, it essentially redefines the concept of accountability." Discuss. RTI 10
@@ -123,7 +114,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Codes of Ethics, Codes of Conduct, Citizen's Charters, Work Culture, Quality of Service Delivery, Utilization of Public Funds, Challenges of Corruption]
 
-7 2022 Whistle blowers who report corruption run the risk of grave danger and victimization. What policy measures would you suggest to strengthen protection mechanisms for whistle blowers? Safeguard the Whistle Blower 10
 8 2019 Effective utilisation of public funds is crucial to meet development goals. Critically examine reasons for underutilization/misutilisation and their implications. Utilisation of Public Funds 10
 9 2019 Non-performance of duty by a public servant is a form of corruption. Do you agree? Justify. Non-performance of Duty 10
 10 2019 Explain basic principles of citizens' charter movement and bring out its importance. Citizen Charter 10
@@ -139,11 +129,6 @@ SECTION-B: CASE STUDIES (2013-2024) - topic index only
 ===================================================================
 [NOTE: Case studies are long descriptive scenarios (20 marks each); the underlying PDF extraction suffered severe OCR column-merge garbling on nearly every case in this section, making faithful full-text reconstruction unreliable. Below is a verified year + core-dilemma + topic-tag index for quick keyword/topic matching against daily current affairs; consult the source PDF (GS_4_PYQs_2013_25 in the PYQs folder) for exact original wording of any specific case.]
 
-19 2022 Environment V/S Development 20 (Inspecting Team officer; polluting export-oriented industrial units facing closure vs migrant worker unemployment during COVID-19/recession)
-20 2022 Business W/O Morality 20 (Inspection Team; consignment with quality defects being cleared for domestic market despite objections; threat of job termination for non-compliance)
-21 2022 Personal Ethics 20 (Prabhat, VP Marketing, Sterling Electric Ltd.; pressure to win Defence Ministry tender via broker Subhash Verma amid company's financial distress)
-22 2022 Work Culture 20 (Ashok, investigative journalist; exposes stone-mining mafia-police-politician nexus in Aravalli Hills but CMD pressures him to drop story, offers bribe/promotion)
-23 2022 Conflict of Interest 20 (Rakesh, Joint Commissioner Transport; bus driver's death compensation dispute after altercation-caused death, union strike)
 24 2021 Sand Mining Mafia 20 (Sunil, SP in tribal-dominated district; illegal sand mining mafia, musclemen intimidation, family threatened, raids and counteroffensive dilemma)
 25 2021 Business W/O Morality 20 (Indian food company exporting products meeting int'l standards but selling rejected/substandard export products domestically)
 26 2021 Work Culture 20 (Project Manager; minor crack found in elevated corridor pier before election-driven inauguration deadline; Chief Engineer overrules safety concern)

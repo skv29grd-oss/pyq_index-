@@ -1,20 +1,19 @@
 UPSC CSE Prelims PYQ - Question Stem Index, PART 3 of 3 (topic-search index, not full MCQs)
 Source: 'Prelims PYQ (2011-2025).pdf' (Physics Wallah / PW OnlyIAS publication), PYQs folder in Drive.
-THIS FILE (Part 3) contains Sections F, G, H below: Environment and Ecology (184 Qs), Geography (118 Qs),
-Science and Technology (130 Qs) -- all topic-wise, Prelims 2011-2022, all FULL, with full answer keys.
+THIS FILE (Part 3) contains Sections F, G, H below: Environment and Ecology (172 Qs), Geography (111 Qs),
+Science and Technology (118 Qs) -- all topic-wise, Prelims 2011-2021, all FULL, with full answer keys.
 PART 1 ('Prelims_Index.txt', same folder): Section A
-(Ancient History 27 Qs, Medieval History 30 Qs).
+(Ancient History 24 Qs, Medieval History 25 Qs).
 PART 2 ('Prelims_Index_Part2_ModernHistory-ArtCulture-Polity-Economy.txt', same folder): Section B Modern
-History (89 Qs), Section C Art and Culture (61 Qs), Section D Polity (161 Qs), Section E Indian Economy (173 Qs).
+History (86 Qs), Section C Art and Culture (54 Qs), Section D Polity (150 Qs), Section E Indian Economy (160 Qs).
 COVERAGE NOTE: Parts 1 + 2 + 3 together now cover the ENTIRE source book (all 8 topic chapters, Sections
 A-H, plus the three latest full year papers). Nothing remains uncaptured.
 
 ======================================================================
-SECTION F: ENVIRONMENT AND ECOLOGY (Prelims 2011-2022, topic-wise) -- FULL (184 Qs)
+SECTION F: ENVIRONMENT AND ECOLOGY (Prelims 2011-2021, topic-wise) -- FULL (172 Qs)
 ======================================================================
 
---- Ecology, Ecosystem and Functions of Ecosystem (20 Qs) ---
-Env Q1 (2022): Which of the following are nitrogen-fixing plants? Alfalfa, Amaranth, Chickpea, Clover, Purslane (Kulfa), Spinach.
+--- Ecology, Ecosystem and Functions of Ecosystem (19 Qs) ---
 Env Q2 (2011): In context of ecosystem productivity, marine upwelling zones increase marine productivity by bringing: decomposer microorganisms to surface; nutrients to surface; bottom-dwelling organisms to surface. Which correct?
 Env Q3 (2011): If a tropical rainforest is removed, it does not regenerate quickly as compared to a tropical deciduous forest. Why? (soil of rainforest deficient in nutrients/propagules of rainforest trees have poor viability/rain forest species slow-growing/exotic species invade fertile soil)
 Env Q4 (2012): Millennium Ecosystem Assessment categories of ecosystem services -- provisioning, supporting, regulating, preserving, cultural. Which one is a SUPPORTING service? (production of food and water/control of climate and disease/nutrient cycling and crop pollination/maintenance of diversity)
@@ -48,9 +47,7 @@ Env Q29 (2017): Due to huge fall in population of species of butterflies, what c
 Env Q30 (2021): Which one is used in preparing a natural mosquito repellent? (Congress grass/Elephant grass/Lemongrass/Nut grass)
 Env Q31 (2021): Vegetation of savanna consists of grassland with scattered small trees, but extensive areas have no trees -- forest development kept in check by which conditions? Burrowing animals and termites; Fire; Grazing herbivores; Seasonal rainfall; Soil properties.
 
---- Agriculture and Environment (15 Qs) ---
-Env Q32 (2022): Among the following crops, which is the most important anthropogenic source of both methane and nitrous oxide? (Cotton/Rice/Sugarcane/Wheat)
-Env Q33 (2022): "System of Rice Intensification" of cultivation, where alternate wetting and drying of rice fields is practised, results in: reduced seed requirement; reduced methane production; reduced electricity consumption. Which correct?
+--- Agriculture and Environment (13 Qs) ---
 Env Q34 (2011): With reference to micro-irrigation: fertilizer/nutrient loss can be reduced; it is the only means of irrigation in dryland farming; in some areas of farming, receding of groundwater tables can be checked. Which correct?
 Env Q35 (2015): Impact of excessive/inappropriate use of nitrogenous fertilizers in agriculture: proliferation of nitrogen fixing microorganisms in soil can occur; increase in acidity of soil can take place; leaching of nitrate to groundwater can occur. Which correct?
 Env Q36 (2017): Which statements can help in water conservation in agriculture? Reduced or zero tillage of the land; Applying gypsum before irrigating the field; Allowing crop residue to remain in the field.
@@ -65,9 +62,7 @@ Env Q44 (2020): What is the use of biochar in farming? can be used as part of gr
 Env Q45 (2021): How is permaculture farming different from conventional chemical farming? permaculture discourages monocultural practices; conventional chemical farming can cause increase in soil salinity but not permaculture; conventional chemical farming easily possible in semi-arid regions but permaculture not; mulching very important in permaculture but not necessarily in conventional. Which correct?
 Env Q46 (2021): In context of India's preparation for Climate-Smart Agriculture: 'Climate-Smart Village' approach is part of a project led by CCAFS, an international research programme; CCAFS project carried out under CGIAR headquartered in France; ICRISAT in India is one of CGIAR's research centres. Which correct?
 
---- Pollution (30 Qs) ---
-Env Q47 (2022): In context of WHO Air Quality Guidelines: 24-hour mean of PM2.5 should not exceed 15 ug/m3 and annual mean of PM2.5 should not exceed 5 ug/m3; in a year highest levels of ozone pollution occur during period of inclement weather; PM10 can penetrate lung barrier and enter bloodstream; excessive ozone in air can trigger asthma. Which correct?
-Env Q48 (2022): Consider: Carbon monoxide, Nitrogen oxide, Ozone, Sulphur dioxide. Excess of which in environment is/are cause(s) of acid rain?
+--- Pollution (28 Qs) ---
 Env Q49 (2011): Concern over increase in harmful algal blooms in seawaters of India -- causative factors? discharge of nutrients from estuaries; run-off from land during monsoon; upwelling in the seas. Which correct?
 Env Q50 (2013): Which can be found as pollutants in the drinking water in some parts of India? Arsenic, Sorbitol, Fluoride, Formaldehyde, Uranium.
 Env Q51 (2013): Due to improper/indiscriminate disposal of old and used computers or their parts, which are released into environment as e-waste? Beryllium, Cadmium, Chromium, Heptachlor, Mercury, Lead, Plutonium.
@@ -115,9 +110,7 @@ Env Q90 (2019): In context of which do some scientists suggest the use of cirrus
 Env Q91 (2019): Statements: agricultural soils release nitrogen oxides into environment; cattle release ammonia into environment; poultry industry releases reactive nitrogen compounds into environment. Which correct?
 Env Q92 (2019): In context of proposals to use of hydrogen-enriched CNG (H-CNG) as fuel for buses in public transport: main advantage of H-CNG is elimination of carbon monoxide emissions; H-CNG as fuel reduces carbon dioxide and hydrocarbon emissions; hydrogen up to one-fifth by volume can be blended with CNG as fuel for buses; H-CNG makes the fuel less expensive than CNG. Which correct?
 
---- Environmental Laws, Conventions and Policies (32 Qs) ---
-Env Q93 (2022): Which one has been constituted under the Environment (Protection) Act, 1986? (Central Water Commission/Central Ground Water Board/Central Ground Water Authority/National Water Development Agency)
-Env Q94 (2022): With reference to Indian laws about wildlife protection: wild animals are sole property of the government; when a wild animal is declared protected, such animal is entitled for equal protection whether it is found in protected areas or outside; apprehension of a protected wild animal becoming a danger to human life is sufficient ground for its capture or killing. Which correct?
+--- Environmental Laws, Conventions and Policies (30 Qs) ---
 Env Q95 (2011): With reference to India, Central Acts: Import and Export (Control) Act 1947; Mining and Mineral Development (Regulation) Act 1957; Customs Act 1962; Indian Forest Act 1927. Which have relevance to/bearing on biodiversity conservation in the country?
 Env Q96 (2012): The National Green Tribunal Act, 2010 was enacted in consonance with which provisions of the Constitution of India? Right to healthy environment construed as part of Right to life under Article 21; provision of grants for raising level of administration in Scheduled Areas for welfare of Scheduled Tribes under Article 275(1); powers and functions of Gram Sabha as mentioned under Article 243(a). Which correct?
 Env Q97 (2014): What are the significances of a practical approach to sugarcane production known as 'Sustainable Sugarcane Initiative'? seed cost very low compared to conventional method; drip irrigation can be practised very effectively; no application of chemical/inorganic fertilizers at all; scope for intercropping is more compared to conventional method. Which correct?
@@ -163,10 +156,7 @@ Env Q134 (2018): The Partnership for Action on Green Economy (PAGE), a UN mechan
 Env Q135 (2018): "Momentum for Change: Climate Neutral Now" is an initiative launched by: (IPCC/UNEP Secretariat/UNFCCC Secretariat/World Meteorological Organization)
 Env Q136 (2020): Statements: 36% of India's districts are classified as "overexploited" or "critical" by the Central Ground Water Authority (CGWA); CGWA was formed under the Environment (Protection) Act; India has the largest area under groundwater irrigation in the world. Which correct?
 
---- Protected Areas for the Biodiversity Conservation (17 Qs) ---
-Env Q137 (2022): The "Miyawaki method" is well known for: (promotion of commercial farming in arid and semi-arid areas/development of gardens using genetically modified flora/creation of mini forests in urban areas/harvesting wind energy on coastal areas and on sea surfaces)
-Env Q138 (2022): Pairs (Wetland/Lake - Location): Hokera Wetland-Punjab; Renuka Wetland-Himachal Pradesh; Rudrasagar Lake-Tripura; Sasthamkotta Lake-Tamil Nadu. How many correctly matched?
-Env Q139 (2022): "If rainforests and tropical forests are lungs of the Earth, then surely wetlands function as its kidneys." Which function of wetlands best reflects this? (water cycle in wetlands involves surface runoff, subsoil percolation and evaporation/algae form the nutrient base upon which fish, crustaceans, molluscs, birds, reptiles and mammals thrive/wetlands play vital role in maintaining sedimentation balance and soil stabilisation/aquatic plants absorb heavy metals and excess nutrients)
+--- Protected Areas for the Biodiversity Conservation (14 Qs) ---
 Env Q140 (2012): Protected areas: Bandipur, Bhitarkanika, Manas, Sunderbans. Which are declared Tiger Reserves?
 Env Q141 (2012): In which category of protected areas in India are local people NOT allowed to collect and use the biomass? (Biosphere Reserves/National Parks/Wetlands declared under Ramsar Convention/Wildlife Sanctuaries)
 Env Q142 (2014): With reference to 'Eco-Sensitive Zones': Eco-Sensitive Zones are areas declared under the Wildlife (Protection) Act 1972; purpose of declaration of Eco-Sensitive Zones is to prohibit all kinds of human activities in those zones except agriculture. Which correct?
@@ -182,9 +172,7 @@ Env Q151 (2020): Among the following Tiger Reserves, which one has the largest a
 Env Q152 (2020): Which protected area is well-known for the conservation of a sub-species of the Indian swamp deer (Barasingha) that thrives well on hard ground and is exclusively graminivorous? (Kanha NP/Manas NP/Mudumalai WLS/Tal Chhapar WLS)
 Env Q153 (2020): Which are the most likely places to find the musk deer in its natural habitat? Askot WLS; Gangotri NP; Kishanpur WLS; Manas NP.
 
---- Species (31 Qs) ---
-Env Q154 (2022): With reference to "Gucchi": it is a fungus; it grows in some Himalayan forest areas; it is commercially cultivated in the Himalayan foothills of north-eastern India. Which correct?
-Env Q155 (2022): Which one is NOT a bird? (Golden Mahseer/Indian Nightjar/Spoonbill/White Ibis)
+--- Species (29 Qs) ---
 Env Q156 (2012): Organisms: Bat, Bee, Bird. Which are pollinating agent/agents?
 Env Q157 (2012): GoI encourages cultivation of 'sea buckthorn'. What is the importance of this plant? helps in controlling soil erosion and preventing desertification; rich source of biodiesel; nutritional value and well-adapted to live in cold areas of high altitudes; timber is of great commercial value. Which correct?
 Env Q158 (2012): Which group of animals belongs to the category of endangered species? (Great Indian Bustard, Musk Deer, Red Panda and Asiatic Wild Ass/Kashmir Stag, Cheetal, Blue Bull and Great Indian Bustard/Snow Leopard, Swamp Deer, Rhesus Monkey and Saras Crane/Lion-tailed Macaque, Blue Bull, Hanuman Langur and Cheetal)
@@ -218,18 +206,16 @@ Env Q184 (2021): Statements: Moringa (drumstick tree) is a leguminous evergreen 
 ENVIRONMENT AND ECOLOGY (Q1-184) FULL ANSWER KEY: 1-a 2-b 3-a 4-c 5-a 6-b 7-c 8-c 9-a 10-b 11-c 12-c 13-d 14-b 15-c 16-b 17-c 18-c 19-d 20-b 21-b 22-b 23-c 24-c 25-d 26-b 27-c 28-d 29-c 30-c 31-c 32-b 33-d 34-c 35-c 36-c 37-a 38-b 39-c 40-a 41-c 42-d 43-c 44-c 45-d 46-d 47-b 48-b 49-d 50-c 51-b 52-d 53-a 54-c 55-d 56-d 57-c 58-c 59-b 60-c 61-c 62-b 63-b 64-d 65-a 66-d 67-d 68-a 69-a 70-a 71-d 72-b 73-d 74-b 75-a 76-a 77-b 78-d 79-b 80-d 81-b 82-c 83-d 84-a 85-c 86-b 87-b 88-a 89-d 90-d 91-d 92-b 93-c 94-b 95-c 96-a 97-b 98-d 99-c 100-a 101-b 102-a 103-a 104-b 105-a 106-c 107-b 108-b 109-c 110-c 111-c 112-d 113-a 114-a 115-d 116-b 117-b 118-c 119-c 120-b 121-c 122-a 123-d 124-a 125-b 126-c 127-c 128-b 129-a 130-b 131-a 132-b 133-b 134-b 135-c 136-b 137-c 138-b 139-d 140-b 141-b 142-d 143-a 144-b 145-a 146-a 147-a 148-d 149-a 150-c 151-c 152-a 153-a 154-c 155-a 156-d 157-c 158-a 159-a 160-b 161-c 162-a 163-b 164-b 165-a 166-c 167-c 168-b 169-c 170-c 171-a 172-a 173-d 174-b 175-b 176-a 177-d 178-c 179-a 180-a 181-d 182-c 183-b 184-b
 
 ======================================================================
-SECTION G: GEOGRAPHY (Prelims 2011-2022, topic-wise) -- FULL (118 Qs)
+SECTION G: GEOGRAPHY (Prelims 2011-2021, topic-wise) -- FULL (111 Qs)
 ======================================================================
 
---- Solar System and Geological Time Scale (5 Qs) ---
-Geo Q1 (2022): In the northern hemisphere, the longest day of the year normally occurs in the: (first half of June/second half of June/first half of July/second half of July)
+--- Solar System and Geological Time Scale (4 Qs) ---
 Geo Q2 (2012): A person stood alone in a desert on a dark night and wanted to reach his village which was situated 5 km east of the point where he was standing. He located the polestar. Most convenient way to reach his village is to walk in the: (direction facing the polestar/direction opposite to the polestar/direction keeping the polestar to his left/direction keeping the polestar to his right)
 Geo Q3 (2012): Electrically charged particles from space travelling at speeds of several hundred km/sec can severely harm living beings if they reach the surface of the Earth. What prevents them from reaching the surface of the Earth? (Earth's magnetic field diverts them towards its poles/ozone layer reflects them back to outer space/moisture in upper layers of atmosphere prevents them/none of these)
 Geo Q4 (2013): Variations in length of daytime and night time from season to season are due to: (earth's rotation on its axis/earth's revolution around the sun in an elliptical manner/latitudinal position of the place/revolution of the earth on a tilted axis)
 Geo Q5 (2019): On 21st June, the Sun: (does not set below the horizon at the Arctic Circle/does not set below the horizon at Antarctic Circle/shines vertically overhead at noon on the Equator/shines vertically overhead at the Tropic of Capricorn)
 
---- Climatology (19 Qs) ---
-Geo Q6 (2022): Statements: high clouds primarily reflect solar radiation and cool the surface of the Earth; low clouds have a high absorption of infrared radiation emanating from the Earth's surface and thus cause a warming effect. Which correct?
+--- Climatology (18 Qs) ---
 Geo Q7 (2011): Westerlies in the southern hemisphere are stronger and persistent than in northern hemisphere. Why? southern hemisphere has less landmass compared to northern hemisphere; Coriolis force is higher in southern hemisphere compared to northern hemisphere. Which correct?
 Geo Q8 (2011): What could be the main reason/reasons for the formation of the African and Eurasian desert belt? located in sub-tropical high-pressure cells; under influence of warm ocean currents. Which correct?
 Geo Q9 (2011): The jet aircraft fly easily and smoothly in the lower stratosphere. What could be the appropriate explanation? no clouds or water vapour in lower stratosphere; no vertical winds in lower stratosphere. Which correct?
@@ -272,9 +258,7 @@ Geo Q41 (2019): With reference to management of minor minerals in India: sand is
 Geo Q42 (2020): Minerals: Bentonite, Chromite, Kyanite, Sillimanite. In India, which are officially designated as major minerals?
 Geo Q43 (2021): The black cotton soil of India has been formed due to the weathering of: (brown forest soil/fissure volcanic rock/granite and schist/shale and limestone)
 
---- Economic Geography (16 Qs) ---
-Geo Q44 (2022): States: Andhra Pradesh, Kerala, Himachal Pradesh, Tripura. How many of the above are generally known as tea-producing States?
-Geo Q45 (2022): With reference to India: monazite is a source of rare earths; monazite contains thorium; monazite occurs naturally in the entire Indian coastal sands in India; in India, government bodies only can process or export monazite. Which correct?
+--- Economic Geography (14 Qs) ---
 Geo Q46 (2011): The lower Gangetic plain is characterized by a humid climate with high temperature throughout the year. Which one among the following pairs of crops is most suitable for this region? (paddy and cotton/wheat and jute/paddy and jute/wheat and cotton)
 Geo Q47 (2012): Which is the chief characteristic of 'mixed farming'? (cultivation of both cash crops and food crops/cultivation of two or more crops in the same field/rearing of animals and cultivation of crops together/none)
 Geo Q48 (2012): Crops of India: Groundnut, Sesamum, Pearl millet. Which are predominantly rainfed crop/crops?
@@ -290,10 +274,7 @@ Geo Q57 (2020): With reference to pulse production in India: black gram can be c
 Geo Q58 (2020): "The crop is subtropical in nature. A hard frost is injurious to it. It requires at least 210 frost-free days and 50 to 100 centimeters of rainfall for its growth. A light well-drained soil capable of retaining moisture is ideally suited for the cultivation of the crop." Which crop? (Cotton/Jute/Sugarcane/Tea)
 Geo Q59 (2021): Among the following, which one is the least water-efficient crop? (Sugarcane/Sunflower/Pearl millet/Red gram)
 
---- Indian Geography (30 Qs) ---
-Geo Q60 (2022): Gandikota canyon of South India was created by which one of the following rivers? (Cauvery/Manjira/Pennar/Tungabhadra)
-Geo Q61 (2022): Pairs (Peak-Mountains): Namcha Barwa-Garhwal Himalaya; Nanda Devi-Kumaon Himalaya; Nokrek-Sikkim Himalaya. Which correctly matched?
-Geo Q62 (2022): Pairs (Reservoirs-States): Ghataprabha-Telangana; Gandhi Sagar-Madhya Pradesh; Indira Sagar-Andhra Pradesh; Maithon-Chhattisgarh. How many correctly matched?
+--- Indian Geography (27 Qs) ---
 Geo Q63 (2011): Among the following States, which one has the most suitable climatic conditions for the cultivation of a large variety of orchids with minimum cost of production, and can develop an export oriented industry in this field? (Andhra Pradesh/Arunachal Pradesh/Madhya Pradesh/Uttar Pradesh)
 Geo Q64 (2011): The Brahmaputra, Irrawaddy and Mekong rivers originate in Tibet and flow through narrow and parallel mountain ranges in their upper reaches. Of these rivers, Brahmaputra makes a "U" turn in its course to flow into India. This "U" turn is due to: (uplift of folded Himalayan series/syntaxial bending of geologically young Himalayas/geo-tectonic disturbance in tertiary folded mountain chains/both a and b)
 Geo Q65 (2011): A state in India has: northern part arid and semi-arid; central part produces cotton; cultivation of cash crops predominant over food crops. Which state? (Andhra Pradesh/Gujarat/Karnataka/Tamil Nadu)
@@ -356,12 +337,10 @@ Geo Q118 (2020): Pairs (River-Flow into): Mekong-Andaman Sea; Thames-Irish Sea; 
 GEOGRAPHY (Q1-118) FULL ANSWER KEY: 1-b 2-c 3-a 4-d 5-a 6-d 7-a 8-a 9-c 10-d 11-c 12-d 13-d 14-a 15-b 16-d 17-c 18-b 19-b 20-b 21-b 22-c 23-c 24-d 25-a 26-d 27-b 28-c 29-b 30-d 31-b 32-d 33-b 34-c 35-b 36-d 37-d 38-c 39-c 40-b 41-a 42-d 43-b 44-c 45-b 46-c 47-c 48-d 49-a 50-c 51-d 52-d 53-b 54-c 55-d 56-a 57-b 58-d 59-a 60-c 61-b 62-c 63-b 64-b 65-b 66-d 67-c 68-a 69-a 70-a 71-a 72-d 73-a 74-b 75-a 76-a 77-d 78-a 79-c 80-d 81-c 82-b 83-a 84-a 85-d 86-c 87-d 88-d 89-b 90-b 91-a 92-a 93-d 94-a 95-c 96-b 97-c 98-b 99-c 100-b 101-d 102-a 103-b 104-c 105-d 106-d 107-c 108-a 109-b 110-b 111-a 112-a 113-c 114-b 115-a 116-b 117-d 118-c
 
 ======================================================================
-SECTION H: SCIENCE AND TECHNOLOGY (Prelims 2011-2022, topic-wise) -- FULL (130 Qs)
+SECTION H: SCIENCE AND TECHNOLOGY (Prelims 2011-2021, topic-wise) -- FULL (118 Qs)
 ======================================================================
 
---- Biotechnology (13 Qs) ---
-ST Q1 (2022): "Biorock technology" is talked about in which situation? (restoration of damaged coral reefs/development of building materials using plant residues/identification of areas for exploration/extraction of shale gas/providing salt licks for wild animals in forests)
-ST Q2 (2022): DNA Barcoding can be a tool to: assess the age of a plant or animal; distinguish among species that look alike; identify undesirable animal or plant materials in processed foods. Which correct?
+--- Biotechnology (11 Qs) ---
 ST Q3 (2021): Bollgard I and Bollgard II technologies are mentioned in the context of: (clonal propagation of crop plants/developing genetically modified crop plants/production of plant growth substances/production of biofertilizers)
 ST Q4 (2019): With reference to recent developments in science, which statement is NOT correct? (functional chromosomes can be created by joining segments of DNA taken from cells of different species/pieces of artificial functional DNA can be created in laboratories/a piece of DNA taken out from an animal cell can be made to replicate outside a living cell in a laboratory/cells taken out from plants and animals can be made to undergo cell division in laboratory petri dishes)
 ST Q5 (2019): 'RNA interference (RNAi)' technology has gained popularity in the last few years. Why? used in developing gene silencing therapies; developing therapies for treatment of cancer; develop hormone replacement therapies; produce crop plants resistant to viral pathogens. Which correct?
@@ -374,9 +353,7 @@ ST Q11 (2012): What are the reasons for people's resistance to the introduction 
 ST Q12 (2012): Other than resistance to pests, what are the prospects for which genetically engineered plants have been created? enable them to withstand drought; increase nutritive value of produce; enable them to grow and do photosynthesis in spaceships and space stations; increase their shelf life. Which correct?
 ST Q13 (2011): At present, scientists can determine the arrangement or relative positions of genes or DNA sequences on a chromosome. How does this knowledge benefit us? possible to know pedigree of livestock; possible to understand causes of all human diseases; possible to develop disease-resistant animal breeds. Which correct?
 
---- Health (11 Qs) ---
-ST Q14 (2022): In respect of probiotics: probiotics are made of both bacteria and yeast; the organisms in probiotics are found in food we ingest but they do not naturally occur in our gut; probiotics help in the digestion of milk sugars. Which correct?
-ST Q15 (2022): Which statement best describes the role of B cells and T cells in the human body? (protect the body from environmental allergens/alleviate the body's pain and inflammation/act as immune suppressants in the body/protect the body from the diseases caused by pathogens)
+--- Health (9 Qs) ---
 ST Q16 (2021): In context of hereditary diseases: passing on mitochondrial diseases from parent to child can be prevented by mitochondrial replacement therapy either before or after in vitro fertilization of the egg; a child inherits mitochondrial diseases entirely from mother and not from father. Which correct?
 ST Q17 (2021): The term 'ACE2' is talked about in the context of: (genes introduced in genetically modified plants/development of India's own satellite navigation system/radio collars for wildlife tracking/spread of viral diseases)
 ST Q18 (2020): Statements: genetic changes can be introduced in the cells that produce eggs or sperms of a prospective parent; a person's genome can be edited before birth at the early embryonic stage; human induced pluripotent stem cells can be injected into the embryo of a pig. Which correct?
@@ -402,11 +379,7 @@ ST Q35 (2014): Diseases: Diphtheria, Chickenpox, Smallpox. Which of the above di
 ST Q36 (2013): Statements: viruses lack enzymes necessary for generation of energy; viruses can be cultured in any synthetic medium; viruses are transmitted from one organism to another by biological vectors only. Which correct?
 ST Q37 (2013): Which diseases can be transmitted from one person to another through tattooing? Chikungunya, Hepatitis B, HIV-AIDS.
 
---- Information and Communication Technology (19 Qs) ---
-ST Q38 (2022): With reference to "Software as a Service (SaaS)": SaaS buyers can customise the user interface and can change data fields; SaaS users can access their data through their mobile devices; Outlook, Hotmail and Yahoo Mail are form of SaaS. Which correct?
-ST Q39 (2022): With reference to Web 3.0: Web 3.0 technology enables people to control their own data; in Web 3.0 world there can be blockchain based social networks; Web 3.0 is operated by users collectively rather than a corporation. Which correct?
-ST Q40 (2022): Which one is the context in which the term "qubit" is mentioned? (cloud services/quantum computing/visible light communication technologies/wireless communication technologies)
-ST Q41 (2022): Communication technologies: Closed-circuit Television, Radio Frequency Identification, Wireless Local Area Network. Which are considered Short-Range devices/technologies?
+--- Information and Communication Technology (15 Qs) ---
 ST Q42 (2020): With the present state of development, Artificial Intelligence can effectively do which of the following? bring down electricity consumption in industrial units; create meaningful short stories and songs; disease diagnosis; text-to-speech conversion; wireless transmission of electrical energy. Which correct?
 ST Q43 (2020): With reference to Visible Light Communication (VLC) technology: VLC uses electromagnetic spectrum wavelengths 375 to 780 nm; VLC is known as long-range optical wireless communication; VLC can transmit large amounts of data faster than Bluetooth; VLC has no electromagnetic interference. Which correct?
 ST Q44 (2020): With reference to "Blockchain Technology": it is a public ledger that everyone we inspect, but which no single user controls; the structure and design of blockchain is such that all the data in it is about crypto currency only; applications that depend on basic features of blockchain can be developed without anybody's permission. Which correct?
@@ -423,13 +396,11 @@ ST Q54 (2014): In addition to fingerprint scanning, which can be used in biometr
 ST Q55 (2011): What is the difference between Bluetooth and Wi-Fi devices? (Bluetooth uses 2.4 GHz radio frequency band whereas Wi-Fi can use 2.4 GHz or 5 GHz frequency band/Bluetooth is used for WLAN only whereas Wi-Fi is used for WWAN only/when information is transmitted between two devices using Bluetooth, devices have to be in line of sight of each other, but when Wi-Fi technology is used devices need not be in line of sight of each other/statements a and b are correct)
 ST Q56 (2011): What is a "Virtual Private Network"? (a private compute network of an organization where remote users can transmit encrypted information through the server of the organization/a computer network across a public internet that provides users access to their organization's network while maintaining the security of information transmitted/a computer network in which users can access a shared pool of computing resources through a service provider/none of these is a correct description)
 
---- Nanoscience and Nanotechnology (3 Qs) ---
-ST Q57 (2022): Statements: other than those made by humans, nanoparticles do not exist in nature; nanoparticles of some metallic oxides are used in the manufacture of some cosmetics; nanoparticles of some commercial products which enter the environment are unsafe for humans. Which correct?
+--- Nanoscience and Nanotechnology (2 Qs) ---
 ST Q58 (2020): With reference to carbon nanotubes: they can be used as carriers of drugs and antigens in the human body; they can be made into artificial blood capillaries for an injured part of the human body; they can be used in biochemical sensors; carbon nanotubes are biodegradable. Which correct?
 ST Q59 (2015): With reference to the use of nanotechnology in the health sector: targeted drug delivery is made possible by nanotechnology; nanotechnology can largely contribute to gene therapy. Which correct?
 
---- Space and Space Technology (16 Qs) ---
-ST Q60 (2022): If a major solar storm (solar flare) reaches the Earth, which are the possible effects on the Earth? GPS and navigation systems could fail; tsunamis could occur at equatorial regions; power grids could be damaged; intense auroras could occur over much of the Earth; forest fires could take place over much of the planet; orbits of the satellites could be disturbed; shortwave radio communication of aircraft flying over polar regions could be interrupted. Which correct?
+--- Space and Space Technology (15 Qs) ---
 ST Q61 (2021): Which one is a reason why astronomical distances are measured in light-years? (distances among stellar bodies do not change/gravity of stellar bodies does not change/light always travels in a straight line/speed of light is always the same)
 ST Q62 (2020): "The experiment will employ a trio of spacecraft flying in formation in the shape of an equilateral triangle that has sides one million kilometers long, with lasers shining between the craft." The experiment in question refers to: (Voyager-2/New Horizons/LISA Pathfinder/Evolved LISA)
 ST Q63 (2019): Recently, scientists observed the merger of giant 'blackholes' billions of light years away from the Earth. What is the significance of this observation? ('Higgs boson particles' were detected/'Gravitational waves' were detected/possibility of intergalactic space travel through 'wormhole' was confirmed/it enabled scientists to understand 'singularity')
@@ -446,9 +417,7 @@ ST Q73 (2011): An artificial satellite orbiting around the Earth does not fall d
 ST Q74 (2011): Which is the difference between asteroids and comets? asteroids are small rocky planetoids while comets are formed of frozen gases held together by rocky and metallic material; asteroids are found mostly between the orbits of Jupiter and Mars while comets are found mostly between Venus and Mercury; comets show a perceptible glowing tail while asteroids do not. Which correct?
 ST Q75 (2011): Satellites used for telecommunication relay are kept in a geostationary orbit. A satellite is said to be in such an orbit when: the orbit is geosynchronous; the orbit is circular; the orbit lies in the plane of the Earth's equator; the orbit is at an altitude of 22,236 km. Which correct?
 
---- Miscellaneous (55 Qs) ---
-ST Q76 (2022): Which statement best reflects the idea behind the "Fractional Orbital Bombardment System" often talked about in the media? (a hypersonic missile is launched into space to counter the asteroid approaching the Earth and explode it in space/a spacecraft lands on another planet after making several orbital motions/a missile is put into a stable orbit around the Earth and deorbits over a target on the Earth/a spacecraft moves along a comet with the same speed and places a probe on its surface)
-ST Q77 (2022): Statements: biofilms can form on medical implants within human tissues; biofilms can form on food and food processing surfaces; biofilms can exhibit antibiotic resistance. Which correct?
+--- Miscellaneous (53 Qs) ---
 ST Q78 (2021): In a pressure cooker, the temperature at which the food is cooked depends mainly upon which of the following? area of the hole in the lid; temperature of the flame; weight of the lid. Which correct?
 ST Q79 (2021): Consider: Bacteria, Fungi, Virus. Which of the above can be cultured in artificial/synthetic medium?
 ST Q80 (2021): With reference to street-lighting, how do sodium lamps differ from LED lamps? sodium lamps produce light in 360 degrees but it is not so in the case of LED lamps; as street-lights, sodium lamps have a longer lifespan than LED lamps; the spectrum of visible light from sodium lamps is almost monochromatic while LED lamps offer significant colour advantages in street lighting. Which correct?

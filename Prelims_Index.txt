@@ -1,25 +1,25 @@
 UPSC CSE Prelims PYQ - Question Stem Index, PART 1 of 3 (topic-search index, not full MCQs)
 Source: 'Prelims PYQ (2011-2025).pdf' (Physics Wallah / PW OnlyIAS publication), PYQs folder in Drive.
 
-THIS FILE (Part 1) contains Section A - Ancient History (27 Qs) & Medieval History (30 Qs),
-topic-wise (Prelims 2011-2022).
+THIS FILE (Part 1) contains Section A - Ancient History (24 Qs) & Medieval History (25 Qs),
+topic-wise (Prelims 2011-2021).
 PART 2 ('Prelims_Index_Part2_ModernHistory-ArtCulture-Polity-Economy.txt', same folder): Section B Modern
-History (89 Qs); Section C Art and Culture (61 Qs); Section D Polity (161 Qs); Section E Indian Economy (173 Qs).
+History (86 Qs); Section C Art and Culture (54 Qs); Section D Polity (150 Qs); Section E Indian Economy (160 Qs).
 PART 3 ('Prelims_Index_Part3_Environment-Geography-ScienceTech.txt', same folder): Section F Environment
-and Ecology (184 Qs); Section G Geography (118 Qs); Section H Science and Technology (130 Qs).
+and Ecology (172 Qs); Section G Geography (111 Qs); Section H Science and Technology (118 Qs).
 COVERAGE NOTE: Parts 1 + 2 + 3 together now cover the ENTIRE source book -- all 8 topic-wise chapters
-(Sections A-H, Prelims 2011-2022, with full answer keys). Full papers for 2023 onwards live only in
-pyq_db/<year>/ (2023-2024 from the official question papers; 2025-2026 web-verified); this index covers 2011-2022.
+(Sections A-H, Prelims 2011-2021, with full answer keys). Full papers for 2022 onwards live only in
+pyq_db/<year>/ (2022-2024 from the official question papers; 2025-2026 web-verified); this index covers 2011-2021.
 
 Each entry below is the question stem/topic content (options a/b/c/d omitted, though some topic-wise
 entries also include the correct answer where captured) -- enough for keyword/topic matching against
 daily current affairs. For exact wording and options, check the source PDF.
 
 ======================================================================
-SECTION A: ANCIENT & MEDIEVAL HISTORY (Prelims 2011-2022, topic-wise) -- FULL (Ancient 27 Qs, Medieval 30 Qs)
+SECTION A: ANCIENT & MEDIEVAL HISTORY (Prelims 2011-2021, topic-wise) -- FULL (Ancient 24 Qs, Medieval 25 Qs)
 ======================================================================
 
---- Ancient History (2011-2022) ---
+--- Ancient History (2011-2021) ---
 AH Q1 (2021) [Construction of Ancient History]: Pairs: Burzahom-Rock-cut shrines, Chandraketugarh-Terracotta art, Ganeshwar-Copper artefacts. How many pairs correctly matched? Ans: (d) None
 AH Q2 (2016) [Construction of Ancient History]: Pairs: Eripatti-land revenue set apart for village tank maintenance, Taniyurs-villages donated to a single Brahmin/group of Brahmins, Ghatikas-colleges generally attached to temples. Which correctly matched? Ans: (d) 1 and 3
 AH Q3 (2012) [Construction of Ancient History]: Scientific progress of Ancient India: specialised surgical instruments common by 1st century AD; organ transplant began 3rd century AD; sine of angle known 5th century AD; cyclic quadrilateral known 7th century AD. Which correct? Ans: (c) 1,3,4 only
@@ -30,12 +30,9 @@ AH Q7 (2013) [Harappan Civilization]: Which characterises the people of the Indu
 AH Q8 (2011) [Harappan Civilization]: Indus valley civilization: predominantly secular, religious element though present did not dominate; cotton used for manufacturing textiles. Which correct? Ans: (c) Both 1 and 2
 AH Q9 (2017) [History of Vedic Period]: Difference Rigvedic Aryans vs Indus Valley people: coat of mail/helmet in warfare vs no evidence; gold/silver/copper known vs only copper/iron known; domesticated horse vs no evidence of horse. Which correct? Ans: (c) 1 and 3 only
 AH Q10 (2012) [History of Vedic Period]: Religion of early Vedic Aryans primarily of? (Bhakti/Image worship and yajnas/Worship of nature and yajnas/Worship of nature and bhakti) Ans: (c) Worship of nature and yajnas
-AH Q11 (2022) [History of Mauryan Age]: Per Kautilya's Arthashastra: person could become slave as result of judicial punishment; if female slave bore master's son she was legally free; son born to female slave fathered by her master entitled to master's legal status. Which correct? Ans: (b) 2 and 3 only
 AH Q12 (2020) [History of Mauryan Age]: Ruler who advised subjects through inscription "Whosoever praises his own religious sect or blames other sects...injures his own sect very severely"? (Ashoka/Samudragupta/Harshavardhana/Krishnadeva Raya) Ans: (a) Ashoka
 AH Q13 (2019) [History of Mauryan Age]: Relief sculpture inscription 'Ranyo Ashoka' (King Ashoka) with stone portrait of Ashoka found in which? (Kanganahalli/Sanchi/Shahbazgarhi/Sohgaura) Ans: (a) Kanganahalli
 AH Q14 (2016) [History of Mauryan Age]: Who first deciphered the edicts of Emperor Ashoka? (Georg Buhler/James Prinsep/Max Muller/William Jones) Ans: (b) James Prinsep, 1837
-AH Q15 (2022) [Buddhism and Jainism]: Jaina texts among: Nettipakarana, Parishishta Parvan, Avadanasataka, Trishashtilakshana Mahapurana. Which are Jaina texts? Ans: (b) 2 and 4 only
-AH Q16 (2022) [Buddhism and Jainism]: Pairs: Aryadeva-Jaina scholar, Dignaga-Buddhist scholar, Nathamuni-Vaishnava scholar. How many correctly matched? Ans: (c) Only two pairs (Dignaga & Nathamuni correct; Aryadeva was a Mahayana Buddhist monk, not Jaina)
 AH Q17 (2012) [Buddhism and Jainism]: Common to both Buddhism and Jainism, ancient India: avoidance of extremities of penance/enjoyment; indifference to authority of Vedas; denial of efficacy of rituals. Which correct? Ans: (b) 2 and 3 only
 AH Q18 (2011) [Buddhism and Jainism]: Jain philosophy holds that the world is created and maintained by? (Universal law/Universal Truth/Universal Faith/Universal Soul) Ans: (a) Universal law
 AH Q19 (2021) [History of the Gupta Period]: From decline of Guptas until rise of Harshavardhana (early 7th century), which kingdoms held power in Northern India: Guptas of Magadha, Paramaras of Malwa, Pushyabhutis of Thanesar, Maukharis of Kanauj, Yadavas of Devagiri, Maitrakas of Valabhi. Correct combination? Ans: (a) 1,2 and 5 -- i.e. Guptas of Magadha, Pushyabhutis of Thanesar, Maukharis of Kanauj, Maitrakas of Valabhi (per explanation; eliminate Paramaras of Malwa and Yadavas of Devagiri)
@@ -48,24 +45,19 @@ AH Q25 (2021) [Art and Literature during Ancient times]: Bhavabhuti, Hastimalla 
 AH Q26 (2020) [Art and Literature during Ancient times]: Scholars/literature of ancient India: Panini associated with Pushyamitra Shunga; Amarasimha associated with Harshavardhana; Kalidasa associated with Chandra Gupta-II. Which statements correct? Ans: (c) 3 only (Kalidasa-Chandragupta II correct; Panini predates Shungas, Amarasimha linked to Chandragupta Vikramaditya not Harsha)
 AH Q27 (2016) [Art and Literature during Ancient times]: Memorising chronicles/dynastic histories/epic tales was the profession of which of the following? (Shramana/Parivraajaka/Agrahaarika/Magadha) Ans: (d) Magadhas
 
---- Medieval History (2011-2022) -- FULL (30 Qs) ---
-MH Q1 (2022) [Early Medieval Period]: Pairs: Nannuka-Chandela, Jayashakti-Paramara, Nagabhata II-Gurjara-Pratihara, Bhoja-Rashtrakuta. How many pairs correctly matched?
+--- Medieval History (2011-2021) -- FULL (25 Qs) ---
 MH Q2 (2020) [Early Medieval Period]: Which phrase defines the nature of the 'Hundi' as generally referred to in sources of the post-Harsha period? (an advisory issued by king to subordinates/a diary for daily accounts/a bill of exchange/an order from feudal lord to subordinates)
 MH Q3 (2016) [Early Medieval Period]: With reference to economic history of medieval India, the term 'Araghatta' refers to (bonded labour/land grant to military officers/waterwheel used in irrigation of land/wasteland converted to cultivated land)
 MH Q4 (2015) [Early Medieval Period]: Essential element(s) of the feudal system: a very strong centralized political authority + a very weak provincial/local political authority; emergence of administrative structure based on control/possession of land; creation of lord-vassal relationship between feudal lord and overlord. Which correct?
-MH Q5 (2022) [The Delhi Sultanate]: Statements: first Mongol invasion of India happened during reign of Jalalud-din Khalji; during reign of Ala-ud-din Khalji one Mongol assault marched up to Delhi and besieged the city; Muhammad-bin-Tughlaq temporarily lost portions of north-west of his kingdom to Mongols. Which correct?
-MH Q6 (2022) [The Delhi Sultanate]: With reference to Indian history, who among the following were known as "Kulah-Daran"? (Arab merchants/Qalandars/Persian calligraphists/Sayyids)
 MH Q7 (2021) [The Delhi Sultanate]: Statements: during reign of Iltutmish, Chengiz Khan reached the Indus in pursuit of the fugitive Khwarezm prince; during reign of Muhammad bin Tughluq, Taimur occupied Multan and crossed the Indus; during reign of Deva Raya II of Vijayanagara Empire, Vasco da Gama reached the coast of Kerala. Which correct?
 MH Q8 (2019) [The Delhi Sultanate]: Statements on revenue administration of Delhi Sultanate: in-charge of revenue collection known as 'Amil'; Iqta system of Sultans of Delhi was an ancient indigenous institution; office of 'Mir Bakshi' came into existence during reign of Khalji Sultans of Delhi. Which correct?
 MH Q9 (2021) [Regional Kingdoms]: Statements: Nizamat of Arcot emerged from Hyderabad State; Mysore Kingdom emerged from Vijayanagara Empire; Rohilkhand Kingdom formed out of territories occupied by Ahmad Shah Durrani. Which correct?
 MH Q10 (2020) [Regional Kingdoms]: Chronological order: Rise of Pratiharas under King Bhoja; Establishment of Pallava power under Mahendravarman-I; Establishment of Chola power by Parantaka; Pala dynasty founded by Gopala. Correct order from earliest?
 MH Q11 (2017) [Regional Kingdoms]: Which was a very important seaport in the Kakatiya kingdom? (Kakinada/Motupalli/Machilipatnam/Nelluru)
 MH Q12 (2015) [Regional Kingdoms]: Pairs (Medieval Indian State-Present Region): Champaka-Central India, Durgara-Jammu, Kuluta-Malabar. Which correctly matched?
-MH Q13 (2022) [Vijayanagara Empire]: In medieval India, the term "Fanam" referred to (Clothing/Ornaments/Coins/Weapons)
 MH Q14 (2021) [Vijayanagara Empire]: According to Portuguese writer Nuniz, women in Vijayanagara Empire were experts in: Wrestling, Astrology, Accounting, Soothsaying. How many/which combination?
 MH Q15 (2016) [Vijayanagara Empire]: Taxation system of Krishna Deva: tax rate on land fixed by quality of land; private owners of workshops paid an industry tax. Which correct?
 MH Q16 (2015) [Vijayanagara Empire]: Who founded a new city on south bank of a tributary to river Krishna and undertook to rule his kingdom as agent of a deity? (Amoghavarsha I/Ballala II/Harihara I/Prataprudra II)
-MH Q17 (2022) [Bhakti and Sufi Movement]: World's second tallest statue in sitting pose of Ramanuja inaugurated at Hyderabad. Which statement correctly represents teachings of Ramanuja?
 MH Q18 (2019) [Bhakti and Sufi Movement]: Statements: Saint Nimbarka was contemporary of Akbar; Saint Kabir greatly influenced by Shaikh Ahmad Sirhindi. Which correct?
 MH Q19 (2016) [Bhakti and Sufi Movement]: Cultural history of medieval India: Siddhas (Sittars) of Tamil region were monotheistic and condemned idolatry; Lingayats of Kannada region questioned theory of rebirth and rejected caste hierarchy. Which correct?
 MH Q20 (2014) [Bhakti and Sufi Movement]: Statements: 'Bijak' is composition of teachings of Saint Dadu Dayal; Philosophy of PushtiMarg propounded by Madhvacharya. Which correct?

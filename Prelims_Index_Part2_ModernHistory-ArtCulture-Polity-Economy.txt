@@ -1,20 +1,19 @@
 UPSC CSE Prelims PYQ - Question Stem Index, PART 2 of 3 (topic-search index, not full MCQs)
 Source: 'Prelims PYQ (2011-2025).pdf' (Physics Wallah / PW OnlyIAS publication), PYQs folder in Drive.
-THIS FILE (Part 2) contains Sections B-E below: Modern History (89 Qs), Art and Culture (61 Qs),
-Polity (161 Qs), Indian Economy (173 Qs) -- all topic-wise, Prelims 2011-2022, all FULL.
+THIS FILE (Part 2) contains Sections B-E below: Modern History (86 Qs), Art and Culture (54 Qs),
+Polity (150 Qs), Indian Economy (160 Qs) -- all topic-wise, Prelims 2011-2021, all FULL.
 PART 1 ('Prelims_Index.txt', same folder): Section A
-(Ancient History 27 Qs, Medieval History 30 Qs).
+(Ancient History 24 Qs, Medieval History 25 Qs).
 PART 3 ('Prelims_Index_Part3_Environment-Geography-ScienceTech.txt', same folder): Section F Environment
-and Ecology (184 Qs), Section G Geography (118 Qs), Section H Science and Technology (130 Qs).
+and Ecology (172 Qs), Section G Geography (111 Qs), Section H Science and Technology (118 Qs).
 COVERAGE NOTE: Parts 1 + 2 + 3 together now cover the ENTIRE source book (all 8 topic chapters,
 Sections A-H, plus the three latest full year papers). Nothing remains uncaptured.
 
 ======================================================================
-SECTION B: MODERN HISTORY (Prelims 2011-2022, topic-wise) -- FULL (89 Qs)
+SECTION B: MODERN HISTORY (Prelims 2011-2021, topic-wise) -- FULL (86 Qs)
 ======================================================================
 
 --- The Advent of the Europeans in India ---
-MoH Q1 (2022): Statements: Dutch established factories/warehouses on east coast on lands granted by Gajapati rulers; Alfonso de Albuquerque captured Goa from Bijapur Sultanate; English East India Company established a factory at Madras on land leased from a representative of Vijayanagara empire. Which correct?
 MoH Q2 (2021): In first quarter of 17th century, in which of the following was/were the factory/factories of English East India Company located? Broach, Chicacole, Trichinopoly.
 
 --- British Expansion in India ---
@@ -65,7 +64,6 @@ MoH Q38 (2016): Calcutta Unitarian Committee, Tabernacle of New Dispensation, In
 MoH Q39 (2020): Rakhmabai case of 1884 revolved around: women's right to education; age of consent; restitution of conjugal rights.
 
 --- Indian National Movement-I (1905-1918) ---
-MoH Q40 (2022): Freedom fighters Barindra Kumar Ghosh, Jogesh Chandra Chatterjee, Rash Behari Bose -- who actively associated with Ghadar Party?
 MoH Q41 (2011): Reason for Gandhi to organise satyagraha on behalf of Kheda peasants?
 MoH Q42 (2014): Partition of Bengal by Curzon 1905 lasted until:
 MoH Q43 (2014): The Ghadar was: revolutionary association HQ San Francisco/nationalist org operating from Singapore/militant org HQ Berlin/Communist movement HQ Tashkent
@@ -85,7 +83,6 @@ MoH Q54 (2015): Rowlatt Satyagraha: Rowlatt Act based on recommendations of 'Sed
 MoH Q55 (2018): In 1920, which changed its name to "Swarajya Sabha"? All India Home Rule League/Hindu Mahasabha/South Indian Liberal Federation/The Servants of India Society
 
 --- Indian National Movement-III (1930-1947) ---
-MoH Q56 (2022): Proposals of Cripps Mission: Constituent Assembly to have members nominated by Provincial Assemblies and Princely States; any Province not prepared to accept new Constitution could sign separate agreement with Britain. Which correct?
 MoH Q57 (2011): Which observation is NOT true about the Quit India Movement of 1942?
 MoH Q58 (2011): Usha Mehta well-known for, w.r.t. Indian freedom struggle:
 MoH Q59 (2012): Congress ministries resigned in seven provinces in 1939, because:
@@ -129,12 +126,10 @@ MoH Q89 (2013): Members of Constituent Assembly from Provinces were: directly el
 MODERN HISTORY (Q1-89) FULL ANSWER KEY: 1-b 2-a 3-c 4-b 5-a 6-a 7-c 8-d 9-c 10-d 11-b 12-d 13-c 14-a 15-d 16-d 17-b 18-c 19-c 20-a 21-c 22-a 23-b 24-d 25-b 26-a 27-c 28-a 29-b 30-d 31-a 32-c 33-b 34-d 35-b 36-b 37-c 38-b 39-b 40-d 41-a 42-b 43-a 44-a 45-b 46-a 47-c 48-c 49-b 50-b 51-a 52-c 53-b 54-b 55-d 56-b 57-a 58-a 59-d 60-b 61-c 62-d 63-b 64-a 65-c 66-c 67-b 68-b 69-a 70-d 71-a 72-d 73-c 74-b 75-c 76-c 77-c 78-c 79-b 80-b 81-c 82-b 83-d 84-d 85-a 86-a 87-c 88-c 89-c
 
 ======================================================================
-SECTION C: ART AND CULTURE (Prelims 2011-2022, topic-wise) -- FULL (61 Qs)
+SECTION C: ART AND CULTURE (Prelims 2011-2021, topic-wise) -- FULL (54 Qs)
 ======================================================================
 
 --- Indian Architecture ---
-AC Q1 (2022): Pairs (Site of Ashoka's rock edicts-Location in State): Dhauli-Odisha, Erragudi-Andhra Pradesh, Jaugada-Madhya Pradesh, Kalsi-Karnataka. How many correctly matched?
-AC Q2 (2022): PM inaugurated new Circuit House near Somnath Temple, Veraval. Statements: Somnath is one of Jyotirlinga shrines; description given by Al-Biruni; Pran Pratishtha of present-day temple done by President S. Radhakrishnan. Which correct?
 AC Q3 (2021): Which statement is correct? Ajanta Caves lie in gorge of Waghora river/Sanchi Stupa lies in gorge of Chambal river/Pandu-Lena Cave Shrines lie in gorge of Narmada river/Amaravati Stupa lies in gorge of Godavari river
 AC Q4 (2018): Statements: White marble used in Buland Darwaza and Khankah at Fatehpur Sikri; red sandstone and marble used in Bara Imambara and Rumi Darwaza at Lucknow. Which correct?
 AC Q5 (2016): Common to Ajanta and Mahabalipuram: built in same period; belong to same religious denomination; have rock-cut monuments. Which correct?
@@ -171,8 +166,6 @@ AC Q25 (2012): Distinguish Kuchipudi and Bharatanatyam: dancers occasionally spe
 AC Q26 (2014) ['Kalaripayattu']: What is 'Kalaripayattu'? ancient Bhakti cult of Shaivism South India/ancient style bronze-brass work Coromandel area/ancient form dance-drama living tradition Malabar/ancient martial art living tradition parts of South India
 
 --- Culture in India / Philosophies / Jainism & Buddhism ---
-AC Q27 (2022) [Sangam literature]: Which statement about Sangam literature in ancient South India correct? Sangam poems devoid of reference to material culture/social classification of Varna known to Sangam poets/Sangam poems no reference to warrior ethics/Sangam literature refers to magical forces as irrational
-AC Q28 (2022): "Yoga Vasistha" translated into Persian by Nizamuddin Panipati during reign of: Akbar/Humayun/Shahjahan/Aurangzeb
 AC Q29 (2021): Terms 'Halbi, Ho and Kui' pertain to: dance forms NW India/musical instruments/prehistoric cave paintings/tribal languages
 AC Q30 (2020) ['Paramitas']: Correct description of term Paramitas: earliest Dharmashastra texts in aphoristic (sutra) style/philosophical schools rejecting authority of Vedas/perfections whose attainment led to Bodhisattva path/powerful merchant guilds of early Medieval South India
 AC Q31 (2020): Statements: Sthaviravadins belong to Mahayana Buddhism; Lokottaravadin sect offshoot of Mahasanghika sect; deification of Buddha by Mahasanghikas fostered Mahayana Buddhism. Which correct?
@@ -204,17 +197,14 @@ AC Q56 (2013) [Jain doctrine]: Statements: surest way of annihilating Karma is t
 AC Q57 (2012) [common to Buddhism and Jainism]: Avoidance of extremities of penance/enjoyment; indifference to authority of Vedas; denial of efficacy of rituals -- which common to both?
 AC Q58 (2011) [Jain philosophy - world created/maintained by]: Universal law/Universal Truth/Universal Faith/Universal Soul
 AC Q59 (2012) ["Bhumisparsha mudra"]: Lord Buddha's image shown with hand gesture "Bhumisparsha mudra" symbolises what?
-AC Q60 (2022) [Jaina texts]: Nettipakarana, Parishishta Parvan, Avadanasataka, Trishashtilakshana Mahapurana -- which are Jaina texts?
-AC Q61 (2022): Pairs (Historical person-Known as): Aryadeva-Jaina scholar, Dignaga-Buddhist scholar, Nathamuni-Vaishnav scholar. How many pairs correctly matched?
 
 ART AND CULTURE (Q1-61) FULL ANSWER KEY (source omits Q60's answer): 1-b 2-a 3-a 4-d 5-b 6-c 7-c 8-c 9-c 10-c 11-d 12-a 13-b 14-c 15-d 16-a 17-a 18-b 19-b 20-b 21-b 22-b 23-c 24-a 25-a 26-d 27-b 28-a 29-d 30-c 31-b 32-a 33-b 34-b 35-b 36-b 37-c 38-b 39-a 40-b 41-b 42-d 43-b 44-b 45-a 46-c 47-d 48-b 49-c 50-c 51-d 52-b 53-b 54-b 55-a 56-d 57-b 58-a 59-b 60-(not given in source) 61-c
 
 ======================================================================
-SECTION D: POLITY (Prelims 2011-2022, topic-wise) -- FULL (161 Qs)
+SECTION D: POLITY (Prelims 2011-2021, topic-wise) -- FULL (150 Qs)
 ======================================================================
 
 --- Historical Background ---
-Pol Q1 (2022): GoI Act 1919: functions of Provincial Govt divided into "Reserved" and "Transferred" subjects. Which treated as "Reserved" -- Admin of Justice, Local Self-Government, Land Revenue, Police?
 Pol Q2 (2012): Distribution of powers between Centre and States in Indian Constitution based on scheme in: Morley-Minto Reforms 1909/Montagu-Chelmsford Act 1919/GoI Act 1935/Indian Independence Act 1947
 
 --- Basic Concepts ---
@@ -226,7 +216,6 @@ Pol Q7 (2021): Best safeguard of liberty in liberal democracy: committed judicia
 Pol Q8 (2021): Position of Right to Property in India: legal right for citizens only/legal right for any person/fundamental right for citizens only/neither fundamental nor legal right
 
 --- Salient Features of the Constitution ---
-Pol Q9 (2022): If area brought under Fifth Schedule, which statement best reflects consequence? prevents transfer of tribal land to non-tribals/creates local self-govt body/converts area into Union Territory/State declared Special Category State
 Pol Q10 (2013): Implied principles in parliamentary govt: Members of Cabinet are Members of Parliament; Ministers hold office till confidence of Parliament; Cabinet headed by Head of State. Which correct?
 Pol Q11 (2014): Which Schedule contains provisions on anti-defection? Second/Fifth/Eighth/Tenth
 Pol Q12 (2015): Provisions in Fifth and Sixth Schedule made in order to: protect Scheduled Tribes interests/determine boundaries between States/determine powers of Panchayats/protect border States
@@ -252,7 +241,6 @@ Pol Q27 (2021): Exact constitutional status of India on 26 Jan 1950: Democratic 
 Pol Q28 (2021): Statements: only one citizenship and one domicile; citizen by birth only can become Head of State; foreigner once granted citizenship cannot be deprived under any circumstances. Which correct?
 
 --- Fundamental Rights ---
-Pol Q29 (2022): Writs statements: Mandamus won't lie against private org unless entrusted with public duty; Mandamus won't lie against Company even if Govt Company; any public-minded person can petition for Quo Warranto. Which correct?
 Pol Q30 (2011): National minority status statements: can establish/administer exclusive educational institutions; President automatically nominates rep to Lok Sabha; can derive benefits from PM's 15-Point Programme. Which correct?
 Pol Q31 (2017): Envisaged by Right against Exploitation: prohibition of traffic in human beings/forced labour; abolition of untouchability; protection of minorities interests; prohibition of child employment in factories/mines. Which?
 Pol Q32 (2017): Correct relationship between Rights and Duties: correlative with Duties/personal & independent of society & Duties/Rights not Duties important for advancement/Duties not Rights important for stability
@@ -289,7 +277,6 @@ Pol Q58 (2015): "To uphold and protect Sovereignty, Unity and Integrity of India
 Pol Q59 (2017): True of Fundamental Duties: legislative process provided to enforce; correlative to legal duties. Which?
 
 --- Constitutional Amendments ---
-Pol Q60 (2022): Statements: bill amending Constitution requires prior recommendation of President; when Amendment Bill presented to President, obligatory to give assent; Amendment Bill must be passed by both Houses by special majority, no joint sitting provision. Which correct?
 Pol Q61 (2013): Statements: amendment to Constitution can be initiated only by introduction of bill in Lok Sabha; if amendment affects federal character, requires ratification by legislature of all States. Which correct?
 Pol Q62 (2019): Statements: 44th Amendment introduced article placing election of PM beyond judicial review; SC struck down 99th Amendment as violative of judiciary independence. Which correct?
 Pol Q63 (2019): Statements: no High Court has jurisdiction to declare central law constitutionally invalid; amendment to Constitution cannot be questioned by Supreme Court. Which correct?
@@ -321,10 +308,7 @@ Pol Q79 (2013): Statements: Chairman and Deputy Chairman of Rajya Sabha not memb
 --- Prime Minister ---
 Pol Q80 (2012): PM of India at time of appointment: need not be member of either House but must become member within 6 months/must become member of Lok Sabha within 6 months/must already be member of either House/must be member of Lok Sabha
 
---- Parliament (38 Qs) ---
-Pol Q81 (2022) [Deputy Speaker]: Statements: election of Deputy Speaker on date fixed by Speaker; mandatory that Deputy Speaker candidate from opposition or ruling party; Deputy Speaker has same powers as Speaker while presiding, no appeal against rulings; motion for appointment moved by Speaker seconded by PM. Which correct?
-Pol Q82 (2022) [exclusive powers of Lok Sabha]: To ratify declaration of Emergency; to pass no-confidence motion against Council of Ministers; to impeach President. Which exclusive to Lok Sabha?
-Pol Q83 (2022): Statements: Constitution classifies ministers into 4 ranks (Cabinet, MoS Independent Charge, MoS, Deputy Minister); total ministers incl PM shall not exceed 15% of total Lok Sabha members. Which correct?
+--- Parliament (35 Qs) ---
 Pol Q84 (2012) [adjournment motion]: Purpose of adjournment motion in Parliament: discussion on urgent public importance/opposition collects info from ministers/reduction of specific amounts in demand for grants/postpone proceedings for inappropriate behaviour
 Pol Q85 (2012): Statements: UTs not represented in Rajya Sabha; CEC adjudicates election disputes; per Constitution Parliament consists of Lok Sabha & Rajya Sabha only. Which correct?
 Pol Q86 (2012) [Lok Sabha Speaker]: Statements: holds office during pleasure of President; need not be member at election but must become within 6 months; if resigning, letter addressed to Deputy Speaker. Which correct?
@@ -362,8 +346,6 @@ Pol Q117 (2021) [multiple LS constituencies]: Statements: no law restricting can
 Pol Q118 (2020) [MPLADS funds]: Statements: funds must be for durable infra assets; specified portion must benefit SC/ST; funds sanctioned yearly, unused can't carry forward; district authority must inspect ≥10% work yearly. Which correct?
 
 --- Supreme Court ---
-Pol Q119 (2022): Statements: per H.N. Sanyal Committee report, Contempt of Courts Act 1971 passed; Constitution empowers SC & HC to punish for contempt of themselves; Constitution defines Civil & Criminal Contempt; Parliament vested with powers to make laws on Contempt of Court. Which correct?
-Pol Q120 (2022): Statements: Govt law officers/legal firms recognised as advocates, corporate lawyers/patent attorneys excluded; Bar Councils have power to lay rules on legal education/college recognition. Which correct?
 Pol Q121 (2012) [original jurisdiction of SC]: Dispute between GoI and State(s); dispute re elections to either House; dispute between GoI and UT; dispute between two or more States. Which included?
 Pol Q122 (2014) [Centre-State disputes]: Falls under SC's: Advisory/Appellate/Original/Writ jurisdiction
 Pol Q123 (2012) [safeguarding SC autonomy]: President must consult CJI for SC Judge appointments; SC Judges removable only by CJI; salaries charged on CFI, legislature has no vote; all SC staff appointments made by Govt only after consulting CJI. Which correct?
@@ -406,10 +388,8 @@ Pol Q147 (2016) [Gram Nyayalaya Act]: Statements: Gram Nyayalaya hears only civi
 Pol Q148 (2017) [local self-govt best explained as]: Federalism/Democratic decentralisation/Administrative delegation/Direct democracy
 
 --- Anti Defection Law ---
-Pol Q149 (2022): Statements: law specifies nominated legislator cannot join party within 6 months of being appointed to House; law doesn't specify timeframe for presiding officer to decide defection case. Which correct?
 
 --- Constitutional Bodies ---
-Pol Q150 (2022) [AG & Solicitor General]: Statements: AG & SG are only officers allowed to participate in Parliament meetings; AG submits resignation when Govt appointing him resigns; EC resolves disputes on splits/mergers of recognized parties. Which correct?
 Pol Q151 (2012) [13th Finance Commission recommendations]: GST design with compensation package; job creation design; devolution of specified share of central taxes as grants to local bodies. Which?
 Pol Q152 (2011) [Finance Commission]: Encourages inflow of foreign capital for infra/facilitates distribution of finances among PSUs/ensures transparency in financial admin/none correct
 Pol Q153 (2012) [CAG importance beyond efficient fund use]: exercises exchequer control on behalf of Parliament during financial emergency; CAG reports discussed by PAC; CAG report info used by investigating agencies; CAG has judicial powers re PSU audit. Which correct?
@@ -428,7 +408,7 @@ Pol Q161 (2021) [administrative reform bodies]: Statements: N. Gopalaswami Ayeng
 
 POLITY (Q1-161) FULL ANSWER KEY: 1-c 2-c 3-d 4-a 5-d 6-a 7-d 8-b 9-a 10-a 11-d 12-a 13-c 14-a 15-d 16-c 17-b 18-a 19-d 20-a 21-b 22-a 23-a 24-b 25-d 26-c 27-b 28-a 29-a 30-c 31-c 32-a 33-a 34-c 35-a 36-c 37-c 38-b 39-d 40-d 41-c 42-a 43-b 44-d 45-c 46-b 47-c 48-b 49-d 50-d 51-a 52-d 53-c 54-b 55-a 56-a 57-c 58-d 59-b 60-b 61-d 62-c 63-d 64-b 65-b 66-b 67-c 68-b 69-d 70-a 71-b 72-d 73-c 74-c 75-c 76-a 77-d 78-a 79-b 80-a 81-a 82-c 83-b 84-a 85-d 86-c 87-d 88-b 89-c 90-d 91-b 92-d 93-b 94-b 95-a 96-c 97-c 98-b 99-c 100-b 101-a 102-d 103-b 104-c 105-d 106-d 107-d 108-b 109-b 110-c 111-a 112-c 113-a 114-c 115-c 116-d 117-b 118-a 119-a 120-b 121-c 122-c 123-a 124-b 125-d 126-c 127-a 128-d 129-a 130-c 131-d 132-a 133-c 134-c 135-a 136-d 137-c 138-c 139-d 140-d 141-a 142-b 143-c 144-d 145-c 146-b 147-b 148-b 149-b 150-d 151-c 152-d 153-c 154-d 155-d 156-d 157-b 158-b 159-d 160-c 161-b
 
-SECTION E: INDIAN ECONOMY (Prelims 2011-2022, topic-wise) -- FULL (173 Qs)
+SECTION E: INDIAN ECONOMY (Prelims 2011-2021, topic-wise) -- FULL (160 Qs)
 
 --- Economic Growth ---
 Ec Q1 (2018): Increase in absolute & per capita real GNP does not connote higher economic development, if? (industrial output fails to keep pace with agricultural output/agricultural output fails to keep pace with industrial output/poverty and unemployment increase/imports grow faster than exports)
@@ -494,10 +474,6 @@ Ec Q50 (2011) [why Govt disinvesting equity in CPSEs]: intends to use revenue ea
 Ec Q51 (2011) [purpose of promoting 'Mega Food Parks']: good infrastructure for food processing industry; increase processing of perishable items reduce wastage; provide emerging eco-friendly food processing tech to entrepreneurs. Which code?
 
 --- Banking Sector in India ---
-Ec Q52 (2022): if inflation too high RBI likely to buy govt securities; if rupee rapidly depreciating RBI likely to sell dollars; if interest rates in USA/EU fall likely to induce RBI to buy dollars. Which correct?
-Ec Q53 (2022): credit rating agencies regulated by RBI; ICRA is public limited company; Brickwork Ratings is Indian credit rating agency. Which correct?
-Ec Q54 (2022) [Banks Board Bureau BBB]: Governor of RBI is Chairman of BBB; BBB recommends selection of heads for PSBs; BBB helps PSBs in developing strategies & capital raising plans. Which correct?
-Ec Q55 (2022) [responsible for maintaining price stability by controlling inflation]: (Dept of Consumer Affairs/Expenditure Management Commission/Financial Stability & Development Council/RBI)
 Ec Q56 (2021): Governor of RBI appointed by Central Govt; Constitution gives Central Govt right to issue directions to RBI in public interest; Governor draws power from RBI Act. Which correct?
 Ec Q57 (2021) [Urban Cooperative banks]: supervised/regulated by local boards set up by State Govts; can issue equity/preference shares; brought under Banking Regulation Act 1949 via 1966 Amendment. Which correct?
 Ec Q58 (2021) [central bank's 'lender of last resort' function refers to]: Lending to trade/industry bodies when fail to borrow elsewhere; Providing liquidity to banks with temporary crisis; Lending to govts to finance budgetary deficits. Which code?
@@ -546,8 +522,6 @@ Ec Q98 (2012) [circumstances 'capital gains' may arise]: increase in sales of pr
 Ec Q99 (2011) [NOT a feature of "Value Added Tax"]: (multi-point destination-based system/tax levied on value addition at each stage of production-distribution chain/tax on final consumption of goods/services borne by consumer/basically subject of Central Govt, States only facilitator)
 
 --- Public Finance ---
-Ec Q100 (2022) [expenditure by organization/company]: Acquiring new technology is capital expenditure; Debt financing considered capital expenditure, equity financing revenue expenditure. Which correct?
-Ec Q101 (2022): share of household financial savings goes to govt borrowings; dated securities issued at market related rates at auctions large component of internal debt. Which correct?
 Ec Q102 (2021) [main cause of worry from creation of black money]: Diversion of resources to real estate/luxury housing; Investment in unproductive activities/precious stones/jewellery/gold; Large donations to political parties, growth of regionalism; Loss of revenue to State Exchequer due to tax evasion. Which is main effect?
 Ec Q103 (2020) [non-financial debt includes]: Housing loans owed by households; Amounts outstanding on credit cards; Treasury bills. Which code?
 Ec Q104 (2017): Tax revenue as % of GDP steadily increased last decade; Fiscal deficit as % of GDP steadily increased last decade. Which correct?
@@ -559,9 +533,6 @@ Ec Q109 (2015) [Union Govt]: Dept of Revenue responsible for preparation of Unio
 Ec Q110 (2015) [decrease in tax to GDP ratio indicates]: Slowing economic growth rate; Less equitable distribution of national income. Which code?
 
 --- External Sector of India ---
-Ec Q111 (2022) ["Rapid Financing Instrument" & "Rapid Credit Facility" related to lending by]: (Asian Development Bank/IMF/UNEP Finance Initiative/World Bank)
-Ec Q112 (2022): increase in NEER indicates appreciation of rupee; increase in REER indicates improvement in trade competitiveness; increasing domestic inflation trend relative to others causes increasing divergence between NEER & REER. Which correct?
-Ec Q113 (2022) [ECBs/currency]: Tight US Fed monetary policy could lead to capital flight; Capital flight may increase interest cost of firms with existing ECBs; Devaluation of domestic currency decreases currency risk of ECBs. Which correct?
 Ec Q114 (2021) [effect of devaluation necessarily]: Improves competitiveness of domestic exports in foreign markets; Increases foreign value of domestic currency; Improves trade balance. Which correct?
 Ec Q115 (2021) [can be included in FDI]: Foreign currency convertible bonds; Foreign institutional investment with certain conditions; Global depository receipts; Non-resident external deposits. Which code?
 Ec Q116 (2020) [India's international trade]: merchandise exports less than imports; imports of iron/steel/chemicals/fertilisers/machinery decreased recently; services exports more than services imports; overall trade/current account deficit. Which code?
@@ -589,8 +560,6 @@ Ec Q137 (2011) [IMF correct statement]: (can grant loans to any country/only dev
 Ec Q138 (2011) [FDI vs FII important difference]: FII brings mgmt skills+tech, FDI only capital; FII increases capital availability generally, FDI targets specific sectors; FDI flows only into secondary market, FII targets primary; FII considered more stable than FDI - which best represents
 
 --- Security Market in India ---
-Ec Q139 (2022) [advantages of "Inflation-Indexed Bonds (IIBs)"]: Govt can reduce coupon rates; IIBs protect investors from inflation uncertainty; interest+capital gains on IIBs not taxable. Which correct?
-Ec Q140 (2022) [activities constitute a real sector]: Farmers harvesting crops; Textile mills converting cotton to fabrics; Commercial bank lending to trading company; Corporate body issuing Rupee Denominated Bonds overseas. Which code?
 Ec Q141 (2021) [Indian Govt Bond Yields influenced by]: Actions of US Federal Reserve; Actions of RBI; Inflation and short-term interest rates. Which code?
 Ec Q142 (2021): Retail investors via Demat can invest in Treasury Bills/Govt Debt Bonds in primary market; NDS-OM govt securities trading platform of RBI; CDSL jointly promoted by RBI and BSE. Which correct?
 Ec Q143 (2020) [FDI in India major characteristic]: (investment through capital instruments essentially in listed company/largely non-debt creating capital flow/investment involving debt-servicing/investment by foreign institutional investors in Govt Securities)
@@ -616,7 +585,6 @@ Ec Q158 (2013) [Disguised unemployment generally means]: (large number remain un
 Ec Q159 (2012) [Multi-dimensional Poverty Index, Oxford Poverty & Human Development with UNDP, covers]: Deprivation of education/health/assets/services at household level; Purchasing power parity at national level; Extent of budget deficit/GDP growth rate at national level. Which code?
 
 --- Important Concepts in Economy ---
-Ec Q160 (2022) [Convertible Bonds]: option to exchange bond for equity pays lower interest rate; option to convert affords indexation to rising consumer prices. Which correct?
 Ec Q161 (2018) [commodity provided free to public by Govt, then]: (opportunity cost zero/opportunity cost ignored/opportunity costs transferred from consumers to tax-paying public/opportunity cost transferred from consumers of product to Govt)
 Ec Q162 (2014) [interest rate decreased in economy - will]: (decrease consumption expenditure/increase tax collection of Govt/increase investment expenditure/increase total savings)
 Ec Q163 (2013) [economic growth in country X will necessarily occur if]: (technical progress in world economy/population growth in X/capital formation in X/volume of world trade grows)
