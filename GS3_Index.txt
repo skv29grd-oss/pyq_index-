@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2024
+2013-2022 (2023 onwards: pyq_db/)
 
 GS-3
 
@@ -17,22 +17,6 @@ ECONOMY
 Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth, Development, Employment); Inclusive growth and issues therein
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-3 2024 What is the need for expanding the regional air connectivity in India? In this context, discuss the government's UDAN Scheme and its achievements. UDAN Air 15
-
-4 2024 Discuss the merits and demerits of the four 'Labour Codes' in the context of labour market reforms in India. What has been the progress so far in this regard? Labour Codes 15
-
-5 2024 What are the causes of persistent high food inflation in India? Comment on the effectiveness of the monetary policy of the RBI to control this type of inflation. Monetary Policy 10
-
-6 2024 Examine the pattern and trend of public expenditure on social services in India. To what extent has this been in consonance with achieving inclusive growth? Pattern and Trend of public expenditure 10
-
-7 2023 Distinguish between 'care economy' and 'monetised economy'. How can the objective of women empowerment be brought into the monetised economy through the care economy in the post-pandemic period? Care economy 15
-
-8 2023 Most of the unemployment in India is structural in nature. Examine the methodology adopted to compute unemployment in the country and suggest improvements. Methodology of unemployment 15
-
-9 2023 What is the status of digitalization in the Indian economy? Examine the problems faced in this regard and suggest improvements. Digitalization 10
-
-10 2023 Faster economic growth requires increased share of the manufacturing sector in GDP, particularly of MSMEs. Comment on the present policies of the government in this regard. MSME 10
 
 11 2022 Economic growth in the recent past has been led by an increase in labour productivity. Explain this statement. Suggest the growth pattern that will lead to creation of more jobs without compromising labour productivity. Growth & Employment 15
 
@@ -152,12 +136,6 @@ Major crops, Cropping Patterns in various parts of the country, Different types 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-2 2024 What are the major challenges faced by Indian irrigation system in recent times? State the measures taken by the government for efficient irrigation management. Irrigation efficiency 15
-
-3 2024 Explain the role of millets for ensuring health and nutritional security in India. Millets 10
-
-4 2023 Explain the changes in cropping patterns in India in the context of changes in consumption patterns and marketing conditions. Cropping pattern 15
-
 5 2022 What is Integrated Farming System? How is it helpful to small and marginal farmers in India? Integrated farming system 10
 
 6 2021 What are the major factors responsible for making water a bane in agricultural areas? Water crisis 15
@@ -190,8 +168,6 @@ E-technology to aid farmers, Technology missions.
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-1 2023 How does e-Technology help farmers in production and marketing of agricultural produce? Explain it. E-tech for production & marketing 15/10
-
 2 2021 What are the present challenges before crop diversification? How do emerging technologies provide an opportunity for crop diversification? Crop diversification 15
 
 3 2019 How can biotechnology improve the living standards of farmers? Biotech for farmers 15
@@ -203,8 +179,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Food processing and related industries in India (scope & significance, location, upstream-downstream requirements, supply chain management); Storage, transport & marketing of agro-produce and related issues & constraints; Economics of animal-rearing
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-3 2024 Elucidate the importance of buffer stocks for stabilizing agricultural prices in India. What are the challenges associated with the storage of buffer stock? Discuss. Buffer Stock 15
 
 4 2022 What are the main bottlenecks in upstream and downstream process of marketing of agricultural products in India? Agricultural Marketing 15
 
@@ -236,10 +210,6 @@ Land Reforms in India
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-1 2024 What were the factors responsible for the successful implementation of land reforms in some parts of the country? Elaborate. Success of Land Reforms 10
-
-2 2023 State the objectives and measures of land reforms in India. Discuss how land ceiling policy on landholding can be considered as an effective reform under economic criteria. Objectives of Land Reforms 10
-
 3 2021 How did land reforms in some parts of the country help to improve the socio-economic conditions of marginal and small farmers? Land Reforms for Farmers 10
 
 4 2016 Discuss the role of land reforms in agricultural development. Identify the factors that were responsible for the success of land reforms in India. Land Reforms for Agriculture 12.5
@@ -251,8 +221,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Farm subsidies and MSP and issues therein (direct and indirect); PDS (objectives, functioning, limitations, revamping, issues of buffer stocks & food security)
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-1 2023 What are the direct and indirect subsidies provided to farm sector in India. Discuss the issues raised by the World Trade Organization (WTO) in relation to agricultural subsidies. Direct and indirect subsidies 15
 
 2 2022 What are the major challenges of Public Distribution System (PDS) in India? How can it be made effective and transparent? PDS challenges 10
 
@@ -275,12 +243,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 DISASTER MANAGEMENT
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-1 2024 Flooding in urban areas is an emerging climate-induced disaster. Discuss the causes of this disaster. Mention the features of two such major floods in the last two decades in India. Describe the policies and frameworks in India that aim at tackling such floods. Urban Floods 15
-
-2 2024 What is disaster resilience? How is it determined? Describe various elements of a resilience framework. Also mention the global targets of Sendai Framework for Disaster Risk Reduction (2015-2030). Sendai 15
-
-3 2023 Dam failures are always catastrophic, especially on the downstream side, resulting in a colossal loss of life and property. Analyse the various causes of dam failures. Give two examples of large dam failures. Dam Failures 10
 
 4 2022 Explain the causes and effects of coastal erosion in India. What are the available coastal management techniques for combating the hazard? Coastal Erosion 15
 
@@ -315,16 +277,6 @@ ENVIRONMENT
 Conservation; Environmental pollution and degradation; Environmental Impact Assessment; El Nino and La Nina fallouts
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-5 2024 What role do environmental NGOs and activists play in influencing Environmental Impact Assessment (EIA) outcomes for major projects in India? Cite four examples with all important details. NGO for EIA 10
-
-6 2024 Industrial pollution of river water is a significant environmental issue in India. Discuss the various mitigation measures to deal with this problem and also the government's initiatives in this regard. Industrial waste 15
-
-7 2023 The Intergovernmental Panel on Climate Change (IPCC) has predicted a global sea level rise of about one metre by AD 2100. What would be its impact in India and the other countries in the Indian Ocean region? Climate Change impact on Indian Ocean 15
-
-8 2023 Comment on the National Wetland Conservation Programme initiated by the Government of India and name a few India's wetlands of international importance included in the Ramsar Sites. National Wetland Conservation Programme 10
-
-9 2023 What is oil pollution? What are its impacts on the marine ecosystem? In what way is oil pollution particularly harmful for a country like India. Oil pollution 15
 
 10 2022 Discuss global warming and mention its effects on the global climate. Explain the control measures to bring down the level of greenhouse gases which cause global warming, in the light of the Kyoto Protocol, 1997. Kyoto 15
 
@@ -386,16 +338,6 @@ S&T developments and everyday applications & effects; Awareness in fields of IT,
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-4 2024 The world is facing an acute shortage of clean and safe freshwater. What are the alternative technologies which can solve this crisis? Briefly discuss any three such technologies citing their key merits and demerits. Freshwater 15
-
-5 2024 What is the present world scenario of intellectual property rights with respect to life materials? Although India is second in the world to file patents, still only a few have been commercialized. Explain the reasons behind this less commercialization. IPR 10
-
-6 2023 The adoption of electric vehicles is rapidly growing worldwide. How do electric vehicles contribute to reducing carbon emissions and what are the key benefits they offer compared to traditional combustion engine vehicles? EV 10
-
-7 2023 Discuss several ways in which microorganisms can help in meeting the current fuel shortage. Fuel shortage 15
-
-8 2023 Introduce the concept of Artificial Intelligence (AI). How does AI help clinical diagnosis? Do you perceive any threat to privacy of the individual in the use of AI in healthcare? AI 10
-
 9 2022 Launched on 25th December, 2021, what are the key features and goals of the James Webb Space Telescope which has made it much superior to its predecessor Space Telescopes? JWT 15
 
 10 2022 The increase in life expectancy in the country has led to newer health challenges in the community. What are those challenges and what steps need to be taken to meet them? Life expectancy 10
@@ -434,12 +376,6 @@ Achievements of Indians in S&T; Indigenisation of technology & development of ne
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-3 2024 What are asteroids? How real is the threat of them causing extinction of life? What strategies have been developed to prevent such a catastrophe? Asteroids 10
-
-4 2024 What is the technology being employed for electronic toll collection on highways? What are its advantages and limitations? What are the proposed changes that will make this process seamless? Would this transition carry any potential hazards? Toll collection 10
-
-5 2023 What is the main task of India's third moon mission which could not be achieved in its earlier mission? List the countries that have achieved this task. Moon mission 15
-
 6 2022 Introduce the system in the spacecraft launched from Sriharikota. Explain the role of the 'Virtual Launch Control Centre' at Vikram Sarabhai Space Centre which contributed to the successful launch. 10
 
 7 2022 What is the basic principle behind vaccine development? How do vaccines work? What approaches were adopted by the Indian vaccine manufacturers to produce COVID-19 vaccines? Vaccine development 15
@@ -472,12 +408,6 @@ Linkages between Development & spread of Extremism; Linkages of Organized crime 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-3 2024 Explain how narco-terrorism has emerged as a serious threat across the country. Suggest suitable measures to counter narco-terrorism. Narco-Terrorism 10
-
-4 2023 Give out the major sources of terror funding in India and the efforts being made to curtail these sources. In the light of this, also discuss the aim and objective of the No Money for Terror (NMFT) Conference recently held at New Delhi in November 2022. Terror Financing 15
-
-5 2023 Winning of 'Hearts and Minds' in terrorism affected areas is an essential step in restoring the trust of the population. Discuss the measures adopted by the Government in this respect as part of the conflict resolution in Jammu and Kashmir. Hearts and Minds 15
-
 6 2022 Naxalism is a social, economic and developmental issue manifesting as a violent internal security threat. In this context, discuss the emerging issues and suggest a multilayered strategy to tackle the menace of Naxalism. LWE manifestation 15
 
 7 2022 Discuss the types of organised crimes. Describe the linkages between terrorists and organised crime that exist at the national and transnational levels. Types of OC & Linkages 10
@@ -509,10 +439,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Border Areas (security challenges and management thereof); Security forces & agencies (mandate); Role of External State & Non-State actors in creating internal security challenges
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-3 2024 India has a long and troubled border with China and Pakistan fraught with contentious issues. Examine the conflicting issues and security challenges along the border. Also give out the development being undertaken in these areas under the Border Area Development Programme (BADP) and Border Infrastructure and Management (BIM) Scheme. BADP, BIM 15
-
-4 2023 The use of unmanned aerial vehicles (UAVs) by our adversaries across the borders to ferry arms/ammunitions, drugs, etc, is a serious threat to the internal security. Comment on the measures being taken to tackle this threat. UAV 10
 
 5 2022 What are the maritime security challenges in India? Discuss the organisational and procedural initiatives taken to improve the maritime security. Maritime Border 15
 
@@ -559,12 +485,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Basics of Cyber Security; Role of media and social-networking sites in internal security challenges; Internal security challenges through communication networks.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-1 2024 Social media and encrypting messaging services pose a serious security challenge. What measures have been adopted at various levels to address the security implications of social media? Also suggest any other remedies to address the problem. Social Media Threat 15
-
-2 2024 Describe the context and salient features of the Digital Personal Data Protection Act, 2023. Digital Personal Data Protection Act 2023 10
-
-3 2023 What are the internal security challenges being faced by India? Give out the role of Central Intelligence and Investigative Agencies tasked to counter such threats. Central Intelligence and Investigative Agencies 15
 
 4 2022 What are the different elements of cyber security? Keeping in view the challenges in cyber security, examine the extent to which India has successfully developed a comprehensive National Cyber Security Strategy. Elements of cyber security 10
 

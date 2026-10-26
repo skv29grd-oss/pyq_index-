@@ -1,4 +1,4 @@
-TATHASTU Institute Of Civil Services - PREVIOUS YEAR QUESTIONS (SUBJECT & TOPIC WISE) 2013-2024 - GS-4 (ETHICS)
+TATHASTU Institute Of Civil Services - PREVIOUS YEAR QUESTIONS (SUBJECT & TOPIC WISE) 2013-2022 (2023 onwards: pyq_db/) - GS-4 (ETHICS)
 
 ===================================================================
 SECTION-A: THEORY QUESTIONS
@@ -6,9 +6,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Ethics and Human Interface, Determinants and Consequences of Ethics in Human Actions; Dimensions of Ethics; Ethics in Private and Public Relationships]
 
-2 2024 The rational application of ethical dimensions in decision-making is a key source of guiding administrative decision-making. Discuss with suitable examples. Ethical Decision Making 10
-3 2024 "Unjust ethical influence towards organizations that encompasses just and morally responsible behaviour." Critically examine the above statement. Changing Ethical Values 10
-4 2024 Examine how Artificial Intelligence (AI) as a dependable and constantly evolving context should be a crucial source of input for administrative decision-making. AI Ethics 10
 5 2022 It is believed that adherence to ethics in human actions would ensure smooth functioning of an organization/system. If so, what does ethics seek to promote in human life? How do ethical values assist in the resolution of conflicts faced by him in his day-to-day functioning? Role of Ethics 10
 6 2019 What are the basic principles of public life? Illustrate any three of these with suitable examples. Principles of Public Life 10
 7 2018 What does this quotation mean to you in the present context: "Falsehood takes the place of truth when it results in unblemished common good." - Tirukkural. Means V/S End 10
@@ -35,8 +32,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Attitude: Content, Structure, Function; its Influence and Relation with Thought and Behaviour; Moral and Political Attitudes; Social Influence and Persuasion]
 
-2 2024 Examine gender-specific challenges faced by female public servants and suggest measures to increase their efficiency and maintain high standards of probity. Gender Specific Challenges 10
-3 2023 Differentiate 'moral intuition' from 'moral reasoning' with suitable examples. Moral Intuition V/S Moral Reasoning 10
 4 2021 Attitude is an important component that goes as input in the development of humans. How to build a suitable attitude needed for a public servant? Attitude for Public Servant 10
 5 2021 Impact of digital technology as a reliable source of input for rational decision making is a debatable issue. Critically evaluate with a suitable example. Technology for Decision 10
 6 2020 A positive attitude is considered to be an essential characteristic of a civil servant who is often required to function under extreme stress. What contributes to a positive attitude in a person? Positive Attitude 10
@@ -48,8 +43,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Aptitude and Foundational Values for Civil Service: Integrity, Impartiality and Non-partisanship, Objectivity, Dedication to Public Service, Empathy, Tolerance and Compassion towards weaker sections]
 
-2 2024 The soul of the new law, Bharatiya Nyaya Sanhita (BNS), is Justice, Equality and Impartiality based on Indian culture and ethos. Discuss the major shift from a doctrine of punishment to justice in the present judicial system. BNS 10
-3 2024 "Mindless addiction to Form, ignoring the Substance of the matter, results in rendering of injustice. A perceptive civil servant is one who ignores such literalness and carries out true intent." Examine with suitable illustrations. Form V/S Substance 10
 4 2022 Apart from Integrity, other attributes that empower civil servants to be more competent are: (i) Intellectual moral qualities, (ii) Devotion to duty, (iii) Empathy and compassion, (iv) Probity in public life. Explain with suitable illustration. Multiple Moral Attributes 10
 5 2022 Conflict of interest and critical decisions -- Explain with suitable illustrations. Conflict of Interest 10
 6 2021 Constitutional morality is a vital value that facilitates human being with digitalization competency to tackle challenges of the civil servants. Justify. Integrity Empowers 10
@@ -66,7 +59,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Emotional Intelligence - Concepts, and their Utilities and Application in Administration and Governance]
 
-2 2023 What really matters for success, character, happiness, and lifelong achievements is a definite set of emotional skills (EQ), not just purely cognitive abilities (IQ). Do you agree? Give reasons. EI V/S IQ 10
 3 2021 In case of crisis of conscience, does emotional intelligence help to overcome the same without compromising the ethical or moral stand you are likely to follow? Critically examine. EI For Crisis of Conscience 10
 4 2020 What are the main components of emotional intelligence (EI)? Can they be learned? Discuss. EI Components 10
 5 2019 "Emotional Intelligence is the ability to make your emotions work for you instead of against you." Do you agree? Discuss. EI Use 10
@@ -82,7 +74,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Public/Civil Service Values and Ethics in Public Administration: Status and Problems; Ethical Concerns and Dilemmas in Government and Private Institutions; Laws, Rules, Regulations and Conscience as Sources of Ethical Guidance; Accountability and Ethical Governance; Strengthening of Ethical and Moral Values in Governance; Ethical Issues in International Relations and Funding; Corporate Governance]
 
-4 2023 Is conscience a more reliable guide when compared to laws, rules, and regulations in the context of ethical decision-making? Discuss. Conscience V/S Law 10
 5 2022 The Rules and Regulations provided to all civil servants are same, yet there is difference in performance. Positive minded officers interpret Rules in favour of the case; negative minded officers cannot achieve goals with the same Rules. Discuss with illustrations. Positive Minded Officers 10
 6 2021 An independent and empowered social audit mechanism is an absolute must in every sphere of public service, including the judiciary, to ensure performance, accountability and ethical conduct. Elaborate. Social Audit Mechanism 10
 7 2021 Refugees should not be turned back to a country where they would face persecution or human rights violation. Examine with reference to ethical dimensions violated by a nation claiming to be democratic with an open society. Refugees 10
@@ -109,10 +100,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Ethical issues in international relations and funding, Corporate governance]
 
-2 2024 Global warming and climate change are outcomes of human greed in the name of development. How do you put an end to this and bring equilibrium between society and environment? Society V/S Environment 10
-3 2024 The major weapon industries of developed nations are adversely influencing continuation of wars for self-interest. What are the ethical considerations of powerful nations to stop continuation of ongoing conflicts? War 10
-4 2023 International aid is an accepted form of helping resource-challenged nations. Comment on ethics in contemporary international aid with examples. International Aid 10
-5 2023 What do you understand by 'moral integrity' and 'professional efficiency' in the context of corporate governance in India? Illustrate. Corporate Governance 10
 6 2022 Corporate sector's contribution to wealth/employment is increasing, but bringing unprecedented onslaught on climate and environment. Is Corporate Social Responsibility (CSR) efficient and sufficient to fulfil social responsibilities? Critically examine. CSR 10
 7 2022 Russia-Ukraine war: what ethical issues are crucial to consider while launching a war and its continuation? Illustrate. War 10
 8 2020 Discuss the role of ethics and values in enhancing Comprehensive National Power (CNP) components: human capital, soft power, social harmony. CNP 10
@@ -124,8 +111,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Probity in Governance: Concept of Public Service; Philosophical Basis of Governance and Probity; Information Sharing and Transparency in Government, Right to Information]
 
-2 2023 Explain the term social capital. How does it enhance good governance? Social Capital 10
-3 2023 Probity is essential for an effective system of governance and socio-economic development. Discuss. Probity 10
 4 2022 What do you understand by 'good governance'? How far have recent e-Governance initiatives helped beneficiaries? e-Governance 10
 5 2022 "Wisdom lies in knowing what to reckon with and what to overlook." Does an administrator's preoccupation with periphery over core issues lead to travesty of justice? Critically evaluate. Wisdom for Governance 10
 6 2019 There is a view that the Official Secrets Act is an obstacle to implementation of the RTI Act. Do you agree? Discuss. OSA V/S RTI 10
@@ -138,10 +123,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Codes of Ethics, Codes of Conduct, Citizen's Charters, Work Culture, Quality of Service Delivery, Utilization of Public Funds, Challenges of Corruption]
 
-3 2024 Mission Karmayogi aims at maintaining a high standard of conduct and behaviour for civil servants. How will this scheme empower civil servants in enhancing productive efficiency at the grassroots level? Service Delivery 10
-4 2024 'Code of Conduct' and 'Code of Ethics' are sources of guidance in public administration; code of conduct exists but code of ethics does not. Suggest a suitable model for code of ethics. Code of Ethics 10
-5 2023 Differentiate between 'coercion' and 'undue influence' in the context of work environment with suitable examples. Coercion and Undue Influence 10
-6 2023 Corruption is the manifestation of failure of core values in society. What measures can be adopted to uplift core values in society? Uplift the Core Values 10
 7 2022 Whistle blowers who report corruption run the risk of grave danger and victimization. What policy measures would you suggest to strengthen protection mechanisms for whistle blowers? Safeguard the Whistle Blower 10
 8 2019 Effective utilisation of public funds is crucial to meet development goals. Critically examine reasons for underutilization/misutilisation and their implications. Utilisation of Public Funds 10
 9 2019 Non-performance of duty by a public servant is a form of corruption. Do you agree? Justify. Non-performance of Duty 10
@@ -158,18 +139,6 @@ SECTION-B: CASE STUDIES (2013-2024) - topic index only
 ===================================================================
 [NOTE: Case studies are long descriptive scenarios (20 marks each); the underlying PDF extraction suffered severe OCR column-merge garbling on nearly every case in this section, making faithful full-text reconstruction unreliable. Below is a verified year + core-dilemma + topic-tag index for quick keyword/topic matching against daily current affairs; consult the source PDF (GS_4_PYQs_2013_25 in the PYQs folder) for exact original wording of any specific case.]
 
-7 2024 Water Crisis V/S Agriculture 20 (Rohit, District Collector; severe drinking water crisis, groundwater over-exploitation, naxalite-affected farmers demanding water, hostage/hearts-and-minds dilemma)
-8 2024 Naxal Operations & Mob Management 20 (Rohit continued - hardcore naxalites apprehended, tribal women protesters demanding release, firing risk)
-9 2024 Radicalization of Youth using Social Media 20 (Raman, DG of state; new terrorist group recruiting unemployed youth via Facebook/WhatsApp/Twitter targeting a particular community)
-10 2024 Conflict of Interest 20 (Sneha, hospital administrator; brother is medical equipment supplier bidding for hospital procurement contract)
-11 2024 Environment V/S AI 20 (ABC Inc. CEO/CTO; 48% rise in GHG emissions due to AI data centre energy use vs net-zero-by-2030 commitment)
-12 2024 Data Ethics and Drug Ethics 20 (Dr. Srinivasan, biotech scientist; pressure to manipulate clinical trial data, skip informed consent, use rival's patented compound to expedite viral-disease drug approval)
-13 2023 EI at Work Place 20 (Vinod/Seema, senior architect facing harassment/political pressure re: Road Transport Corporation Chairman; QMR tyres tender irregularity)
-14 2023 Politicization of Bureaucracy 20 (continuation of Vinod's case - options and ethical issues from politicization of bureaucracy)
-15 2023 Work Life Balance 20 (Rashika, Joint Secretary; late-night work demands vs young children/family; women's workplace welfare laws)
-16 2023 Conflict of Interest 20 (school Principal informs about son's sporting-field bullying video going viral; ethical handling of social media fallout)
-17 2023 Misuse of Social Media 20 (deepfake/denigrating video of family member; countering fake propaganda)
-18 2023 Landslide Dilemma 20 (District Magistrate at landslide site; pregnant woman needing blood transfusion but only unlicensed on-site blood available - professional protocol vs saving life)
 19 2022 Environment V/S Development 20 (Inspecting Team officer; polluting export-oriented industrial units facing closure vs migrant worker unemployment during COVID-19/recession)
 20 2022 Business W/O Morality 20 (Inspection Team; consignment with quality defects being cleared for domestic market despite objections; threat of job termination for non-compliance)
 21 2022 Personal Ethics 20 (Prabhat, VP Marketing, Sterling Electric Ltd.; pressure to win Defence Ministry tender via broker Subhash Verma amid company's financial distress)

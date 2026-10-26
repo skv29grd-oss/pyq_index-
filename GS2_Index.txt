@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2024
+2013-2022 (2023 onwards: pyq_db/)
 
 GS-2
 
@@ -17,30 +17,6 @@ POLITY
 Historical underpinnings, evolution; Features, amendments, significant provisions & basic structure ; Comparison of Indian constitutional scheme with that of other countries.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-5 2024
-
-Right to privacy is intrinsic to life and personal liberty and is inherently protected under Article 21 of the Constitution. Explain. In this reference, discuss the law relating to DNA testing of a child in the womb to establish its paternity.
-
-Article 21 15
-
-6 2024 Discuss India as a secular state and compare it with the secular principles of the US Constitution. Secularism(USA) 15
-
-7 2023 Compare and contrast the British and Indian approaches to Parliamentary sovereignty. British 10
-
-8 2023
-
-The Constitution of India is a living instrument with capabilities of enormous dynamism. "It is a constitution made for a progressive society." Illustrate with special reference to the expanding horizons of the right to life and personal liberty.
-
-Article 21 15
-
-9 2023 Explain the constitutional provisions and case laws of Gender Justice with the help of relevant Constitutional Provisions and perspectives.
-
-Gender Justice 15
-
-10 2023 Account for the legal and political factors responsible for the reduced frequency of using Article 356 by the Union Governments since mid 1990s.
-
-Article 356 15
 
 11 2022
 
@@ -108,8 +84,6 @@ Khap 12.5
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2024 What growth do you understand by cabinet reverence in Parliamentary functioning); Elucidate with examples for this entail. Committee 15
-
 3 2021 To what extent, in your view, is the Parliament able to ensure accountability of the executive in India?
 
 Executive (Accountability) 10
@@ -129,22 +103,6 @@ Article 72 12.5
 Union and State Legislatures (structure, functioning, conduct of business, powers & privileges; issues therein); Salient features of the Representation of People's Act.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-2 2024 Examine the need for electoral reforms as suggested by various committees with particular reference to the "one nation – one election" principle. Electoral Reforms 10
-
-3 2023 Explain the structure of the Parliamentary Committee system. How far have the financial committees helped in the institutionalization of Indian Parliament?
-
-Parliamentary Committee 15
-
-4 2023 Discuss the contribution of civil society groups for women's effective participation and representation in state legislatures in India.
-
-State 15
-
-5 2023
-
-Discuss the role of Presiding Officers of state legislatures in maintaining order and impartiality in conducting legislative work and in facilitating best democratic practices.
-
-Presiding Officer 10
 
 6 2022 Discuss the essential conditions for the exercise of the legislative powers by the Governor. Discuss the legality of the re-promulgation of ordinances by the Governor without placing them before the Legislature.
 
@@ -222,16 +180,6 @@ Separation of Powers (between different organs, dispute redressal mechanisms, in
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-2 2024
-
-Explain the reasons for the growth of public interest litigation in India. As a result of it, has the Indian Supreme Court emerged as the world's most powerful judiciary?
-
-PIL 15
-
-3 2023 Constitutionally guaranteed judicial independence is a prerequisite of democracy. Comment.
-
-Judiciary 10
-
 4 2022 To what extent, in your opinion, has the decentralisation of power in India changed the governance landscape at the grassroots?
 
 5 2021 Discuss the desirability of greater representation to women in the higher judiciary to ensure diversity, equity and inclusiveness.
@@ -277,20 +225,6 @@ Basic Structure Doctrine
 Functions & responsibilities of the Union and the States; issues and challenges of federal structure. Devolution of powers and finances to local levels; challenges therein.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-2 2024
-
-What changes has the Union Government recently introduced in the domain of Centre-State relations? Suggest measures to be adopted to build the trust between the Centre and the States and for strengthening federalism.
-
-Federalism 15
-
-3 2023 Explain the significance of the 101st Constitutional Amendment Act. To what extent does it reflect the accommodative spirit of federalism?
-
-101 CAA 15
-
-4 2023 "The states in India seem reluctant to empower urban local bodies both functionally as well as financially." Comment.
-
-Local level 10
 
 5 2022 "While the national political parties in India favour centralisation, the regional parties are in favour of State autonomy." Comment.
 
@@ -379,16 +313,6 @@ Appointment to various Constitutional posts; Constitutional Bodies (powers, func
 Qs. No. YEAR QUESTION TOPIC MARKS
 
 NCPCR 15
-
-4 2024 Explain and distinguish between Lok Adalats and Arbitration Tribunals. Do they entertain civil as well as criminal cases? Quasi-judicial 10
-
-5 2024 The duty of the Comptroller and Auditor General is not merely to ensure the legality of expenditure but also its propriety. Comment.
-
-CAG 10
-
-6 2023 Who are entitled to receive free legal aid? Assess the role of the National Legal Services Authority (NALSA) in rendering free legal aid in India.
-
-NALSA 10
 
 7 2022 Discuss the role of the Election Commission of India in light of the evolution of the Model Code of Conduct. EC 15
 
@@ -498,8 +422,6 @@ Welfare Schemes (centre, states; performance, mechanisms, protection of vulnerab
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-2 2023 Development and welfare schemes for the vulnerable, by its nature, discriminatory in approach. Do you agree? Give reasons for your answer. Discriminatory 15
-
 3 2022 Besides the welfare schemes, India needs deft management of unemployment and inflation to serve the poor and the underprivileged sections of society. Discuss. Performance of institutions and bodies constituted for Women 15
 
 4 2022 The Rights of Persons with Disabilities Act, 2016 remains only a legal document without intense sensitisation of government functionaries and citizens regarding disability. Comment. PWD 2016 10
@@ -528,8 +450,6 @@ Poverty and Hunger
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-2 2024 Poverty and malnutrition create a vicious cycle, adversely affecting human capital formation. What steps can be taken to break the cycle? Vicious Cycle 10
-
 3 2020 "The incidence and intensity of poverty are more important in determining poverty than poverty based on income alone". In this context analyse the latest United Nations Multidimensional Poverty Index Report. Incidence and Intensity 15
 
 4 2019 There is a growing divergence in the relationship between poverty and hunger in India. The shrinking of social expenditure by the government is forcing the poor to spend more on non-food essential items squeezing their food-budget. Elucidate. Inter-relation 10
@@ -547,10 +467,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Social Sector & Social Services (health, education, human resources - issues in development, management)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-2 2024 In a crucial domain like the public healthcare system, the Indian State should play a vital role to contain the adverse impact of marketisation of the system. Suggest some measures through which the State can enhance the reach of public healthcare at the grassroots level. Health 15
-
-3 2023 The crucial aspect of development process has been the inadequate attention paid to Human Resource Development in India. Suggest measures that can address this inadequacy. HR 10
 
 4 2022 The Right of Children to Free and Compulsory Education Act, 2009 remains inadequate in promoting an incentive-based system for children's education without generating awareness about the importance of schooling. Analyse. Education 15
 
@@ -592,8 +508,6 @@ Government Policies & Interventions for development of various sectors (issues i
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2023 Skill development programmes have succeeded in increasing human resources supply to various sectors. In the context of the statement analyze the linkages between education, skill, and employment. Human Resources 15
-
 2 2022 Reforming the government delivery system through the Direct Benefit Transfer Scheme is a progressive step, but it has its limitations too. Comment. DBT 10
 
 3 2021 Though women in post-Independent India have excelled in various fields, the social attitude towards women and the feminist movement has been patriarchal. Apart from women education and women empowerment schemes, what interventions can help change this milieu? Women in Sectors 15
@@ -611,18 +525,6 @@ GOVERNANCE
 Important aspects of governance; Transparency and accountability (institutional and other measures); Citizens Charter; E-Governance (applications, models, successes, limitations, potential)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-2 2024 e-governance is not just about the routine application of technology. It is as much about multifarious accountability. In this context evaluate the realisation of its promise and suggest measures for the integrity and positive. Discuss. e-Governance 15
-
-3 2024 The Citizens' Charter has been a landmark initiative in providing citizen-centric administration. But it is yet to reach its full potential. Citizen's charter 15
-
-4 2024 The Doctrine of Democratic Governance makes it absolutely necessary for ensuring the commitment of civil servants to public service and ensuring good governance. Governance 10
-
-5 2024 Analyse the role of local bodies in local governance. Identify the factors hindering the interactions between rural and urban local bodies and bring out the pros and cons of merging them. Good Governance 10
-
-6 2024 What are the aims and objectives of the recently passed and enforced Public Examination (Prevention of Unfair Means) Act, 2024? Whether University/State Education Board examinations, too, are covered under the Act? Accountability 15
-
-7 2023 E-governance, as a critical tool of governance, has ushered effectiveness, transparency and accountability in governments. What inadequacies hamper the enhancement of these features? e-Governance 10
 
 8 2020 Recent amendments to the Right to Information Act will have profound impact on the autonomy and independence of the Information Commission". Discuss. Transparency 10
 
@@ -651,10 +553,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Development Processes & Development industry (role of NGOs, SHGs, groups & associations, donors, charities, institutional and other stakeholders); Pressure Groups & Formal, Informal associations (and their role in the polity); Role of Civil Services in a democracy.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-3 2024 Discuss the role played by Public charitable trusts in India's development. Refer to certain vital issues they have the potential to make aware of. Trusts 10
-
-4 2023 Do the decisions of the Competition Commission of India in containing the abuse of dominant position by MultiNational Corporations in India reflect the accommodative spirit of federalism as they relate to more inclusive development? Comment. CCI 10
 
 5 2022 Do you agree with the view that increasing dependence on donor agencies for development reduces the importance of community participation in the development process? Justify your answer. Donor 15
 
@@ -698,8 +596,6 @@ INTERNATIONAL RELATIONS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2024 Discuss India's Neighbourhood focus in relation to Maldives. Show this relationship affects India's maritime trade and energy flows. Further also discuss the geopolitical and geostrategic importance of India for regional stability and international competition. Maldives 15
-
 2 2022 'India is an age-old friend of Sri Lanka.' Discuss India's role in the recent crisis in Sri Lanka in light of the preceding statement. Sri Lanka 10
 
 3 2017 "China is using its economic relations and positive trade surplus as tools to develop potential military power status in Asia", In the light of this statement, discuss its impact on India as her neighbor. China 10
@@ -727,10 +623,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Effect of Policies & Politics of Developed and Developing countries on India (India's interests, diaspora)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-4 2024 "The West is fostering India as an alternative to reduce dependence on China's supply chain and as a strategic ally to counter China's political and economic dominance." Explain this statement with examples. West-China Influence 10
-
-5 2023 Indian diaspora has scaled new heights in the West. Describe its economic and political benefits for India. Diaspora West 10
 
 6 2022 'Clean energy is the order of the day.' Describe briefly India's changing policy towards climate change in the context of various international fora. Climate Policy 15
 
@@ -765,16 +657,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Important International institutions, agencies, fora (structure, mandate); Bilateral, Regional, Global groupings & Agreements (involving and/or affecting India)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-2 2024 'Terrorism has become a significant threat to global peace and security.' Evaluate the effectiveness of the United Nations Security Council's Counter Terrorism Committee (CTC) and its associated bodies in addressing and mitigating this threat at the international level. UNCTC 10/15
-
-3 2024 Critically analyse India's evolving diplomatic, economic and strategic relations with the Central Asian Republics (CARs) highlighting their increasing significance in regional and global geopolitics. Central Asia 15
-
-4 2023 "Sea is an important Component of the Cosmos" Discuss in the light of the above statement the role of the IMO (International Maritime Organisation) in protecting environment and enhancing maritime safety and security. IMO 10
-
-5 2023 'The expansion and strengthening of NATO and a stronger US-Europe strategic partnership works well for India.' What is your opinion about this statement? Give reasons and examples to support your answer. NATO 15
-
-6 2023 'Virus of Conflict is affecting the functioning of the SCO.' In the light of the above statement discuss the role of India in mitigating the problems. SCO 10
 
 7 2022 Do you think the 2U2 (India, Israel, UAE and USA) is a new grouping in global politics? How similar and dissimilar is this organisation when compared to BIMSTEC and SAARC? I2U2 15
 

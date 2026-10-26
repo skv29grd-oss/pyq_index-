@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2024
+2013-2022 (2023 onwards: pyq_db/)
 
 GS-1
 
@@ -17,30 +17,6 @@ ART AND CULTURE
 Salient aspects of Art, Architecture, Literature from Ancient to Modern Times
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-4 2024 Underline the changes in the field of society and
-
-economy from the Rig Vedic to the later Vedic period.
-
-5 2024 Though still remembered with great pride because of their art and architecture, no domain of Chola art has yet had more South Kanchi for the Later Chola 10 Rig Vedic V/s Later Vedic 15
-
-6 2024 Estimate the great contribution of Pallavas in the development of art and literature. Comment. Pallava 10
-
-7 2023 Explain the role of geographical factors towards the
-
-development of Ancient India. Geographical Factors 15
-
-8 2023
-
-What were the major technological changes introduced during the Sultanate period? How did those technological changes influence the Indian society?
-
-Technology in Sultanate 10
-
-9 2023
-
-What are the main features of Vedic society and religion? Do you think some of the features are still prevailing in Indian society?
-
-Vedic in Present 15
 
 10 2022 Evaluate the nature of the Bhakti literature and its
 
@@ -147,26 +123,6 @@ Sangam Literature 10
 Mid-18th century - Present (significant events, personalities, issues); Freedom struggle (various stages, important contributors from different parts of the country)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-3 2024 What were the events that led to the Quit India
-
-Movement? Point out its results. Quit India 1940s 10
-
-4 2024
-
-How far was the Industrial Revolution in England responsible for the decline of handicrafts and cottage industries in India
-
-Deindustrialisation 15
-
-5 2023
-
-What was the difference between Mahatma Gandhi and Rabindranath Tagore in their approach towards education and nationalism?
-
-Gandhi Tagore 10
-
-6 2023 How did the colonial rule affect the tribals in India and
-
-what was the tribal response to the colonial oppression? Tribal Response 15
 
 7 2022
 
@@ -356,16 +312,6 @@ World History: 18th century events (e.g. Industrial revolution, WWs, redrawn bou
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-2 2024
-
-How far is it correct to say that the First World War was fought essentially for the preservation of balance of power?
-
-World War 1 15
-
-3 2023 Bring out the socio-economic effects of the introduction
-
-of railways in different countries of the world. Railways Effects 10
-
 4 2021
 
 There arose a serious challenge to the democratic state system between the two world wars. Evaluate the statement.
@@ -439,40 +385,6 @@ SOCIETY
 Salient features of Indian Society; Diversity of India; Social Empowerment, Communalism, Regionalism & Secularism
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-2 2024
-
-Intercaste marriages between castes which have socio-economic parity have increased, to some extent, but this is less true of interreligious marriages. Discuss.
-
-Caste Religion Marriage 10
-
-3 2024
-
-What is regional disparity? How does it differ from diversity? How serious is the issue of regional disparity in India?
-
-Regional Disparity 15
-
-4 2024
-
-Despite comprehensive policies for equity and social justice, underprivileged sections are not yet getting the full benefits of affirmative action envisaged by the Constitution. Comment.
-
-Efficacy of Affirmative Action 15
-
-5 2024
-
-Critically analyse the proposition that there is a high correlation between India's cultural diversities and socio-economic marginalities.
-
-Diversity & Marginalisation 15
-
-6 2023 Do you think marriage as a sacrament is losing its
-
-value in Modern India? Marriage 10
-
-7 2023 Discuss the impact of post-liberal economy on ethnic
-
-identity and communalism. Ethnicity & Communalism 15
-
-8 2023 Why is caste identity in India both fluid and static? Caste System 15
 
 9 2022
 
@@ -616,24 +528,6 @@ Population and associated issues; Poverty and Development issues
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-2 2024 What is the concept of a 'demographic winter'? Is the
-
-world moving towards such a situation? Elaborate. Demographic Winter 10
-
-3 2024
-
-In dealing with socio-economic issues of development, what kind of collaboration between government, NGOs and private sector would be most productive
-
-Collaboration Model 10
-
-4 2023 Child cuddling is now being replaced by mobile phones.
-
-Discuss its impact on the socialization of children. Family 10
-
-5 2023 Why did human development fail to keep pace with
-
-economic development in India? Developmental Issues 15
-
 6 2021
 
 Discuss the main objectives of Population Education and point out the measures to achieve them in India in detail.
@@ -693,16 +587,6 @@ factors rather than social values. Discuss. Joint Family Lifecycle 10
 Urbanization problems and remedies
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-2 2024
-
-Why do large cities tend to attract more migrants than smaller towns? Discuss in the light of conditions in developing countries.
-
-Migration 10
-
-3 2023 Does urbanization lead to more segregation and/or
-
-marginalization of the poor in Indian metropolises? Marginalisation 15
 
 4 2022
 
@@ -768,12 +652,6 @@ Effects of Globalization on Indian society
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-2 2024
-
-Globalization has increased urban migration by skilled, young, unmarried women from various classes. How has this trend impacted upon their personal freedom and relationship with family?
-
-Migration 15
-
 3 2022 Explore and evaluate the impact of 'Work From Home' on
 
 family relationships. Family Relationships 10
@@ -809,16 +687,6 @@ aged population in India. Globalisation & Old Age 10
 Role of women and women's organisation
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-1 2024
-
-Distinguish between gender equality, gender equity and women's empowerment. Why is it important to take gender concerns into account in programme implementation?
-
-Gender Empowerment 10
-
-2 2023 Explain why suicide among young women is increasing
-
-in Indian society. Women Suicide 10
 
 3 2021 Examine the role of 'Gig Economy' in the process of
 
@@ -871,36 +739,6 @@ GEOGRAPHY
 Salient Features of World Physical Geography; Important Geophysical phenomena (earthquakes, tsunami, volcanoes, cyclones); Geographical features and location
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-2 2024 What is sea surface temperature rise? How does it
-
-affect the formation of tropical cyclones? Tropical Cyclone 10
-
-3 2024 What is the phenomenon of 'cloudbursts'? Explain. Cloudburst 10
-
-4 2024 What are aurora australis and aurora borealis? How are
-
-these triggered? Aurora Borealis 15
-
-5 2024 What is a twister? Why are the majority of twisters
-
-observed in areas around the Gulf of Mexico? Twister 15
-
-6 2023 How are the fjords formed? Why do they constitute
-
-some of the most picturesque areas of the world? Fjords 10
-
-7 2023
-
-Why is the South-West Monsoon called 'Purvaiya' (easterly) in Bhojpur region? How has this directional seasonal wind system influenced the cultural ethos of the region?
-
-South West Monsoon 10
-
-8 2023
-
-Identify and discuss the factors responsible for diversity of natural vegetation in India. Assess the significance of wildlife sanctuaries in rain forest regions of India.
-
-Natural Vegetation 15
 
 9 2022 Describe the characteristics and types of primary rocks. Primary Rocks 10
 
@@ -997,10 +835,6 @@ drift? Discuss the prominent evidences in its support. Continental Drift Theory 
 Changes in critical geographical features and in flora and fauna and the effect of such changes
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-2 2023 Discuss the consequences of climate change on the
-
-food security in tropical countries. CC & Food Security 10
 
 3 2021
 
@@ -1105,22 +939,6 @@ the urban habitat of the world. Heat Islands 5
 Distribution of key Natural Resources (World, South Asia, Indian subcontinent)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-3 2024
-
-The groundwater potential of the gangetic valley is on a serious decline. How may it affect the food security of India?
-
-Groundwater 15
-
-4 2023 Why is the world today confronted with a crisis of
-
-availability of and access to freshwater resources? Freshwater 10
-
-5 2023
-
-Comment on the resource potentials of the long coastline of India and highlight the status of natural hazard preparedness in these areas.
-
-Coastline Resource 15
 
 6 2022 Discuss the natural resource potentials of 'Deccan Trap'. Deccan Trap 10
 
@@ -1227,12 +1045,6 @@ Atomic Energy 10
 Factors responsible for location of Industries (primary, secondary, tertiary; India, world)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-5 2023
-
-From being net food importer in 1960s, India has emerged as a net food exporter to the world. Provide reasons.
-
-Green Revolution 15
 
 6 2022 What are the forces that influence ocean currents?
 
