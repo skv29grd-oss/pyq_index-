@@ -1,4 +1,4 @@
-TATHASTU Institute Of Civil Services - PREVIOUS YEAR QUESTIONS (SUBJECT & TOPIC WISE) 2013-2021 (2022 onwards: pyq_db/) - GS-4 (ETHICS)
+TATHASTU Institute Of Civil Services - PREVIOUS YEAR QUESTIONS (SUBJECT & TOPIC WISE) 2013-2020 (2021 onwards: pyq_db/) - GS-4 (ETHICS)
 
 ===================================================================
 SECTION-A: THEORY QUESTIONS
@@ -30,8 +30,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Attitude: Content, Structure, Function; its Influence and Relation with Thought and Behaviour; Moral and Political Attitudes; Social Influence and Persuasion]
 
-4 2021 Attitude is an important component that goes as input in the development of humans. How to build a suitable attitude needed for a public servant? Attitude for Public Servant 10
-5 2021 Impact of digital technology as a reliable source of input for rational decision making is a debatable issue. Critically evaluate with a suitable example. Technology for Decision 10
 6 2020 A positive attitude is considered to be an essential characteristic of a civil servant who is often required to function under extreme stress. What contributes to a positive attitude in a person? Positive Attitude 10
 7 2017 Young people with ethical conduct are not willing to come forward to join active politics. Suggest steps to motivate them. Youth Politics 10
 8 2016 How could social influence and persuasion contribute to the success of Swachh Bharat Abhiyan? SBA 10
@@ -41,9 +39,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Aptitude and Foundational Values for Civil Service: Integrity, Impartiality and Non-partisanship, Objectivity, Dedication to Public Service, Empathy, Tolerance and Compassion towards weaker sections]
 
-6 2021 Constitutional morality is a vital value that facilitates human being with digitalization competency to tackle challenges of the civil servants. Justify. Integrity Empowers 10
-7 2021 Should impartial and non-partisan be considered indispensable qualities to make a successful civil servant? Discuss with illustrations. Non-partisanship 10
-8 2021 Identify five ethical traits on which one can plot the performance of a civil servant. Justify their inclusion in the matrix. 5 Ethical Traits 10
 9 2018 "In looking for people to hire, you look for three qualities: integrity, intelligence and energy. And if they do not have the first, the other two will kill you." - Warren Buffett. Explain in the present-day scenario. Integrity 10
 10 2017 One of the tests of integrity is complete refusal to be compromised. Explain with reference to a real life example. Test of Integrity 10
 11 2016 Why should impartiality and non-partisanship be considered as foundational values in public services, especially in the present day socio-political context? Illustrate with examples. Impartiality and Non-partisanship 10
@@ -55,7 +50,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Emotional Intelligence - Concepts, and their Utilities and Application in Administration and Governance]
 
-3 2021 In case of crisis of conscience, does emotional intelligence help to overcome the same without compromising the ethical or moral stand you are likely to follow? Critically examine. EI For Crisis of Conscience 10
 4 2020 What are the main components of emotional intelligence (EI)? Can they be learned? Discuss. EI Components 10
 5 2019 "Emotional Intelligence is the ability to make your emotions work for you instead of against you." Do you agree? Discuss. EI Use 10
 6 2018 "Anger and intolerance are the enemies of correct understanding." - Mahatma Gandhi. Explain in the present context. Anger and Intolerance 10
@@ -70,10 +64,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Public/Civil Service Values and Ethics in Public Administration: Status and Problems; Ethical Concerns and Dilemmas in Government and Private Institutions; Laws, Rules, Regulations and Conscience as Sources of Ethical Guidance; Accountability and Ethical Governance; Strengthening of Ethical and Moral Values in Governance; Ethical Issues in International Relations and Funding; Corporate Governance]
 
-6 2021 An independent and empowered social audit mechanism is an absolute must in every sphere of public service, including the judiciary, to ensure performance, accountability and ethical conduct. Elaborate. Social Audit Mechanism 10
-7 2021 Refugees should not be turned back to a country where they would face persecution or human rights violation. Examine with reference to ethical dimensions violated by a nation claiming to be democratic with an open society. Refugees 10
-8 2021 Besides domain knowledge, a public official needs innovativeness and creativity of a high order while resolving ethical dilemmas. Discuss with a suitable example. Innovation for Dilemma 10
-9 2021 Identify ten essential values needed to be an effective public servant. Describe ways and means to prevent non-ethical behaviour in public servants. Essential Values 10
 10 2020 Distinguish between laws and rules. Discuss the role of ethics in formulating them. Role of Ethics 10
 11 2020 Hatred is destructive of a person's wisdom and conscience that can poison a nation's spirit. Do you agree? Justify. Hate 10
 12 2019 What is meant by 'crisis of conscience'? How does it manifest itself in the public domain? Crisis of Conscience 10
@@ -129,11 +119,6 @@ SECTION-B: CASE STUDIES (2013-2024) - topic index only
 ===================================================================
 [NOTE: Case studies are long descriptive scenarios (20 marks each); the underlying PDF extraction suffered severe OCR column-merge garbling on nearly every case in this section, making faithful full-text reconstruction unreliable. Below is a verified year + core-dilemma + topic-tag index for quick keyword/topic matching against daily current affairs; consult the source PDF (GS_4_PYQs_2013_25 in the PYQs folder) for exact original wording of any specific case.]
 
-24 2021 Sand Mining Mafia 20 (Sunil, SP in tribal-dominated district; illegal sand mining mafia, musclemen intimidation, family threatened, raids and counteroffensive dilemma)
-25 2021 Business W/O Morality 20 (Indian food company exporting products meeting int'l standards but selling rejected/substandard export products domestically)
-26 2021 Work Culture 20 (Project Manager; minor crack found in elevated corridor pier before election-driven inauguration deadline; Chief Engineer overrules safety concern)
-27 2021 Private V/S Public Values 20 (Vice Principal of medical college during COVID-19; private hospital businessman using influence for bed/oxygen access amid crisis)
-28 2021 Exam Cheating 20 (senior lecturer's son and other students caught cheating; student union protest; options for Vice Principal)
 29 2020 Ethicality of Arms Trade 20 (BML Chairman; government pushing to double ATGM missile exports; ethical issues in arms trade for a "responsible nation")
 30 2020 Corruption and Work Culture 20 (Municipal Commissioner; builder's illegal basement mall construction violating Master Plan, mishap, cover-up pressure from powerful/influential builder)
 31 2020 Utilization of Public Funds 20 (Rajesh Kumar, Head of Budget Division, Finance Ministry; re-appropriating Rs 6000 crore from National Housing Scheme to SEZ/gas-grid projects ahead of state elections)

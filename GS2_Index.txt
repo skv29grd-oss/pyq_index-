@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2021 (2022 onwards: pyq_db/)
+2013-2020 (2021 onwards: pyq_db/)
 
 GS-2
 
@@ -17,18 +17,6 @@ POLITY
 Historical underpinnings, evolution; Features, amendments, significant provisions & basic structure ; Comparison of Indian constitutional scheme with that of other countries.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-14 2021
-
-'Constitutional Morality' is rooted in the Constitution itself and is founded on its essential facets. Explain the doctrine of 'Constitutional Morality' with the help of relevant judicial decisions.
-
-Constitutional Morality 10
-
-15 2021
-
-Though the Human Rights Commissions have contributed immensely to the protection of human rights in India, yet they have failed to assert themselves against the mighty and powerful. Analyzing their structural and practical limitations, suggest remedial measures.
-
-Human Rights 15
 
 16 2020
 
@@ -74,10 +62,6 @@ Khap 12.5
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-3 2021 To what extent, in your view, is the Parliament able to ensure accountability of the executive in India?
-
-Executive (Accountability) 10
-
 4 2014
 
 The size of the cabinet should be as big as governmental work justifies and as big as the Prime Minister can manage as a team. How far the efficacy of a government then is inversely related to the size of the cabinet? Discuss.
@@ -93,12 +77,6 @@ Article 72 12.5
 Union and State Legislatures (structure, functioning, conduct of business, powers & privileges; issues therein); Salient features of the Representation of People's Act.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-9 2021
-
-Explain the constitutional provisions under which Legislative Councils are established. Review the working and current status of Legislative Councils with suitable illustrations.
-
-Legislative Council 15
 
 10 2020 'Once a Speaker, Always a Speaker'! Do you think this practice should be adopted to impart objectivity to the office of the Speaker of Lok Sabha? What could be its implications for the robust functioning of parliamentary business in India?
 
@@ -157,10 +135,6 @@ Anti-defection 10
 Separation of Powers (between different organs, dispute redressal mechanisms, institutions); Judiciary (structure, organisation, functioning)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-5 2021 Discuss the desirability of greater representation to women in the higher judiciary to ensure diversity, equity and inclusiveness.
-
-Women in Judiciary 10/15
 
 6 2020 Judicial Legislation is antithetical to the doctrine of separation of powers as envisaged in the Indian Constitution. In this context justify the filing of large number of public interest petitions praying for issuing guidelines to executive authorities.
 
@@ -285,22 +259,6 @@ Appointment to various Constitutional posts; Constitutional Bodies (powers, func
 Qs. No. YEAR QUESTION TOPIC MARKS
 
 NCPCR 15
-
-9 2021
-
-Though the Human Rights Commissions have contributed immensely to the protection of human rights in India, yet they have failed to assert themselves against the mighty and powerful. Analyzing their structural and practical limitations, suggest remedial measures.
-
-NHRC 15
-
-10 2021 How have the recommendations of the 14th Finance Commission of India enabled the states to improve their fiscal position?
-
-CFC 10
-
-11 2021
-
-The jurisdiction of the Central Bureau of Investigation (CBI) regarding lodging an FIR and conducting probe within a particular state is being questioned by various States. However, the power of States to withhold consent to the CBI is not absolute. Explain with special reference to the federal character of India.
-
-CBI 15
 
 12 2020
 
@@ -430,12 +388,6 @@ Social Sector & Social Services (health, education, human resources - issues in 
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-5 2021 Has digital illiteracy, particularly in rural areas, coupled with lack of Information and Communication Technology (ICT) accessibility hindered socio-economic development? Examine with justification. Literacy 15
-
-6 2021 'Earn while you learn' scheme needs to be strengthened to make vocational education and skill training meaningful. Comment. Scheme 10
-
-7 2021 Besides being a moral imperative of Welfare State, primary health structure is a necessary pre-condition for sustainable development. Analyze. Primary Health 10
-
 8 2020 In order to enhance the prospects of social development, sound and adequate health care policies are needed particularly in the fields of geriatric and maternal health care. Discuss. Health 10
 
 9 2020 National Education Policy 2020 is in conformity with the Sustainable Development Goal-4 (2030). It intends to restructure and reorient education system in India. Critically examine the statement. Education Policy 15
@@ -467,8 +419,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Government Policies & Interventions for development of various sectors (issues in their design, implementation)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-3 2021 Though women in post-Independent India have excelled in various fields, the social attitude towards women and the feminist movement has been patriarchal. Apart from women education and women empowerment schemes, what interventions can help change this milieu? Women in Sectors 15
 
 4 2018 Policy contradictions among various competing sectors and stakeholders have resulted in inadequate 'protection and prevention of degradation' to environment. Comment with relevant illustration. Contradiction 10
 
@@ -511,12 +461,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Development Processes & Development industry (role of NGOs, SHGs, groups & associations, donors, charities, institutional and other stakeholders); Pressure Groups & Formal, Informal associations (and their role in the polity); Role of Civil Services in a democracy.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-6 2021 Can microfinancing of women SHGs break the vicious cycle of gender inequality, poverty and malnutrition? Explain with examples. SHG 10
-
-7 2021 Can Civil Society and Non-Governmental Organizations present an alternative model of public service delivery to benefit the common citizen? Discuss the challenges of this alternative model. NGO and Civil Society 15
-
-8 2021 Explain how pressure groups play a vital role in influencing public policy making in India. Pressure Groups 10
 
 9 2020 Micro-Finance as an anti-poverty vaccine, is aimed at asset creation and income security of the rural poor in India. Evaluate the role of Self-Help Groups in achieving the twin objectives along with empowering women in rural India. SHG 15
 
@@ -578,10 +522,6 @@ Effect of Policies & Politics of Developed and Developing countries on India (In
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-7 2021 The USA is facing an existential threat in the form of a China, that is much more challenging than the erstwhile Soviet Union. Explain. US-China 10
-
-8 2021 If the last few decades were of Asia's growth story, the next few are expected to be of Africa's. In the light of this statement, examine India's influence in Africa in recent years. Africa 15
-
 9 2020 'Indian diaspora has a decisive role to play in the politics and economy of America and European Countries'. Comment with examples. Diaspora US Europe 10
 
 10 2020 What is the significance of Indo-US defence deals over Indo-Russian defence deals? Discuss with reference to stability in the Indo-Pacific region. Defence 15
@@ -609,8 +549,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Important International institutions, agencies, fora (structure, mandate); Bilateral, Regional, Global groupings & Agreements (involving and/or affecting India)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-9 2021 The newly formed tri-nation partnership AUKUS is aimed at countering China's ambitions in the Indo-Pacific region. Is it going to supersede the existing partnerships in the region? Discuss the strength and impact of AUKUS in the present scenario. AUKUS/China 15
 
 10 2020 'Quadrilateral Security Dialogue (Quad)' is transforming itself into a trade bloc from a military alliance, in present times - Discuss. QUAD 15
 

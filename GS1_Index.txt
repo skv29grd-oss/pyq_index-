@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2021 (2022 onwards: pyq_db/)
+2013-2020 (2021 onwards: pyq_db/)
 
 GS-1
 
@@ -17,12 +17,6 @@ ART AND CULTURE
 Salient aspects of Art, Architecture, Literature from Ancient to Modern Times
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-13 2021
-
-The rock-cut architecture represents one of the most important sources of our knowledge of early Indian art and history. Discuss.
-
-Rock Cut Architecture 10
 
 14 2020 Highlight the Central Asian and Greco-Bactrian
 
@@ -115,22 +109,6 @@ Sangam Literature 10
 Mid-18th century - Present (significant events, personalities, issues); Freedom struggle (various stages, important contributors from different parts of the country)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-9 2021
-
-Trace the rise and growth of socio-religious reform movements with special reference to young Bengal and Brahmo Samaj.
-
-Socio-Religious Movement 10
-
-10 2021 To what extend did the role of the Moderates prepare a
-
-base for the wider freedom movement? Comment Moderates 15
-
-11 2021
-
-Bring out the constructive programmes of Mahatma Gandhi during Non-Cooperation Movement and Civil Disobedience Movement.
-
-NCM CDM 15
 
 12 2020
 
@@ -252,12 +230,6 @@ Post-Independence Consolidation and Reorganisation within country
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-3 2021
-
-Access the main administrative issues and socio-cultural problems in the integration process of Indian princely states.
-
-Consolidation Issues 10
-
 4 2013
 
 Critically discuss the objectives of Bhoodan and Gramdan movements initiated by Acharya Vinoba Bhave and their success.
@@ -287,12 +259,6 @@ Critically examine the compulsions which prompted India to play a decisive roles
 World History: 18th century events (e.g. Industrial revolution, WWs, redrawn boundaries, colonisation, decolonisation); Political philosophies (communism, capitalism, socialism) and their effect on society
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-4 2021
-
-There arose a serious challenge to the democratic state system between the two world wars. Evaluate the statement.
-
-Fascism 15
 
 5 2019 Explain how the foundations of the modern world were
 
@@ -361,18 +327,6 @@ SOCIETY
 Salient features of Indian Society; Diversity of India; Social Empowerment, Communalism, Regionalism & Secularism
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-12 2021
-
-Examine the uniqueness of tribal knowledge system when compared with mainstream knowledge and cultural systems.
-
-Uniqueness of Tribal 10
-
-13 2021
-
-How does Indian Society maintain continuity in traditional social values? Enumerate the changes taking place in it.
-
-Indian Continuity 15
 
 14 2020 Customs and traditions suppress reason leading to
 
@@ -488,16 +442,6 @@ Population and associated issues; Poverty and Development issues
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-6 2021
-
-Discuss the main objectives of Population Education and point out the measures to achieve them in India in detail.
-
-Population Education 15
-
-7 2021 What is Cryptocurrency? How does it affect global
-
-security? Has it been affecting Indian society also? Cryptocurrency 15
-
 8 2020
 
 How have digital initiatives in India contributed to the functioning of the educational system in the country? Elaborate your answer.
@@ -547,12 +491,6 @@ factors rather than social values. Discuss. Joint Family Lifecycle 10
 Urbanization problems and remedies
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-5 2021
-
-What are the main socio-economic implications arising out of development of IT industries in major cities of India
-
-IT problems 15
 
 6 2020
 
@@ -632,10 +570,6 @@ Role of women and women's organisation
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-3 2021 Examine the role of 'Gig Economy' in the process of
-
-empowerment of women in India. Gig Economy 10
-
 4 2019 What are the continued challenges for women in India
 
 against time and space? Women Issues 15
@@ -683,24 +617,6 @@ GEOGRAPHY
 Salient Features of World Physical Geography; Important Geophysical phenomena (earthquakes, tsunami, volcanoes, cyclones); Geographical features and location
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-12 2021 Mention the global occurrence of volcanic eruptions in
-
-2021 and their impact on regional environment. Volcano 10
-
-13 2021 Why is India considered as a subcontinent? Elaborate
-
-your answer India as Subcontinent 10
-
-14 2021 Differentiate the causes of landslides in Western Ghats
-
-& Himalayas Landslides 10
-
-15 2021
-
-Briefly mention the alignment of major mountain ranges of the world and explain their impact on local weather conditions with examples.
-
-Mountains & Local Weather 15
 
 16 2020 The process of desertification does not have climatic
 
@@ -767,18 +683,6 @@ drift? Discuss the prominent evidences in its support. Continental Drift Theory 
 Changes in critical geographical features and in flora and fauna and the effect of such changes
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-3 2021
-
-What are the environmental implications of the reclamation of water bodies into urban land use? Explain with examples?
-
-Water Resource 10
-
-4 2021
-
-How do the melting of Arctic ice and glaciers of the Antarctic differently affect the weather patterns and human activities on earth? Explain.
-
-Third Pole melting 15
 
 5 2020 How will the melting of Himalayan glaciers have a far-
 
@@ -872,10 +776,6 @@ Distribution of key Natural Resources (World, South Asia, Indian subcontinent)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-9 2021 Discuss the multidimensional implications of uneven
-
-distribution of mineral oil in the world. Oil 15
-
 10 2020 Examine the status of forest resources of India and its
 
 resultant impact on climate change. Forest Resource 15
@@ -965,12 +865,6 @@ Atomic Energy 10
 Factors responsible for location of Industries (primary, secondary, tertiary; India, world)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-8 2021
-
-Despite India being one of the countries of the Gondwanaland, its mining industry contributes much less to its Gross Domestic Product (GDP) in percentage. Discuss.
-
-Mining Issues 10
 
 9 2020
 

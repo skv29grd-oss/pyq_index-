@@ -1,30 +1,28 @@
 UPSC CSE Prelims PYQ - Question Stem Index, PART 1 of 3 (topic-search index, not full MCQs)
 Source: 'Prelims PYQ (2011-2025).pdf' (Physics Wallah / PW OnlyIAS publication), PYQs folder in Drive.
 
-THIS FILE (Part 1) contains Section A - Ancient History (24 Qs) & Medieval History (25 Qs),
-topic-wise (Prelims 2011-2021).
+THIS FILE (Part 1) contains Section A - Ancient History (20 Qs) & Medieval History (21 Qs),
+topic-wise (Prelims 2011-2020).
 PART 2 ('Prelims_Index_Part2_ModernHistory-ArtCulture-Polity-Economy.txt', same folder): Section B Modern
-History (86 Qs); Section C Art and Culture (54 Qs); Section D Polity (150 Qs); Section E Indian Economy (160 Qs).
+History (79 Qs); Section C Art and Culture (51 Qs); Section D Polity (135 Qs); Section E Indian Economy (147 Qs).
 PART 3 ('Prelims_Index_Part3_Environment-Geography-ScienceTech.txt', same folder): Section F Environment
-and Ecology (172 Qs); Section G Geography (111 Qs); Section H Science and Technology (118 Qs).
+and Ecology (153 Qs); Section G Geography (104 Qs); Section H Science and Technology (106 Qs).
 COVERAGE NOTE: Parts 1 + 2 + 3 together now cover the ENTIRE source book -- all 8 topic-wise chapters
-(Sections A-H, Prelims 2011-2021, with full answer keys). Full papers for 2022 onwards live only in
-pyq_db/<year>/ (2022-2024 from the official question papers; 2025-2026 web-verified); this index covers 2011-2021.
+(Sections A-H, Prelims 2011-2020, with full answer keys). Full papers for 2021 onwards live only in
+pyq_db/<year>/ (2021-2024 from the official question papers; 2025-2026 web-verified); this index covers 2011-2020.
 
 Each entry below is the question stem/topic content (options a/b/c/d omitted, though some topic-wise
 entries also include the correct answer where captured) -- enough for keyword/topic matching against
 daily current affairs. For exact wording and options, check the source PDF.
 
 ======================================================================
-SECTION A: ANCIENT & MEDIEVAL HISTORY (Prelims 2011-2021, topic-wise) -- FULL (Ancient 24 Qs, Medieval 25 Qs)
+SECTION A: ANCIENT & MEDIEVAL HISTORY (Prelims 2011-2020, topic-wise) -- FULL (Ancient 20 Qs, Medieval 21 Qs)
 ======================================================================
 
---- Ancient History (2011-2021) ---
-AH Q1 (2021) [Construction of Ancient History]: Pairs: Burzahom-Rock-cut shrines, Chandraketugarh-Terracotta art, Ganeshwar-Copper artefacts. How many pairs correctly matched? Ans: (d) None
+--- Ancient History (2011-2020) ---
 AH Q2 (2016) [Construction of Ancient History]: Pairs: Eripatti-land revenue set apart for village tank maintenance, Taniyurs-villages donated to a single Brahmin/group of Brahmins, Ghatikas-colleges generally attached to temples. Which correctly matched? Ans: (d) 1 and 3
 AH Q3 (2012) [Construction of Ancient History]: Scientific progress of Ancient India: specialised surgical instruments common by 1st century AD; organ transplant began 3rd century AD; sine of angle known 5th century AD; cyclic quadrilateral known 7th century AD. Which correct? Ans: (c) 1,3,4 only
 AH Q4 (2012) [Construction of Ancient History]: Guilds (Shrenis) of ancient India: every Guild registered with central authority/King chief administrative authority; wages/rules/standards/prices fixed by Guild; Guild had judicial powers over own members. Which true? Ans: (c) 2 and 3 only
-AH Q5 (2021) [Harappan Civilization]: Which ancient town well-known for elaborate water harvesting/management system of dams and channelled reservoirs? (Dholavira/Kalibangan/Rakhigarhi/Ropar) Ans: (a) Dholavira
 AH Q6 (2019) [Harappan Civilization]: Which one is NOT a Harappan site? (Chanhudaro/Kot Diji/Sohgaura/Desalpur) Ans: (c) Sohgaura
 AH Q7 (2013) [Harappan Civilization]: Which characterises the people of the Indus Civilization? possessed great palaces/temples; worshipped both male/female deities; employed horse-drawn chariots in warfare. Ans: (b) 2 only
 AH Q8 (2011) [Harappan Civilization]: Indus valley civilization: predominantly secular, religious element though present did not dominate; cotton used for manufacturing textiles. Which correct? Ans: (c) Both 1 and 2
@@ -35,27 +33,22 @@ AH Q13 (2019) [History of Mauryan Age]: Relief sculpture inscription 'Ranyo Asho
 AH Q14 (2016) [History of Mauryan Age]: Who first deciphered the edicts of Emperor Ashoka? (Georg Buhler/James Prinsep/Max Muller/William Jones) Ans: (b) James Prinsep, 1837
 AH Q17 (2012) [Buddhism and Jainism]: Common to both Buddhism and Jainism, ancient India: avoidance of extremities of penance/enjoyment; indifference to authority of Vedas; denial of efficacy of rituals. Which correct? Ans: (b) 2 and 3 only
 AH Q18 (2011) [Buddhism and Jainism]: Jain philosophy holds that the world is created and maintained by? (Universal law/Universal Truth/Universal Faith/Universal Soul) Ans: (a) Universal law
-AH Q19 (2021) [History of the Gupta Period]: From decline of Guptas until rise of Harshavardhana (early 7th century), which kingdoms held power in Northern India: Guptas of Magadha, Paramaras of Malwa, Pushyabhutis of Thanesar, Maukharis of Kanauj, Yadavas of Devagiri, Maitrakas of Valabhi. Correct combination? Ans: (a) 1,2 and 5 -- i.e. Guptas of Magadha, Pushyabhutis of Thanesar, Maukharis of Kanauj, Maitrakas of Valabhi (per explanation; eliminate Paramaras of Malwa and Yadavas of Devagiri)
 AH Q20 (2020) [History of the Gupta Period]: Terms "kulyavapa" and "dronavapa" in history of India denote? (Measurement of land/Coins of different monetary value/Classification of urban land/Religious rituals) Ans: (a) Measurement of land
 AH Q21 (2020) [History of the Gupta Period]: Gupta-period towns Ghantasala, Kadura and Chaul well known as? (Ports handling foreign trade/Capitals of powerful kingdoms/Places of exquisite stone art and architecture/Important Buddhist pilgrimage centres) Ans: (a) Ports handling foreign trade
 AH Q22 (2019) [History of the Gupta Period]: Forced labour (Vishti) in India during Gupta period: source of income for the State, a sort of tax; totally absent in Malwa/Kathiawar regions; forced labourer entitled to weekly wages; eldest son of labourer sent as forced labourer. Correct statement? Ans: (a) It was considered a source of income for the State, a sort of tax paid by the people
 AH Q23 (2013) [Harshvardhan and the Southern Dynasties]: Chinese traveller Yuan Chwang (Hiuen Tsang) recorded: roads/river-routes completely immune from robbery; mutilation, ordeals by fire/water/poison used to determine guilt; tradesmen paid duties at ferries/barrier stations. Which correct? Ans: (b) 2 and 3 only
 AH Q24 (2011) [Harshvardhan and the Southern Dynasties]: Early maritime history of Bay of Bengal -- pre-eminence of India, most convincing solution: better shipbuilding technology / rulers of southern India patronised traders-priests-monks / monsoon winds facilitated sea voyages / both (a) and (b). Ans: (c) Monsoon winds across Bay of Bengal facilitated sea voyages
-AH Q25 (2021) [Art and Literature during Ancient times]: Bhavabhuti, Hastimalla and Kshemeshvara were famous as? (Jain monks/Playwrights/Temple architects/Philosophers) Ans: (b) Playwrights
 AH Q26 (2020) [Art and Literature during Ancient times]: Scholars/literature of ancient India: Panini associated with Pushyamitra Shunga; Amarasimha associated with Harshavardhana; Kalidasa associated with Chandra Gupta-II. Which statements correct? Ans: (c) 3 only (Kalidasa-Chandragupta II correct; Panini predates Shungas, Amarasimha linked to Chandragupta Vikramaditya not Harsha)
 AH Q27 (2016) [Art and Literature during Ancient times]: Memorising chronicles/dynastic histories/epic tales was the profession of which of the following? (Shramana/Parivraajaka/Agrahaarika/Magadha) Ans: (d) Magadhas
 
---- Medieval History (2011-2021) -- FULL (25 Qs) ---
+--- Medieval History (2011-2020) -- FULL (21 Qs) ---
 MH Q2 (2020) [Early Medieval Period]: Which phrase defines the nature of the 'Hundi' as generally referred to in sources of the post-Harsha period? (an advisory issued by king to subordinates/a diary for daily accounts/a bill of exchange/an order from feudal lord to subordinates)
 MH Q3 (2016) [Early Medieval Period]: With reference to economic history of medieval India, the term 'Araghatta' refers to (bonded labour/land grant to military officers/waterwheel used in irrigation of land/wasteland converted to cultivated land)
 MH Q4 (2015) [Early Medieval Period]: Essential element(s) of the feudal system: a very strong centralized political authority + a very weak provincial/local political authority; emergence of administrative structure based on control/possession of land; creation of lord-vassal relationship between feudal lord and overlord. Which correct?
-MH Q7 (2021) [The Delhi Sultanate]: Statements: during reign of Iltutmish, Chengiz Khan reached the Indus in pursuit of the fugitive Khwarezm prince; during reign of Muhammad bin Tughluq, Taimur occupied Multan and crossed the Indus; during reign of Deva Raya II of Vijayanagara Empire, Vasco da Gama reached the coast of Kerala. Which correct?
 MH Q8 (2019) [The Delhi Sultanate]: Statements on revenue administration of Delhi Sultanate: in-charge of revenue collection known as 'Amil'; Iqta system of Sultans of Delhi was an ancient indigenous institution; office of 'Mir Bakshi' came into existence during reign of Khalji Sultans of Delhi. Which correct?
-MH Q9 (2021) [Regional Kingdoms]: Statements: Nizamat of Arcot emerged from Hyderabad State; Mysore Kingdom emerged from Vijayanagara Empire; Rohilkhand Kingdom formed out of territories occupied by Ahmad Shah Durrani. Which correct?
 MH Q10 (2020) [Regional Kingdoms]: Chronological order: Rise of Pratiharas under King Bhoja; Establishment of Pallava power under Mahendravarman-I; Establishment of Chola power by Parantaka; Pala dynasty founded by Gopala. Correct order from earliest?
 MH Q11 (2017) [Regional Kingdoms]: Which was a very important seaport in the Kakatiya kingdom? (Kakinada/Motupalli/Machilipatnam/Nelluru)
 MH Q12 (2015) [Regional Kingdoms]: Pairs (Medieval Indian State-Present Region): Champaka-Central India, Durgara-Jammu, Kuluta-Malabar. Which correctly matched?
-MH Q14 (2021) [Vijayanagara Empire]: According to Portuguese writer Nuniz, women in Vijayanagara Empire were experts in: Wrestling, Astrology, Accounting, Soothsaying. How many/which combination?
 MH Q15 (2016) [Vijayanagara Empire]: Taxation system of Krishna Deva: tax rate on land fixed by quality of land; private owners of workshops paid an industry tax. Which correct?
 MH Q16 (2015) [Vijayanagara Empire]: Who founded a new city on south bank of a tributary to river Krishna and undertook to rule his kingdom as agent of a deity? (Amoghavarsha I/Ballala II/Harihara I/Prataprudra II)
 MH Q18 (2019) [Bhakti and Sufi Movement]: Statements: Saint Nimbarka was contemporary of Akbar; Saint Kabir greatly influenced by Shaikh Ahmad Sirhindi. Which correct?
@@ -63,7 +56,6 @@ MH Q19 (2016) [Bhakti and Sufi Movement]: Cultural history of medieval India: Si
 MH Q20 (2014) [Bhakti and Sufi Movement]: Statements: 'Bijak' is composition of teachings of Saint Dadu Dayal; Philosophy of PushtiMarg propounded by Madhvacharya. Which correct?
 MH Q21 (2013) [Bhakti and Sufi Movement]: Bhakti Saints: Dadu Dayal, Guru Nanak, Tyagaraja. Who was/were preaching when Lodi dynasty fell and Babur took over?
 MH Q22 (2012) [Bhakti and Sufi Movement]: Sufi mystics of medieval India known to pursue: meditation/breath control; severe ascetic exercises in lonely place; recitation of holy songs to arouse ecstasy in audience. Which correct?
-MH Q23 (2021) [Mughal Period]: With reference to medieval India, correct sequence in ascending order of size: Paragana-Sarkar-Suba / Sarkar-Paragana-Suba / Suba-Paragana-Sarkar / Paragana-Suba-Sarkar
 MH Q24 (2019) [Mughal Period]: Difference between Jagirdar and Zamindar: Jagirdars holders of land assignments in lieu of duties, Zamindars holders of revenue rights without obligation beyond revenue collection; Jagirdar land assignments hereditary, Zamindar not. Which correct?
 MH Q25 (2019) [Mughal Period]: With reference to Mian Tansen, which statement is NOT correct? (title given by Akbar/composed Dhrupada on Hindu gods/composed songs for patrons/invented many Ragas)
 MH Q26 (2019) [Mughal Period]: Which Mughal Emperor shifted emphasis from illustrated manuscripts to albums and individual portraits? (Humayun/Akbar/Jahangir/Shah Jahan)
