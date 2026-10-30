@@ -1,6 +1,6 @@
 # Daily CA → PYQ Match (UPSC CSE 2027) — full instructions
 
-Version: **v7** (2026-10-30). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
+Version: **v8** (2026-10-30; rules marked v8 apply to newspaper dates from 31 Oct 2026). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
 
 Triggered manually by the user ("run today's match", "run it up to today", a newspaper PDF upload, or the skill name). Never schedule it.
 
@@ -12,6 +12,7 @@ Triggered manually by the user ("run today's match", "run it up to today", a new
 | `skill/ca_pyq_build.py` | Workbook + day-CSV builder (locked design). Run it from the clone; never retype it |
 | `skill/verify.py` | VERIFY step |
 | `skill/q.py` | PYQ regex search helper |
+| `skill/syllabus.md` | Official syllabus lines (Paper \| Subject \| Topic) used for the Syllabus Tag |
 | `load_pyq.py` (repo root) | Loads the PYQ corpus |
 | `skill/VERSION` | Current version number, e.g. `7` |
 | `skill/CHANGELOG.md` | One entry per version: number, date, what changed and why |
@@ -32,8 +33,8 @@ The pointer skill in the user's Claude settings stays short and does not change 
 | Stage | What happens |
 |---|---|
 | 1. Inputs | Paper (Drive) · Next IAS + Drishti + Vajiram & Ravi (web) · PYQ corpus and monthly data CSV (GitHub) · gap check |
-| 2. Processing | Extract → match all PYQ years → classify → recall points → expected 2027 Qs → V&R recall |
-| 3. Output | Build monthly workbook (12-column locked design) → send it → push day rows to the GitHub CSV → verify |
+| 2. Processing | Extract → **select ≤15 newspaper + ≤5 web items** → match all PYQ years → classify → recall → expected 2027 Qs → Syllabus Tag → V&R recall (CA + syllabus base) |
+| 3. Output | Build monthly workbook (13-column locked design) → send it → push day rows to the GitHub CSV → verify |
 | 4. Reply | 5-8 lines: rows per date, top Direct hits, new Emerging themes, each site's latest date, caveats |
 
 Run checklist (tick every box before replying):
@@ -42,10 +43,11 @@ Run checklist (tick every box before replying):
 - [ ] Gap check against `data/CA-PYQ Data YYYY-MM.csv`: every date from the last logged date to today with a paper on Drive is run, oldest first (I-6)
 - [ ] Every page of each paper read (state page count)
 - [ ] Next IAS, Drishti IAS and Vajiram & Ravi (Prelims + Mains pages) pulled for each date, or reason stated; latest posted date per site noted
-- [ ] Every row: all PYQ years, **one quoted question per year listed**, Match class, 3-5 Prelims + 3-4 Mains recall, three MECE note lines, a `vr` field
+- [ ] At most 15 newspaper rows + 5 web-only rows per date (P-0)
+- [ ] Every row: all PYQ years, **one quoted question per year listed**, Match class, 3-5 Prelims + 3-4 Mains recall, three MECE note lines, a Syllabus Tag from `syllabus.md`, a `vr` field; newspaper rows also a `vr_topic` (same tag → identical block)
 - [ ] Every figure, name and quote traceable to source text (P-5.5)
 - [ ] Workbook built with `skill/ca_pyq_build.py`; `skill/verify.py` prints OK for every date run; current month's file sent
-- [ ] Day rows appended to the GitHub monthly CSV (12 columns, CRLF row endings), committed, pushed, re-fetched and row-counted
+- [ ] Day rows appended to the GitHub monthly CSV (13 columns, CRLF row endings), committed, pushed, re-fetched and row-counted
 
 ---
 
@@ -71,6 +73,8 @@ Oversized tool results are saved to files: decode with Python, never paste into 
 
 **P-1 Extract.** Read every page. Keep items with a syllabus hook (polity, governance, IR, economy, environment, S&T, security, society, disaster management, art & culture, Prelims-able sports/awards/places). Skip city crime, obituaries, classifieds, puzzles, club sport. 20-35 items a day. Capture a self-contained topic sentence with quotable figures and the page; write `The Hindu (Science)` etc. when the page number is not certain — never guess a page.
 
+**P-0 Select (v8).** After extracting candidates, keep **at most 15 newspaper items and at most 5 web-only items** (combined across Drishti, Next IAS and V&R) per date. Web facts merged into a newspaper row do not count toward the 5. Rank by: (1) Direct > Thematic > Emerging; (2) more PYQ years; (3) value for both Prelims and Mains; (4) syllabus spread — prefer an item on an uncovered subtopic over a second item on a covered one; web items fill subtopics the paper missed. Report the number of candidates dropped in the reply.
+
 **P-2 Merge.** One row per theme per date; merge same-date web coverage. A continuation of an earlier day is a new row with "refines the DD Mon entry" in `[Link]`.
 
 **P-3 Match all PYQ years.** 2-4 precise patterns per item with `skill/q.py` (copy it next to `mains_recs.json`; label ending `!` = case-sensitive). Read every hit; keep genuine matches. List every year ascending with papers. Quote every match in `pyq_excerpt`, one per line, ascending (`P <year>:` / `GS<n> <year> (<marks>):`), cap eight then `+N more`. **One year → one quoted question**; same year in two papers → two lines; never summarise. Full text: filter `mains_recs.json` by year/paper/substring; `prelims_lines.txt` by its key (`Env Q59 (2016)`, `2022 Q44:`).
@@ -83,14 +87,19 @@ Oversized tool results are saved to files: decode with Python, never paste into 
 
 **P-6 Note — three MECE lines:** `[Prelims 2027] <MCQ stem>` / `[Mains 2027] <question> (GSn, marks)` / `[Link] <PYQ years; entry refined>`. Prelims and Mains test different buckets (Prelims: statutory basis/body · provision · place · number/threshold · status; Mains: causes · impacts · institutional design · ethics · way forward · comparison). ≤35 words each. Emerging: `[Link] first appearance — no PYQ yet`.
 
-**P-7 V&R recall (column 12).** If V&R covered the same story that date (Prelims or Mains page): 2-4 facts, ≤25 words each, from the V&R article, preferring what the paper and other sites lack (outlay, components, legal section, origin year, mechanism); figures as V&R prints them. Not covered → `vr: []` (builder writes `Not covered by V&R (DD-MM-YYYY)`). V&R not yet posted for that date → `vr: "V&R has not posted DD-MM-YYYY yet"`. Never borrow an article on a different story. Rows before 29 Oct 2026 keep column 12 blank unless the user asks for a backfill.
+**P-8 Syllabus Tag (v8).** Every row gets `tag` = `Paper › Subject › Topic › Subtopic` (separator ` › `). Paper, Subject and Topic are copied exactly from one line of `skill/syllabus.md`; Subtopic is the specific concept, law or institution (short, e.g. `Air pollution — GRAP, CAQM`). Use the Mains paper when the item has Mains value; `Prelims` only for Prelims-only facts. Items on the same subtopic get the identical tag; before inventing a subtopic, check the month's CSV for an existing tag on the same theme and reuse it.
 
-Write each date's rows to `today_YYYY-MM-DD.json`: list of objects with `date, topic, source, gs_area, years, papers, pyq_excerpt, match, note, prelims, mains, vr`. A `rowsYYYYMMDD.py` with an `R(...)` helper, dumped to JSON, keeps rows consistent. Save all source text used (paper, Next IAS, Drishti, V&R facts) into one `source_<dates>.txt` for VERIFY.
+**P-7 V&R recall (column 13).** Two blocks in one cell. **[CA]** If V&R covered the same story that date (Prelims or Mains page): 2-4 facts, ≤25 words each, from the V&R article, preferring what the paper and other sites lack (outlay, components, legal section, origin year, mechanism); figures as V&R prints them. Not covered → `vr: []` (builder writes `Not covered by V&R (DD-MM-YYYY)`). V&R not yet posted for that date → `vr: "V&R has not posted DD-MM-YYYY yet"`. Never borrow an article on a different story. Rows before 29 Oct 2026 keep the column blank unless the user asks for a backfill.
+
+**[Syllabus base] (v8, newspaper rows only).** For each distinct tag on a newspaper row, find V&R's page on that exact syllabus subtopic: `WebSearch` with `allowed_domains: ["vajiramandravi.com"]` and the subtopic words; prefer `vajiramandravi.com/upsc-exam/<topic>/` pages, else a V&R explainer on the same subtopic. Fetch it with a facts-only prompt and write `vr_topic = {"page": "<page title>", "facts": [2-4 lines, ≤25 words each]}` — core static knowledge (law + year, body, constitutional provision, concept, standard, key data) not already in the row's Prelims/Mains recall. Keep only current figures; if the page shows a superseded target, give the current one and mark the old one `(earlier target)`. Never borrow a page on a different subtopic; if none exists, `vr_topic = {"page": "", "facts": []}` (builder writes `No V&R topic page found`). **Same tag → identical `vr_topic`** within the day; if the month's CSV already has a `[Syllabus base – <same subtopic>]` block, reuse it word for word. Web-only rows carry no `vr_topic`.
+
+Write each date's rows to `today_YYYY-MM-DD.json`: list of objects with `date, topic, source, gs_area, tag, years, papers, pyq_excerpt, match, note, prelims, mains, vr` and, for newspaper rows, `vr_topic`. A `rowsYYYYMMDD.py` with an `R(...)` helper, dumped to JSON, keeps rows consistent. Save all source text used (paper, Next IAS, Drishti, V&R facts) into one `source_<dates>.txt` for VERIFY.
 
 ## 3. OUTPUT
 
-**O-1 Schema** (12 columns, fixed order — GitHub CSV and Master Log):
-`Date | GS Area | Match | CA Topic / Headline | Prelims Recall (CSE 2027) | Mains Recall (CSE 2027) | PYQ Years (all occurrences) | Paper(s) | PYQ Excerpts (all, Prelims + Mains) | Relevance & Revision Note | Source | V&R Recall (Vajiram & Ravi)`
+**O-1 Schema** (13 columns, fixed order — GitHub CSV and Master Log):
+`Date | GS Area | Syllabus Tag | Match | CA Topic / Headline | Prelims Recall (CSE 2027) | Mains Recall (CSE 2027) | PYQ Years (all occurrences) | Paper(s) | PYQ Excerpts (all, Prelims + Mains) | Relevance & Revision Note | Source | V&R Recall (Vajiram & Ravi)`
+The builder reads older 11- and 12-column CSVs by header name.
 `Date` = newspaper date (web date for web-only rows), never the run date.
 
 **O-2 Build** (from `/home/claude`; copy the CSV to scratch first, oldest date first):
@@ -112,20 +121,20 @@ Four tabs, all Calibri 12: Revision Cards (phone-first, newest day first; V&R re
 | Palette | Navy `1F3864` · slate `44546A` · blue `2E75B6` · grey `404040` italic excerpts |
 | Match colours | Direct `C6EFCE`/`145A32` · Thematic `FFF2CC`/`7D6608` · Emerging `E7E6E6`/`3B3838` |
 | Date banding | `FFFFFF`/`F2F6FB`; medium navy top border on new date; bold date cell |
-| Revision Cards | Columns 20/100; gridlines off; navy day banner (26) with match counts; card lines: headline · Area·Source · PYQ years · Prelims recall (`F4F9F1`) · Mains recall (bold tags) · PYQ excerpts (italic) · Expected 2027 Qs · V&R recall (`FFF7E6`, when present) |
-| Master Log | Widths `A:12 B:18 C:11 D:55 E:55 F:58 G:22 H:16 I:62 J:55 K:18 L:50`; header 36; freeze `D2`; autofilter `A1:L<last>`; landscape; header repeats |
+| Revision Cards | Columns 20/100; gridlines off; navy day banner (26) with match counts; card lines: headline · Area·Source · Syllabus (bold slate, when present) · PYQ years · Prelims recall (`F4F9F1`) · Mains recall (bold tags) · PYQ excerpts (italic) · Expected 2027 Qs · V&R recall (`FFF7E6`, when present) |
+| Master Log | Widths `A:12 B:18 C:34 D:11 E:55 F:55 G:58 H:22 I:16 J:62 K:55 L:18 M:60`; Syllabus Tag in bold slate; header 36; freeze `E2`; autofilter `A1:M<last>`; landscape; header repeats |
 | Row heights | `est_height()` — never Excel autofit |
 | Tabs | Revision Cards `1F3864` → Master Log `2E75B6` → PYQ Year Frequency `44546A` → How to Use `A6A6A6` |
 
 **O-3 Deliver.** `SendUserFile` the current month's workbook (attach, one-line caption).
 
-**O-4 Store on GitHub.** In the clone: fetch + hard reset to `origin/main`; read the month's CSV with `csv`; assert none of the new dates exist; append rows from each `upload_YYYY-MM-DD.csv` (skip header) in date order, values unchanged; write with `csv.writer` (CRLF). New month → new `data/CA-PYQ Data YYYY-MM.csv` with the 12-column header. Commit `Add CA-PYQ rows for DD Mon YYYY (N)` with the session attribution lines; `git push origin HEAD:main`. Verify: fetch, `origin/main` is your commit, CSV rows = monthly workbook Master Log rows, all rows 12 fields. Never use a subagent to retype the CSV. Tell the user the Drive copy of the workbook is now theirs to replace.
+**O-4 Store on GitHub.** In the clone: fetch + hard reset to `origin/main`; read the month's CSV with `csv`; if its header lacks `Syllabus Tag`, insert that column (blank for old rows) after `GS Area`; assert none of the new dates exist; append rows from each `upload_YYYY-MM-DD.csv` (skip header) in date order, values unchanged; write with `csv.writer` (CRLF). New month → new `data/CA-PYQ Data YYYY-MM.csv` with the 13-column header. Commit `Add CA-PYQ rows for DD Mon YYYY (N)` with the session attribution lines; `git push origin HEAD:main`. Verify: fetch, `origin/main` is your commit, CSV rows = monthly workbook Master Log rows, all rows 13 fields. Never use a subagent to retype the CSV. Tell the user the Drive copy of the workbook is now theirs to replace.
 
-**O-5 Reply** (concise): rows per date and match mix; 3-5 top Direct items with PYQ years; new Emerging themes; each site's latest date; inputs not read; caveats.
+**O-5 Reply** (concise): rows per date (newspaper/web) and match mix; candidates dropped by the cap; 3-5 top Direct items with PYQ years; new Emerging themes; each site's latest date; inputs not read; caveats.
 
 ## 4. VERIFY
 
-For every date added: `python3 pyq_index-/skill/verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source_<dates>.txt` → fix until it prints `OK`. The untraced-figure list is a review prompt (Act years and Articles are fine; an unsourced outlay is not).
+For every date added: `python3 pyq_index-/skill/verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source_<dates>.txt` → fix until it prints `OK`. From 31 Oct 2026 it also checks the 15 + 5 cap, every tag against `syllabus.md`, the syllabus block on newspaper rows only, and identical blocks for identical tags. The untraced-figure list is a review prompt (Act years and Articles are fine; an unsourced outlay is not).
 
 ## 5. Corpus helpers
 

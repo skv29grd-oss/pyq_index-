@@ -2,6 +2,13 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v8 — 2026-10-30
+- Selection cap: at most 15 newspaper items + 5 web-only items (Drishti, Next IAS, V&R combined) per date, ranked by match class, PYQ years, Prelims+Mains value and syllabus spread.
+- New column 3 `Syllabus Tag` (Paper › Subject › Topic › Subtopic), topics fixed by new `skill/syllabus.md`; Master Log now 13 columns, freeze E2, autofilter A:M.
+- V&R column now has two blocks: [CA] (daily V&R facts) and, for newspaper items only, [Syllabus base] from V&R's page on the exact syllabus subtopic; identical for items sharing a tag.
+- Builder reads CSVs by header name (11/12/13 columns); verify.py enforces the v8 rules from 31 Oct 2026.
+- Data CSV migrated to 13 columns (Syllabus Tag blank for rows before 31 Oct 2026).
+
 ## v7 — 2026-10-30
 - Skill moved to GitHub (`skill/`); the Claude-settings skill is now a short pointer to this folder.
 - Versioning rule: before any change, archive all current skill files to `skill/versions/v<N>_<date>/`, then bump `VERSION` and log here.

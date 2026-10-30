@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ Match Log builder (v6).
+"""CA-PYQ Match Log builder (v8: 13 columns incl. Syllabus Tag and V&R Recall).
 
 Usage:
   python3 ca_pyq_build.py --logs day1.csv day2.csv ... --today TODAY.json \
@@ -22,10 +22,18 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.cell.rich_text import CellRichText, TextBlock
 from openpyxl.cell.text import InlineFont
 
-HEAD = ['Date', 'GS Area', 'Match', 'CA Topic / Headline', 'Prelims Recall (CSE 2027)',
+# Internal row order (index-stable since v6) + Syllabus Tag appended at index 12.
+INTERNAL = ['Date', 'GS Area', 'Match', 'CA Topic / Headline', 'Prelims Recall (CSE 2027)',
+            'Mains Recall (CSE 2027)', 'PYQ Years (all occurrences)', 'Paper(s)',
+            'PYQ Excerpts (all, Prelims + Mains)', 'Relevance & Revision Note', 'Source',
+            'V&R Recall (Vajiram & Ravi)', 'Syllabus Tag']
+# Display / CSV order (v8): Syllabus Tag sits after GS Area.
+HEAD = ['Date', 'GS Area', 'Syllabus Tag', 'Match', 'CA Topic / Headline', 'Prelims Recall (CSE 2027)',
         'Mains Recall (CSE 2027)', 'PYQ Years (all occurrences)', 'Paper(s)',
         'PYQ Excerpts (all, Prelims + Mains)', 'Relevance & Revision Note', 'Source',
         'V&R Recall (Vajiram & Ravi)']
+PERM = [INTERNAL.index(h) for h in HEAD]
+NEWSPAPER = ('The Hindu', 'Indian Express')
 FONT, SZ = 'Calibri', 12
 NAVY, SLATE = '1F3864', '44546A'
 MATCH_FILL = {'Direct': 'C6EFCE', 'Thematic': 'FFF2CC', 'Emerging': 'E7E6E6'}
@@ -70,15 +78,17 @@ def load(log_paths, today_path):
     for log_path in log_paths or []:
         with open(log_path, newline='', encoding='utf-8') as f:
             r = list(csv.reader(f))
-        hdr = r[0]
-        old = [h.replace('Representative PYQ (excerpt)', 'PYQ Excerpts (all, Prelims + Mains)') for h in hdr]
-        assert old[:11] == HEAD[:11], f'Unexpected header in {log_path}: {hdr}'
-        rows += [(x + [''] * 12)[:12] for x in r[1:] if x and x[0].strip()]
+        hdr = [h.replace('Representative PYQ (excerpt)', 'PYQ Excerpts (all, Prelims + Mains)') for h in r[0]]
+        assert set(hdr) <= set(INTERNAL) and hdr[:2] == ['Date', 'GS Area'], f'Unexpected header in {log_path}: {r[0]}'
+        pos = {h: i for i, h in enumerate(hdr)}
+        for x in r[1:]:
+            if x and x[0].strip():
+                rows.append([x[pos[h]] if h in pos and pos[h] < len(x) else '' for h in INTERNAL])
     if today_path:
         for o in json.load(open(today_path, encoding='utf-8')):
             rows.append([o['date'], o['gs_area'], o['match'], o['topic'], bullets(o['prelims']),
                          bullets(o['mains']), o['years'], o['papers'], o['pyq_excerpt'], o['note'], o['source'],
-                         vr_text(o)])
+                         vr_text(o), o.get('tag', '')])
     seen, out = set(), []
     for x in rows:                                  # de-duplicate on date + topic start
         k = (x[0], x[3][:80])
@@ -89,11 +99,27 @@ def load(log_paths, today_path):
     out.sort(key=lambda x: (x[0], -order[id(x)]), reverse=True)   # newest date first, original order within a date
     return out
 
+def is_newspaper(o):
+    return any(o.get('source', '').startswith(n) for n in NEWSPAPER)
+
 def vr_text(o):
+    dmy = o['date'][8:10] + '-' + o['date'][5:7] + '-' + o['date'][:4]
     v = o.get('vr')
     if isinstance(v, list):
-        return bullets(v) if v else ('Not covered by V&R (' + o['date'][8:10] + '-' + o['date'][5:7] + '-' + o['date'][:4] + ')')
-    return v or ''
+        ca = bullets(v) if v else f'Not covered by V&R ({dmy})'
+    else:
+        ca = v or ''
+    t = o.get('vr_topic')
+    if t is None:                      # rows before v8
+        return ca
+    parts = [f'[CA \u2013 V&R {dmy[:5]}]\n' + ca] if ca else []
+    if is_newspaper(o):
+        sub = o.get('tag', '').split(' \u203a ')[-1]
+        if t.get('facts'):
+            parts.append(f"[Syllabus base \u2013 {sub}] (V&R: {t.get('page', '')})\n" + bullets(t['facts']))
+        else:
+            parts.append(f'[Syllabus base \u2013 {sub}] No V&R topic page found')
+    return '\n'.join(parts)
 
 def nice_date(d):
     try:
@@ -122,10 +148,11 @@ def build(rows, out_xlsx):
         ws.row_dimensions[r].height = 26
         r += 1
         for n, x in enumerate(items, 1):
-            date, area, match, topic, pre, mai, yrs, pap, exc, note, src, vr = x
+            date, area, match, topic, pre, mai, yrs, pap, exc, note, src, vr, tag = x
             card = [
                 (f'#{n}  ·  {match}', topic, 'head'),
                 ('Area · Source', f'{area}   ·   {src}', 'meta'),
+            ] + ([('Syllabus', tag, 'tag')] if tag else []) + [
                 ('PYQ years', f'{yrs}   —   {pap}', 'years'),
                 ('Prelims recall', pre, 'pre'),
                 ('Mains recall', mai, 'mains'),
@@ -143,6 +170,8 @@ def build(rows, out_xlsx):
                     b.value = val; b.font = F(bold=True); b.fill = fill('EEF3FA')
                 elif kind == 'mains':
                     b.value = mains_rich(val); b.font = F()
+                elif kind == 'tag':
+                    b.value = val; b.font = F(bold=True, color=SLATE)
                 elif kind == 'years':
                     b.value = val; b.font = F(bold=True, color=NAVY)
                 elif kind == 'pyq':
@@ -166,7 +195,9 @@ def build(rows, out_xlsx):
 
     # ---------- Sheet 2: Master Log (filterable table) ----------
     wl = wb.create_sheet('Master Log')
-    widths = {'A': 12, 'B': 18, 'C': 11, 'D': 55, 'E': 55, 'F': 58, 'G': 22, 'H': 16, 'I': 62, 'J': 55, 'K': 18, 'L': 50}
+    widths = {'A': 12, 'B': 18, 'C': 34, 'D': 11, 'E': 55, 'F': 55, 'G': 58, 'H': 22, 'I': 16, 'J': 62, 'K': 55, 'L': 18, 'M': 60}
+    MAINS_C, MATCH_C, YRS_C, EXC_C = HEAD.index('Mains Recall (CSE 2027)') + 1, HEAD.index('Match') + 1, HEAD.index('PYQ Years (all occurrences)') + 1, HEAD.index('PYQ Excerpts (all, Prelims + Mains)') + 1
+    NC = len(HEAD)
     for col, w in widths.items():
         wl.column_dimensions[col].width = w
     wl.append(HEAD)
@@ -177,27 +208,29 @@ def build(rows, out_xlsx):
     band = {d: BAND[i % 2] for i, d in enumerate(by_date)}
     prev = None
     for x in rows:
-        wl.append(x[:5] + [None] + x[6:])
+        y = [x[k] for k in PERM]
+        wl.append(y[:MAINS_C - 1] + [None] + y[MAINS_C:])
         i = wl.max_row
-        wl.cell(i, 6).value = mains_rich(x[5])
-        for j in range(1, 13):
+        wl.cell(i, MAINS_C).value = mains_rich(x[5])
+        for j in range(1, NC + 1):
             c = wl.cell(i, j)
             c.font = F(); c.alignment = TOP; c.border = BOX; c.fill = fill(band[x[0]])
-        for j in (1, 2, 3, 7, 8):
+        for j in (1, 2, MATCH_C, YRS_C, YRS_C + 1):
             wl.cell(i, j).alignment = TOPC
-        wl.cell(i, 7).font = F(bold=True, color=NAVY)
-        wl.cell(i, 9).font = F(italic=True, color='404040')
-        m = wl.cell(i, 3)
+        wl.cell(i, YRS_C).font = F(bold=True, color=NAVY)
+        wl.cell(i, EXC_C).font = F(italic=True, color='404040')
+        wl.cell(i, 3).font = F(bold=True, color=SLATE)
+        m = wl.cell(i, MATCH_C)
         if x[2] in MATCH_FILL:
             m.fill = fill(MATCH_FILL[x[2]]); m.font = F(bold=True, color=MATCH_INK[x[2]])
         if prev is not None and x[0] != prev:
-            for j in range(1, 13):
+            for j in range(1, NC + 1):
                 wl.cell(i, j).border = Border(left=THIN, right=THIN, bottom=THIN, top=Side(style='medium', color=NAVY))
         wl.cell(i, 1).font = F(bold=(x[0] != prev))
         prev = x[0]
-        wl.row_dimensions[i].height = max(est_height(v, widths[chr(65 + k)]) for k, v in enumerate(x))
-    wl.freeze_panes = 'D2'
-    wl.auto_filter.ref = f'A1:L{wl.max_row}'
+        wl.row_dimensions[i].height = max(est_height(v, widths[chr(65 + k)]) for k, v in enumerate(y))
+    wl.freeze_panes = 'E2'
+    wl.auto_filter.ref = f'A1:M{wl.max_row}'
     wl.sheet_properties.tabColor = '2E75B6'
     wl.print_title_rows = '1:1'
     wl.page_setup.orientation = 'landscape'
@@ -254,7 +287,8 @@ def build(rows, out_xlsx):
         ('Prelims recall', 'Testable one-line facts: Acts and years, Articles, bodies, places, numbers.'),
         ('Mains recall', 'Answer-ready points, tagged [Intro data], [Issue], [Judgment], [Committee], [Way forward], [Counterpoint], [Ethics].'),
         ('PYQ excerpts', 'Every past question matched to the item, one line per year: P = Prelims with year, GS1-GS4 = Mains with year and marks. Four years asked means four quoted questions here.'),
-        ('V&R recall', 'Facts from that date\'s Vajiram & Ravi daily Prelims and Mains pages on the same story (from 29 Oct 2026). Says Not covered by V&R when V&R did not carry the story.'),
+        ('Syllabus', 'Exact syllabus portion: Paper \u203a Subject \u203a Topic (official syllabus line) \u203a Subtopic. Filter the Master Log on it to revise topic-wise.'),
+        ('V&R recall', "[CA] facts from that date's Vajiram & Ravi Prelims/Mains pages on the same story (from 29 Oct 2026). [Syllabus base] (newspaper items, from 31 Oct 2026): core facts from V&R's page on that exact syllabus subtopic; identical for items sharing a subtopic."),
         ('Expected 2027 Qs', 'How the examiner would use this item in 2027: one probable Prelims stem, one probable Mains question with paper and marks, and the PYQ years it extends. The two lines test different things by design.'),
         ('Revision routine', ''),
         ('Daily (10 min)', "Read today's cards: Prelims recall aloud, one Mains point per card in your own words."),
@@ -288,7 +322,7 @@ def sheet_safe(v):
 def write_csv(rows, path):
     with open(path, 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f, quoting=csv.QUOTE_MINIMAL)
-        w.writerow(HEAD); w.writerows([[sheet_safe(v) for v in x] for x in rows])
+        w.writerow(HEAD); w.writerows([[sheet_safe(x[k]) for k in PERM] for x in rows])
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser()
@@ -310,7 +344,7 @@ if __name__ == '__main__':
         day = [x for x in rows if x[0] == d]
         write_csv(day, a.out_day_csv)
         chk = list(csv.reader(open(a.out_day_csv, newline='', encoding='utf-8')))
-        assert len(chk) == len(day) + 1 and all(len(x) == 12 for x in chk), 'CSV round-trip failed'
+        assert len(chk) == len(day) + 1 and all(len(x) == len(HEAD) for x in chk), 'CSV round-trip failed'
         print('today CSV:', a.out_day_csv, len(day), 'rows,', len(open(a.out_day_csv, encoding='utf-8').read()), 'chars')
     print('workbook rows:', len(rows), '| by date:', sorted(Counter(x[0] for x in rows).items(), reverse=True),
           '| match:', dict(Counter(x[2] for x in rows)))
