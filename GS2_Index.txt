@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2020 (2021 onwards: pyq_db/)
+2013-2019 (2020 onwards: pyq_db/)
 
 GS-2
 
@@ -17,12 +17,6 @@ POLITY
 Historical underpinnings, evolution; Features, amendments, significant provisions & basic structure ; Comparison of Indian constitutional scheme with that of other countries.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-16 2020
-
-The judicial systems in India and UK seem to be converging as well as diverging in recent times. Highlight the key points of convergence and divergence between the two nations in terms of their judicial practices.
-
-UK Judiciary 10
 
 17 2019
 
@@ -78,16 +72,6 @@ Union and State Legislatures (structure, functioning, conduct of business, power
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-10 2020 'Once a Speaker, Always a Speaker'! Do you think this practice should be adopted to impart objectivity to the office of the Speaker of Lok Sabha? What could be its implications for the robust functioning of parliamentary business in India?
-
-Speaker 10
-
-11 2020 There is a need for simplification of procedure for disqualification of persons found guilty of corrupt practices under the Representation of Peoples Act. Comment. RoPA 10
-
-12 2020 Rajya Sabha has been transformed from a 'useless stepney tyre' to the most useful supporting organ in past few decades. Highlight the factors as well as the areas in which this transformation could be visible.
-
-Rajyasabha 15
-
 13 2019 Individual Parliamentarian's role as the national lawmaker is on a decline, which in turn, has adversely impacted people's representative the quality of debates and their outcome. Discuss. Legislative Debate 15
 
 14 2019 On what grounds a Member of a People's Representative (RoPA), 1951? Also mention the remedies available to such person against his disqualification. RoPA 1951 15
@@ -136,10 +120,6 @@ Separation of Powers (between different organs, dispute redressal mechanisms, in
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-6 2020 Judicial Legislation is antithetical to the doctrine of separation of powers as envisaged in the Indian Constitution. In this context justify the filing of large number of public interest petitions praying for issuing guidelines to executive authorities.
-
-SOP 10
-
 7 2019 Do you think that constitution of India does not accept principle of strict separation of powers rather it is based on the principle of 'checks and balance'? Explain. SOP 10
 
 8 2019 From the resolution of contentious issues regarding distribution of legislative powers by the courts, 'Principle of Federal Supremacy' and 'Harmonious Construction' have emerged. Explain. SOP 10
@@ -175,22 +155,6 @@ Basic Structure Doctrine
 Functions & responsibilities of the Union and the States; issues and challenges of federal structure. Devolution of powers and finances to local levels; challenges therein.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-6 2020
-
-The strength and sustenance of local institutions in India has shifted from their formative phase of 'Functions, Functionaries and Funds' to the contemporary stage of 'Functionality'. Highlight critical challenges faced by local institutions in terms of their functionality in recent times.
-
-4Fs 15
-
-7 2020
-
-Indian Constitution exhibits centralising tendencies to maintain unity and integrity of the nation. Elucidate in the perspective of the Epidemic Diseases Act, 1897; The Disaster Management Act, 2005 and recently passed Farm Acts.
-
-Central Tendency 15
-
-8 2020 How far do you think cooperation, competition and confrontation have shaped the nature of federation in India? Cite some recent examples to validate your answer.
-
-Federalism 10
 
 9 2019 "The reservation of seats for women in the institutions of local self-government has had a limited impact on the patriarchal character of the Indian Political Process." Comment.
 
@@ -259,12 +223,6 @@ Appointment to various Constitutional posts; Constitutional Bodies (powers, func
 Qs. No. YEAR QUESTION TOPIC MARKS
 
 NCPCR 15
-
-12 2020
-
-Which steps are required for constitutionalization of a Commission? Do you think imparting constitutionality to the National Commission for Women would ensure greater gender justice and empowerment in India? Give reasons.
-
-NCW 15
 
 13 2019
 
@@ -370,8 +328,6 @@ Poverty and Hunger
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-3 2020 "The incidence and intensity of poverty are more important in determining poverty than poverty based on income alone". In this context analyse the latest United Nations Multidimensional Poverty Index Report. Incidence and Intensity 15
-
 4 2019 There is a growing divergence in the relationship between poverty and hunger in India. The shrinking of social expenditure by the government is forcing the poor to spend more on non-food essential items squeezing their food-budget. Elucidate. Inter-relation 10
 
 5 2018 How far do you agree with the view that the focus on lack or availability of food as the main cause of hunger takes the attention away from ineffective human development policies in India? Policies 15
@@ -387,10 +343,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Social Sector & Social Services (health, education, human resources - issues in development, management)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-8 2020 In order to enhance the prospects of social development, sound and adequate health care policies are needed particularly in the fields of geriatric and maternal health care. Discuss. Health 10
-
-9 2020 National Education Policy 2020 is in conformity with the Sustainable Development Goal-4 (2030). It intends to restructure and reorient education system in India. Critically examine the statement. Education Policy 15
 
 10 2019 Despite Consistent High growth, India still goes with the lowest indicators of human development. Examine the issues that make balanced and inclusive development elusive. HR 10
 
@@ -434,10 +386,6 @@ Important aspects of governance; Transparency and accountability (institutional 
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-8 2020 Recent amendments to the Right to Information Act will have profound impact on the autonomy and independence of the Information Commission". Discuss. Transparency 10
-
-9 2020 The emergence of Fourth Industrial Revolution (Digital Revolution) has initiated e-Governance as an integral part of government. Discuss. e-Governance 10
-
 10 2019 Implementation of Information and Communication Technology (ICT) based Projects/Programmes usually suffers in terms of certain vital factors. Identify these factors, and suggest measures for their effective implementation. e-Governance 10
 
 11 2018 E-Governance is not only about utilization of the power of new technology, but also much about its 'use value'. Explain the critical importance of information in e-Governance. e-Governance 10
@@ -461,10 +409,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Development Processes & Development industry (role of NGOs, SHGs, groups & associations, donors, charities, institutional and other stakeholders); Pressure Groups & Formal, Informal associations (and their role in the polity); Role of Civil Services in a democracy.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-9 2020 Micro-Finance as an anti-poverty vaccine, is aimed at asset creation and income security of the rural poor in India. Evaluate the role of Self-Help Groups in achieving the twin objectives along with empowering women in rural India. SHG 15
-
-10 2020 Institutional quality is a crucial driver for strengthening economic performance. In this context suggest reforms in Civil Service for improving democracy. Civil Service 10
 
 11 2019 What are the methods used by Farmers organizations to influence policymakers in India and how effective are these methods? Pressure Group (Farmer) 10
 
@@ -522,10 +466,6 @@ Effect of Policies & Politics of Developed and Developing countries on India (In
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-9 2020 'Indian diaspora has a decisive role to play in the politics and economy of America and European Countries'. Comment with examples. Diaspora US Europe 10
-
-10 2020 What is the significance of Indo-US defence deals over Indo-Russian defence deals? Discuss with reference to stability in the Indo-Pacific region. Defence 15
-
 11 2019 'The time has come for India and Japan to build a strong contemporary relationship, one involving global and strategic partnership that will have a great significance for Asia and the world as a whole.' Comment. Japan 10
 
 12 2019 The long-sustained image of India as a leader of the oppressed and marginalised Nations has disappeared on account of its new found role in the emerging global order. Elaborate. Image 15
@@ -549,10 +489,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Important International institutions, agencies, fora (structure, mandate); Bilateral, Regional, Global groupings & Agreements (involving and/or affecting India)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-10 2020 'Quadrilateral Security Dialogue (Quad)' is transforming itself into a trade bloc from a military alliance, in present times - Discuss. QUAD 15
-
-11 2020 Critically examine the role of WHO in providing global health security during the Covid-19 pandemic. WHO 10
 
 12 2019 'Too little cash, too much politics, leaves UNESCO fighting for life.' Discuss the statement in the light of US' withdrawal and its accusation of the cultural body as being 'anti-Israel bias'. UNESCO 10
 

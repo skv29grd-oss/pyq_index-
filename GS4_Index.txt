@@ -1,4 +1,4 @@
-TATHASTU Institute Of Civil Services - PREVIOUS YEAR QUESTIONS (SUBJECT & TOPIC WISE) 2013-2020 (2021 onwards: pyq_db/) - GS-4 (ETHICS)
+TATHASTU Institute Of Civil Services - PREVIOUS YEAR QUESTIONS (SUBJECT & TOPIC WISE) 2013-2019 (2020 onwards: pyq_db/) - GS-4 (ETHICS)
 
 ===================================================================
 SECTION-A: THEORY QUESTIONS
@@ -19,8 +19,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Human Values - Lessons from the Lives and Teachings of Great Leaders, Reformers and Administrators; Role of Family, Society and Educational Institutions in Inculcating Values]
 
-2 2020 Education is not an injunction, it is an effective and pervasive tool for all-round development of an individual and social transformation. Examine the New Education Policy, 2020 (NEP 2020) in light of the above statement. NEP 2020 10
-3 2020 The current internet expansion has instilled a different set of cultural values which are in conflict with traditional values. Discuss. Conflict with Traditional Values 10
 4 2016 Our attitudes towards life, work, other people and society are generally shaped unconsciously by family and social surroundings. (a) Discuss undesirable values prevalent in today's educated Indians. (b) How can such undesirable attitudes be changed and socio-ethical values cultivated in aspiring/serving civil servants? Undesirable Attitude 10
 5 2015 Social values are more important than economic values. Discuss with examples in the context of inclusive growth of a nation. Social V/S Economic Values 10
 6 2014 The current society is plagued with widespread trust-deficit. What are the consequences of this situation for personal and societal wellbeing? What can you do at the personal level to make yourself trustworthy? Trust Deficit 10
@@ -30,7 +28,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Attitude: Content, Structure, Function; its Influence and Relation with Thought and Behaviour; Moral and Political Attitudes; Social Influence and Persuasion]
 
-6 2020 A positive attitude is considered to be an essential characteristic of a civil servant who is often required to function under extreme stress. What contributes to a positive attitude in a person? Positive Attitude 10
 7 2017 Young people with ethical conduct are not willing to come forward to join active politics. Suggest steps to motivate them. Youth Politics 10
 8 2016 How could social influence and persuasion contribute to the success of Swachh Bharat Abhiyan? SBA 10
 9 2014 What factors affect the formation of a person's attitude towards social problems? What contrasting attitudes do you notice about the caste system in our society? How do you explain the existence of these contrasting attitudes? Contrasting Attitude 10
@@ -50,7 +47,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Emotional Intelligence - Concepts, and their Utilities and Application in Administration and Governance]
 
-4 2020 What are the main components of emotional intelligence (EI)? Can they be learned? Discuss. EI Components 10
 5 2019 "Emotional Intelligence is the ability to make your emotions work for you instead of against you." Do you agree? Discuss. EI Use 10
 6 2018 "Anger and intolerance are the enemies of correct understanding." - Mahatma Gandhi. Explain in the present context. Anger and Intolerance 10
 7 2017 How will you apply emotional intelligence in administrative practices? EI Apply 10
@@ -64,8 +60,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Public/Civil Service Values and Ethics in Public Administration: Status and Problems; Ethical Concerns and Dilemmas in Government and Private Institutions; Laws, Rules, Regulations and Conscience as Sources of Ethical Guidance; Accountability and Ethical Governance; Strengthening of Ethical and Moral Values in Governance; Ethical Issues in International Relations and Funding; Corporate Governance]
 
-10 2020 Distinguish between laws and rules. Discuss the role of ethics in formulating them. Role of Ethics 10
-11 2020 Hatred is destructive of a person's wisdom and conscience that can poison a nation's spirit. Do you agree? Justify. Hate 10
 12 2019 What is meant by 'crisis of conscience'? How does it manifest itself in the public domain? Crisis of Conscience 10
 13 2019 What is meant by constitutional morality? How does one uphold constitutional morality? Constitutional Morality 10
 14 2019 What do you understand by the term 'public servant'? Reflect on the expected role of a public servant. Public Servant 10
@@ -85,9 +79,8 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Ethical issues in international relations and funding, Corporate governance]
 
-8 2020 Discuss the role of ethics and values in enhancing Comprehensive National Power (CNP) components: human capital, soft power, social harmony. CNP 10
 9 2017 "The will to power exists, but it can be tamed and guided by rationality and principles of moral duty." Examine in the context of international relations. Principles of Moral Duty 10
-10 2020 Increased national wealth did not result in equitable distribution of its benefits - created only "enclaves of modernity and prosperity for a small minority at the cost of the majority." Justify. Equitable Distribution 10
+10 2017 Increased national wealth did not result in equitable distribution of its benefits - created only "enclaves of modernity and prosperity for a small minority at the cost of the majority." Justify. Equitable Distribution 10
 11 2017 Corporate social responsibility makes companies more profitable and sustainable. Analyse. CSR 10
 12 2017 Strength, peace and security are considered to be the pillars of international relations. Elucidate. Pillars of International Relations 10
 13 2015 Bilateral relations governed by promoting one's own national interest without regard for others' leads to conflicts. How can ethical consideration help resolve such tensions? Discuss with examples. Resolve Tensions 10
@@ -119,11 +112,6 @@ SECTION-B: CASE STUDIES (2013-2024) - topic index only
 ===================================================================
 [NOTE: Case studies are long descriptive scenarios (20 marks each); the underlying PDF extraction suffered severe OCR column-merge garbling on nearly every case in this section, making faithful full-text reconstruction unreliable. Below is a verified year + core-dilemma + topic-tag index for quick keyword/topic matching against daily current affairs; consult the source PDF (GS_4_PYQs_2013_25 in the PYQs folder) for exact original wording of any specific case.]
 
-29 2020 Ethicality of Arms Trade 20 (BML Chairman; government pushing to double ATGM missile exports; ethical issues in arms trade for a "responsible nation")
-30 2020 Corruption and Work Culture 20 (Municipal Commissioner; builder's illegal basement mall construction violating Master Plan, mishap, cover-up pressure from powerful/influential builder)
-31 2020 Utilization of Public Funds 20 (Rajesh Kumar, Head of Budget Division, Finance Ministry; re-appropriating Rs 6000 crore from National Housing Scheme to SEZ/gas-grid projects ahead of state elections)
-32 2020 Migrant Crisis 20 (District Disaster Relief Force officer; migrant workers' COVID-19 lockdown reverse-migration crisis, ethical care-giving state)
-33 2020 Child Labour and Development 20 / Form V/S Substance 20 (Rampura tribal district; Amria Plastic Works (APW) industrialist Anil Noora's welfare initiatives vs alleged use of child/minor labour)
 34 2019 Bonafide Mistakes 20 (honest civil servants implicated/prosecuted for bonafide administrative mistakes; impact on civil service morale)
 35 2019 Narcotics Menace 20 (woman SP posted to frontier-state district plagued by drug mafia, money laundering, poppy farming, alleged police-politician patronage)
 36 2019 Rescue Disaster / Politicization of Bureaucracy 20 (rescue operations disrupted by natural calamity + political interference/heckling of officials during crisis)

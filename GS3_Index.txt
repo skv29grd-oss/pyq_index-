@@ -8,7 +8,7 @@ PREVIOUS YEAR QUESTIONS
 
 (SUBJECT & TOPIC WISE)
 
-2013-2020 (2021 onwards: pyq_db/)
+2013-2019 (2020 onwards: pyq_db/)
 
 GS-3
 
@@ -17,10 +17,6 @@ ECONOMY
 Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth, Development, Employment); Inclusive growth and issues therein
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-15 2020 Explain intra-generational and inter-generational issues of equity from the perspective of inclusive growth and sustainable development. Issues of equity 10
-
-16 2020 Define potential GDP and explain its determinants. What are the factors that have been inhibiting India from realizing its potential GDP? Potential GDP and determinants 10
 
 17 2019 It is argued that the strategy of inclusive growth is intended to meet the objectives of inclusiveness and sustainability together. Comment on this statement. Inclusiveness and Sustainability 15
 
@@ -54,8 +50,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-3 2020 Explain the rationale behind the Goods and Services Tax (Compensation to States) Act of 2017. How has COVID-19 impacted the GST compensation fund and created new federal tensions? GST 15
-
 4 2019 Enumerate the indirect taxes which have been subsumed in the Goods and Services Tax (GST) in India. Also, comment on the revenue implications of the GST introduced in India since July 2017. GST / Budget after 1991 10
 
 5 2019 The public expenditure management is a challenge to the government of India in the context of budget-making during the post-liberalization period. Clarify it. GST 15
@@ -75,8 +69,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Infrastructure (energy, ports, roads, airports, railways); Investment models
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-4 2020 Explain the meaning of investment in an economy in terms of capital formation. Discuss the factors to be considered while designing a concession agreement between a public entity and a private entity. Investment 15
 
 5 2018 Access to affordable, reliable, sustainable and modern energy is the sine qua non to achieve Sustainable Development Goals (SDGs). Comment on the progress made in India in this regard. SDG 10
 
@@ -120,9 +112,7 @@ Major crops, Cropping Patterns in various parts of the country, Different types 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-7 2020 Elaborate on the National Watershed Project and how it has helped in sustaining agriculture in water-stressed areas. Watershed 10
-
-8 2020 Suggest measures for judicious use of water resources to depleting groundwater. Micro irrigation efficiency 15
+7 2019 Elaborate on the National Watershed Project and how it has helped in sustaining agriculture in water-stressed areas. Watershed 10
 
 9 2019 How is India benefited from the Sir M. Visvesvaraya irrigation system to become a success in agricultural engineering science? Irrigation engineering system 15
 
@@ -157,10 +147,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Food processing and related industries in India (scope & significance, location, upstream-downstream requirements, supply chain management); Storage, transport & marketing of agro-produce and related issues & constraints; Economics of animal-rearing
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-7 2020 What are the challenges and opportunities of food processing sector in the country? How can income of the farmers be substantially increased by encouraging food processing? FPI Challenges 10
-
-8 2020 What are the main constraints in transport and marketing of agricultural produce in India? Elaborate on the policy taken by the government of India to meet the challenges of the food processing sector. FPI Challenges 10
 
 9 2019 Examine the role of supermarkets in supply chain management of fruits, vegetables and food items. How do they eliminate number of intermediaries? Supply Chain Management 15
 
@@ -212,8 +198,6 @@ DISASTER MANAGEMENT
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-8 2020 Discuss the recent measures initiated in disaster management by the Government of India departing from the earlier reactive approach. DM strategies 15
-
 9 2019 Vulnerability is an essential element for defining disaster impacts and its threat to people. How and in what ways can vulnerability to disasters be characterized? Discuss different types of vulnerability with reference to disasters. Types of Vulnerability 10
 
 10 2019 Disaster preparedness is the first step in any disaster management process. Explain how hazard zonation mapping will help in disaster mitigation in the case of landslides. Disaster Preparedness 15
@@ -237,14 +221,6 @@ ENVIRONMENT
 Conservation; Environmental pollution and degradation; Environmental Impact Assessment; El Nino and La Nina fallouts
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-16 2020 What are the key features of the National Clean Air Programme (NCAP) initiated by the Government of India? NCAP 15
-
-17 2020 Describe the benefits of deriving electric energy from sunlight in contrast to the conventional energy generation. What are the initiatives offered by our Government for this purpose? Solar Energy 15
-
-18 2020 What are the salient features of the Jal Shakti Abhiyan launched by the Government of India for water conservation and water security? Jal Shakti Abhiyan 10
-
-19 2020 How does the draft Environment Impact Assessment (EIA) Notification, 2020 differ from the existing EIA Notification, 2006? EIA 2020 10
 
 20 2019 Coastal sand mining, whether legal or illegal, poses one of the biggest threats to our environment. Analyse the impact of sand mining along the Indian coasts, citing specific examples. Sand mining 10
 
@@ -285,12 +261,6 @@ SCIENCE & TECHNOLOGY
 S&T developments and everyday applications & effects; Awareness in fields of IT, Space, Computers, Robotics, Nanotech, Biotech, IPR issues
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-13 2020 COVID-19 pandemic has caused unprecedented devastation worldwide. However, technological advancements are being availed readily to win over the crisis. Give an account of how technology was sought to aid management to the pandemic. Technology for COVID 15
-
-14 2020 How is science interwoven deeply with our lives? What are the striking changes in agriculture triggered off by the science-based technologies? Daily life science 10
-
-15 2020 What do you understand by nanotechnology and how is it helping in health sector? Nanotech for health 10
 
 16 2018 Why is there so much activity in the field of biotechnology in our country? How has this activity benefitted the field of biopharma? Biopharma 15
 
@@ -342,8 +312,6 @@ Linkages between Development & spread of Extremism; Linkages of Organized crime 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-9 2020 What are the determinants of left-wing extremism in the affected areas of India? What strategy should the civil administration and security forces adopt to counter the threat in Eastern part of India? Determinants of LWE 10
-
 10 2019 The banning of 'Jamaat-e-islaami' in Jammu and Kashmir brought into focus the role of over-ground workers (OGWs) in assisting terrorist organizations. Examine the role played by OGWs in assisting terrorist organizations in insurgency affected areas. Discuss measures to neutralize the influence of OGWs. OGW in J&K 10
 
 11 2019 Indian government has recently strengthened the anti-terrorism laws by amending the Unlawful Activities (Prevention) Act (UAPA), 1967 and the NIA Act. Analyze the changes in the context of prevailing security environment while discussing the scope and reasons for opposing the UAPA by human rights organizations. UAPA NIA 15
@@ -367,10 +335,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Border Areas (security challenges and management thereof); Security forces & agencies (mandate); Role of External State & Non-State actors in creating internal security challenges
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-8 2020 For effective border area management, discuss the steps required to be taken to deny local support to militants and also suggest ways to manage favourable perception among locals. Locals support to militants 10
-
-9 2020 Analyze internal security threats and transborder crimes along Myanmar, Bangladesh and Pakistan borders including Line of Control (LoC). Also discuss the role played by various security forces in this regard. Myanmar, Bangladesh and Pakistan 15
 
 10 2019 Cross-border movement of insurgents is only one of the several security challenges facing the policing of the border in North-East India. Examine the various challenges currently emanating across the India-Myanmar border. Also, discuss the steps to counter the challenges. North East 15
 
@@ -405,8 +369,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Basics of Cyber Security; Role of media and social-networking sites in internal security challenges; Internal security challenges through communication networks.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-5 2020 Discuss different types of cyber crimes and measures required to be taken to fight the menace. Types of cyber crimes and measures 10
 
 6 2019 What is the CyberDome Project? Explain how it can be useful in controlling internet crimes in India. CyberDome Project 10
 
