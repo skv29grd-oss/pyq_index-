@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ Match Log builder (v8: 13 columns incl. Syllabus Tag and V&R Recall).
+"""CA-PYQ Match Log builder (v9: 13 columns incl. Syllabus Tag and V&R Recall).
 
 Usage:
   python3 ca_pyq_build.py --logs day1.csv day2.csv ... --today TODAY.json \
@@ -103,23 +103,21 @@ def is_newspaper(o):
     return any(o.get('source', '').startswith(n) for n in NEWSPAPER)
 
 def vr_text(o):
+    """Column 13. v9 rows (with 'vr_topic'): syllabus base only, newspaper rows only.
+    Rows written before v9 (no 'vr_topic') keep the old [CA] text from 'vr'."""
     dmy = o['date'][8:10] + '-' + o['date'][5:7] + '-' + o['date'][:4]
-    v = o.get('vr')
-    if isinstance(v, list):
-        ca = bullets(v) if v else f'Not covered by V&R ({dmy})'
-    else:
-        ca = v or ''
     t = o.get('vr_topic')
-    if t is None:                      # rows before v8
-        return ca
-    parts = [f'[CA \u2013 V&R {dmy[:5]}]\n' + ca] if ca else []
-    if is_newspaper(o):
-        sub = o.get('tag', '').split(' \u203a ')[-1]
-        if t.get('facts'):
-            parts.append(f"[Syllabus base \u2013 {sub}] (V&R: {t.get('page', '')})\n" + bullets(t['facts']))
-        else:
-            parts.append(f'[Syllabus base \u2013 {sub}] No V&R topic page found')
-    return '\n'.join(parts)
+    if t is None:                      # legacy rows (29-30 Oct 2026)
+        v = o.get('vr')
+        if isinstance(v, list):
+            return bullets(v) if v else f'Not covered by V&R ({dmy})'
+        return v or ''
+    if not is_newspaper(o):
+        return ''
+    sub = o.get('tag', '').split(' \u203a ')[-1]
+    if t.get('facts'):
+        return f"[Syllabus base \u2013 {sub}] (V&R: {t.get('page', '')})\n" + bullets(t['facts'])
+    return f'[Syllabus base \u2013 {sub}] No V&R topic page found'
 
 def nice_date(d):
     try:
@@ -288,7 +286,7 @@ def build(rows, out_xlsx):
         ('Mains recall', 'Answer-ready points, tagged [Intro data], [Issue], [Judgment], [Committee], [Way forward], [Counterpoint], [Ethics].'),
         ('PYQ excerpts', 'Every past question matched to the item, one line per year: P = Prelims with year, GS1-GS4 = Mains with year and marks. Four years asked means four quoted questions here.'),
         ('Syllabus', 'Exact syllabus portion: Paper \u203a Subject \u203a Topic (official syllabus line) \u203a Subtopic. Filter the Master Log on it to revise topic-wise.'),
-        ('V&R recall', "[CA] facts from that date's Vajiram & Ravi Prelims/Mains pages on the same story (from 29 Oct 2026). [Syllabus base] (newspaper items, from 31 Oct 2026): core facts from V&R's page on that exact syllabus subtopic; identical for items sharing a subtopic."),
+        ('V&R recall', "Syllabus base for newspaper items (from 31 Oct 2026): core facts from Vajiram & Ravi's page on that exact syllabus subtopic; identical for items sharing a subtopic. V&R's daily news facts are merged into the Prelims/Mains recall, like Next IAS and Drishti. Rows of 29-30 Oct 2026 show V&R daily facts here."),
         ('Expected 2027 Qs', 'How the examiner would use this item in 2027: one probable Prelims stem, one probable Mains question with paper and marks, and the PYQ years it extends. The two lines test different things by design.'),
         ('Revision routine', ''),
         ('Daily (10 min)', "Read today's cards: Prelims recall aloud, one Mains point per card in your own words."),

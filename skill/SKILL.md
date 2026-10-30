@@ -1,6 +1,6 @@
 # Daily CA → PYQ Match (UPSC CSE 2027) — full instructions
 
-Version: **v8** (2026-10-30; rules marked v8 apply to newspaper dates from 31 Oct 2026). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
+Version: **v9** (2026-10-30; rules marked v8/v9 apply to newspaper dates from 31 Oct 2026). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
 
 Triggered manually by the user ("run today's match", "run it up to today", a newspaper PDF upload, or the skill name). Never schedule it.
 
@@ -33,7 +33,7 @@ The pointer skill in the user's Claude settings stays short and does not change 
 | Stage | What happens |
 |---|---|
 | 1. Inputs | Paper (Drive) · Next IAS + Drishti + Vajiram & Ravi (web) · PYQ corpus and monthly data CSV (GitHub) · gap check |
-| 2. Processing | Extract → **select ≤15 newspaper + ≤5 web items** → match all PYQ years → classify → recall → expected 2027 Qs → Syllabus Tag → V&R recall (CA + syllabus base) |
+| 2. Processing | Extract → **select ≤15 newspaper + ≤5 web items** → match all PYQ years → classify → recall → expected 2027 Qs → Syllabus Tag → V&R syllabus base |
 | 3. Output | Build monthly workbook (13-column locked design) → send it → push day rows to the GitHub CSV → verify |
 | 4. Reply | 5-8 lines: rows per date, top Direct hits, new Emerging themes, each site's latest date, caveats |
 
@@ -44,7 +44,7 @@ Run checklist (tick every box before replying):
 - [ ] Every page of each paper read (state page count)
 - [ ] Next IAS, Drishti IAS and Vajiram & Ravi (Prelims + Mains pages) pulled for each date, or reason stated; latest posted date per site noted
 - [ ] At most 15 newspaper rows + 5 web-only rows per date (P-0)
-- [ ] Every row: all PYQ years, **one quoted question per year listed**, Match class, 3-5 Prelims + 3-4 Mains recall, three MECE note lines, a Syllabus Tag from `syllabus.md`, a `vr` field; newspaper rows also a `vr_topic` (same tag → identical block)
+- [ ] Every row: all PYQ years, **one quoted question per year listed**, Match class, 3-5 Prelims + 3-4 Mains recall, three MECE note lines, a Syllabus Tag from `syllabus.md`; V&R daily facts merged into recall; newspaper rows a `vr_topic` (same tag → identical block)
 - [ ] Every figure, name and quote traceable to source text (P-5.5)
 - [ ] Workbook built with `skill/ca_pyq_build.py`; `skill/verify.py` prints OK for every date run; current month's file sent
 - [ ] Day rows appended to the GitHub monthly CSV (13 columns, CRLF row endings), committed, pushed, re-fetched and row-counted
@@ -58,7 +58,7 @@ Run checklist (tick every box before replying):
 | I-1 | Newspaper (The Hindu Delhi; occasionally Indian Express) | Chat upload, or Drive `UPSC Prep/Daily Newspaper/` (folder id `1CtfjQaFlINJX_ztcrwYXmju-cHTgZq2R`). Names vary (`TH Delhi DD-MM-YYYY.pdf`, `TH-Delhi DD.MM.YYYY.pdf`, `The Hindu DD.MM.YYYY.pdf`, `IE-Delhi …`): search `parentId = '<folder>' and createdTime > '<date>'` | Upload: `Read` with `pages`. Drive PDF ≤10 MB: `download_file_content`. >10 MB: `read_file_content` (saved to a file → `fileContent`). Clean (drop lines ≤25 chars), read in ~37k-char slices; after every page is scanned, a headline pass plus `find()` on chosen stories is fine |
 | I-2 | Next IAS | `nextias.com/ca/current-affairs/DD-MM-YYYY`; articles `…/DD-MM-YYYY/<slug>`; short items `…/news-in-brief-DD-MM-YYYY` | WebFetch index, then article pages for figures |
 | I-3 | Drishti IAS | `drishtiias.com/current-affairs-news-analysis-editorials/news-analysis/DD-MM-YYYY` | Same |
-| I-3b | Vajiram & Ravi | Prelims `vajiramandravi.com/current-affairs/upsc-prelims-current-affairs/YYYY/MM/DD/` · Mains `vajiramandravi.com/current-affairs/upsc-mains-current-affairs/YYYY/MM/DD/` | WebFetch each index for titles + URLs, then each article with a short facts-only prompt (exact figures). Use (a) for V&R recall (P-7) on rows of the same story; (b) V&R-only items with a syllabus hook become rows, Source `V&R (DD-MM-YYYY)`. Leave out facts that look like V&R typos |
+| I-3b | Vajiram & Ravi (daily) | Prelims `vajiramandravi.com/current-affairs/upsc-prelims-current-affairs/YYYY/MM/DD/` · Mains `vajiramandravi.com/current-affairs/upsc-mains-current-affairs/YYYY/MM/DD/` | WebFetch each index for titles + URLs, then each article with a short facts-only prompt (exact figures). Use (a) to enrich rows of the same story, merged into topic and recall like Next IAS/Drishti (P-7); (b) V&R-only items with a syllabus hook become rows, Source `V&R (DD-MM-YYYY)`. Leave out facts that look like V&R typos |
 | I-4 | PYQ corpus | `pyq_db/<year>/<year> <paper>.csv` (2020-2026); old indexes for Prelims 2011-2019, Mains 2013-2019 | `python3 pyq_index-/load_pyq.py pyq_index-` from `/home/claude`. Never download PYQ files from Drive. If GitHub is unreachable, stop and tell the user |
 | I-6 | Past daily data | `data/CA-PYQ Data YYYY-MM.csv` in the repo (12 columns, header, CRLF row endings, LF inside quoted cells) | `git fetch origin main && git reset --hard origin/main` first. Count rows per Date. **Gap check:** every date from the last logged date up to today that has a paper on Drive is run this session, oldest first, each as its own date. The old Drive CSV store is retired |
 | I-6b | Fallback if the CSV lacks days the user ran | Latest `CA-PYQ Match Log YYYY-MM.xlsx` (chat or Drive) | Split its Master Log by Date (§5) and append the missing dates in the same push |
@@ -89,11 +89,15 @@ Oversized tool results are saved to files: decode with Python, never paste into 
 
 **P-8 Syllabus Tag (v8).** Every row gets `tag` = `Paper › Subject › Topic › Subtopic` (separator ` › `). Paper, Subject and Topic are copied exactly from one line of `skill/syllabus.md`; Subtopic is the specific concept, law or institution (short, e.g. `Air pollution — GRAP, CAQM`). Use the Mains paper when the item has Mains value; `Prelims` only for Prelims-only facts. Items on the same subtopic get the identical tag; before inventing a subtopic, check the month's CSV for an existing tag on the same theme and reuse it.
 
-**P-7 V&R recall (column 13).** Two blocks in one cell. **[CA]** If V&R covered the same story that date (Prelims or Mains page): 2-4 facts, ≤25 words each, from the V&R article, preferring what the paper and other sites lack (outlay, components, legal section, origin year, mechanism); figures as V&R prints them. Not covered → `vr: []` (builder writes `Not covered by V&R (DD-MM-YYYY)`). V&R not yet posted for that date → `vr: "V&R has not posted DD-MM-YYYY yet"`. Never borrow an article on a different story. Rows before 29 Oct 2026 keep the column blank unless the user asks for a backfill.
+**P-7 V&R (v9).** Vajiram & Ravi is used in two separate ways.
+- **Daily news facts → the row itself.** Treat V&R's daily Prelims/Mains articles exactly like Next IAS and Drishti: merge their facts on the same story into the row's topic sentence and Prelims/Mains recall (within the usual counts and word limits; replace weaker points rather than exceed them), and add `V&R (DD-MM-YYYY)` to `Source`. V&R-only stories can be rows, counting toward the 5 web items (P-0). No `vr` field from 31 Oct 2026.
+- **Syllabus base → column 13 (`V&R Recall`).** Only this goes in the column, as below.
 
-**[Syllabus base] (v8, newspaper rows only).** For each distinct tag on a newspaper row, find V&R's page on that exact syllabus subtopic: `WebSearch` with `allowed_domains: ["vajiramandravi.com"]` and the subtopic words; prefer `vajiramandravi.com/upsc-exam/<topic>/` pages, else a V&R explainer on the same subtopic. Fetch it with a facts-only prompt and write `vr_topic = {"page": "<page title>", "facts": [2-4 lines, ≤25 words each]}` — core static knowledge (law + year, body, constitutional provision, concept, standard, key data) not already in the row's Prelims/Mains recall. Keep only current figures; if the page shows a superseded target, give the current one and mark the old one `(earlier target)`. Never borrow a page on a different subtopic; if none exists, `vr_topic = {"page": "", "facts": []}` (builder writes `No V&R topic page found`). **Same tag → identical `vr_topic`** within the day; if the month's CSV already has a `[Syllabus base – <same subtopic>]` block, reuse it word for word. Web-only rows carry no `vr_topic`.
+Rows of 29-30 Oct 2026 were written before v9 and keep V&R daily facts in column 13.
 
-Write each date's rows to `today_YYYY-MM-DD.json`: list of objects with `date, topic, source, gs_area, tag, years, papers, pyq_excerpt, match, note, prelims, mains, vr` and, for newspaper rows, `vr_topic`. A `rowsYYYYMMDD.py` with an `R(...)` helper, dumped to JSON, keeps rows consistent. Save all source text used (paper, Next IAS, Drishti, V&R facts) into one `source_<dates>.txt` for VERIFY.
+**Syllabus base (v8/v9, newspaper rows only; the only content of column 13).** For each distinct tag on a newspaper row, find V&R's page on that exact syllabus subtopic: `WebSearch` with `allowed_domains: ["vajiramandravi.com"]` and the subtopic words; prefer `vajiramandravi.com/upsc-exam/<topic>/` pages, else a V&R explainer on the same subtopic. Fetch it with a facts-only prompt and write `vr_topic = {"page": "<page title>", "facts": [2-4 lines, ≤25 words each]}` — core static knowledge (law + year, body, constitutional provision, concept, standard, key data) not already in the row's Prelims/Mains recall. Keep only current figures; if the page shows a superseded target, give the current one and mark the old one `(earlier target)`. Never borrow a page on a different subtopic; if none exists, `vr_topic = {"page": "", "facts": []}` (builder writes `No V&R topic page found`). **Same tag → identical `vr_topic`** within the day; if the month's CSV already has a `[Syllabus base – <same subtopic>]` block, reuse it word for word. Web-only rows carry no `vr_topic`, so their column 13 is blank.
+
+Write each date's rows to `today_YYYY-MM-DD.json`: list of objects with `date, topic, source, gs_area, tag, years, papers, pyq_excerpt, match, note, prelims, mains` and, for newspaper rows, `vr_topic` (no `vr` field from 31 Oct 2026). A `rowsYYYYMMDD.py` with an `R(...)` helper, dumped to JSON, keeps rows consistent. Save all source text used (paper, Next IAS, Drishti, V&R facts) into one `source_<dates>.txt` for VERIFY.
 
 ## 3. OUTPUT
 

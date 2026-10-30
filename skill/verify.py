@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ VERIFY (v8). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
+"""CA-PYQ VERIFY (v9). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
 Prints OK when every check passes; the untraced-figure list is a review prompt, not a failure."""
 import csv, json, re, sys, glob, os, openpyxl
 
@@ -64,10 +64,10 @@ for o in today:
     assert all(len(l.split()) <= 35 for l in nl), t
     assert re.search(r'\(GS[1-4],\s*\d{1,2}(\.5)?\)', nl[1]), f'Mains line needs (GSn, marks): {t}'
     assert len(o['topic'].split()) <= 45, t
-    assert 'vr' in o, f'missing vr: {t}'
-    if isinstance(o['vr'], list):
-        assert len(o['vr']) == 0 or 2 <= len(o['vr']) <= 4, t
-        assert all(len(v.split()) <= 25 for v in o['vr']), t
+    if not V8:                                    # legacy rows only
+        assert 'vr' in o, f'missing vr: {t}'
+    else:
+        assert not o.get('vr'), f'v9: merge V&R daily facts into recall, not a vr field: {t}'
 
 up = list(csv.reader(open(UPLOAD_CSV, newline='', encoding='utf-8')))
 assert up[0] == HEAD and len(up) - 1 == len(today) and all(len(r) == 13 for r in up), 'upload CSV mismatch'
@@ -82,7 +82,7 @@ FILLER = ('it may be noted', 'in this regard', 'it is important to note', 'needl
 dig = lambda s: re.sub(r'[,\s]', '', s).rstrip('.')
 flat_d, untraced = dig(flat), []
 for o in today:
-    blob = ' '.join([o['topic']] + o['prelims'] + o['mains'] + (o['vr'] if isinstance(o['vr'], list) else [])
+    blob = ' '.join([o['topic']] + o['prelims'] + o['mains'] + (o.get('vr') if isinstance(o.get('vr'), list) else [])
                     + ((o.get('vr_topic') or {}).get('facts') or []))
     assert not any(f in blob.lower() for f in FILLER), o['topic'][:40]
     for n in set(re.findall(r'\d[\d,.]*', blob)):

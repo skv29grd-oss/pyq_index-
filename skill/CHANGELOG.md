@@ -2,6 +2,11 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v9 — 2026-10-30
+- V&R daily news facts are now merged into each row's topic and Prelims/Mains recall, like Next IAS and Drishti (V&R named in Source); the `vr` field is dropped from 31 Oct 2026.
+- Column 13 `V&R Recall` holds only the [Syllabus base] block (newspaper rows; blank for web-only rows).
+- verify.py rejects a `vr` field on rows from 31 Oct 2026. Rows of 29-30 Oct keep their old V&R text.
+
 ## v8 — 2026-10-30
 - Selection cap: at most 15 newspaper items + 5 web-only items (Drishti, Next IAS, V&R combined) per date, ranked by match class, PYQ years, Prelims+Mains value and syllabus spread.
 - New column 3 `Syllabus Tag` (Paper › Subject › Topic › Subtopic), topics fixed by new `skill/syllabus.md`; Master Log now 13 columns, freeze E2, autofilter A:M.
