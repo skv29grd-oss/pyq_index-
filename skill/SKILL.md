@@ -1,6 +1,6 @@
 # Daily CA → PYQ Match (UPSC CSE 2027) — full instructions
 
-Version: **v9** (2026-10-30; rules marked v8/v9 apply to newspaper dates from 31 Oct 2026). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
+Version: **v10** (2026-11-02; rules marked v8/v9 apply from 31 Oct 2026, v10 from 1 Nov 2026). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
 
 Triggered manually by the user ("run today's match", "run it up to today", a newspaper PDF upload, or the skill name). Never schedule it.
 
@@ -44,7 +44,7 @@ Run checklist (tick every box before replying):
 - [ ] Every page of each paper read (state page count)
 - [ ] Next IAS, Drishti IAS and Vajiram & Ravi (Prelims + Mains pages) pulled for each date, or reason stated; latest posted date per site noted
 - [ ] At most 15 newspaper rows + 5 web-only rows per date (P-0)
-- [ ] Every row: all PYQ years, **one quoted question per year listed**, Match class, 3-5 Prelims + 3-4 Mains recall, three MECE note lines, a Syllabus Tag from `syllabus.md`; V&R daily facts merged into recall; newspaper rows a `vr_topic` (same tag → identical block)
+- [ ] Every row: all PYQ years, **one full, untruncated question per year listed (v10: no cap, no `…`)**, Match class, 3-5 Prelims + 3-4 Mains recall, three MECE note lines, a Syllabus Tag from `syllabus.md`; V&R daily facts merged into recall; newspaper rows a `vr_topic` (same tag → identical block)
 - [ ] Every figure, name and quote traceable to source text (P-5.5)
 - [ ] Workbook built with `skill/ca_pyq_build.py`; `skill/verify.py` prints OK for every date run; current month's file sent
 - [ ] Day rows appended to the GitHub monthly CSV (13 columns, CRLF row endings), committed, pushed, re-fetched and row-counted
@@ -77,7 +77,7 @@ Oversized tool results are saved to files: decode with Python, never paste into 
 
 **P-2 Merge.** One row per theme per date; merge same-date web coverage. A continuation of an earlier day is a new row with "refines the DD Mon entry" in `[Link]`.
 
-**P-3 Match all PYQ years.** 2-4 precise patterns per item with `skill/q.py` (copy it next to `mains_recs.json`; label ending `!` = case-sensitive). Read every hit; keep genuine matches. List every year ascending with papers. Quote every match in `pyq_excerpt`, one per line, ascending (`P <year>:` / `GS<n> <year> (<marks>):`), cap eight then `+N more`. **One year → one quoted question**; same year in two papers → two lines; never summarise. Full text: filter `mains_recs.json` by year/paper/substring; `prelims_lines.txt` by its key (`Env Q59 (2016)`, `2022 Q44:`).
+**P-3 Match all PYQ years.** 2-4 precise patterns per item with `skill/q.py` (copy it next to `mains_recs.json`; label ending `!` = case-sensitive). Read every hit; keep genuine matches. List every year ascending with papers. Quote every match in `pyq_excerpt`, one per line, ascending (`P <year>:` / `GS<n> <year> (<marks>):`). **v10: the full question text as stored in the corpus — never truncate, no `…`, no `+N more` cap.** **One year → one quoted question**; same year in two papers → two lines; never summarise. (Prelims 2011-2019 and Mains 2013-2019 come from topic indexes, so their stored text is the index wording.) Full text: filter `mains_recs.json` by year/paper/substring; `prelims_lines.txt` by its key (`Env Q59 (2016)`, `2022 Q44:`).
 
 **P-4 Classify.** Direct = PYQ asked this exact theme/place/fact · Thematic = fresh example for a related PYQ · Emerging = not asked yet.
 
@@ -127,18 +127,20 @@ Four tabs, all Calibri 12: Revision Cards (phone-first, newest day first; V&R re
 | Date banding | `FFFFFF`/`F2F6FB`; medium navy top border on new date; bold date cell |
 | Revision Cards | Columns 20/100; gridlines off; navy day banner (26) with match counts; card lines: headline · Area·Source · Syllabus (bold slate, when present) · PYQ years · Prelims recall (`F4F9F1`) · Mains recall (bold tags) · PYQ excerpts (italic) · Expected 2027 Qs · V&R recall (`FFF7E6`, when present) |
 | Master Log | Widths `A:12 B:18 C:34 D:11 E:55 F:55 G:58 H:22 I:16 J:62 K:55 L:18 M:60`; Syllabus Tag in bold slate; header 36; freeze `E2`; autofilter `A1:M<last>`; landscape; header repeats |
+| Master Log sub-rows (v10) | One sheet row per matched PYQ: H = year (bold navy), I = `Prelims` or `GS<n> (<marks> m)` (bold slate), J = full question (italic grey). Long item cells (E, F, G, K, L, M) merged across the item's sub-rows; A-D repeat on every sub-row (greyed after the first) so filters keep whole items. Last sub-row grows if merged text needs more height |
+| Revision Cards PYQs (v10) | One card line per PYQ, labelled `Prelims <year>` / `GS<n> <year> (<marks> m)` |
 | Row heights | `est_height()` — never Excel autofit |
 | Tabs | Revision Cards `1F3864` → Master Log `2E75B6` → PYQ Year Frequency `44546A` → How to Use `A6A6A6` |
 
 **O-3 Deliver.** `SendUserFile` the current month's workbook (attach, one-line caption).
 
-**O-4 Store on GitHub.** In the clone: fetch + hard reset to `origin/main`; read the month's CSV with `csv`; if its header lacks `Syllabus Tag`, insert that column (blank for old rows) after `GS Area`; assert none of the new dates exist; append rows from each `upload_YYYY-MM-DD.csv` (skip header) in date order, values unchanged; write with `csv.writer` (CRLF). New month → new `data/CA-PYQ Data YYYY-MM.csv` with the 13-column header. Commit `Add CA-PYQ rows for DD Mon YYYY (N)` with the session attribution lines; `git push origin HEAD:main`. Verify: fetch, `origin/main` is your commit, CSV rows = monthly workbook Master Log rows, all rows 13 fields. Never use a subagent to retype the CSV. Tell the user the Drive copy of the workbook is now theirs to replace.
+**O-4 Store on GitHub.** In the clone: fetch + hard reset to `origin/main`; read the month's CSV with `csv`; if its header lacks `Syllabus Tag`, insert that column (blank for old rows) after `GS Area`; assert none of the new dates exist; append rows from each `upload_YYYY-MM-DD.csv` (skip header) in date order, values unchanged; write with `csv.writer` (CRLF). New month → new `data/CA-PYQ Data YYYY-MM.csv` with the 13-column header. Commit `Add CA-PYQ rows for DD Mon YYYY (N)` with the session attribution lines; `git push origin HEAD:main`. Verify: fetch, `origin/main` is your commit, CSV rows = number of items in the monthly workbook (Master Log has more sheet rows from v10 because of PYQ sub-rows), all rows 13 fields. The CSV stays one row per item; PYQs stay newline-separated in one cell. A rerun of an already-logged date replaces that date's rows (say so in the commit message). Never use a subagent to retype the CSV. Tell the user the Drive copy of the workbook is now theirs to replace.
 
 **O-5 Reply** (concise): rows per date (newspaper/web) and match mix; candidates dropped by the cap; 3-5 top Direct items with PYQ years; new Emerging themes; each site's latest date; inputs not read; caveats.
 
 ## 4. VERIFY
 
-For every date added: `python3 pyq_index-/skill/verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source_<dates>.txt` → fix until it prints `OK`. From 31 Oct 2026 it also checks the 15 + 5 cap, every tag against `syllabus.md`, the syllabus block on newspaper rows only, and identical blocks for identical tags. The untraced-figure list is a review prompt (Act years and Articles are fine; an unsourced outlay is not).
+For every date added: `python3 pyq_index-/skill/verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source_<dates>.txt` → fix until it prints `OK`. From 1 Nov 2026 (v10) it also checks every PYQ line is `P <year>:` / `GS<n> <year> (<marks>):`, none truncated or capped, and Master Log sub-rows = PYQ lines. From 31 Oct 2026 it checks the 15 + 5 cap, every tag against `syllabus.md`, the syllabus block on newspaper rows only, and identical blocks for identical tags. The untraced-figure list is a review prompt (Act years and Articles are fine; an unsourced outlay is not).
 
 ## 5. Corpus helpers
 

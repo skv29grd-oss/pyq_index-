@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ Match Log builder (v9: 13 columns incl. Syllabus Tag and V&R Recall).
+"""CA-PYQ Match Log builder (v10: 13 columns; Master Log shows one sub-row per matched PYQ).
 
 Usage:
   python3 ca_pyq_build.py --logs day1.csv day2.csv ... --today TODAY.json \
@@ -119,6 +119,22 @@ def vr_text(o):
         return f"[Syllabus base \u2013 {sub}] (V&R: {t.get('page', '')})\n" + bullets(t['facts'])
     return f'[Syllabus base \u2013 {sub}] No V&R topic page found'
 
+PYQ_LINE = re.compile(r'^(?:(P)\s+(20\d\d)|(GS[1-4]|Essay)\s+(20\d\d)(?:\s*\(([^)]*)\))?)\s*:\s*(.*)$', re.S)
+
+def split_pyqs(exc):
+    """One entry per matched PYQ: (year, paper label, full question text). Lines that are not
+    'P <year>:' / 'GS<n> <year> (<marks>):' (e.g. '+N more' in old rows) are kept as text-only entries."""
+    out = []
+    for line in [l.strip() for l in str(exc or '').split('\n') if l.strip()]:
+        m = PYQ_LINE.match(line)
+        if m and m.group(1):
+            out.append((m.group(2), 'Prelims', m.group(6).strip()))
+        elif m:
+            out.append((m.group(4), m.group(3) + (f' ({m.group(5)} m)' if m.group(5) else ''), m.group(6).strip()))
+        else:
+            out.append(('', '', line))
+    return out or [('', '', str(exc or ''))]
+
 def nice_date(d):
     try:
         return datetime.strptime(d, '%Y-%m-%d').strftime('%d %b %Y')
@@ -154,7 +170,7 @@ def build(rows, out_xlsx):
                 ('PYQ years', f'{yrs}   —   {pap}', 'years'),
                 ('Prelims recall', pre, 'pre'),
                 ('Mains recall', mai, 'mains'),
-                ('PYQ excerpts', exc, 'pyq'),
+            ] + [(('Prelims ' + yy) if pp == 'Prelims' else (f"{pp.split(' ')[0]} {yy}" + (' ' + pp.split(' ', 1)[1] if ' ' in pp else '')) if yy else 'PYQ', q, 'pyq') for yy, pp, q in split_pyqs(exc)] + [
                 ('Expected 2027 Qs', note, 'note'),
             ] + ([('V&R recall', vr, 'vr')] if vr else [])
             for label, val, kind in card:
@@ -204,29 +220,59 @@ def build(rows, out_xlsx):
         c.alignment = Alignment(vertical='center', horizontal='center', wrap_text=True)
     wl.row_dimensions[1].height = 36
     band = {d: BAND[i % 2] for i, d in enumerate(by_date)}
+    KEYS = {1, 2, 3, MATCH_C}                       # repeated on every sub-row so filters keep whole items
+    SUB = {YRS_C, YRS_C + 1, EXC_C}                  # one value per PYQ sub-row
     prev = None
     for x in rows:
         y = [x[k] for k in PERM]
-        wl.append(y[:MAINS_C - 1] + [None] + y[MAINS_C:])
-        i = wl.max_row
-        wl.cell(i, MAINS_C).value = mains_rich(x[5])
-        for j in range(1, NC + 1):
-            c = wl.cell(i, j)
-            c.font = F(); c.alignment = TOP; c.border = BOX; c.fill = fill(band[x[0]])
-        for j in (1, 2, MATCH_C, YRS_C, YRS_C + 1):
-            wl.cell(i, j).alignment = TOPC
-        wl.cell(i, YRS_C).font = F(bold=True, color=NAVY)
-        wl.cell(i, EXC_C).font = F(italic=True, color='404040')
-        wl.cell(i, 3).font = F(bold=True, color=SLATE)
-        m = wl.cell(i, MATCH_C)
-        if x[2] in MATCH_FILL:
-            m.fill = fill(MATCH_FILL[x[2]]); m.font = F(bold=True, color=MATCH_INK[x[2]])
-        if prev is not None and x[0] != prev:
+        pyqs = split_pyqs(x[8])
+        first = wl.max_row + 1
+        for s_i, (yy, pp, q) in enumerate(pyqs):
+            vals = []
             for j in range(1, NC + 1):
-                wl.cell(i, j).border = Border(left=THIN, right=THIN, bottom=THIN, top=Side(style='medium', color=NAVY))
-        wl.cell(i, 1).font = F(bold=(x[0] != prev))
+                if j in SUB:
+                    vals.append({YRS_C: yy or y[j - 1] if len(pyqs) == 1 else yy,
+                                 YRS_C + 1: pp or (y[j - 1] if len(pyqs) == 1 else ''), EXC_C: q}[j])
+                elif j in KEYS or s_i == 0:
+                    vals.append(None if j == MAINS_C else y[j - 1])
+                else:
+                    vals.append(None)
+            wl.append(vals)
+            i = wl.max_row
+            if s_i == 0:
+                wl.cell(i, MAINS_C).value = mains_rich(x[5])
+            for j in range(1, NC + 1):
+                c = wl.cell(i, j)
+                c.font = F(); c.alignment = TOP; c.border = BOX; c.fill = fill(band[x[0]])
+            for j in (1, 2, MATCH_C, YRS_C, YRS_C + 1):
+                wl.cell(i, j).alignment = TOPC
+            wl.cell(i, YRS_C).font = F(bold=True, color=NAVY)
+            wl.cell(i, YRS_C + 1).font = F(bold=True, color=SLATE)
+            wl.cell(i, EXC_C).font = F(italic=True, color='404040')
+            wl.cell(i, 3).font = F(bold=True, color=SLATE) if s_i == 0 else F(color='A6A6A6')
+            m = wl.cell(i, MATCH_C)
+            if x[2] in MATCH_FILL:
+                m.fill = fill(MATCH_FILL[x[2]]); m.font = F(bold=True, color=MATCH_INK[x[2]])
+            if s_i > 0:
+                for j in (1, 2):
+                    wl.cell(i, j).font = F(color='A6A6A6')
+            if s_i == 0 and prev is not None and x[0] != prev:
+                for j in range(1, NC + 1):
+                    wl.cell(i, j).border = Border(left=THIN, right=THIN, bottom=THIN, top=Side(style='medium', color=NAVY))
+            if s_i == 0:
+                wl.cell(i, 1).font = F(bold=(x[0] != prev))
+            wl.row_dimensions[i].height = max(est_height(v, widths[chr(64 + j)]) for j, v in enumerate(vals, 1)
+                                              if j in SUB or j in KEYS)
+        last = wl.max_row
+        if last > first:                            # merge the long item cells across its PYQ sub-rows
+            for j in range(1, NC + 1):
+                if j not in KEYS and j not in SUB:
+                    wl.merge_cells(start_row=first, start_column=j, end_row=last, end_column=j)
+        need = max(est_height(v, widths[chr(65 + k)]) for k, v in enumerate(y) if k + 1 not in SUB)
+        have = sum(wl.row_dimensions[r].height for r in range(first, last + 1))
+        if need > have:
+            wl.row_dimensions[last].height = min(409, wl.row_dimensions[last].height + need - have)
         prev = x[0]
-        wl.row_dimensions[i].height = max(est_height(v, widths[chr(65 + k)]) for k, v in enumerate(y))
     wl.freeze_panes = 'E2'
     wl.auto_filter.ref = f'A1:M{wl.max_row}'
     wl.sheet_properties.tabColor = '2E75B6'
@@ -284,7 +330,7 @@ def build(rows, out_xlsx):
         ('PYQ years', 'Every year the theme appeared, Prelims and Mains, with the papers.'),
         ('Prelims recall', 'Testable one-line facts: Acts and years, Articles, bodies, places, numbers.'),
         ('Mains recall', 'Answer-ready points, tagged [Intro data], [Issue], [Judgment], [Committee], [Way forward], [Counterpoint], [Ethics].'),
-        ('PYQ excerpts', 'Every past question matched to the item, one line per year: P = Prelims with year, GS1-GS4 = Mains with year and marks. Four years asked means four quoted questions here.'),
+        ('PYQ excerpts', 'Every past question matched to the item, in full, one per year: P = Prelims, GS1-GS4 = Mains with marks. In the Master Log each PYQ is its own sub-row (year, paper, full question) under the item; the item cells are merged across its sub-rows, and Date, GS Area, Syllabus Tag and Match repeat (greyed) so filters keep whole items.'),
         ('Syllabus', 'Exact syllabus portion: Paper \u203a Subject \u203a Topic (official syllabus line) \u203a Subtopic. Filter the Master Log on it to revise topic-wise.'),
         ('V&R recall', "Syllabus base for newspaper items (from 31 Oct 2026): core facts from Vajiram & Ravi's page on that exact syllabus subtopic; identical for items sharing a subtopic. V&R's daily news facts are merged into the Prelims/Mains recall, like Next IAS and Drishti. Rows of 29-30 Oct 2026 show V&R daily facts here."),
         ('Expected 2027 Qs', 'How the examiner would use this item in 2027: one probable Prelims stem, one probable Mains question with paper and marks, and the PYQ years it extends. The two lines test different things by design.'),

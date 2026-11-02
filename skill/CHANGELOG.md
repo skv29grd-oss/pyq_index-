@@ -2,6 +2,12 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v10 — 2026-11-02
+- PYQ excerpts are quoted in full (no 210-character truncation, no eight-question `+N more` cap), as the user found incomplete question texts.
+- Master Log: one sheet sub-row per matched PYQ (year, paper, full question) under each item; long item cells merged across sub-rows; Date, GS Area, Syllabus Tag, Match repeated (greyed) for filtering. Revision Cards: one line per PYQ.
+- GitHub CSV schema unchanged (one row per item). verify.py checks PYQ line format, no truncation/cap and sub-row count from 1 Nov 2026.
+- 1-2 Nov 2026 rows rerun under v10.
+
 ## v9 — 2026-10-30
 - V&R daily news facts are now merged into each row's topic and Prelims/Mains recall, like Next IAS and Drishti (V&R named in Source); the `vr` field is dropped from 31 Oct 2026.
 - Column 13 `V&R Recall` holds only the [Syllabus base] block (newspaper rows; blank for web-only rows).

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ VERIFY (v9). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
+"""CA-PYQ VERIFY (v10). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
 Prints OK when every check passes; the untraced-figure list is a review prompt, not a failure."""
 import csv, json, re, sys, glob, os, openpyxl
 
@@ -69,6 +69,20 @@ for o in today:
     else:
         assert not o.get('vr'), f'v9: merge V&R daily facts into recall, not a vr field: {t}'
 
+V10 = today[0]['date'] >= '2026-11-01'           # v10: full PYQ text, no cap, one Master Log sub-row per PYQ
+PYQ_RX = re.compile(r'^(P 20\d\d|(GS[1-4]|Essay) 20\d\d( \([^)]*\))?): \S')
+if V10:
+    n_sub = 0
+    for o in today:
+        lines = [l.strip() for l in o['pyq_excerpt'].splitlines() if l.strip()]
+        n_sub += len(lines)
+        if o['match'] == 'Emerging' and lines == ['No PYQ match in corpus']:
+            continue
+        assert all(PYQ_RX.match(l) for l in lines), f"PYQ line format: {o['topic'][:40]}"
+        assert not any(l.endswith('\u2026') or re.match(r'^\+\d+ more', l) for l in lines), f"truncated/capped PYQs: {o['topic'][:40]}"
+    got = sum(1 for r in ml.iter_rows(min_row=2, values_only=True) if str(r[0])[:10] == today[0]['date'])
+    assert got == n_sub, f'Master Log sub-rows {got} != PYQ lines {n_sub}'
+
 up = list(csv.reader(open(UPLOAD_CSV, newline='', encoding='utf-8')))
 assert up[0] == HEAD and len(up) - 1 == len(today) and all(len(r) == 13 for r in up), 'upload CSV mismatch'
 
@@ -110,4 +124,4 @@ for f in glob.glob(os.path.join(OUT, 'CA-PYQ Match Log 20??-??.xlsx')):
     ym = f[-12:-5]
     m = openpyxl.load_workbook(f, read_only=True)['Master Log']
     assert all(str(r[0])[:7] == ym for r in m.iter_rows(min_row=2, values_only=True) if r[0]), f'mixed months in {f}'
-print('OK', ml.max_row - 1, 'rows')
+print('OK', len(today), 'items,', ml.max_row - 1, 'Master Log sub-rows')
