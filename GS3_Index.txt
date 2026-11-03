@@ -18,7 +18,7 @@ Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth,
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-19 2018 How are the principles followed by the NITI Aayog different from those followed by the erstwhile Planning Commission in India? NITI Aayog 15
+14 2017 What are the reasons for poor acceptance of food processing unit? What are the impediments in marketing and supply chain management of the food processing industry in India? FPI for farmers 10
 
 20 2017 What are the salient features of 'inclusive growth'? Has India been experiencing such a growth process? Analyze and suggest measures for inclusive growth. Inclusive growth 15
 
@@ -46,8 +46,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-6 2018 Comment on the important changes introduced in respect of the Long-term Capital Gains Tax (LCGT) and Dividend Distribution Tax (DDT) in the Union Budget for 2018-2019. LCGT & DDT 10
-
 7 2017 One of the intended objectives of Union Budget 2017-18 is to 'transform, energize and clean India'. Analyse the measures proposed in the Budget 2017-18 to achieve the objective. Budget 15
 
 8 2016 Women empowerment in India needs gender budgeting. What are the requirements and status of gender budgeting in the Indian context? Gender Budgeting 12.5
@@ -61,10 +59,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Infrastructure (energy, ports, roads, airports, railways); Investment models
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-5 2018 Access to affordable, reliable, sustainable and modern energy is the sine qua non to achieve Sustainable Development Goals (SDGs). Comment on the progress made in India in this regard. SDG 10
-
-6 2018 With growing energy needs should India keep on expanding its nuclear energy programme? Discuss the facts and fears associated with nuclear energy. Nuclear Energy 15
 
 7 2017 Examine the developments of Airports in India through Joint Ventures under Public-Private Partnership (PPP) model. What are the challenges faced by the authorities in this regard. Airport PPP 10
 
@@ -84,8 +78,6 @@ Effects of Liberalisation on the economy; Changes in Industrial policy & their e
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-2 2018 How would the recent phenomena of protectionism and currency manipulations in world trade affect macroeconomic stability of India? Protectionism 15
-
 3 2017 "Industrial growth rate has lagged behind in the overall growth of Gross-Domestic-Product (GDP) in the post-reform period." Give reasons. How far the recent changes in Industrial Policy are capable of increasing the industrial growth rate? Industrial Policy 15
 
 4 2016 How globalization has led to the reduction of employment in the formal sector of the Indian economy? Is increased informalization detrimental to the development of the country? Globalisation & Employment 12.5
@@ -103,12 +95,6 @@ AGRICULTURE
 Major crops, Cropping Patterns in various parts of the country, Different types of Irrigation and Irrigation systems.
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-12 2018 How has the emphasis on certain crops brought about changes in cropping patterns in recent past? Elaborate the emphasis on millets production and consumption. Cropping pattern 15
-
-13 2018 Assess the role of National Horticulture Mission (NHM) in boosting the production, productivity and income of horticulture farms. How far has it succeeded in increasing the income of farmers? Horticulture 15
-
-14 2018 Sikkim is the first 'Organic State' in India. What are the ecological and economical benefits of Organic State? Organic state 10
 
 15 2017 What are the major reasons for declining rice and wheat yield in the cropping system? How crop diversification is helpful to stabilize the yield of the crop in the system? Cropping pattern 15
 
@@ -129,8 +115,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Food processing and related industries in India (scope & significance, location, upstream-downstream requirements, supply chain management); Storage, transport & marketing of agro-produce and related issues & constraints; Economics of animal-rearing
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-10 2018 What are the reasons for poor acceptance of food processing unit? What are the impediments in marketing and supply chain management of the food processing industry in India? FPI for farmers 10
 
 11 2017 Can e-commerce be helpful in overcoming these bottlenecks? Agricultural Marketing 10
 
@@ -158,8 +142,6 @@ Farm subsidies and MSP and issues therein (direct and indirect); PDS (objectives
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-4 2018 What do you mean by Minimum Support Price (MSP)? How will MSP rescue the farmers from the low income trap? MSP 10
-
 5 2017 How do subsidies affect the cropping pattern, crop diversity and economy of farmers? What is the significance of crop insurance, minimum support price and food processing for small and marginal farmers? Subsidies 15
 
 6 2015 In what way could replacement of price subsidy with Direct Benefit Transfer (DBT) change the scenario of subsidies in India? Discuss. DBT Impact 12.5
@@ -175,8 +157,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 DISASTER MANAGEMENT
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-11 2018 Describe various measures taken in India for Disaster Risk Reduction (DRR) before and after signing 'Sendai Framework for DRR (2015-2030)'. How is this framework different from 'Hyogo Framework for Action, 2005'? Sendai 15
 
 12 2017 On December 2004, tsunami brought havoc on 14 countries including India. Discuss the factors responsible for occurrence of Tsunami and its effects on life and economy. In the light of guidelines of NDMA (2010) describe the mechanisms for preparedness to reduce the risk during such events. Tsunami 15
 
@@ -195,10 +175,6 @@ ENVIRONMENT
 Conservation; Environmental pollution and degradation; Environmental Impact Assessment; El Nino and La Nina fallouts
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-23 2018 What is wetland? Explain the Ramsar concept of 'wise use' in the context of wetland conservation. Cite two examples from India. Ramsar Sites 10
-
-24 2018 What are the impediments in disposing the huge quantities of discarded solid wastes which are continuously being generated? How do we remove safely the toxic wastes that have been accumulating in our habitable environment? Solid waste 10
 
 25 2017 Not many years ago, river linking was a concept but it is becoming reality in the country. Discuss the advantages of river linking and its possible impact on the environment. River Interlinking 10
 
@@ -230,8 +206,6 @@ S&T developments and everyday applications & effects; Awareness in fields of IT,
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-16 2018 Why is there so much activity in the field of biotechnology in our country? How has this activity benefitted the field of biopharma? Biopharma 15
-
 17 2017 Stem cell therapy is gaining popularity in India to treat a wide variety of medical conditions including Leukaemia, Thalassemia, damaged cornea and several burns. Describe briefly what stem cell therapy is and what advantages it has over other treatments? Stem cell 10
 
 18 2015 What are the areas of prohibitive labour that can be sustainably managed by robots? Discuss the initiatives that can propel research in premier research institutes for substantive and gainful innovation. Robots 12.5
@@ -254,8 +228,6 @@ Achievements of Indians in S&T; Indigenisation of technology & development of ne
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-10 2018 Discuss the work of 'Bose-Einstein Statistics' done by Prof. Satyendra Nath Bose and show how it revolutionized the field of Physics. Bose-Einstein Statistics 10
-
 11 2017 Give an account of the growth and development of nuclear science and technology in India. What is the advantage of fast breeder reactor programme in India? Nuclear Energy 15
 
 12 2017 India has achieved remarkable successes in unmanned space missions including the Chandrayaan and Mars Orbiter Mission, but has not ventured into manned space mission, both in terms of technology and logistics? Explain critically. Manned space mission 10
@@ -276,8 +248,6 @@ Linkages between Development & spread of Extremism; Linkages of Organized crime 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-12 2018 Left Wing Extremism (LWE) is showing a downward trend, but still affects many parts of the country. Briefly explain the Government of India's approach to counter the challenges posed by LWE. LWE decline 10
-
 13 2017 The north-eastern region of India has been infested with insurgency for a very long time. Analyze the major reasons for the survival of armed insurgency in this region. North east 10
 
 14 2017 The scourge of terrorism is a grave challenge to national security. What solutions do you suggest to curb this growing menace? What are the major sources of terrorist funding? Terror challenge 15
@@ -295,8 +265,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Border Areas (security challenges and management thereof); Security forces & agencies (mandate); Role of External State & Non-State actors in creating internal security challenges
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-11 2018 The China-Pakistan Economic Corridor (CPEC) is viewed as a cardinal subset of China's larger 'One Belt One Road' initiative. Give a brief description of CPEC and enumerate the reasons why India has distanced itself from the same. CPEC 10
 
 12 2016 Border management is a complex task due to difficult terrain and hostile relations with some countries. Elucidate the challenges and strategies for effective border management. Border Management 12.5
 
@@ -320,15 +288,11 @@ Money Laundering & Prevention
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-2 2018 India's proximity to two of the world's biggest illicit opium-growing states has enhanced her internal security concerns. Explain the linkages between drug trafficking and other illicit activities such as gunrunning, money laundering and human trafficking. What counter-measures should be taken to prevent the same? Linkages 15
-
 3 2013 Money laundering poses a serious threat to country's economic sovereignty. What is its significance for India and what steps are required to be taken to control this menace? Economic Sovereignty 10
 
 Basics of Cyber Security; Role of media and social-networking sites in internal security challenges; Internal security challenges through communication networks.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-7 2018 Data security has assumed significant importance in the digitized world due to rising cyber crimes. The Justice B. N. Srikrishna Committee Report addresses issues related to data security. What, in your view, are the strengths and weaknesses of the Report relating to protection of personal data in cyber space? B. N. Srikrishna Committee Report 15
 
 8 2017 Discuss the potential threats of Cyber attack and the security framework to prevent it. Threats of Cyber attack 10
 

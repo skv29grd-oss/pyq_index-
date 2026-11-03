@@ -5,19 +5,21 @@ Writes: mains_recs.json   [{paper, year, text, marks}]  (GS1-GS4 + Essay)
         prelims_lines.txt one Prelims question per line; full year papers as 'YYYY Qn: stem'
 
 Single source per year (no duplicates):
-  - 2019 onwards: pyq_db/<year>/<year> <paper>.csv  (the only copy; 2019-24 from official papers, 2025-26 web-verified)
-  - 2013-2018 Mains / 2011-2018 Prelims: the old *_Index.txt files
+  - 2018 onwards: pyq_db/<year>/<year> <paper>.csv  (the only copy; 2018-24 from official papers, 2025-26 web-verified)
+    except Mains GS1 2018 (no scan yet: old GS1 index)
+  - 2013-2017 Mains (+ GS1 2018) / 2011-2017 Prelims: the old *_Index.txt files
 """
 import csv, glob, json, os, re, sys
 from collections import Counter
 
 D = sys.argv[1] if len(sys.argv) > 1 else '.'
-YRS_OLD = r'20(?:1[3-8])'
+# old-index years per Mains paper (a year moves to pyq_db paper by paper; GS1 2018 still awaits its scan)
+YRS_OLD = {1: r'20(?:1[3-8])', 2: r'20(?:1[3-7])', 3: r'20(?:1[3-7])', 4: r'20(?:1[3-7])'}
 
-START = re.compile(rf'(?<!\S)\d{{1,3}}\s+({YRS_OLD})\s+(?=\S)')
 MARKS = {'2.5', '5', '7.5', '8', '10', '12.5', '15', '20', '25'}
 recs = []
 for i in (1, 2, 3, 4):
+    START = re.compile(rf'(?<!\S)\d{{1,3}}\s+({YRS_OLD[i]})\s+(?=\S)')
     txt = open(f'{D}/GS{i}_Index.txt', encoding='utf-8', errors='ignore').read()
     txt = txt.split('[NOTE: This is a plain-text extraction')[0]          # drop trailing file notes
     st = list(START.finditer(txt))
@@ -53,9 +55,10 @@ json.dump(recs, open('mains_recs.json', 'w', encoding='utf-8'), ensure_ascii=Fal
 open('prelims_lines.txt', 'w', encoding='utf-8').write('\n'.join(P))
 
 # duplicate guard: a year must come from exactly one source
-old_years = {r['year'] for r in recs if 'q' not in r}
-assert not old_years & {str(y) for y in db_years}, 'a pyq_db year is also present in the old index'
+old_keys = {(r['paper'], r['year']) for r in recs if 'q' not in r}
+db_keys = {(r['paper'], r['year']) for r in recs if 'q' in r}
+assert not old_keys & db_keys, 'a pyq_db paper-year is also present in the old index'
 print('mains records:', dict(sorted(Counter((r['paper'], r['year']) for r in recs if r['year'] in map(str, db_years)).items())),
-      '| old index 2013-2018:', sum(1 for r in recs if 'q' not in r))
+      '| old index (GS1 2013-2018, GS2-4 2013-2017):', sum(1 for r in recs if 'q' not in r))
 print('prelims lines:', len(P), '| full-paper stems by year:',
       dict(sorted(Counter(l[:4] for l in P if re.match(r'^20\d\d Q\d+:', l)).items())))

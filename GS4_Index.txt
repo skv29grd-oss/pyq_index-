@@ -6,8 +6,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Ethics and Human Interface, Determinants and Consequences of Ethics in Human Actions; Dimensions of Ethics; Ethics in Private and Public Relationships]
 
-7 2018 What does this quotation mean to you in the present context: "Falsehood takes the place of truth when it results in unblemished common good." - Tirukkural. Means V/S End 10
-8 2018 With regard to the morality of actions, one view is that means is of paramount importance and the other view is that the ends justify the means. Which view do you think is more appropriate? Justify your answer. Means V/S End 10
 9 2017 The crisis of ethical values in modern times is traced to a narrow perception of the good life. Discuss. Crisis Of Ethical Values 10
 10 2017 Without commonly shared and widely entrenched moral values and obligations, neither the law, nor democratic government, nor even the market economy will function properly. What do you understand by this statement? Explain with illustration in the contemporary times. Role of Ethics 10
 11 2016 Explain how ethics contributes to social and human wellbeing. Role of Ethics 10
@@ -35,7 +33,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Aptitude and Foundational Values for Civil Service: Integrity, Impartiality and Non-partisanship, Objectivity, Dedication to Public Service, Empathy, Tolerance and Compassion towards weaker sections]
 
-9 2018 "In looking for people to hire, you look for three qualities: integrity, intelligence and energy. And if they do not have the first, the other two will kill you." - Warren Buffett. Explain in the present-day scenario. Integrity 10
 10 2017 One of the tests of integrity is complete refusal to be compromised. Explain with reference to a real life example. Test of Integrity 10
 11 2016 Why should impartiality and non-partisanship be considered as foundational values in public services, especially in the present day socio-political context? Illustrate with examples. Impartiality and Non-partisanship 10
 12 2015 Public servants are likely to confront the issue of 'Conflict of Interest'. What do you understand by the term and how does it manifest in decision making by public servants? If faced with such a situation, how would you resolve it? Conflict of Interest 10
@@ -46,7 +43,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Emotional Intelligence - Concepts, and their Utilities and Application in Administration and Governance]
 
-6 2018 "Anger and intolerance are the enemies of correct understanding." - Mahatma Gandhi. Explain in the present context. Anger and Intolerance 10
 7 2017 How will you apply emotional intelligence in administrative practices? EI Apply 10
 8 2016 Anger is a harmful negative emotion, injurious to both personal and work life. (a) Discuss how it leads to negative emotions and undesirable behaviours. (b) How can it be managed and controlled? Anger 10
 9 2014 All human beings aspire for happiness. Do you agree? What does happiness mean to you? Explain with examples. Happiness 10
@@ -58,12 +54,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Public/Civil Service Values and Ethics in Public Administration: Status and Problems; Ethical Concerns and Dilemmas in Government and Private Institutions; Laws, Rules, Regulations and Conscience as Sources of Ethical Guidance; Accountability and Ethical Governance; Strengthening of Ethical and Moral Values in Governance; Ethical Issues in International Relations and Funding; Corporate Governance]
 
-15 2018 What is meant by conflict of interest? Illustrate with examples the difference between actual and potential conflicts of interest. Conflict of Interest 10
-16 2018 "The true rule, in determining to embrace or reject anything, is not whether it has any evil in it; but whether it has more evil than good...." - Abraham Lincoln. Explain in the present context. Dilemma 10
-17 2018 What is meant by public interest? What are the principles and procedures to be followed by civil servants in public interest? Public Interest 10
-18 2018 Suppose the Government of India is thinking of constructing a dam in a mountain valley bound by forests and inhabited by ethnic communities. What rational policy should it adopt in dealing with unforeseen contingencies? Mountain Dilemma 10
-19 2018 State the three basic values, universal in nature, in the context of civil services and bring out their importance. Values Universal in Nature 10
-20-21 2018 Terms in civil service: Transparency, Accountability, Fairness, Courage of conviction, Spirit of public service (and doing good vs permitted/prohibited by law: conflict of interest resolution). Do's and Don'ts / Resolving Conflict Dilemma 10
 22 2017 A mere compliance with law is not enough; the public servant also has to have a well-developed sensibility to ethical issues for effective discharge of duties. Do you agree? Explain with two examples. Ethics V/S Laws 10
 23 2017 Two different kinds of attitudes exhibited by public servants: bureaucratic attitude and democratic attitude. A) Distinguish, with merits/demerits. B) Can the two be balanced for better administration? Bureaucratic V/S Democratic Attitude 10
 24 2015 Differentiate between: a) Law and Ethics b) Ethical management and Management of ethics c) Discrimination and Preferential treatment d) Personal ethics and Professional ethics. Differentiate Terms 10
@@ -82,7 +72,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Probity in Governance: Concept of Public Service; Philosophical Basis of Governance and Probity; Information Sharing and Transparency in Government, Right to Information]
 
-7 2018 What do you understand by probity in governance? Suggest measures for ensuring probity in government. Probity in Governance 10
 8 2016 "The Right to Information Act is not just about citizens' empowerment alone, it essentially redefines the concept of accountability." Discuss. RTI 10
 9 2016 What do you understand by the terms 'governance', 'good governance' and 'ethical governance'? Ethical Governance 10
 10 2015 RTI Act, media and judicial activism are helpful in bringing greater transparency but are sometimes misused, and officers are now afraid to take prompt decisions. Analyze and suggest resolution. Misuse of RTI 10
@@ -91,7 +80,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Codes of Ethics, Codes of Conduct, Citizen's Charters, Work Culture, Quality of Service Delivery, Utilization of Public Funds, Challenges of Corruption]
 
-11 2018 Distinguish between "Code of ethics" and "Code of conduct" with suitable examples. Code of Ethics 10
 12 2017 Discipline generally implies following order and subordination; however it may be counter-productive for the organisation. Discuss. Code of Conduct 10
 13 2017 "If a country is to be corruption free and become a nation of beautiful minds, three key societal members can make a difference: the father, the mother and the teacher." - A.P.J. Abdul Kalam. Analyse. Public Service Code 10
 14 2016 Discuss the Public Services Code as recommended by the 2nd Administrative Reforms Commission. Public Service Code 10
@@ -103,11 +91,6 @@ SECTION-B: CASE STUDIES (2013-2024) - topic index only
 ===================================================================
 [NOTE: Case studies are long descriptive scenarios (20 marks each); the underlying PDF extraction suffered severe OCR column-merge garbling on nearly every case in this section, making faithful full-text reconstruction unreliable. Below is a verified year + core-dilemma + topic-tag index for quick keyword/topic matching against daily current affairs; consult the source PDF (GS_4_PYQs_2013_25 in the PYQs folder) for exact original wording of any specific case.]
 
-39 2018 Insider Trading 20 (senior Ministry officer; Minister pressures road realignment near his farmhouse + offers land purchase deal in officer's wife's name)
-40 2018 Illicit Distillation of Liquor 20 (new SP in district notorious for illicit liquor deaths; law-and-order approach failing; backward, poor-irrigation region)
-41 2018 Form V/S Substance 20 / Empathy V/S Objectivity 20 (Dr X charitable-trust hospital; tax investigation finds under-reporting; balancing tax compliance vs medical service to poor)
-42 2018 Snowden Dilemma 20 (Edward Snowden whistleblowing case - ethics of exposing govt surveillance vs breaking the law/national security)
-43 2018 Environment V/S Development 20 (large corporate chemical unit causing pollution/health problems; factory closure causes unemployment - duplicated entry in source PDF)
 44 2017 RTI Activism 20 / Personal Integrity 20 (Public Information Officer facing genuine vs non-genuine/extortion-driven RTI applications from activists)
 45 2017 Conflict of Interest 20 (HR head; deceased worker was drunk on duty - compensation denial dispute, workers' strike)
 46 2017 Interview Dilemma 20 (IAS aspirant en route to personal interview witnesses relative's road accident needing immediate help)

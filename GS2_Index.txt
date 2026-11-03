@@ -18,11 +18,7 @@ Historical underpinnings, evolution; Features, amendments, significant provision
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-19 2018
-
-Under what circumstances can the Financial Emergency be proclaimed by the President of India? What consequences follow when such a declaration remains in force?
-
-Article 360 10
+14 2017 Does the Rights of Persons with Disabilities Act, 2016 ensure effective mechanism for empowerment and inclusion of the intended beneficiaries in the society? Discuss. PWD 2016 10
 
 20 2017 Examine the scope of Fundamental Rights in the light of the latest judgement of the Supreme Court on Right to Privacy.
 
@@ -64,14 +60,6 @@ Union and State Legislatures (structure, functioning, conduct of business, power
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-15 2018 Why do you think committees are considered to be useful for parliamentary work? Discuss, in this context, the role of the Estimates Committee. Committee 10
-
-16 2018
-
-In the light of recent controversy regarding the use of Electronic Voting Machines (EVM), what are the challenges before the Election Commission of India to ensure the trustworthiness of elections in India
-
-Election 10
-
 17 2017
 
 Simultaneous election to the Lok Sabha and the State Assemblies will limit the amount of time and money spent in electioneering but it will reduce the government's accountability to the people.' Discuss.
@@ -108,8 +96,6 @@ Separation of Powers (between different organs, dispute redressal mechanisms, in
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-9 2018 Whether the Supreme Court Judgement (July 2018) can settle the political tussle between the Lt. Governor and elected government of Delhi? Examine. Delhi HC 15
-
 10 2017
 
 Critically examine the Supreme Court's judgement on 'National Judicial Appointments Commission Act, 2014' with reference to appointment of judges of higher judiciary in India.
@@ -139,10 +125,6 @@ Basic Structure Doctrine
 Functions & responsibilities of the Union and the States; issues and challenges of federal structure. Devolution of powers and finances to local levels; challenges therein.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-10 2018 Assess the importance of Panchayat system in India as a part of local government. Apart from government grants, what sources the Panchayats can look out for financing developmental projects.
-
-Local Level 15
 
 11 2017 The local self-government system in India has not proved to be effective instrument of governance. Critically examine the statement and give your views to improve the situation.
 
@@ -204,24 +186,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 
 NCPCR 15
 
-15 2018
-
-The Comptroller and Auditor General (CAG) has a very vital role to play." Explain how this is reflected in the method and terms of his appointment as well as the range of powers he can exercise.
-
-CAG 10
-
-16 2018
-
-How is the Finance Commission of India constituted? What do you understand about the terms of reference of the recently constituted Finance Commission? Discuss.
-
-FC 15
-
-17 2018
-
-How far do you agree with the view that tribunals curtail the jurisdiction of ordinary courts? In view of the above, discuss the constitutional validity and competency of the tribunals in India.
-
-Tribunal 15
-
 18 2017
 
 Is the National Commission for Women able to strategize and tackle the problems that women face at both public and private spheres? Give reasons in support of your answer.
@@ -278,10 +242,6 @@ Welfare Schemes (centre, states; performance, mechanisms, protection of vulnerab
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-9 2018 Multiplicity of various commissions for the vulnerable sections of the society leads to problems of overlapping jurisdiction and duplication of functions. Is it better to merge all commissions into an umbrella Human Rights Commission? Argue your case. Multiplicity 15
-
-10 2018 Does the Rights of Persons with Disabilities Act, 2016 ensure effective mechanism for empowerment and inclusion of the intended beneficiaries in the society? Discuss. PWD 2016 10
-
 11 2017 Two parallel run schemes of the Government viz. the Adhaar Card and NPR, one as voluntary and the other as compulsory, have led to debates at national levels and also litigations. On merits, discuss whether or not both schemes need run concurrently. Analyse the potential of the schemes to achieve developmental benefits and equitable growth. Scheme 12.5
 
 13 2014 Do government's schemes for up-lifting vulnerable and backward communities by protecting resources required for them, lead to their exclusion in establishing businesses in urban economics? Scheme 12.5
@@ -294,8 +254,6 @@ Poverty and Hunger
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-5 2018 How far do you agree with the view that the focus on lack or availability of food as the main cause of hunger takes the attention away from ineffective human development policies in India? Policies 15
-
 6 2017 Hunger and Poverty are the biggest challenges for good governance in India still today. Evaluate how far successive governments have progressed in dealing with these humongous problems. Suggest measures for improvement. Reductions 10
 
 7 2017 Poverty Alleviation Programmes in India remain mere show pieces until and unless they are backed by political will'. Discuss with reference to the performance of the major poverty alleviation programmes in India. Reduction 15
@@ -307,8 +265,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Social Sector & Social Services (health, education, human resources - issues in development, management)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-11 2018 Appropriate Community level healthcare intervention is a prerequisite to achieve 'Health for All' in India. Explain. Health 10
 
 12 2017 To ensure effective implementation of policies addressing water, sanitation and hygiene needs, the identification of beneficiary segments is to be synchronized with the anticipated outcomes.' Examine the statement in the context of the WASH scheme. Scheme 10
 
@@ -334,8 +290,6 @@ Government Policies & Interventions for development of various sectors (issues i
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-4 2018 Policy contradictions among various competing sectors and stakeholders have resulted in inadequate 'protection and prevention of degradation' to environment. Comment with relevant illustration. Contradiction 10
-
 5 2017 Explain the salient features of the constitution (One Hundred and First Amendment) Act, 2016. Do you think it is efficacious enough 'to remove cascading effect of taxes and provide for common national market for goods and services'? 101 CAA 15
 
 6 2016 Has the Indian governmental system responded adequately to the demands of Liberalization, Privatization and Globalization started in 1991? What can the government do to be responsive to this important change? LPG Reforms 12.5
@@ -347,10 +301,6 @@ GOVERNANCE
 Important aspects of governance; Transparency and accountability (institutional and other measures); Citizens Charter; E-Governance (applications, models, successes, limitations, potential)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-11 2018 E-Governance is not only about utilization of the power of new technology, but also much about its 'use value'. Explain the critical importance of information in e-Governance. e-Governance 10
-
-12 2018 Citizens' Charter is an ideal instrument of organizational transparency and accountability, but it has its own limitations. Identify the limitations and suggest measures for greater effectiveness of the Citizens Charter. Citizen's Charter 15
 
 13 2017 Discuss the role of the Public Accounts Committee in establishing accountability of the government to the people. Accountability 10
 
@@ -424,10 +374,6 @@ Effect of Policies & Politics of Developed and Developing countries on India (In
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-14 2018 In what ways would the ongoing US-Iran Nuclear Pact Controversy affect the national interest of India? How should India respond to this situation? Nuclear Pact 15
-
-15 2018 "India's relations with Israel have, of late, acquired a depth and diversity, which cannot be rolled back." Discuss. Israel 10
-
 16 2017 The question of India's Energy Security constitutes the most important part of India's economic progress. Analyze India's energy policy cooperation with West Asian Countries. Energy 15
 
 17 2017 Indian Diaspora has an important role to play in South-East Asian countries' economy and society. Appraise the role of Indian Diaspora in South-East Asia in this context. Diaspora South-East Asia 15
@@ -441,10 +387,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Important International institutions, agencies, fora (structure, mandate); Bilateral, Regional, Global groupings & Agreements (involving and/or affecting India)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-13 2018 A number of outside powers have entrenched themselves in Central Asia, which is a zone of interest to India. Discuss the implications, in this context, of India's joining the Ashgabat Agreement, 2018. Agreement 10
-
-14 2018 What are the key areas of reform if the WTO has to survive in the present context of 'Trade War', especially keeping in mind the interest of India? WTO 15
 
 15 2017 What are the main functions of the United Nations Economic and Social Council (ECOSOC)? Explain different functional commissions attached to it. UN Commission 10
 

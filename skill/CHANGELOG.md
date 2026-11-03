@@ -2,6 +2,9 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v12 — 2026-11-03
+- PYQ corpus: 2018 Prelims, Mains GS2-GS4 and Essay added to `pyq_db/` from official scans; Mains GS1 2018 not yet supplied (stays in old index). `load_pyq.py` moves years per paper; coverage lines and expected counts updated (old index 425).
+
 ## v11 — 2026-11-03
 - PYQ corpus: 2019 added to `pyq_db/` from official scans (Prelims + Mains GS1-GS4 + Essay); 2019 removed from old indexes. Coverage lines and `load_pyq.py` expected counts updated (full papers 2019-2026; old index 2013-2018: 477).
 
