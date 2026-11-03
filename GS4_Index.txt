@@ -6,15 +6,12 @@ SECTION-A: THEORY QUESTIONS
 
 [Ethics and Human Interface, Determinants and Consequences of Ethics in Human Actions; Dimensions of Ethics; Ethics in Private and Public Relationships]
 
-11 2016 Explain how ethics contributes to social and human wellbeing. Role of Ethics 10
-12 2016 Law and ethics are considered to be the two tools for controlling human conduct so as to make it conducive to civilized social existence. (a) Discuss how they achieve this objective. (b) Giving examples, show how the two differ in their approaches. Law V/S Ethics 10
 13 2015 What is meant by 'environmental ethics'? Why is it important to study? Discuss any one environmental issue from the viewpoint of environmental ethics. Environmental Ethics 10
 14 2014 Human beings should always be treated as 'ends' in themselves and never as merely 'means'. Explain the meaning and significance of this statement, giving its implications in the modern techno-economic society. Means V/S End 10
 15 2013 The good of an individual is contained in the good of all. What do you understand by this statement? How can this principle be implemented in public life? Good of All 10
 
 [Human Values - Lessons from the Lives and Teachings of Great Leaders, Reformers and Administrators; Role of Family, Society and Educational Institutions in Inculcating Values]
 
-4 2016 Our attitudes towards life, work, other people and society are generally shaped unconsciously by family and social surroundings. (a) Discuss undesirable values prevalent in today's educated Indians. (b) How can such undesirable attitudes be changed and socio-ethical values cultivated in aspiring/serving civil servants? Undesirable Attitude 10
 5 2015 Social values are more important than economic values. Discuss with examples in the context of inclusive growth of a nation. Social V/S Economic Values 10
 6 2014 The current society is plagued with widespread trust-deficit. What are the consequences of this situation for personal and societal wellbeing? What can you do at the personal level to make yourself trustworthy? Trust Deficit 10
 7 2014 We are witnessing increasing instances of sexual violence against women in the country. Despite existing legal provisions, incidences are on the rise. Suggest some innovative measures to tackle this menace. Sexual Violence 10
@@ -23,14 +20,12 @@ SECTION-A: THEORY QUESTIONS
 
 [Attitude: Content, Structure, Function; its Influence and Relation with Thought and Behaviour; Moral and Political Attitudes; Social Influence and Persuasion]
 
-8 2016 How could social influence and persuasion contribute to the success of Swachh Bharat Abhiyan? SBA 10
 9 2014 What factors affect the formation of a person's attitude towards social problems? What contrasting attitudes do you notice about the caste system in our society? How do you explain the existence of these contrasting attitudes? Contrasting Attitude 10
 10 2014 In the context of defense services, 'patriotism' demands readiness to lay down one's life. What does patriotism imply in everyday civil life? Patriotism 10
 11 2013 It is often said that 'politics' and 'ethics' do not go together. What is your opinion? Justify your answer with illustrations. Politics V/S Ethics 10
 
 [Aptitude and Foundational Values for Civil Service: Integrity, Impartiality and Non-partisanship, Objectivity, Dedication to Public Service, Empathy, Tolerance and Compassion towards weaker sections]
 
-11 2016 Why should impartiality and non-partisanship be considered as foundational values in public services, especially in the present day socio-political context? Illustrate with examples. Impartiality and Non-partisanship 10
 12 2015 Public servants are likely to confront the issue of 'Conflict of Interest'. What do you understand by the term and how does it manifest in decision making by public servants? If faced with such a situation, how would you resolve it? Conflict of Interest 10
 13 2015 How do the virtues of trustworthiness and fortitude get manifested in public service? Explain with examples. Trustworthiness 10
 14 2014 Integrity without knowledge is weak and useless, but knowledge without integrity is dangerous and dreadful. Explain your stand with illustrations from the modern context. Integrity without Knowledge 10
@@ -39,7 +34,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Emotional Intelligence - Concepts, and their Utilities and Application in Administration and Governance]
 
-8 2016 Anger is a harmful negative emotion, injurious to both personal and work life. (a) Discuss how it leads to negative emotions and undesirable behaviours. (b) How can it be managed and controlled? Anger 10
 9 2014 All human beings aspire for happiness. Do you agree? What does happiness mean to you? Explain with examples. Happiness 10
 10 2013 What is 'emotional intelligence' and how can it be developed in people? How does it help an individual in taking ethical decisions? EI Development 10
 
@@ -61,15 +55,13 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Probity in Governance: Concept of Public Service; Philosophical Basis of Governance and Probity; Information Sharing and Transparency in Government, Right to Information]
 
-8 2016 "The Right to Information Act is not just about citizens' empowerment alone, it essentially redefines the concept of accountability." Discuss. RTI 10
-9 2016 What do you understand by the terms 'governance', 'good governance' and 'ethical governance'? Ethical Governance 10
+8 2015 "The Right to Information Act is not just about citizens' empowerment alone, it essentially redefines the concept of accountability." Discuss. RTI 10
 10 2015 RTI Act, media and judicial activism are helpful in bringing greater transparency but are sometimes misused, and officers are now afraid to take prompt decisions. Analyze and suggest resolution. Misuse of RTI 10
 11 2015 Despite codes of conduct, vigilance cells, RTI, active media, corrupt practices are not under control. A) Evaluate effectiveness of measures. B) Suggest more effective strategies. Corruption (Measures & Strategies) 10
 12 2014 What do you understand by 'probity' in public life? What are the difficulties in practicing it? How can these be overcome? Probity in Public Life 10
 
 [Codes of Ethics, Codes of Conduct, Citizen's Charters, Work Culture, Quality of Service Delivery, Utilization of Public Funds, Challenges of Corruption]
 
-14 2016 Discuss the Public Services Code as recommended by the 2nd Administrative Reforms Commission. Public Service Code 10
 15 2014 There is heavy ethical responsibility on public servants handling public funds with wide-ranging impact on society/environment. What steps have you taken to improve your ethical competence? Ethical Responsibility on Public Servant 10
 16 2014 It is often said that poverty leads to corruption; however affluent/powerful people also indulge in corruption. What are the basic causes of corruption? Support with examples. Corruption 10
 
@@ -78,11 +70,6 @@ SECTION-B: CASE STUDIES (2013-2024) - topic index only
 ===================================================================
 [NOTE: Case studies are long descriptive scenarios (20 marks each); the underlying PDF extraction suffered severe OCR column-merge garbling on nearly every case in this section, making faithful full-text reconstruction unreliable. Below is a verified year + core-dilemma + topic-tag index for quick keyword/topic matching against daily current affairs; consult the source PDF (GS_4_PYQs_2013_25 in the PYQs folder) for exact original wording of any specific case.]
 
-48 2016 Compensation-Cum-Rehabilitation Policy 20 (displaced Adivasis/hill-dwellers from mining/dam projects; inadequate compensation, unjust cost-benefit distribution)
-49 2016 CSR Of Consequences 20 (ABC Ltd. new energy-efficient plant at underdeveloped Vikaspuri; local protests over cost-of-living/social disruption vs govt tax-holiday incentive)
-50 2016 Work Culture / Honest NGO Efforts 20 (Saraswati, engineering graduate; NGO work on river pollution from chemical industry; corrupt officials, bribes, patriotic but frustrated efforts)
-51 2016 Ethics V/S Competency 20 (efficient but domestically-abusive boss; whether to report or ignore his domestic violence)
-52 2016 Objectivity V/S Empathy 20 (destitute elderly woman lacking documents for welfare scheme eligibility - rules vs compassion dilemma)
 53 2015 CSR 20 (pharma company scientist discovers veterinary drug could cure rare tribal-area liver disease but R&D cost unrecoverable - CEO's dilemma)
 54 2015 Rescue / Disaster 20 (cloudburst-triggered floods/landslides; 100,000+ people trapped incl. VIPs, patients, prisoners - rescue-priority ordering dilemma)
 55 2015 Mob Management 20 (Rampur heritage Fort site visit gate-crashed by violent mob demanding land-acquisition/company jobs; CEO's response options)

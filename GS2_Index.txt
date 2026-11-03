@@ -20,8 +20,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 
 1 2014 Two parallel run schemes of the Government viz. the Adhaar Card and NPR, one as voluntary and the other as compulsory, have led to debates at national levels and also litigations. On merits, discuss whether or not both schemes need run concurrently. Analyse the potential of the schemes to achieve developmental benefits and equitable growth. Aadhaar NPR 12.5
 
-21 2016 Discuss each adjective attached to the word 'Republic' in the preamble. Are they defendable in the present circumstances? Preamble 12.5
-
 22 2015 Discuss the possible factors that inhibit India from enacting a uniform civil code as provided for its citizens in the Directive Principles of State Policy.
 
 DPSP(UCC) 12.5
@@ -56,8 +54,6 @@ Union and State Legislatures (structure, functioning, conduct of business, power
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-20 2016 The Indian party system is passing through a phase of transition which looks to be "full of contradictions and paradoxes." Discuss. Political Parties 12.5
-
 21 2014
 
 The 'Powers, Privileges and Immunities of Parliament and its Members' as envisaged in Article 105 of the Constitution leave room for a large number of un-codified and unenumerated privileges to continue. Assess the reasons for the absence of legal codification of the 'parliamentary privileges'. How can this problem be addressed?
@@ -73,10 +69,6 @@ Anti-defection 10
 Separation of Powers (between different organs, dispute redressal mechanisms, institutions); Judiciary (structure, organisation, functioning)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-11 2016 What was held in the Coelho case? In this context, can you say that judicial review is amongst the key features of the basic structure of the Constitution?
-
-Judicial Review 12.5
 
 12 2015
 
@@ -97,20 +89,6 @@ Basic Structure Doctrine
 Functions & responsibilities of the Union and the States; issues and challenges of federal structure. Devolution of powers and finances to local levels; challenges therein.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-12 2016
-
-Discuss the essentials of the 69th Constitutional Amendment Act and anomalies, if any that have led to recent reported conflicts between the elected representatives and the institution of the Lieutenant Governor in the administration of Delhi.
-
-Local Level 10
-
-13 2016
-
-To what extent is Article 370 of the Indian Constitution, bearing marginal note "Temporary provision with respect to the State of Jammu and Kashmir", temporary? Discuss the future prospects of this provision in the context of Indian polity.
-
-Article 370 12.5
-
-14 2016 Did the Government of India Act, 1935 lay down a federal constitution? Discuss. GOI 1935 12.5
 
 15 2015
 
@@ -153,14 +131,6 @@ Appointment to various Constitutional posts; Constitutional Bodies (powers, func
 Qs. No. YEAR QUESTION TOPIC MARKS
 
 NCPCR 15
-
-19 2016
-
-Exercise of CAG's powers in relation to the accounts of the Union and the States is derived from Article 149 of the Indian Constitution. Discuss whether audit of the Government's Policy implementation could amount to overstepping its own (CAG) jurisdiction.
-
-CAG 12.5
-
-20 2016 What is a quasi-judicial body? Explain with the help of concrete examples. Quasi-judicial 12.5
 
 21 2015
 
@@ -222,12 +192,6 @@ Social Sector & Social Services (health, education, human resources - issues in 
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-13 2016 Examine the main provisions of the National Child Policy and throw light on the status of its implementation. Policy 12.5
-
-14 2016 "Demographic Dividend in India will remain only theoretical unless our manpower becomes more educated, aware, skilled and creative." What measures have been taken by the government to enhance the capacity of our population to be more productive and employable? Primary Education 12.5
-
-15 2016 Professor Amartya Sen has advocated important reforms in the realms of primary education and primary health care. What are your suggestions to improve their status and performance? HR 12.5
-
 16 2015 The quality of higher education in India requires major improvements to make it internationally competitive. Do you think that the entry of foreign educational institutions would help improve the quality of higher education in the country? Discuss. Educational institutions 12.5
 
 17 2015 Public health system has limitations in providing universal health coverage. Do you think that the private sector could help in bridging the gap? What other viable alternatives would you suggest? Public Health 12.5
@@ -244,8 +208,6 @@ Government Policies & Interventions for development of various sectors (issues i
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-6 2016 Has the Indian governmental system responded adequately to the demands of Liberalization, Privatization and Globalization started in 1991? What can the government do to be responsive to this important change? LPG Reforms 12.5
-
 7 2014 Though 100 percent FDI is already allowed in non-news media like a trade publication and general entertainment channel, the Government is mulling over the proposal for increased FDI in news media for quite some time. What difference would an increase in FDI make? Critically evaluate the pros and cons. FDI 12.5
 
 GOVERNANCE
@@ -253,10 +215,6 @@ GOVERNANCE
 Important aspects of governance; Transparency and accountability (institutional and other measures); Citizens Charter; E-Governance (applications, models, successes, limitations, potential)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-14 2016 Effectiveness of the government system at various levels and people's participation in the governance system are inter-dependent. Discuss their relationship with each other in context of India. Effectiveness 12.5
-
-15 2016 In the integrity index of Transparency International, India stands very low. Discuss briefly the legal, political, economic, social and cultural factors that have caused the decline of public morality in India. Transparency 12.5
 
 16 2015 In the light of the Satyam Scandal (2009), discuss the changes brought in corporate governance to ensure transparency, accountability. Transparency 12.5
 
@@ -269,10 +227,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Development Processes & Development industry (role of NGOs, SHGs, groups & associations, donors, charities, institutional and other stakeholders); Pressure Groups & Formal, Informal associations (and their role in the polity); Role of Civil Services in a democracy.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-15 2016 Traditional bureaucratic structure and culture have hampered the process of socioeconomic development in India. Comment. Civil services 12.5
-
-16 2016 In the Indian governance system, the role of non-state actors has been only marginal. Critically examine this statement. Institutions 12.5
 
 17 2015 Examine critically the recent changes in the rules governing foreign funding of NGOs under the Foreign Contribution (Regulation) Act (FCRA), 1976. NGO 12.5
 
@@ -291,8 +245,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 INTERNATIONAL RELATIONS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-4 2016 Increasing cross-border terrorist attacks in India and growing interference in the internal affairs of several member-states by Pakistan are not conducive for the future of SAARC (South Asian Association for Regional Cooperation). Explain with suitable examples. Pakistan 12.5
 
 5 2015 Project Mausam is considered a unique foreign policy initiative of the Indian Government to improve relationship with its neighbors. Does the project have a strategic dimension? Discuss. Policy 12.5
 
@@ -316,8 +268,6 @@ Effect of Policies & Politics of Developed and Developing countries on India (In
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-18 2016 Evaluate the economic and strategic dimensions of India's Look East Policy in the context of the post-Cold War international scenario. Core policy 12.5
-
 19 2015 Increasing interest of India in Africa has its pros and cons. Critically examine. Africa 12.5
 
 20 2013 Economic ties between India and Japan while growing in the recent years are still far below their potential. Elucidate the policy constraints which are inhibiting this growth. Japan 10
@@ -325,10 +275,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Important International institutions, agencies, fora (structure, mandate); Bilateral, Regional, Global groupings & Agreements (involving and/or affecting India)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-16 2016 The broader aims and objectives of WTO are to manage and promote international trade in the era of globalization. But the Doha round of negotiations seem doomed due to differences between the developed and the developing countries. Discuss in the Indian perspective. WTO 12.5
-
-17 2016 What are the aims and objectives of the McBride Commission of the UNESCO? What is India's position on these? UNESCO Commission 12.5
 
 18 2015 Discuss the impediments India is facing in its pursuit of a permanent seat in UN Security Council. UNSC 12.5
 

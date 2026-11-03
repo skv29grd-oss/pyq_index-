@@ -18,10 +18,6 @@ Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth,
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-23 2016 Comment on the challenges for inclusive growth which include careless and useless manpower in the Indian context. Suggest measures to be taken for facing these challenges. Careless and Useless employment 12.5
-
-24 2016 Pradhan Mantri Jan-Dhan Yojana (PMJDY) is necessary for bringing unbanked to the institutional finance fold. Do you agree with this for financial inclusion of the poorer section of the Indian society? Give arguments to justify your opinion. PMJDY 12.5
-
 25 2015 Success of 'Make in India' programme depends on the success of 'Skill India' programme and radical labour reforms. Discuss with logical arguments. Make in India & Skill India 12.5
 
 26 2015 Craze for gold in Indians have led to a surge in import of gold in recent years and put pressure on balance of payments and external value of rupee. In view of this, examine the merits of Gold Monetization Scheme. Gold Monetization Scheme 12.5
@@ -38,8 +34,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-8 2016 Women empowerment in India needs gender budgeting. What are the requirements and status of gender budgeting in the Indian context? Gender Budgeting 12.5
-
 9 2013 What are the reasons for introduction of Fiscal responsibility and Budget Management (FRBM) act, 2003? Discuss critically its salient features and their effectiveness. FRBM Act 2003 10
 
 10 2013 What is meaning of the term tax-expenditure? Taking housing sector as an example, discuss how it influences budgetary policies of the government. Tax Expenditure 10
@@ -49,10 +43,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Infrastructure (energy, ports, roads, airports, railways); Investment models
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-8 2016 Justify the need for FDI for the development of the Indian economy. Why there is gap between MOUs signed and actual FDIs? Suggest remedial steps to be taken for increasing actual FDIs in India. FDI 12.5
-
-9 2016 What are 'Smart Cities'? Examine their relevance for urban development in India. Will it increase rural-urban differences? Give arguments for 'Smart Villages' in the light of PURA and RURBAN Mission. Smart Cities 12.5
 
 10 2015 There is a clear acknowledgement that Special Economic Zones (SEZs) are a tool of industrial development, manufacturing and exports. Recognizing this potential, the whole instrumentality of SEZs with respect to taxation, governing laws and administration should be reviewed. Discuss the issues plaguing the success of SEZs. SEZ 12.5
 
@@ -66,8 +56,6 @@ Effects of Liberalisation on the economy; Changes in Industrial policy & their e
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-4 2016 How globalization has led to the reduction of employment in the formal sector of the Indian economy? Is increased informalization detrimental to the development of the country? Globalisation & Employment 12.5
-
 6 2014 Foreign direct investment in the defence sector is now said to be liberalised. What influence this is expected to have on Indian defence and economy in the short and long run? FDI Defence 12.5
 
 7 2013 Though India allowed foreign direct investment (FDI) in what is called multi brand retail through joint venture route in September 2012, the FDI even after a year, has not picked up. Discuss the reasons. FDI multiretail 5
@@ -79,16 +67,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 AGRICULTURE
 
 Major crops, Cropping Patterns in various parts of the country, Different types of Irrigation and Irrigation systems.
-
-No. Qs. YEAR QUESTION TOPIC MARKS
-
-16 2016 Given the vulnerability of Indian agriculture to vagaries of nature, discuss the need for crop insurance and bring out the salient features of the Pradhan Mantri Fasal Bima Yojana (PMFBY). Crop insurance 12.5
-
-17 2016 What is allelopathy? Discuss its role in major cropping systems of irrigated agriculture. Allelopathy 12.5
-
-18 2016 What is water-use efficiency? Describe the role of microirrigation in increasing the water use efficiency. Irrigation efficiency 12.5
-
-E-technology to aid farmers, Technology missions.
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
@@ -112,8 +90,6 @@ Land Reforms in India
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-4 2016 Discuss the role of land reforms in agricultural development. Identify the factors that were responsible for the success of land reforms in India. Land Reforms for Agriculture 12.5
-
 5 2014 The right to fair compensation and transparency land acquisition, rehabilitation and resettlement act, 2013 has come into effect from 1 January 2014. What implication would it have on industrialisation and agriculture in India? LARR 12.5
 
 6 2013 Establish the relationship between land reform, agriculture productivity and elimination of poverty in Indian Economy. Discuss the difficulty in designing and implementation of the agriculture friendly land reforms in India. Relationship 10
@@ -136,10 +112,6 @@ DISASTER MANAGEMENT
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-13 2016 With reference to National Disaster Management Authority (NDMA) guidelines, discuss the measures to be adopted to mitigate the impact of the recent incidents of cloudbursts in many places of Uttarakhand. Cloudburst 12.5
-
-14 2016 The frequency of urban floods due to high intensity rainfall is increasing over the years. Discuss the reasons for urban floods, highlight the mechanisms for preparedness to reduce the risk during such events. Urban Floods 12.5
-
 15 2015 The frequency of earthquakes appears to have increased in the Indian subcontinent. However, India's preparedness for mitigating their impact has significant gaps. Discuss various aspects. Earthquake 12.5
 
 16 2014 Drought has been recognised as a disaster in view of its peculiar temporal duration, slow onset and lasting effect on various vulnerable sections. With a focus on drought, discuss the mechanism for preparedness to deal with disaster management. Drought 12.5
@@ -151,10 +123,6 @@ ENVIRONMENT
 Conservation; Environmental pollution and degradation; Environmental Impact Assessment; El Nino and La Nina fallouts
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-27 2016 Give an account of the current status and the targets to be achieved pertaining to renewable energy sources in the country. Discuss in brief the importance of National Programme on Light Emitting Diodes (LEDs). LED 12.5
-
-28 2016 Rehabilitation of human settlements is one of the important environmental impacts which always attracts controversy while planning major projects. Discuss the measures suggested for mitigation of this impact while proposing major developmental projects. Rehabilitation of human settlements 12.5
 
 29 2015 The Namami Gange and National Mission for Clean Ganga (NMCG) programmes have had mixed results from the previous schemes. What quantum leaps can help preserve the river Ganga better than incremental inputs? Ganga 12.5
 
@@ -198,10 +166,6 @@ Achievements of Indians in S&T; Indigenisation of technology & development of ne
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-13 2016 Why is nanotechnology one of the key technologies of the 21st century? Describe the salient features of Indian Government's Mission on Nanoscience and Technology and the scope of its application in the development process of the country. Nanotech mission 12.5
-
-14 2016 Discuss India's achievements in the field of Space Science and Technology. How the application of this technology has helped India in its socio-economic development? India's achievement in space 12.5
-
 15 2015 What do you understand by 'Standard Positioning Systems' and 'Protection Positioning Systems' in the GPS era? Discuss the advantages India perceives from its ambitious IRNSS programme employing just seven satellites. GPS 12.5
 
 16 2014 Can overuse and the availability of antibiotics without doctor's prescription, be the contributors to the emergence of drug-resistant diseases in India? What are the available mechanisms for monitoring and control? Critically discuss the various issues involved. AMR 12.5
@@ -214,8 +178,6 @@ Linkages between Development & spread of Extremism; Linkages of Organized crime 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-16 2016 Terrorism is emerging as a competitive industry over the last few decades. Analyse the above statement. Terrorism as competitive industry 12.5
-
 17 2015 Religious indoctrination via digital media has resulted in Indian youth joining the ISIS. What is ISIS and its mission? How can ISIS be dangerous for the internal security of our country? Radicalisation using social media 12.5
 
 18 2015 The persisting drives of the government for development of large industries in backward areas have resulted in isolating the tribal population and the farmers who face multiple displacements with Malkangiri and Naxalbari foci; discuss the corrective strategies needed to win the left wing extremism (LWE) doctrine affected citizens back into the mainstream of social and economic growth. Strategies for LWE 12.5
@@ -225,10 +187,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Border Areas (security challenges and management thereof); Security forces & agencies (mandate); Role of External State & Non-State actors in creating internal security challenges
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-12 2016 Border management is a complex task due to difficult terrain and hostile relations with some countries. Elucidate the challenges and strategies for effective border management. Border Management 12.5
-
-13 2016 The terms 'Hot Pursuit' and 'Surgical Strikes' are often used in connection with armed action against terrorist attacks. Discuss the strategic impact of such actions. 'Hot Pursuit' and 'Surgical Strikes' 12.5
 
 14 2015 Human rights activists constantly highlight the view that the Armed Forces (Special Powers) Act, 1958 (AFSPA) is a draconian act leading to cases of human rights abuses by the security forces. What sections of AFSPA are opposed by the activists? Critically evaluate the requirement with reference to the view held by the Apex Court. AFSPA 12.5
 
@@ -253,8 +211,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Basics of Cyber Security; Role of media and social-networking sites in internal security challenges; Internal security challenges through communication networks.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-9 2016 Use of Internet and social media by non-state actors for subversive activities is a major concern. How have these been misused in the recent past? Suggest effective guidelines to curb the above threat. Social media by non-state actors 12.5
 
 10 2015 Discuss the advantage and security implications of cloud hosting of server vis-a-vis in-house machine-based hosting for government businesses. Implications of cloud hosting 12.5
 

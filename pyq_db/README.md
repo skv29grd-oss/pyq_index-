@@ -7,7 +7,7 @@ pyq_db/2026/2026 Prelims GS1.csv
 pyq_db/2026/2026 Mains GS1.csv ... 2026 Mains GS4.csv
 pyq_db/2026/2026 Mains Essay.csv
 pyq_db/2025/... (same six files)
-pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/, pyq_db/2018/, pyq_db/2017/ (same six files)
+pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/, pyq_db/2018/, pyq_db/2017/, pyq_db/2016/ (same six files)
 ```
 
 Same 16 columns in every file:
@@ -33,7 +33,8 @@ Same 16 columns in every file:
 | 2019 | 100 Qs, 200 marks (official booklet BKL-F-GHP scan) | 20 / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
 | 2018 | 100 Qs, 200 marks (official booklet CYRF-F-TXLI scan, pages marked A) | 20 / 20 / 20, 250 each (official scan; GS1 added later the same day) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
 | 2017 | 100 Qs, 200 marks (official booklet AMC-U-BKLP scan, pages marked A) | 20 / 20 / 20, 250 each (official scan) | 3 single questions (Q1–Q3) + 10 parts (Q4–Q8) + 6 case studies (Q9–Q14), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
-| 2016 and earlier | old index | old index | old index (no case-study text) | missing | pending |
+| 2016 | 100 Qs, 200 marks (official booklet B-APM-P-CKB scan, pages marked 65A) | 20 / 20 / 20, 12.5 marks each, 250 (official scan) | 8 parts (Q1–Q4) + 4 two-part questions (Q5–Q8, one row each) + 6 case studies (Q9–Q12 20 marks, Q13–Q14 25 marks), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
+| 2015 and earlier | old index | old index | old index (no case-study text) | missing | pending |
 
 ## How 2025 and 2026 were verified (25 Oct 2026)
 
@@ -114,3 +115,10 @@ Kept as printed (not errors in this file): GS4 2025 Q11 (MGNREGA) gives no perce
 - GS4 2017 has fourteen questions: Q1–Q3 single (10 marks), Q4–Q8 with parts (a)/(b) (10 each), Q9–Q14 case studies (20 each). GS2 Q10 is marked 5+5, GS3 Q12 7+8 (stored as 10 and 15).
 - Kept as printed: GS3 Q7 "Mars Orbitter Mission", GS3 Q12 "lagged-behind", GS3 Q18 "On December 2004", GS4 Q14 "supposedly arbitrarily administrative". OCR fixes only: GS3 Q6 "burns", GS3 Q14 "rice", GS4 Q13 "three floors", Prelims "a band", "Iraq".
 - Removed from the old indexes: 81 Mains records and 67 Prelims lines tagged 2017. Mislabelled index items: "Dead Zones" (2018, already in pyq_db) and the GS3 food-processing paraphrase (duplicate of 2017 GS3 Q5) dropped; "Early Buddhist Stupa-art …" re-added as GS1 2016 and "Aadhaar Card and NPR …" as GS2 2014 (best knowledge); four items whose year is unknown (GS3 e-commerce fragment; GS4 "mere compliance with law", "bureaucratic vs democratic attitude", "will to power") moved to `Index_year_unverified.txt`, which the loader does not read.
+
+## How 2016 was built (3 Nov 2026)
+
+- **Official scans (user-supplied):** Prelims 2016 GS-I (booklet code B-APM-P-CKB, footers marked 65A), Mains 2016 GS1–GS4 and Essay. Same method as 2017–2019. Doubtful items checked on page images (Prelims Q30 numbering, Q86 item 5, Q97 "1.5 °C"; GS4 Q13/Q14 marks).
+- GS1–GS3 2016: 20 questions each, 12.5 marks, 200 words. GS4: Q1–Q4 parts (a)/(b) and Q5–Q8 (text carries its own (a)/(b)), 10 marks, 150 words; Q9–Q12 case studies 20 marks/250 words; Q13–Q14 25 marks/300 words. GS4 has 18 rows.
+- Kept as printed: GS4 Q9 "keep quite". OCR fixes only: GS3 Q7 "What is", Q8 "allelopathy … its", GS4 Q3(b) "2nd", GS1 Q17 "cities … vulnerable".
+- Removed from the old indexes: 73 Mains records (GS1 20, GS2 20, GS3 20, GS4 13) and 62 Prelims lines tagged 2016. Two items were mislabelled 2016 and relabelled 2015 (best knowledge): GS1 "The ancient civilization in the Indian sub-continent differed from those of Egypt, Mesopotamia and Greece …" and GS4 "The Right to Information Act is not just about citizens' empowerment alone …". None of the four items in `Index_year_unverified.txt` is a 2016 question.
