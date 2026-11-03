@@ -7,7 +7,7 @@ pyq_db/2026/2026 Prelims GS1.csv
 pyq_db/2026/2026 Mains GS1.csv ... 2026 Mains GS4.csv
 pyq_db/2026/2026 Mains Essay.csv
 pyq_db/2025/... (same six files)
-pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/, pyq_db/2018/, pyq_db/2017/, pyq_db/2016/ (same six files); pyq_db/2015/ (no GS4 file); pyq_db/2014/, pyq_db/2013/ (Prelims only)
+pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/, pyq_db/2018/, pyq_db/2017/, pyq_db/2016/ (same six files); pyq_db/2015/ (same six files); pyq_db/2014/, pyq_db/2013/ (Prelims only)
 ```
 
 Same 16 columns in every file:
@@ -34,7 +34,7 @@ Same 16 columns in every file:
 | 2018 | 100 Qs, 200 marks (official booklet CYRF-F-TXLI scan, pages marked A) | 20 / 20 / 20, 250 each (official scan; GS1 added later the same day) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
 | 2017 | 100 Qs, 200 marks (official booklet AMC-U-BKLP scan, pages marked A) | 20 / 20 / 20, 250 each (official scan) | 3 single questions (Q1–Q3) + 10 parts (Q4–Q8) + 6 case studies (Q9–Q14), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
 | 2016 | 100 Qs, 200 marks (official booklet B-APM-P-CKB scan, pages marked 65A) | 20 / 20 / 20, 12.5 marks each, 250 (official scan) | 8 parts (Q1–Q4) + 4 two-part questions (Q5–Q8, one row each) + 6 case studies (Q9–Q12 20 marks, Q13–Q14 25 marks), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
-| 2015 | 100 Qs, 200 marks (official booklet B-AQN-O-JUA scan, pages marked 63A) | 20 / 20 / 20, 12.5 marks each, 250 (official paper) | old index (official paper not yet supplied) | 8 topics (official paper) | partial (3 Nov 2026) |
+| 2015 | 100 Qs, 200 marks (official booklet B-AQN-O-JUA scan, pages marked 63A) | 20 / 20 / 20, 12.5 marks each, 250 (official paper) | 12 parts (Q1–Q4 (a)/(b), Q1(b) 200 words) + Q5–Q8 + 6 case studies (Q9–Q12 20 marks, Q13–Q14 25 marks), 250 (official paper) | 8 topics (official paper) | yes (3 Nov 2026) |
 | 2014 | 100 Qs, 200 marks (official booklet B-FVS-N-IVUA scan, pages marked 58A) | old index | old index | missing | Prelims only |
 | 2013 | 100 Qs, 200 marks (official booklet B-BRO-M-HTA scan, pages marked 46A) | old index | old index | missing | Prelims only |
 | 2011–2012 | old index | — | — | — | pending |
@@ -132,3 +132,4 @@ Kept as printed (not errors in this file): GS4 2025 Q11 (MGNREGA) gives no perce
 - The upload named GS-IV was a coaching test copy (Drishti Mentorship Test-24), not the UPSC 2015 GS4 paper, so GS4 2015 stays in the old index.
 - 2013 Prelims uses "codes given below"; 2014–2015 "code given below" — kept as printed. 2014 Q25 and 2015 Q39 are the same question (Buddha's kingdoms); both kept.
 - Removed from the old indexes: 60 Mains records (GS1–GS3 2015) and 267 Prelims lines tagged 2013–2015. GS1 "urban planning and culture of the Indus Valley Civilization …" was mislabelled 2015 and relabelled 2014 (GS1 2014 Q1, best knowledge). The GS1 Mesopotamia item relabelled 2015 earlier is confirmed as GS1 2015 Q1. The GS3 e-commerce fragment in `Index_year_unverified.txt` is GS3 2015 Q6 and was dropped from that file.
+- **GS4 2015** came in a later upload (Ethics-Questions-Papers-2015.pdf, official paper with a text layer), same method; 18 rows. Q2 has two quotations stored as 2(a)/2(b) with the shared instruction. Kept as printed: Q6 "vigilence", Q9 "diffuse". Removed 14 GS4 2015 records from the old index. The two GS4 items in `Index_year_unverified.txt` "mere compliance with law" and "bureaucratic vs democratic attitude" are GS4 2015 Q3(a) and Q5 and were dropped from that file. The RTI item relabelled 2015 earlier is not in the 2015 paper either, so it was moved to `Index_year_unverified.txt`.

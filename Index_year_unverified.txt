@@ -1,5 +1,4 @@
-# Old-index items whose year label was wrong (tagged 2017, not in the official 2017 papers)
+# Old-index items whose year label was wrong (not found in the official paper of the year they were tagged with)
 # Not read by load_pyq.py. Move each into its GSn_Index.txt with the right year once confirmed.
-GS4 | A mere compliance with law is not enough; the public servant also has to have a well-developed sensibility to ethical issues for effective discharge of duties. Do you agree? Explain with two examples. Ethics V/S Laws 10
-GS4 | Two different kinds of attitudes exhibited by public servants: bureaucratic attitude and democratic attitude. A) Distinguish, with merits/demerits. B) Can the two be balanced for better administration? Bureaucratic V/S Democratic Attitude 10
 GS4 | "The will to power exists, but it can be tamed and guided by rationality and principles of moral duty." Examine in the context of international relations. Principles of Moral Duty 10
+GS4 | "The Right to Information Act is not just about citizens' empowerment alone, it essentially redefines the concept of accountability." Discuss. RTI 10  (tagged 2016, then 2015; in neither official paper)
