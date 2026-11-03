@@ -18,10 +18,6 @@ Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth,
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-17 2019 It is argued that the strategy of inclusive growth is intended to meet the objectives of inclusiveness and sustainability together. Comment on this statement. Inclusiveness and Sustainability 15
-
-18 2019 Do you agree with the view that steady GDP growth and low inflation have left the Indian economy in good shape? Give reasons in support of your arguments. Growth & Inflation 10
-
 19 2018 How are the principles followed by the NITI Aayog different from those followed by the erstwhile Planning Commission in India? NITI Aayog 15
 
 20 2017 What are the salient features of 'inclusive growth'? Has India been experiencing such a growth process? Analyze and suggest measures for inclusive growth. Inclusive growth 15
@@ -49,10 +45,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 [Budgeting section]
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-4 2019 Enumerate the indirect taxes which have been subsumed in the Goods and Services Tax (GST) in India. Also, comment on the revenue implications of the GST introduced in India since July 2017. GST / Budget after 1991 10
-
-5 2019 The public expenditure management is a challenge to the government of India in the context of budget-making during the post-liberalization period. Clarify it. GST 15
 
 6 2018 Comment on the important changes introduced in respect of the Long-term Capital Gains Tax (LCGT) and Dividend Distribution Tax (DDT) in the Union Budget for 2018-2019. LCGT & DDT 10
 
@@ -112,14 +104,6 @@ Major crops, Cropping Patterns in various parts of the country, Different types 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-7 2019 Elaborate on the National Watershed Project and how it has helped in sustaining agriculture in water-stressed areas. Watershed 10
-
-9 2019 How is India benefited from the Sir M. Visvesvaraya irrigation system to become a success in agricultural engineering science? Irrigation engineering system 15
-
-10 2019 How far have contributions of Dr. M. S. Swaminathan helped the rice-wheat production system make India's agricultural science become a success? 10
-
-11 2019 What is Integrated Farming System (IFS) and how is it helpful in sustaining agricultural production? Integrated farming system 10
-
 12 2018 How has the emphasis on certain crops brought about changes in cropping patterns in recent past? Elaborate the emphasis on millets production and consumption. Cropping pattern 15
 
 13 2018 Assess the role of National Horticulture Mission (NHM) in boosting the production, productivity and income of horticulture farms. How far has it succeeded in increasing the income of farmers? Horticulture 15
@@ -138,8 +122,6 @@ E-technology to aid farmers, Technology missions.
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-3 2019 How can biotechnology improve the living standards of farmers? Biotech for farmers 15
-
 4 2017 Explain various types of revolutions that took place in Agriculture after Independence in India. How these revolutions have helped in poverty alleviation and food security in India? Types of revolution 10
 
 5 2015 How can the 'Digital India' programme help farmers to improve farm productivity and income? What steps has the Government taken in this regard? Digital India & farmers 12.5
@@ -147,8 +129,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Food processing and related industries in India (scope & significance, location, upstream-downstream requirements, supply chain management); Storage, transport & marketing of agro-produce and related issues & constraints; Economics of animal-rearing
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-9 2019 Examine the role of supermarkets in supply chain management of fruits, vegetables and food items. How do they eliminate number of intermediaries? Supply Chain Management 15
 
 10 2018 What are the reasons for poor acceptance of food processing unit? What are the impediments in marketing and supply chain management of the food processing industry in India? FPI for farmers 10
 
@@ -178,8 +158,6 @@ Farm subsidies and MSP and issues therein (direct and indirect); PDS (objectives
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-3 2019 What are the reformative steps taken by the government to make MSP food grain distribution system more effective? PDS Reforms 15
-
 4 2018 What do you mean by Minimum Support Price (MSP)? How will MSP rescue the farmers from the low income trap? MSP 10
 
 5 2017 How do subsidies affect the cropping pattern, crop diversity and economy of farmers? What is the significance of crop insurance, minimum support price and food processing for small and marginal farmers? Subsidies 15
@@ -197,10 +175,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 DISASTER MANAGEMENT
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-9 2019 Vulnerability is an essential element for defining disaster impacts and its threat to people. How and in what ways can vulnerability to disasters be characterized? Discuss different types of vulnerability with reference to disasters. Types of Vulnerability 10
-
-10 2019 Disaster preparedness is the first step in any disaster management process. Explain how hazard zonation mapping will help in disaster mitigation in the case of landslides. Disaster Preparedness 15
 
 11 2018 Describe various measures taken in India for Disaster Risk Reduction (DRR) before and after signing 'Sendai Framework for DRR (2015-2030)'. How is this framework different from 'Hyogo Framework for Action, 2005'? Sendai 15
 
@@ -221,12 +195,6 @@ ENVIRONMENT
 Conservation; Environmental pollution and degradation; Environmental Impact Assessment; El Nino and La Nina fallouts
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-20 2019 Coastal sand mining, whether legal or illegal, poses one of the biggest threats to our environment. Analyse the impact of sand mining along the Indian coasts, citing specific examples. Sand mining 10
-
-21 2019 Define the concept of carrying capacity of an ecosystem as relevant to an environment. Explain how understanding this concept is vital while planning for sustainable development of a region. Carrying capacity of an ecosystem 15
-
-22 2019 How does biodiversity vary in India? How is the Biological Diversity Act, 2002 helpful in conservation of flora and fauna? BDA 2002 15
 
 23 2018 What is wetland? Explain the Ramsar concept of 'wise use' in the context of wetland conservation. Cite two examples from India. Ramsar Sites 10
 
@@ -286,10 +254,6 @@ Achievements of Indians in S&T; Indigenisation of technology & development of ne
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-8 2019 How is the government of India protecting traditional knowledge of medicine from patenting by pharmaceutical companies? TKDL 15
-
-9 2019 What is India's plan to have its own space station and how will it benefit our space programme? Indigenisation of Space 10
-
 10 2018 Discuss the work of 'Bose-Einstein Statistics' done by Prof. Satyendra Nath Bose and show how it revolutionized the field of Physics. Bose-Einstein Statistics 10
 
 11 2017 Give an account of the growth and development of nuclear science and technology in India. What is the advantage of fast breeder reactor programme in India? Nuclear Energy 15
@@ -312,10 +276,6 @@ Linkages between Development & spread of Extremism; Linkages of Organized crime 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-10 2019 The banning of 'Jamaat-e-islaami' in Jammu and Kashmir brought into focus the role of over-ground workers (OGWs) in assisting terrorist organizations. Examine the role played by OGWs in assisting terrorist organizations in insurgency affected areas. Discuss measures to neutralize the influence of OGWs. OGW in J&K 10
-
-11 2019 Indian government has recently strengthened the anti-terrorism laws by amending the Unlawful Activities (Prevention) Act (UAPA), 1967 and the NIA Act. Analyze the changes in the context of prevailing security environment while discussing the scope and reasons for opposing the UAPA by human rights organizations. UAPA NIA 15
-
 12 2018 Left Wing Extremism (LWE) is showing a downward trend, but still affects many parts of the country. Briefly explain the Government of India's approach to counter the challenges posed by LWE. LWE decline 10
 
 13 2017 The north-eastern region of India has been infested with insurgency for a very long time. Analyze the major reasons for the survival of armed insurgency in this region. North east 10
@@ -335,8 +295,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Border Areas (security challenges and management thereof); Security forces & agencies (mandate); Role of External State & Non-State actors in creating internal security challenges
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-10 2019 Cross-border movement of insurgents is only one of the several security challenges facing the policing of the border in North-East India. Examine the various challenges currently emanating across the India-Myanmar border. Also, discuss the steps to counter the challenges. North East 15
 
 11 2018 The China-Pakistan Economic Corridor (CPEC) is viewed as a cardinal subset of China's larger 'One Belt One Road' initiative. Give a brief description of CPEC and enumerate the reasons why India has distanced itself from the same. CPEC 10
 
@@ -369,8 +327,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Basics of Cyber Security; Role of media and social-networking sites in internal security challenges; Internal security challenges through communication networks.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-6 2019 What is the CyberDome Project? Explain how it can be useful in controlling internet crimes in India. CyberDome Project 10
 
 7 2018 Data security has assumed significant importance in the digitized world due to rising cyber crimes. The Justice B. N. Srikrishna Committee Report addresses issues related to data security. What, in your view, are the strengths and weaknesses of the Report relating to protection of personal data in cyber space? B. N. Srikrishna Committee Report 15
 

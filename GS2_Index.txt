@@ -18,14 +18,6 @@ Historical underpinnings, evolution; Features, amendments, significant provision
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-17 2019
-
-Parliament's power to amend the Constitution is a limited power and it cannot be enlarged into absolute power. In the light of this statement explain whether Parliament under Article 368 of the Constitution can destroy the Basic Structure of the Constitution by expanding its amending power?
-
-Article 368 15
-
-18 2019 What can France learn from the Indian Constitution's approach to secularism? France 10
-
 19 2018
 
 Under what circumstances can the Financial Emergency be proclaimed by the President of India? What consequences follow when such a declaration remains in force?
@@ -72,10 +64,6 @@ Union and State Legislatures (structure, functioning, conduct of business, power
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-13 2019 Individual Parliamentarian's role as the national lawmaker is on a decline, which in turn, has adversely impacted people's representative the quality of debates and their outcome. Discuss. Legislative Debate 15
-
-14 2019 On what grounds a Member of a People's Representative (RoPA), 1951? Also mention the remedies available to such person against his disqualification. RoPA 1951 15
-
 15 2018 Why do you think committees are considered to be useful for parliamentary work? Discuss, in this context, the role of the Estimates Committee. Committee 10
 
 16 2018
@@ -120,10 +108,6 @@ Separation of Powers (between different organs, dispute redressal mechanisms, in
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-7 2019 Do you think that constitution of India does not accept principle of strict separation of powers rather it is based on the principle of 'checks and balance'? Explain. SOP 10
-
-8 2019 From the resolution of contentious issues regarding distribution of legislative powers by the courts, 'Principle of Federal Supremacy' and 'Harmonious Construction' have emerged. Explain. SOP 10
-
 9 2018 Whether the Supreme Court Judgement (July 2018) can settle the political tussle between the Lt. Governor and elected government of Delhi? Examine. Delhi HC 15
 
 10 2017
@@ -155,10 +139,6 @@ Basic Structure Doctrine
 Functions & responsibilities of the Union and the States; issues and challenges of federal structure. Devolution of powers and finances to local levels; challenges therein.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-9 2019 "The reservation of seats for women in the institutions of local self-government has had a limited impact on the patriarchal character of the Indian Political Process." Comment.
-
-Women in local Governance 12.5
 
 10 2018 Assess the importance of Panchayat system in India as a part of local government. Apart from government grants, what sources the Panchayats can look out for financing developmental projects.
 
@@ -223,14 +203,6 @@ Appointment to various Constitutional posts; Constitutional Bodies (powers, func
 Qs. No. YEAR QUESTION TOPIC MARKS
 
 NCPCR 15
-
-13 2019
-
-The Central Administration Tribunal which was established for redressal of grievances and complaints by or against central government employees, nowadays is exercising its powers as an independent judicial authority." Explain.
-
-CAT 10
-
-14 2019 The Attorney-General is the chief legal adviser and lawyer of the Government of India." Discuss. AG 15
 
 15 2018
 
@@ -306,12 +278,6 @@ Welfare Schemes (centre, states; performance, mechanisms, protection of vulnerab
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-6 2019 The need for cooperation among various service sector has been an inherent component of development discourse. Partnership bridges bring the gap among the sectors. It also sets in motion a culture of 'Collaboration' and 'team spirit'. In the light of statements above examine India's Development process. Partnership 15
-
-7 2019 Performance of welfare schemes that are implemented for vulnerable sections is not so effective due to absence of their awareness and active involvement at all stages of policy process - Discuss. Performance 15
-
-8 2019 Whether National Commission for Scheduled Castes (NCSC) can enforce the implementation of constitutional reservation for the Scheduled Castes in the religious minority institutions? Examine. NCSC 15
-
 9 2018 Multiplicity of various commissions for the vulnerable sections of the society leads to problems of overlapping jurisdiction and duplication of functions. Is it better to merge all commissions into an umbrella Human Rights Commission? Argue your case. Multiplicity 15
 
 10 2018 Does the Rights of Persons with Disabilities Act, 2016 ensure effective mechanism for empowerment and inclusion of the intended beneficiaries in the society? Discuss. PWD 2016 10
@@ -328,8 +294,6 @@ Poverty and Hunger
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-4 2019 There is a growing divergence in the relationship between poverty and hunger in India. The shrinking of social expenditure by the government is forcing the poor to spend more on non-food essential items squeezing their food-budget. Elucidate. Inter-relation 10
-
 5 2018 How far do you agree with the view that the focus on lack or availability of food as the main cause of hunger takes the attention away from ineffective human development policies in India? Policies 15
 
 6 2017 Hunger and Poverty are the biggest challenges for good governance in India still today. Evaluate how far successive governments have progressed in dealing with these humongous problems. Suggest measures for improvement. Reductions 10
@@ -343,8 +307,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Social Sector & Social Services (health, education, human resources - issues in development, management)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-10 2019 Despite Consistent High growth, India still goes with the lowest indicators of human development. Examine the issues that make balanced and inclusive development elusive. HR 10
 
 11 2018 Appropriate Community level healthcare intervention is a prerequisite to achieve 'Health for All' in India. Explain. Health 10
 
@@ -386,8 +348,6 @@ Important aspects of governance; Transparency and accountability (institutional 
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-10 2019 Implementation of Information and Communication Technology (ICT) based Projects/Programmes usually suffers in terms of certain vital factors. Identify these factors, and suggest measures for their effective implementation. e-Governance 10
-
 11 2018 E-Governance is not only about utilization of the power of new technology, but also much about its 'use value'. Explain the critical importance of information in e-Governance. e-Governance 10
 
 12 2018 Citizens' Charter is an ideal instrument of organizational transparency and accountability, but it has its own limitations. Identify the limitations and suggest measures for greater effectiveness of the Citizens Charter. Citizen's Charter 15
@@ -409,8 +369,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Development Processes & Development industry (role of NGOs, SHGs, groups & associations, donors, charities, institutional and other stakeholders); Pressure Groups & Formal, Informal associations (and their role in the polity); Role of Civil Services in a democracy.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-11 2019 What are the methods used by Farmers organizations to influence policymakers in India and how effective are these methods? Pressure Group (Farmer) 10
 
 12 2017 Initially Civil Services in India were designed to achieve the goals of neutrality and effectiveness, which seems to be lacking in the present context. Do you agree with the view that drastic reforms are required in Civil Services. Comment. Civil Services 15
 
@@ -466,12 +424,6 @@ Effect of Policies & Politics of Developed and Developing countries on India (In
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-11 2019 'The time has come for India and Japan to build a strong contemporary relationship, one involving global and strategic partnership that will have a great significance for Asia and the world as a whole.' Comment. Japan 10
-
-12 2019 The long-sustained image of India as a leader of the oppressed and marginalised Nations has disappeared on account of its new found role in the emerging global order. Elaborate. Image 15
-
-13 2019 "What introduces friction into the ties between India and the United States is that Washington is still unable to find for India a position in its global strategy, which would satisfy India's National self-esteem and ambitions." Explain with suitable examples. USA 15
-
 14 2018 In what ways would the ongoing US-Iran Nuclear Pact Controversy affect the national interest of India? How should India respond to this situation? Nuclear Pact 15
 
 15 2018 "India's relations with Israel have, of late, acquired a depth and diversity, which cannot be rolled back." Discuss. Israel 10
@@ -489,8 +441,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Important International institutions, agencies, fora (structure, mandate); Bilateral, Regional, Global groupings & Agreements (involving and/or affecting India)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-12 2019 'Too little cash, too much politics, leaves UNESCO fighting for life.' Discuss the statement in the light of US' withdrawal and its accusation of the cultural body as being 'anti-Israel bias'. UNESCO 10
 
 13 2018 A number of outside powers have entrenched themselves in Central Asia, which is a zone of interest to India. Discuss the implications, in this context, of India's joining the Ashgabat Agreement, 2018. Agreement 10
 

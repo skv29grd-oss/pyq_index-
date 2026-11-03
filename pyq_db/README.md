@@ -7,7 +7,7 @@ pyq_db/2026/2026 Prelims GS1.csv
 pyq_db/2026/2026 Mains GS1.csv ... 2026 Mains GS4.csv
 pyq_db/2026/2026 Mains Essay.csv
 pyq_db/2025/... (same six files)
-pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/ (same six files)
+pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/ (same six files)
 ```
 
 Same 16 columns in every file:
@@ -30,7 +30,8 @@ Same 16 columns in every file:
 | 2022 | 100 Qs, 200 marks (official Set A scan) | 20 / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q5(b) = five 30-word short notes) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (27 Oct 2026) |
 | 2021 | 100 Qs, 200 marks (official Set A scan) | 20 / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q3 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (28 Oct 2026) |
 | 2020 | 100 Qs, 200 marks (official Series A scan) | 20 / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (30 Oct 2026) |
-| 2019 and earlier | old index | old index | old index (no case-study text) | missing | pending |
+| 2019 | 100 Qs, 200 marks (official booklet BKL-F-GHP scan) | 20 / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
+| 2018 and earlier | old index | old index | old index (no case-study text) | missing | pending |
 
 ## How 2025 and 2026 were verified (25 Oct 2026)
 
@@ -90,3 +91,10 @@ Kept as printed (not errors in this file): GS4 2025 Q11 (MGNREGA) gives no perce
 - `import_gs_text.py <transcript> <GSn> <year> <source>` → `YEAR/YEAR Mains GSn.csv` (flag `transcribed`).
 - `import_gs4_text.py <transcript> <year> <source>` → `YEAR/YEAR Mains GS4.csv`.
 - `import_prelims_text.py <transcript.md> <year> <source>` → `YEAR/YEAR Prelims GS1.csv`.
+
+## How 2019 was built (3 Nov 2026)
+
+- **Official scans (user-supplied):** Prelims 2019 GS-I (booklet code BKL-F-GHP; Q1 = Jagirdar/Zamindar, the Series A order), Mains 2019 GS1–GS4 and Essay. Pages rendered at 300 dpi and OCR'd with tesseract; Prelims English pages split into two columns before OCR; Hindi text discarded. Every question re-typed from the OCR and checked word by word against the OCR text; tables, quote marks and doubtful words checked against page images (e.g. Prelims Q6 pairs, Q52, Q72 ₹ signs, Q86; GS2 Q19–Q20; GS3 Q9). Flag `official_verified`.
+- Mains marks: GS1–GS3 Q1–Q10 10 marks/150 words, Q11–Q20 15 marks/250 words; GS4 Section A 13 parts × 10, Section B 6 case studies × 20.
+- Kept as printed: GS2 Q1 "checks and balance", GS2 Q6 "Despite Consistent experience", GS4 Q10 "difinitive", GS4 Q10 "each others domain".
+- Removed from the old indexes in the same commit: 76 Mains records and 80 Prelims lines tagged 2019. The GS1 index had mislabelled "Safeguarding the Indian art heritage is the need of the moment. Discuss." as 2019; it is a 2018 question and was re-added to `GS1_Index.txt` as 2018.

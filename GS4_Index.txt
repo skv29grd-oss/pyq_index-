@@ -6,7 +6,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Ethics and Human Interface, Determinants and Consequences of Ethics in Human Actions; Dimensions of Ethics; Ethics in Private and Public Relationships]
 
-6 2019 What are the basic principles of public life? Illustrate any three of these with suitable examples. Principles of Public Life 10
 7 2018 What does this quotation mean to you in the present context: "Falsehood takes the place of truth when it results in unblemished common good." - Tirukkural. Means V/S End 10
 8 2018 With regard to the morality of actions, one view is that means is of paramount importance and the other view is that the ends justify the means. Which view do you think is more appropriate? Justify your answer. Means V/S End 10
 9 2017 The crisis of ethical values in modern times is traced to a narrow perception of the good life. Discuss. Crisis Of Ethical Values 10
@@ -47,7 +46,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Emotional Intelligence - Concepts, and their Utilities and Application in Administration and Governance]
 
-5 2019 "Emotional Intelligence is the ability to make your emotions work for you instead of against you." Do you agree? Discuss. EI Use 10
 6 2018 "Anger and intolerance are the enemies of correct understanding." - Mahatma Gandhi. Explain in the present context. Anger and Intolerance 10
 7 2017 How will you apply emotional intelligence in administrative practices? EI Apply 10
 8 2016 Anger is a harmful negative emotion, injurious to both personal and work life. (a) Discuss how it leads to negative emotions and undesirable behaviours. (b) How can it be managed and controlled? Anger 10
@@ -60,9 +58,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Public/Civil Service Values and Ethics in Public Administration: Status and Problems; Ethical Concerns and Dilemmas in Government and Private Institutions; Laws, Rules, Regulations and Conscience as Sources of Ethical Guidance; Accountability and Ethical Governance; Strengthening of Ethical and Moral Values in Governance; Ethical Issues in International Relations and Funding; Corporate Governance]
 
-12 2019 What is meant by 'crisis of conscience'? How does it manifest itself in the public domain? Crisis of Conscience 10
-13 2019 What is meant by constitutional morality? How does one uphold constitutional morality? Constitutional Morality 10
-14 2019 What do you understand by the term 'public servant'? Reflect on the expected role of a public servant. Public Servant 10
 15 2018 What is meant by conflict of interest? Illustrate with examples the difference between actual and potential conflicts of interest. Conflict of Interest 10
 16 2018 "The true rule, in determining to embrace or reject anything, is not whether it has any evil in it; but whether it has more evil than good...." - Abraham Lincoln. Explain in the present context. Dilemma 10
 17 2018 What is meant by public interest? What are the principles and procedures to be followed by civil servants in public interest? Public Interest 10
@@ -87,7 +82,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Probity in Governance: Concept of Public Service; Philosophical Basis of Governance and Probity; Information Sharing and Transparency in Government, Right to Information]
 
-6 2019 There is a view that the Official Secrets Act is an obstacle to implementation of the RTI Act. Do you agree? Discuss. OSA V/S RTI 10
 7 2018 What do you understand by probity in governance? Suggest measures for ensuring probity in government. Probity in Governance 10
 8 2016 "The Right to Information Act is not just about citizens' empowerment alone, it essentially redefines the concept of accountability." Discuss. RTI 10
 9 2016 What do you understand by the terms 'governance', 'good governance' and 'ethical governance'? Ethical Governance 10
@@ -97,9 +91,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Codes of Ethics, Codes of Conduct, Citizen's Charters, Work Culture, Quality of Service Delivery, Utilization of Public Funds, Challenges of Corruption]
 
-8 2019 Effective utilisation of public funds is crucial to meet development goals. Critically examine reasons for underutilization/misutilisation and their implications. Utilisation of Public Funds 10
-9 2019 Non-performance of duty by a public servant is a form of corruption. Do you agree? Justify. Non-performance of Duty 10
-10 2019 Explain basic principles of citizens' charter movement and bring out its importance. Citizen Charter 10
 11 2018 Distinguish between "Code of ethics" and "Code of conduct" with suitable examples. Code of Ethics 10
 12 2017 Discipline generally implies following order and subordination; however it may be counter-productive for the organisation. Discuss. Code of Conduct 10
 13 2017 "If a country is to be corruption free and become a nation of beautiful minds, three key societal members can make a difference: the father, the mother and the teacher." - A.P.J. Abdul Kalam. Analyse. Public Service Code 10
@@ -112,11 +103,6 @@ SECTION-B: CASE STUDIES (2013-2024) - topic index only
 ===================================================================
 [NOTE: Case studies are long descriptive scenarios (20 marks each); the underlying PDF extraction suffered severe OCR column-merge garbling on nearly every case in this section, making faithful full-text reconstruction unreliable. Below is a verified year + core-dilemma + topic-tag index for quick keyword/topic matching against daily current affairs; consult the source PDF (GS_4_PYQs_2013_25 in the PYQs folder) for exact original wording of any specific case.]
 
-34 2019 Bonafide Mistakes 20 (honest civil servants implicated/prosecuted for bonafide administrative mistakes; impact on civil service morale)
-35 2019 Narcotics Menace 20 (woman SP posted to frontier-state district plagued by drug mafia, money laundering, poppy farming, alleged police-politician patronage)
-36 2019 Rescue Disaster / Politicization of Bureaucracy 20 (rescue operations disrupted by natural calamity + political interference/heckling of officials during crisis)
-37 2019 Knowledge V/S Character 20 (apparel company marketing executive accused of sexual harassment; company offers hush money to complainant to withdraw FIR)
-38 2019 Ethical Competence of Civil Servant 20 (institutional measures to anticipate threats to integrity, strengthen ethical competence, and promote ethical administrative processes)
 39 2018 Insider Trading 20 (senior Ministry officer; Minister pressures road realignment near his farmhouse + offers land purchase deal in officer's wife's name)
 40 2018 Illicit Distillation of Liquor 20 (new SP in district notorious for illicit liquor deaths; law-and-order approach failing; backward, poor-irrigation region)
 41 2018 Form V/S Substance 20 / Empathy V/S Objectivity 20 (Dr X charitable-trust hospital; tax investigation finds under-reporting; balancing tax compliance vs medical service to poor)

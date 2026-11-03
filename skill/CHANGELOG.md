@@ -2,6 +2,9 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v11 — 2026-11-03
+- PYQ corpus: 2019 added to `pyq_db/` from official scans (Prelims + Mains GS1-GS4 + Essay); 2019 removed from old indexes. Coverage lines and `load_pyq.py` expected counts updated (full papers 2019-2026; old index 2013-2018: 477).
+
 ## v10 — 2026-11-02
 - PYQ excerpts are quoted in full (no 210-character truncation, no eight-question `+N more` cap), as the user found incomplete question texts.
 - Master Log: one sheet sub-row per matched PYQ (year, paper, full question) under each item; long item cells merged across sub-rows; Date, GS Area, Syllabus Tag, Match repeated (greyed) for filtering. Revision Cards: one line per PYQ.
