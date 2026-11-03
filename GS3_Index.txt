@@ -18,12 +18,6 @@ Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth,
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-25 2015 Success of 'Make in India' programme depends on the success of 'Skill India' programme and radical labour reforms. Discuss with logical arguments. Make in India & Skill India 12.5
-
-26 2015 Craze for gold in Indians have led to a surge in import of gold in recent years and put pressure on balance of payments and external value of rupee. In view of this, examine the merits of Gold Monetization Scheme. Gold Monetization Scheme 12.5
-
-27 2015 The nature of economic growth in India is described as jobless growth. Do you agree with this view? Give arguments in favour of your answer. Jobless Growth 12.5
-
 28 2014 While we found India's demographic dividend, we ignore the dropping rates of employability. What are we missing while doing so? Where will the jobs that India desperately needs come from? Explain. Employment 12.5
 
 29 2014 Capitalism has guided the world economy to unprecedented prosperity. However, it often encourages shortsightedness and contributes to wide disparities between the rich and the poor. In this light, would it be correct to believe and adopt capitalism driving inclusive growth in India? Discuss. Capitalism & Inclusive Growth 12.5
@@ -43,8 +37,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Infrastructure (energy, ports, roads, airports, railways); Investment models
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-10 2015 There is a clear acknowledgement that Special Economic Zones (SEZs) are a tool of industrial development, manufacturing and exports. Recognizing this potential, the whole instrumentality of SEZs with respect to taxation, governing laws and administration should be reviewed. Discuss the issues plaguing the success of SEZs. SEZ 12.5
 
 11 2014 Explain how private public partnership agreements, in longer gestation infrastructure projects, can transfer unsuitable liabilities to the future. What arrangements need to be put in place to ensure that successive generations' capacities are not compromised? PPP 12.5
 
@@ -70,18 +62,6 @@ Major crops, Cropping Patterns in various parts of the country, Different types 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-5 2015 How can the 'Digital India' programme help farmers to improve farm productivity and income? What steps has the Government taken in this regard? Digital India & farmers 12.5
-
-Food processing and related industries in India (scope & significance, location, upstream-downstream requirements, supply chain management); Storage, transport & marketing of agro-produce and related issues & constraints; Economics of animal-rearing
-
-No. Qs. YEAR QUESTION TOPIC MARKS
-
-12 2015 What are the food processing unit? How will cost effective supply chain management help to uplift the socio-economic status of small farmers? Supply Chain Management 12.5
-
-13 2015 In view of the declining average size of land holdings in India which has made agriculture non-viable for a majority of farmers, should contract farming and land leasing be promoted in agriculture? Critically evaluate the pros and cons. Contract farming 12.5
-
-14 2015 Livestock rearing has a big potential for providing non-farm employment and income in rural areas. Discuss suggesting suitable measures to promote this sector in India. Livestock rearing 12.5
-
 15 2014 There is also a point of view that agriculture produce market committees (APMCs) set up under the state acts have not only impeded the development of agriculture but also have been the cause of food inflation in India. Critically examine. APMC & Food Inflation 12.5
 
 16 2013 India needs to strengthen measures to promote the pink revolution in food industry for better nutrition and health. Critically elucidate the statement. Pink Revolution 10
@@ -98,8 +78,6 @@ Farm subsidies and MSP and issues therein (direct and indirect); PDS (objectives
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-6 2015 In what way could replacement of price subsidy with Direct Benefit Transfer (DBT) change the scenario of subsidies in India? Discuss. DBT Impact 12.5
-
 7 2014 "In the villages itself no form of credit organisation will be suitable except the cooperative society" - All India rural credit survey. Discuss this statement in the background of agriculture finance in India. Informal Credit 12.5
 
 8 2013 What constraints and challenges do financial institutions face in supplying agricultural finances? How can technology be used to better reach and serve rural clients? 10
@@ -112,8 +90,6 @@ DISASTER MANAGEMENT
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-15 2015 The frequency of earthquakes appears to have increased in the Indian subcontinent. However, India's preparedness for mitigating their impact has significant gaps. Discuss various aspects. Earthquake 12.5
-
 16 2014 Drought has been recognised as a disaster in view of its peculiar temporal duration, slow onset and lasting effect on various vulnerable sections. With a focus on drought, discuss the mechanism for preparedness to deal with disaster management. Drought 12.5
 
 17 2013 Vulnerability assessment is a key component of the National Disaster Management guidelines. What are the important elements from a disaster management administrator's point of view in India, September 2010 guidelines? Vulnerability Assessment 10
@@ -123,10 +99,6 @@ ENVIRONMENT
 Conservation; Environmental pollution and degradation; Environmental Impact Assessment; El Nino and La Nina fallouts
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-29 2015 The Namami Gange and National Mission for Clean Ganga (NMCG) programmes have had mixed results from the previous schemes. What quantum leaps can help preserve the river Ganga better than incremental inputs? Ganga 12.5
-
-30 2015 To what factors can the recent dramatic fall in equipment costs and tariff of solar energy be attributed? What implications does the trend have for the thermal power producers and the related industry? Solar Energy 12.5
 
 31 2014 Environmental impact assessment studies are increasingly undertaken before project is cleared by the government. Discuss the environmental impacts of coal-fired thermal plants located at Pitheads. Coal 12.5
 
@@ -146,10 +118,6 @@ S&T developments and everyday applications & effects; Awareness in fields of IT,
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-18 2015 What are the areas of prohibitive labour that can be sustainably managed by robots? Discuss the initiatives that can propel research in premier research institutes for substantive and gainful innovation. Robots 12.5
-
-19 2015 India's Traditional Knowledge Digital Library (TKDL) which has a database containing formatted information on more than 2 million medicinal formulations is proving a powerful weapon in the country's fight against erroneous patents. Discuss the pros and cons of making this database publicly available under open-source licensing. TKDL 12.5
-
 20 2014 In a globalised world, intellectual property rights assume significance and are a source of litigation. Broadly distinguish between the terms - copyrights, patents and trade secrets. IPR 12.5
 
 21 2013 What do you understand by fixed dose drug combinations (FDCs)? Discuss their merits and demerits. FDC 10
@@ -166,8 +134,6 @@ Achievements of Indians in S&T; Indigenisation of technology & development of ne
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-15 2015 What do you understand by 'Standard Positioning Systems' and 'Protection Positioning Systems' in the GPS era? Discuss the advantages India perceives from its ambitious IRNSS programme employing just seven satellites. GPS 12.5
-
 16 2014 Can overuse and the availability of antibiotics without doctor's prescription, be the contributors to the emergence of drug-resistant diseases in India? What are the available mechanisms for monitoring and control? Critically discuss the various issues involved. AMR 12.5
 
 17 2014 Scientific research in Indian universities is declining, because a career in science is not as attractive as our business, engineering or administration, and the universities are becoming consumer oriented. Critically comment. STEM decline 12.5
@@ -178,17 +144,11 @@ Linkages between Development & spread of Extremism; Linkages of Organized crime 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-17 2015 Religious indoctrination via digital media has resulted in Indian youth joining the ISIS. What is ISIS and its mission? How can ISIS be dangerous for the internal security of our country? Radicalisation using social media 12.5
-
-18 2015 The persisting drives of the government for development of large industries in backward areas have resulted in isolating the tribal population and the farmers who face multiple displacements with Malkangiri and Naxalbari foci; discuss the corrective strategies needed to win the left wing extremism (LWE) doctrine affected citizens back into the mainstream of social and economic growth. Strategies for LWE 12.5
-
 19 2013 Article 244 of Indian Constitution relates to Administration of Scheduled areas and tribal areas. Analyze the impact of non-implementation of the provisions of fifth schedule on the growth of Left Wing Extremism. Article 244 10
 
 Border Areas (security challenges and management thereof); Security forces & agencies (mandate); Role of External State & Non-State actors in creating internal security challenges
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-14 2015 Human rights activists constantly highlight the view that the Armed Forces (Special Powers) Act, 1958 (AFSPA) is a draconian act leading to cases of human rights abuses by the security forces. What sections of AFSPA are opposed by the activists? Critically evaluate the requirement with reference to the view held by the Apex Court. AFSPA 12.5
 
 15 2014 China and Pakistan have entered into an agreement for development of an economic corridor. What threat does it pose for India's security? Critically examine. China & Pakistan 12.5
 
@@ -211,10 +171,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Basics of Cyber Security; Role of media and social-networking sites in internal security challenges; Internal security challenges through communication networks.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-10 2015 Discuss the advantage and security implications of cloud hosting of server vis-a-vis in-house machine-based hosting for government businesses. Implications of cloud hosting 12.5
-
-11 2015 Considering the threats cyberspace poses for the country, India needs a "Digital Armed Force" to prevent crimes. Critically evaluate the National Cyber Security Policy, 2013 outlining the challenges perceived in its effective implementation. National Cyber Security Policy 2013 12.5
 
 12 2013 What are social networking sites and what security implications do these sites present? Social networking site 10
 

@@ -1,0 +1,9 @@
+id,exam,year,paper,qno,part,section,marks,word_limit,subject,topic,stem,options,answer,source,quality_flag
+E2015-A1,Essay,2015,Essay,1,,A,125,1000-1200,Essay,,Lending hands to someone is better than giving a dole.,,,"UPSC CSE Mains 2015 Essay, official question paper (text layer + visual check)",untagged;transcribed;official_verified
+E2015-A2,Essay,2015,Essay,2,,A,125,1000-1200,Essay,,Quick but steady wins the race.,,,"UPSC CSE Mains 2015 Essay, official question paper (text layer + visual check)",untagged;transcribed;official_verified
+E2015-A3,Essay,2015,Essay,3,,A,125,1000-1200,Essay,,Character of an institution is reflected in its leader.,,,"UPSC CSE Mains 2015 Essay, official question paper (text layer + visual check)",untagged;transcribed;official_verified
+E2015-A4,Essay,2015,Essay,4,,A,125,1000-1200,Essay,,"Education without values, as useful as it is, seems rather to make a man more clever devil.",,,"UPSC CSE Mains 2015 Essay, official question paper (text layer + visual check)",untagged;transcribed;official_verified
+E2015-B1,Essay,2015,Essay,5,,B,125,1000-1200,Essay,,Technology cannot replace manpower.,,,"UPSC CSE Mains 2015 Essay, official question paper (text layer + visual check)",untagged;transcribed;official_verified
+E2015-B2,Essay,2015,Essay,6,,B,125,1000-1200,Essay,,Crisis faced in India - moral or economic.,,,"UPSC CSE Mains 2015 Essay, official question paper (text layer + visual check)",untagged;transcribed;official_verified
+E2015-B3,Essay,2015,Essay,7,,B,125,1000-1200,Essay,,Dreams which should not let India sleep.,,,"UPSC CSE Mains 2015 Essay, official question paper (text layer + visual check)",untagged;transcribed;official_verified
+E2015-B4,Essay,2015,Essay,8,,B,125,1000-1200,Essay,,Can capitalism bring inclusive growth ?,,,"UPSC CSE Mains 2015 Essay, official question paper (text layer + visual check)",untagged;transcribed;official_verified
