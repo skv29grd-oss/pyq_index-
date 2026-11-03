@@ -25,7 +25,6 @@ Env Q9 (2013): Food chains statements: illustrates order in which a chain of org
 Env Q10 (2013): Which term describes not only the physical space occupied by an organism but also its functional role in the community of organisms? (Ecotone/Ecological niche/Habitat/Home range)
 Env Q11 (2013): Most of Earth's freshwater exists as ice caps and glaciers. Of remaining freshwater, the largest proportion: (bound in atmosphere as moisture and clouds/in freshwater lakes and rivers/exists as groundwater/exists as soil moisture)
 Env Q12 (2015): Best description of the term 'ecosystem'? (community of organisms interacting with one another/that part of Earth inhabited by living organisms/community of organisms together with the environment in which they live/flora and fauna of a geographical area)
-Env Q14 (2017): The term 'M-STrIPES' is sometimes seen in news in context of: (captive breeding of wild fauna/maintenance of tiger reserves/indigenous satellite navigation system/security of national highways)
 
 --- Biodiversity (9 Qs) ---
 Env Q21 (2011): The "Red Data Books" published by IUCN contain lists of: endemic plant and animal species present in biodiversity hotspots; threatened plant and animal species; protected sites for conservation of nature and natural resources in various countries. Which correct?
@@ -36,12 +35,10 @@ Env Q25 (2011): Biodiversity forms basis for human existence in which ways? Soil
 Env Q26 (2011): The Himalayan Range is very rich in species diversity. Most appropriate reason? (high rainfall supporting luxuriant vegetative growth/confluence of different biogeographical zones/exotic and invasive species not introduced/less human interference)
 Env Q27 (2012): How does National Biodiversity Authority (NBA) help in protecting Indian agriculture? checks biopiracy and protects indigenous/traditional genetic resources; directly monitors and supervises scientific research on genetic modification of crop plants; IPR applications related to genetic/biological resources cannot be made without NBA approval. Which correct?
 Env Q28 (2016): 'Gadgil Committee Report' and 'Kasturirangan Committee Report' relate to: (constitutional reforms/Ganga Action Plan/linking of rivers/protection of Western Ghats)
-Env Q29 (2017): Due to huge fall in population of species of butterflies, what could be its likely consequence(s)? pollination of some plants adversely affected; drastic increase in fungal infections of some cultivated plants; fall in population of some species of wasps, spiders and birds. Which correct?
 
 --- Agriculture and Environment (7 Qs) ---
 Env Q34 (2011): With reference to micro-irrigation: fertilizer/nutrient loss can be reduced; it is the only means of irrigation in dryland farming; in some areas of farming, receding of groundwater tables can be checked. Which correct?
 Env Q35 (2015): Impact of excessive/inappropriate use of nitrogenous fertilizers in agriculture: proliferation of nitrogen fixing microorganisms in soil can occur; increase in acidity of soil can take place; leaching of nitrate to groundwater can occur. Which correct?
-Env Q36 (2017): Which statements can help in water conservation in agriculture? Reduced or zero tillage of the land; Applying gypsum before irrigating the field; Allowing crop residue to remain in the field.
 
 --- Pollution (19 Qs) ---
 Env Q49 (2011): Concern over increase in harmful algal blooms in seawaters of India -- causative factors? discharge of nutrients from estuaries; run-off from land during monsoon; upwelling in the seas. Which correct?
@@ -55,9 +52,6 @@ Env Q56 (2014): Concern regarding nanoparticles of some chemical elements used b
 Env Q57 (2014): Brominated flame retardants used in household products like mattresses and upholstery. Why concern about their use? highly resistant to degradation in environment; able to accumulate in humans and animals. Which correct?
 Env Q58 (2016): Which best describes the aim of 'Green India Mission' of GoI? incorporating environmental benefits and costs into Union and State Budgets ('green accounting'); launching second green revolution to enhance agricultural output for food security; restoring and enhancing forest cover and responding to climate change by combination of adaptation and mitigation measures. Which correct?
 Env Q59 (2016): In cities of our country, which atmospheric gases are normally considered in calculating the value of the Air Quality Index? Carbon dioxide, Carbon monoxide, Nitrogen dioxide, Sulfur dioxide, Methane.
-Env Q60 (2017): Biological Oxygen Demand (BOD) is a standard criterion for: (measuring oxygen levels in blood/computing oxygen levels in forest ecosystems/pollution assay in aquatic ecosystems/assessing oxygen levels in high altitude regions)
-Env Q61 (2017): In context of solving pollution problems, what is/are the advantage(s) of bioremediation technique? technique for cleaning up pollution by enhancing same biodegradation process that occurs in nature; any contaminant with heavy metals such as cadmium and lead can be readily and completely treated by bioremediation using microorganisms; genetic engineering can be used to create microorganisms specifically designed for bioremediation. Which correct?
-Env Q62 (2017): Possible to produce algae-based biofuels, but what are likely limitation(s) of developing countries in promoting this industry? production possible in seas only and not on continents; setting up and engineering requires high level of expertise/technology until construction complete; economically viable production necessitates large-scale facilities which may raise ecological and social concerns. Which correct?
 
 --- Climate Change (16 Qs) ---
 Env Q77 (2011): Human activities have caused increased concentration of CO2 in atmosphere, but a lot of it does not remain in lower atmosphere because of: its escape into outer stratosphere; photosynthesis by phytoplankton in oceans; trapping of air in polar ice caps. Which correct?
@@ -72,7 +66,6 @@ Env Q85 (2013): With reference to usefulness of by-products of sugar industry: b
 Env Q86 (2014): Scientific view is that increase in global temperature should not exceed 2°C above pre-industrial level. If global temperature increases beyond 3°C, what can be its possible impact/impacts on the world? terrestrial biosphere tends toward net carbon source; widespread coral mortality will occur; all global wetlands will permanently disappear; cultivation of cereals will not be possible anywhere in the world. Which correct?
 Env Q87 (2016): The term 'Intended Nationally Determined Contributions' is sometimes seen in news in context of: (pledges made by European countries to rehabilitate refugees from war-affected Middle East/plan of action outlined by countries of the world to combat climate change/capital contributed by member countries in establishment of Asian Infrastructure Investment Bank/plan of action outlined by countries of the world regarding Sustainable Development Goals)
 Env Q88 (2016): What is 'Greenhouse Gas Protocol'? (international accounting tool for government and business leaders to understand, quantify and manage greenhouse gas emissions/initiative of UN to offer financial incentives to developing countries to reduce GHG emissions and adopt eco-friendly technologies/inter-governmental agreement ratified by all member countries of UN to reduce GHG emissions to specified levels by year 2022/one of the multilateral REDD+ initiatives hosted by the World Bank)
-Env Q89 (2017): In context of mitigating impending global warming due to anthropogenic emissions of CO2, which can be potential sites for carbon sequestration? Abandoned and uneconomic coal seams; Depleted oil and gas reservoirs; Subterranean deep saline formations.
 
 --- Environmental Laws, Conventions and Policies (27 Qs) ---
 Env Q95 (2011): With reference to India, Central Acts: Import and Export (Control) Act 1947; Mining and Mineral Development (Regulation) Act 1957; Customs Act 1962; Indian Forest Act 1927. Which have relevance to/bearing on biodiversity conservation in the country?
@@ -94,8 +87,6 @@ Env Q110 (2016): Pairs (Terms sometimes seen in news: Their origin): Annex-I Cou
 Env Q111 (2016): With reference to initiative called 'The Economics of Ecosystems and Biodiversity (TEEB)': it is an initiative hosted by UNEP, IMF and World Economic Forum; it is a global initiative that focuses on drawing attention to economic benefits of biodiversity; it presents an approach that can help decision-makers recognize, demonstrate and capture the value of ecosystems and biodiversity. Which correct?
 Env Q112 (2016): Proper design and effective implementation of UN-REDD+ Programme can significantly contribute to: protection of biodiversity; resilience of forest ecosystems; poverty reduction. Which correct?
 Env Q113 (2016): With reference to 'Agenda 21': it is a global action plan for sustainable development; it originated in the World Summit on Sustainable Development held in Johannesburg in 2002. Which correct?
-Env Q114 (2017): In India, if a species of tortoise is declared protected under Schedule I of the Wildlife (Protection) Act 1972, what does it imply? (enjoys same level of protection as the tiger/no longer exists in the wild, a few individuals under captive protection and impossible to prevent its extinction/endemic to a particular region of India/both b and c)
-Env Q115 (2017): According to the Wildlife (Protection) Act 1972, which animals cannot be hunted by any person except under some provisions provided by law? Gharial, Indian wild ass, Wild buffalo.
 
 --- Environmental Organisations (11 Qs) ---
 Env Q125 (2014): Statements: Animal Welfare Board of India was established under the Environment (Protection) Act 1986; National Tiger Conservation Authority is a statutory body; National Ganga River Basin Authority is chaired by the Prime Minister. Which correct?
@@ -104,9 +95,6 @@ Env Q127 (2015): With reference to organisation known as 'BirdLife International
 Env Q128 (2015): With reference to IUCN and CITES: IUCN is an organ of the United Nations and CITES is an international agreement between governments; IUCN runs thousands of field projects around the world to better manage natural environments; CITES is legally binding on States that have joined it, but this Convention does not take the place of national laws. Which correct?
 Env Q129 (2015): Which statements regarding 'Green Climate Fund' is/are correct? intended to assist developing countries in adaptation and mitigation practices to counter climate change; founded under the aegis of UNEP, OECD, Asian Development Bank and World Bank. Which correct?
 Env Q130 (2016): The FAO accords the status of 'Globally Important Agricultural Heritage System (GIAHS)' to traditional agricultural systems. What is the overall goal of this initiative? provide modern technology, training in modern farming methods and financial support to local communities of identified GIAHS to greatly enhance agricultural productivity; identify and safeguard eco-friendly traditional farm practices and their associated landscapes, agricultural biodiversity and knowledge systems of local communities; provide Geographical Indication status to all varieties of agricultural produce in such identified GIAHS. Which correct?
-Env Q131 (2017): With reference to 'Global Climate Change Alliance': it is an initiative of the European Union; provides technical and financial support to targeted developing countries to integrate climate change into their development policies and budgets; coordinated by World Resources Institute (WRI) and World Business Council for Sustainable Development (WBCSD). Which correct?
-Env Q132 (2017): Statements: Climate and Clean Air Coalition (CCAC) to Reduce Short Lived Climate Pollutants is a unique initiative of G20 group of countries; CCAC focuses on methane, black carbon and hydrofluorocarbons. Which correct?
-Env Q133 (2017): Statements in respect of Trade Related Analysis of Fauna and Flora in Commerce (TRAFFIC): TRAFFIC is a bureau under UNEP; mission of TRAFFIC is to ensure that trade in wild plants and animals is not a threat to the conservation of nature. Which correct?
 
 --- Protected Areas for the Biodiversity Conservation (10 Qs) ---
 Env Q140 (2012): Protected areas: Bandipur, Bhitarkanika, Manas, Sunderbans. Which are declared Tiger Reserves?
@@ -115,7 +103,6 @@ Env Q142 (2014): With reference to 'Eco-Sensitive Zones': Eco-Sensitive Zones ar
 Env Q143 (2014): The most important strategy for the conservation of biodiversity together with traditional human life is the establishment of: (Biosphere reserves/Botanical gardens/National parks/Wildlife sanctuaries)
 Env Q144 (2015): Which National Park is unique in being a swamp with floating vegetation that supports a rich biodiversity? (Bhitarkanika NP/Keibul Lamjao NP/Keoladeo Ghana NP/Sultanpur NP)
 Env Q145 (2015): Which National Park has a climate that varies from tropical to subtropical, temperate and arctic? (Khangchendzonga NP/Nanda Devi NP/Neora Valley NP/Namdapha NP)
-Env Q147 (2017): From the ecological point of view, which one assumes importance in being a good link between the Eastern Ghats and the Western Ghats? (Sathyamangalam Tiger Reserve/Nallamala Forest/Nagarhole National Park/Seshachalam Biosphere Reserve)
 
 --- Species (23 Qs) ---
 Env Q156 (2012): Organisms: Bat, Bee, Bird. Which are pollinating agent/agents?
@@ -136,7 +123,6 @@ Env Q170 (2015): Which is the national aquatic animal of India? (Saltwater croco
 Env Q171 (2016): What is/are unique about 'Kharai camel', a breed found in India? capable of swimming up to three kilometres in seawater; survives by grazing on mangroves; lives in the wild and cannot be domesticated. Which correct?
 Env Q172 (2016): With reference to 'Red Sanders': it is a tree species found in a part of South India; it is one of the most important trees in the tropical rainforest areas of South India. Which correct?
 Env Q173 (2016): In which region of India are you most likely to come across the 'Great Indian Hornbill' in its natural habitat? (sand deserts of northwest India/higher Himalayas of Jammu and Kashmir/salt marshes of western Gujarat/Western Ghats)
-Env Q174 (2017): If you want to see gharials in their natural habitat, which is the best place to visit? (Bhitarkanika Mangroves/Chambal River/Pulicat Lake/Deepor Beel)
 
 ENVIRONMENT AND ECOLOGY (Q1-184) FULL ANSWER KEY: 1-a 2-b 3-a 4-c 5-a 6-b 7-c 8-c 9-a 10-b 11-c 12-c 13-d 14-b 15-c 16-b 17-c 18-c 19-d 20-b 21-b 22-b 23-c 24-c 25-d 26-b 27-c 28-d 29-c 30-c 31-c 32-b 33-d 34-c 35-c 36-c 37-a 38-b 39-c 40-a 41-c 42-d 43-c 44-c 45-d 46-d 47-b 48-b 49-d 50-c 51-b 52-d 53-a 54-c 55-d 56-d 57-c 58-c 59-b 60-c 61-c 62-b 63-b 64-d 65-a 66-d 67-d 68-a 69-a 70-a 71-d 72-b 73-d 74-b 75-a 76-a 77-b 78-d 79-b 80-d 81-b 82-c 83-d 84-a 85-c 86-b 87-b 88-a 89-d 90-d 91-d 92-b 93-c 94-b 95-c 96-a 97-b 98-d 99-c 100-a 101-b 102-a 103-a 104-b 105-a 106-c 107-b 108-b 109-c 110-c 111-c 112-d 113-a 114-a 115-d 116-b 117-b 118-c 119-c 120-b 121-c 122-a 123-d 124-a 125-b 126-c 127-c 128-b 129-a 130-b 131-a 132-b 133-b 134-b 135-c 136-b 137-c 138-b 139-d 140-b 141-b 142-d 143-a 144-b 145-a 146-a 147-a 148-d 149-a 150-c 151-c 152-a 153-a 154-c 155-a 156-d 157-c 158-a 159-a 160-b 161-c 162-a 163-b 164-b 165-a 166-c 167-c 168-b 169-c 170-c 171-a 172-a 173-d 174-b 175-b 176-a 177-d 178-c 179-a 180-a 181-d 182-c 183-b 184-b
 
@@ -172,7 +158,6 @@ Geo Q27 (2012): Factors: Rotation of the Earth; Air pressure and wind; Density o
 Geo Q28 (2013): The most important fishing grounds of the world are found in the regions where: (warm and cold atmospheric currents meet/rivers drain out large amounts of freshwater into the sea/warm and cold oceanic currents meet/continental shelf is undulating)
 Geo Q29 (2015): What explains the eastward flow of the equatorial counter current? (Earth's rotation on its axis/convergence of the two equatorial currents/difference in salinity of water/occurrence of the belt of calm near the equator)
 Geo Q30 (2015): Tides occur in the oceans and seas due to which among the following? gravitational force of the Sun; gravitational force of the Moon; centrifugal force of the Earth. Which correct?
-Geo Q31 (2017): With reference to 'Indian Ocean Dipole (IOD)': IOD phenomenon characterised by difference in sea surface temperature between tropical Western Indian Ocean and tropical Eastern Pacific Ocean; an IOD phenomenon can influence an El Nino's impact on the monsoon. Which correct?
 
 --- Geomorphology (8 Qs) ---
 Geo Q34 (2013): Which statements regarding laterite soils of India are correct? generally red in colour; rich in nitrogen and potash; well-developed in Rajasthan and UP; tapioca and cashew nuts grow well on these soils.
@@ -213,8 +198,6 @@ Geo Q77 (2015): Rivers: Vamsadhara, Indravati, Pranahita, Pennar. Which are trib
 Geo Q78 (2015): In a particular region in India, local people train the roots of living trees into robust bridges across the streams. As time passes, these bridges become stronger. These unique 'living root bridges' are found in: (Meghalaya/Himachal Pradesh/Jharkhand/Tamil Nadu)
 Geo Q79 (2015): States: Arunachal Pradesh, Himachal Pradesh, Mizoram. In which of the above States do 'Tropical Wet Evergreen Forests' occur?
 Geo Q80 (2015): Which one region of India has a combination of mangrove forest, evergreen forest and deciduous forest? (North Coastal Andhra Pradesh/South-West Bengal/Southern Saurashtra/Andaman and Nicobar Islands)
-Geo Q81 (2017): At one of the places in India, if you stand on the seashore and watch the sea, 'you will find that the sea water recedes from the shore line a few kilometres and comes back to the shore, twice a day, and you can actually walk on the seafloor when the water recedes.' This unique phenomenon is seen at: (Bhavnagar/Bheemunipatnam/Chandipur/Nagapattinam)
-Geo Q82 (2017): With reference to river Teesta: source of river Teesta is the same as that of Brahmaputra but it flows through Sikkim; River Rangeet originates in Sikkim and it is a tributary of river Teesta; River Teesta flows into Bay of Bengal on the border of India and Bangladesh. Which correct?
 
 --- Location/Map Based (27 Qs) ---
 Geo Q90 (2011): Between India and East Asia, the navigation-time and distance can be greatly reduced by which of the following? deepening the Malacca straits between Malaysia and Indonesia; opening a new canal across the Kra isthmus between the Gulf of Siam and Andaman Sea. Which correct?
@@ -234,10 +217,6 @@ Geo Q103 (2015): Which one of the following countries of South-West Asia does no
 Geo Q104 (2016): Pairs (Famous Place-Region): Bodhgaya-Baghelkhand; Khajuraho-Bundelkhand; Shirdi-Vidarbha; Nasik (Nashik)-Malwa; Tirupati-Rayalaseema. Which correctly matched?
 Geo Q105 (2016): Which is/are tributary/tributaries of Brahmaputra? Dibang, Kameng, Lohit.
 Geo Q106 (2016): In which regions of India are shale gas resources found? Cambay Basin; Cauvery Basin; Krishna-Godavari Basin.
-Geo Q107 (2017): Mediterranean Sea is a border of which of the following countries? Jordan, Iraq, Lebanon, Syria.
-Geo Q108 (2017): Which is geographically closest to Great Nicobar? (Sumatra/Borneo/Java/Sri Lanka)
-Geo Q109 (2017): If you travel by road from Kohima to Kottayam, what is the minimum number of States within India through which you can travel, including the origin and the destination? (6/7/8/9)
-Geo Q110 (2017): Statements: in India, the Himalayas are spread over five states only; Western Ghats are spread over five states only; Pulicat Lake is spread over two States only. Which correct?
 
 GEOGRAPHY (Q1-118) FULL ANSWER KEY: 1-b 2-c 3-a 4-d 5-a 6-d 7-a 8-a 9-c 10-d 11-c 12-d 13-d 14-a 15-b 16-d 17-c 18-b 19-b 20-b 21-b 22-c 23-c 24-d 25-a 26-d 27-b 28-c 29-b 30-d 31-b 32-d 33-b 34-c 35-b 36-d 37-d 38-c 39-c 40-b 41-a 42-d 43-b 44-c 45-b 46-c 47-c 48-d 49-a 50-c 51-d 52-d 53-b 54-c 55-d 56-a 57-b 58-d 59-a 60-c 61-b 62-c 63-b 64-b 65-b 66-d 67-c 68-a 69-a 70-a 71-a 72-d 73-a 74-b 75-a 76-a 77-d 78-a 79-c 80-d 81-c 82-b 83-a 84-a 85-d 86-c 87-d 88-d 89-b 90-b 91-a 92-a 93-d 94-a 95-c 96-b 97-c 98-b 99-c 100-b 101-d 102-a 103-b 104-c 105-d 106-d 107-c 108-a 109-b 110-b 111-a 112-a 113-c 114-b 115-a 116-b 117-d 118-c
 
@@ -246,8 +225,6 @@ SECTION H: SCIENCE AND TECHNOLOGY (Prelims 2011-2019, topic-wise) -- FULL (94 Qs
 ======================================================================
 
 --- Biotechnology (10 Qs) ---
-ST Q6 (2017): What is the application of Somatic Cell Nuclear Transfer Technology? (production of biolarvicides/manufacture of biodegradable plastics/reproductive cloning of animals/production of organisms free of diseases)
-ST Q7 (2017): With reference to agriculture in India, how can the technique of 'genome sequencing' be used in the immediate future? identify genetic markers for disease resistance and drought tolerance in crop plants; reduce time required to develop new varieties of crop plants; decipher host pathogen relationships in crops. Which correct?
 ST Q8 (2016): In context of developments in Bioinformatics, the term 'transcriptome' refers to: (range of enzymes used in genome editing/full range of mRNA molecules expressed by an organism/description of mechanism of gene expression/mechanism of genetic mutations taking place in cells)
 ST Q9 (2013): Mycorrhizal biotechnology has been used in rehabilitating degraded sites because mycorrhiza enables the plants to: resist drought and increase absorptive area; tolerate extremes of pH; resist disease infestation. Which correct?
 ST Q10 (2013): Recombination DNA technology (Genetic Engineering) allows genes to be transferred: across different species of plants; from animals to plants; from microorganisms to higher organisms. Which correct?
@@ -264,7 +241,6 @@ ST Q23 (2012): With reference to 'stem cells': stem cells can be derived from ma
 ST Q24 (2011): Regular intake of fresh fruits and vegetables is recommended in the diet since they are a good source of antioxidants. How do antioxidants help a person maintain health and promote longevity? (activate the enzymes necessary for vitamin synthesis in body and help prevent vitamin deficiency/prevent excessive oxidation of carbohydrates, fats and proteins in body and help avoid unnecessary wastage of energy/neutralize the free radicals produced in body during metabolism/activate certain genes in cells of body and help delay the ageing process)
 
 --- Diseases (10 Qs) ---
-ST Q32 (2017): Pairs (Commonly used/consumed materials - Unwanted or controversial chemicals likely to be found in them): Lipstick-Lead; Soft drinks-Brominated vegetable oils; Chinese fast food-Monosodium food glutamate. Which correctly matched?
 ST Q33 (2016): Virus can infect: Bacteria, Fungi, Plants. Which correct?
 ST Q34 (2014): Pairs (Vitamin Deficiency: Disease): Vitamin C-Scurvy; Vitamin D-Rickets; Vitamin E-Night blindness. Which correctly matched?
 ST Q35 (2014): Diseases: Diphtheria, Chickenpox, Smallpox. Which of the above diseases has/have been eradicated in India?
@@ -294,7 +270,6 @@ ST Q74 (2011): Which is the difference between asteroids and comets? asteroids a
 ST Q75 (2011): Satellites used for telecommunication relay are kept in a geostationary orbit. A satellite is said to be in such an orbit when: the orbit is geosynchronous; the orbit is circular; the orbit lies in the plane of the Earth's equator; the orbit is at an altitude of 22,236 km. Which correct?
 
 --- Miscellaneous (42 Qs) ---
-ST Q91 (2017): Organic Light Emitting Diodes (OLEDs) are used to create digital displays in many devices. What are the advantages of OLED displays over Liquid Crystal displays? OLED displays can be fabricated on flexible plastic substrates; roll-up displays embedded in clothing can be made using OLEDs; transparent displays are possible using OLEDs. Which correct?
 ST Q92 (2016): India is an important member of the 'International Thermonuclear Experimental Reactor'. If this experiment succeeds, what is the immediate advantage for India? (it can use thorium in place of uranium for power generation/it will attain a global role in satellite-navigation/it can drastically improve the efficiency of its fission reactors in power generation/it can build fusion reactors for power generation)
 ST Q93 (2015): With reference to 'fly ash' produced by power plants using coal as fuel: fly ash can be used in the production of bricks for building construction; fly ash can be used as a replacement for some of the Portland cement contents of concrete; fly ash is made up of silicon dioxide and calcium oxide only, and does not contain any toxic elements. Which correct?
 ST Q94 (2015): With reference to 'fuel cells' in which hydrogen-rich fuel and oxygen are used to generate electricity: if pure hydrogen is used as a fuel, the fuel cell emits heat and water as by-products; fuel cells can be used for powering buildings and not for small devices like laptop computers; fuel cells produce electricity in the form of Alternating Current (AC). Which correct?

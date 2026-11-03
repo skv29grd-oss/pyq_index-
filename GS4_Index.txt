@@ -6,8 +6,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Ethics and Human Interface, Determinants and Consequences of Ethics in Human Actions; Dimensions of Ethics; Ethics in Private and Public Relationships]
 
-9 2017 The crisis of ethical values in modern times is traced to a narrow perception of the good life. Discuss. Crisis Of Ethical Values 10
-10 2017 Without commonly shared and widely entrenched moral values and obligations, neither the law, nor democratic government, nor even the market economy will function properly. What do you understand by this statement? Explain with illustration in the contemporary times. Role of Ethics 10
 11 2016 Explain how ethics contributes to social and human wellbeing. Role of Ethics 10
 12 2016 Law and ethics are considered to be the two tools for controlling human conduct so as to make it conducive to civilized social existence. (a) Discuss how they achieve this objective. (b) Giving examples, show how the two differ in their approaches. Law V/S Ethics 10
 13 2015 What is meant by 'environmental ethics'? Why is it important to study? Discuss any one environmental issue from the viewpoint of environmental ethics. Environmental Ethics 10
@@ -25,7 +23,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Attitude: Content, Structure, Function; its Influence and Relation with Thought and Behaviour; Moral and Political Attitudes; Social Influence and Persuasion]
 
-7 2017 Young people with ethical conduct are not willing to come forward to join active politics. Suggest steps to motivate them. Youth Politics 10
 8 2016 How could social influence and persuasion contribute to the success of Swachh Bharat Abhiyan? SBA 10
 9 2014 What factors affect the formation of a person's attitude towards social problems? What contrasting attitudes do you notice about the caste system in our society? How do you explain the existence of these contrasting attitudes? Contrasting Attitude 10
 10 2014 In the context of defense services, 'patriotism' demands readiness to lay down one's life. What does patriotism imply in everyday civil life? Patriotism 10
@@ -33,7 +30,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Aptitude and Foundational Values for Civil Service: Integrity, Impartiality and Non-partisanship, Objectivity, Dedication to Public Service, Empathy, Tolerance and Compassion towards weaker sections]
 
-10 2017 One of the tests of integrity is complete refusal to be compromised. Explain with reference to a real life example. Test of Integrity 10
 11 2016 Why should impartiality and non-partisanship be considered as foundational values in public services, especially in the present day socio-political context? Illustrate with examples. Impartiality and Non-partisanship 10
 12 2015 Public servants are likely to confront the issue of 'Conflict of Interest'. What do you understand by the term and how does it manifest in decision making by public servants? If faced with such a situation, how would you resolve it? Conflict of Interest 10
 13 2015 How do the virtues of trustworthiness and fortitude get manifested in public service? Explain with examples. Trustworthiness 10
@@ -43,7 +39,6 @@ SECTION-A: THEORY QUESTIONS
 
 [Emotional Intelligence - Concepts, and their Utilities and Application in Administration and Governance]
 
-7 2017 How will you apply emotional intelligence in administrative practices? EI Apply 10
 8 2016 Anger is a harmful negative emotion, injurious to both personal and work life. (a) Discuss how it leads to negative emotions and undesirable behaviours. (b) How can it be managed and controlled? Anger 10
 9 2014 All human beings aspire for happiness. Do you agree? What does happiness mean to you? Explain with examples. Happiness 10
 10 2013 What is 'emotional intelligence' and how can it be developed in people? How does it help an individual in taking ethical decisions? EI Development 10
@@ -54,8 +49,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Public/Civil Service Values and Ethics in Public Administration: Status and Problems; Ethical Concerns and Dilemmas in Government and Private Institutions; Laws, Rules, Regulations and Conscience as Sources of Ethical Guidance; Accountability and Ethical Governance; Strengthening of Ethical and Moral Values in Governance; Ethical Issues in International Relations and Funding; Corporate Governance]
 
-22 2017 A mere compliance with law is not enough; the public servant also has to have a well-developed sensibility to ethical issues for effective discharge of duties. Do you agree? Explain with two examples. Ethics V/S Laws 10
-23 2017 Two different kinds of attitudes exhibited by public servants: bureaucratic attitude and democratic attitude. A) Distinguish, with merits/demerits. B) Can the two be balanced for better administration? Bureaucratic V/S Democratic Attitude 10
 24 2015 Differentiate between: a) Law and Ethics b) Ethical management and Management of ethics c) Discrimination and Preferential treatment d) Personal ethics and Professional ethics. Differentiate Terms 10
 25 2014 What does ethics seek to promote in human life? Why is it all the more important in public administration? Ethics Importance 10
 26 2014 What does 'accountability' mean in the context of public service? What measures can be adopted to ensure individual and collective accountability of public servants? Accountability 10
@@ -64,10 +57,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Ethical issues in international relations and funding, Corporate governance]
 
-9 2017 "The will to power exists, but it can be tamed and guided by rationality and principles of moral duty." Examine in the context of international relations. Principles of Moral Duty 10
-10 2017 Increased national wealth did not result in equitable distribution of its benefits - created only "enclaves of modernity and prosperity for a small minority at the cost of the majority." Justify. Equitable Distribution 10
-11 2017 Corporate social responsibility makes companies more profitable and sustainable. Analyse. CSR 10
-12 2017 Strength, peace and security are considered to be the pillars of international relations. Elucidate. Pillars of International Relations 10
 13 2015 Bilateral relations governed by promoting one's own national interest without regard for others' leads to conflicts. How can ethical consideration help resolve such tensions? Discuss with examples. Resolve Tensions 10
 
 [Probity in Governance: Concept of Public Service; Philosophical Basis of Governance and Probity; Information Sharing and Transparency in Government, Right to Information]
@@ -80,8 +69,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Codes of Ethics, Codes of Conduct, Citizen's Charters, Work Culture, Quality of Service Delivery, Utilization of Public Funds, Challenges of Corruption]
 
-12 2017 Discipline generally implies following order and subordination; however it may be counter-productive for the organisation. Discuss. Code of Conduct 10
-13 2017 "If a country is to be corruption free and become a nation of beautiful minds, three key societal members can make a difference: the father, the mother and the teacher." - A.P.J. Abdul Kalam. Analyse. Public Service Code 10
 14 2016 Discuss the Public Services Code as recommended by the 2nd Administrative Reforms Commission. Public Service Code 10
 15 2014 There is heavy ethical responsibility on public servants handling public funds with wide-ranging impact on society/environment. What steps have you taken to improve your ethical competence? Ethical Responsibility on Public Servant 10
 16 2014 It is often said that poverty leads to corruption; however affluent/powerful people also indulge in corruption. What are the basic causes of corruption? Support with examples. Corruption 10
@@ -91,10 +78,6 @@ SECTION-B: CASE STUDIES (2013-2024) - topic index only
 ===================================================================
 [NOTE: Case studies are long descriptive scenarios (20 marks each); the underlying PDF extraction suffered severe OCR column-merge garbling on nearly every case in this section, making faithful full-text reconstruction unreliable. Below is a verified year + core-dilemma + topic-tag index for quick keyword/topic matching against daily current affairs; consult the source PDF (GS_4_PYQs_2013_25 in the PYQs folder) for exact original wording of any specific case.]
 
-44 2017 RTI Activism 20 / Personal Integrity 20 (Public Information Officer facing genuine vs non-genuine/extortion-driven RTI applications from activists)
-45 2017 Conflict of Interest 20 (HR head; deceased worker was drunk on duty - compensation denial dispute, workers' strike)
-46 2017 Interview Dilemma 20 (IAS aspirant en route to personal interview witnesses relative's road accident needing immediate help)
-47 2017 Environment V/S Development 20 (illegally-extended building collapse killing migrant labourers; builder arrested, cash relief announced)
 48 2016 Compensation-Cum-Rehabilitation Policy 20 (displaced Adivasis/hill-dwellers from mining/dam projects; inadequate compensation, unjust cost-benefit distribution)
 49 2016 CSR Of Consequences 20 (ABC Ltd. new energy-efficient plant at underdeveloped Vikaspuri; local protests over cost-of-living/social disruption vs govt tax-holiday incentive)
 50 2016 Work Culture / Honest NGO Efforts 20 (Saraswati, engineering graduate; NGO work on river pollution from chemical industry; corrupt officials, bribes, patriotic but frustrated efforts)

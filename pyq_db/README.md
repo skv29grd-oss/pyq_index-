@@ -7,7 +7,7 @@ pyq_db/2026/2026 Prelims GS1.csv
 pyq_db/2026/2026 Mains GS1.csv ... 2026 Mains GS4.csv
 pyq_db/2026/2026 Mains Essay.csv
 pyq_db/2025/... (same six files)
-pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/, pyq_db/2018/ (same six files)
+pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/, pyq_db/2018/, pyq_db/2017/ (same six files)
 ```
 
 Same 16 columns in every file:
@@ -32,7 +32,8 @@ Same 16 columns in every file:
 | 2020 | 100 Qs, 200 marks (official Series A scan) | 20 / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (30 Oct 2026) |
 | 2019 | 100 Qs, 200 marks (official booklet BKL-F-GHP scan) | 20 / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
 | 2018 | 100 Qs, 200 marks (official booklet CYRF-F-TXLI scan, pages marked A) | 20 / 20 / 20, 250 each (official scan; GS1 added later the same day) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
-| 2017 and earlier | old index | old index | old index (no case-study text) | missing | pending |
+| 2017 | 100 Qs, 200 marks (official booklet AMC-U-BKLP scan, pages marked A) | 20 / 20 / 20, 250 each (official scan) | 3 single questions (Q1–Q3) + 10 parts (Q4–Q8) + 6 case studies (Q9–Q14), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
+| 2016 and earlier | old index | old index | old index (no case-study text) | missing | pending |
 
 ## How 2025 and 2026 were verified (25 Oct 2026)
 
@@ -106,3 +107,10 @@ Kept as printed (not errors in this file): GS4 2025 Q11 (MGNREGA) gives no perce
 - **Mains GS1 2018** came in a second upload (GENERAL-STUDIES-PAPER-I.pdf), same method; quote marks checked on the image (Q7 ‘Dead Zones’, Q8 and Q14 double quotes, Q9 single quotes). `load_pyq.py` keeps `YRS_OLD` per paper and checks duplicates by paper-year, so a year can move paper by paper. The GS1 index item 'Gupta numismatic art' was mislabelled 2018 and re-added as 2017 (GS1 2017 Q1).
 - OCR fixes, not wording changes: "sine qua non", "Briefly", "programme?", "cyber crimes", "outcry", "CIA", "A good life", "does not conform", Prelims "occur(s)", "FSSAI", "Iraq", "Iyer"; ₹ signs restored in GS4 Q7.
 - Removed from the old indexes: 54 Mains records (GS2–GS4) and 66 Prelims lines tagged 2018. Two GS index items were mislabelled 2018 and re-added as 2017 (on best knowledge; confirm when the 2017 papers are added): GS2 "Rights of Persons with Disabilities Act, 2016 …" and GS3 "reasons for poor acceptance of food processing unit …". A GS4 index item on probity mislabelled 2018 duplicated 2019 GS4 Q5(a) and was dropped.
+
+## How 2017 was built (3 Nov 2026)
+
+- **Official scans (user-supplied):** Prelims 2017 GS-I (booklet code AMC-U-BKLP, page footers marked A), Mains 2017 GS1–GS4 and Essay. Same method as 2018/2019. Doubtful items checked on page images (Prelims Q37, Q55 ₹, Q70, Q86).
+- GS4 2017 has fourteen questions: Q1–Q3 single (10 marks), Q4–Q8 with parts (a)/(b) (10 each), Q9–Q14 case studies (20 each). GS2 Q10 is marked 5+5, GS3 Q12 7+8 (stored as 10 and 15).
+- Kept as printed: GS3 Q7 "Mars Orbitter Mission", GS3 Q12 "lagged-behind", GS3 Q18 "On December 2004", GS4 Q14 "supposedly arbitrarily administrative". OCR fixes only: GS3 Q6 "burns", GS3 Q14 "rice", GS4 Q13 "three floors", Prelims "a band", "Iraq".
+- Removed from the old indexes: 81 Mains records and 67 Prelims lines tagged 2017. Mislabelled index items: "Dead Zones" (2018, already in pyq_db) and the GS3 food-processing paraphrase (duplicate of 2017 GS3 Q5) dropped; "Early Buddhist Stupa-art …" re-added as GS1 2016 and "Aadhaar Card and NPR …" as GS2 2014 (best knowledge); four items whose year is unknown (GS3 e-commerce fragment; GS4 "mere compliance with law", "bureaucratic vs democratic attitude", "will to power") moved to `Index_year_unverified.txt`, which the loader does not read.

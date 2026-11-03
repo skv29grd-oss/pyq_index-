@@ -18,14 +18,6 @@ Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth,
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-14 2017 What are the reasons for poor acceptance of food processing unit? What are the impediments in marketing and supply chain management of the food processing industry in India? FPI for farmers 10
-
-20 2017 What are the salient features of 'inclusive growth'? Has India been experiencing such a growth process? Analyze and suggest measures for inclusive growth. Inclusive growth 15
-
-21 2017 Account for the failure of the manufacturing sector in achieving the goal of labour-intensive exports rather than capital-intensive exports. Suggest measures for more labour intensive rather than capital-intensive exports. Labour-intensive exports 10
-
-22 2017 Among several factors for India's potential growth, savings rate is the most effective one. Do you agree? What are the other factors available for growth potential? Growth Factors 10
-
 23 2016 Comment on the challenges for inclusive growth which include careless and useless manpower in the Indian context. Suggest measures to be taken for facing these challenges. Careless and Useless employment 12.5
 
 24 2016 Pradhan Mantri Jan-Dhan Yojana (PMJDY) is necessary for bringing unbanked to the institutional finance fold. Do you agree with this for financial inclusion of the poorer section of the Indian society? Give arguments to justify your opinion. PMJDY 12.5
@@ -46,8 +38,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-7 2017 One of the intended objectives of Union Budget 2017-18 is to 'transform, energize and clean India'. Analyse the measures proposed in the Budget 2017-18 to achieve the objective. Budget 15
-
 8 2016 Women empowerment in India needs gender budgeting. What are the requirements and status of gender budgeting in the Indian context? Gender Budgeting 12.5
 
 9 2013 What are the reasons for introduction of Fiscal responsibility and Budget Management (FRBM) act, 2003? Discuss critically its salient features and their effectiveness. FRBM Act 2003 10
@@ -59,8 +49,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Infrastructure (energy, ports, roads, airports, railways); Investment models
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-7 2017 Examine the developments of Airports in India through Joint Ventures under Public-Private Partnership (PPP) model. What are the challenges faced by the authorities in this regard. Airport PPP 10
 
 8 2016 Justify the need for FDI for the development of the Indian economy. Why there is gap between MOUs signed and actual FDIs? Suggest remedial steps to be taken for increasing actual FDIs in India. FDI 12.5
 
@@ -78,8 +66,6 @@ Effects of Liberalisation on the economy; Changes in Industrial policy & their e
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-3 2017 "Industrial growth rate has lagged behind in the overall growth of Gross-Domestic-Product (GDP) in the post-reform period." Give reasons. How far the recent changes in Industrial Policy are capable of increasing the industrial growth rate? Industrial Policy 15
-
 4 2016 How globalization has led to the reduction of employment in the formal sector of the Indian economy? Is increased informalization detrimental to the development of the country? Globalisation & Employment 12.5
 
 6 2014 Foreign direct investment in the defence sector is now said to be liberalised. What influence this is expected to have on Indian defence and economy in the short and long run? FDI Defence 12.5
@@ -96,8 +82,6 @@ Major crops, Cropping Patterns in various parts of the country, Different types 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-15 2017 What are the major reasons for declining rice and wheat yield in the cropping system? How crop diversification is helpful to stabilize the yield of the crop in the system? Cropping pattern 15
-
 16 2016 Given the vulnerability of Indian agriculture to vagaries of nature, discuss the need for crop insurance and bring out the salient features of the Pradhan Mantri Fasal Bima Yojana (PMFBY). Crop insurance 12.5
 
 17 2016 What is allelopathy? Discuss its role in major cropping systems of irrigated agriculture. Allelopathy 12.5
@@ -108,15 +92,11 @@ E-technology to aid farmers, Technology missions.
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-4 2017 Explain various types of revolutions that took place in Agriculture after Independence in India. How these revolutions have helped in poverty alleviation and food security in India? Types of revolution 10
-
 5 2015 How can the 'Digital India' programme help farmers to improve farm productivity and income? What steps has the Government taken in this regard? Digital India & farmers 12.5
 
 Food processing and related industries in India (scope & significance, location, upstream-downstream requirements, supply chain management); Storage, transport & marketing of agro-produce and related issues & constraints; Economics of animal-rearing
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-11 2017 Can e-commerce be helpful in overcoming these bottlenecks? Agricultural Marketing 10
 
 12 2015 What are the food processing unit? How will cost effective supply chain management help to uplift the socio-economic status of small farmers? Supply Chain Management 12.5
 
@@ -142,8 +122,6 @@ Farm subsidies and MSP and issues therein (direct and indirect); PDS (objectives
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-5 2017 How do subsidies affect the cropping pattern, crop diversity and economy of farmers? What is the significance of crop insurance, minimum support price and food processing for small and marginal farmers? Subsidies 15
-
 6 2015 In what way could replacement of price subsidy with Direct Benefit Transfer (DBT) change the scenario of subsidies in India? Discuss. DBT Impact 12.5
 
 7 2014 "In the villages itself no form of credit organisation will be suitable except the cooperative society" - All India rural credit survey. Discuss this statement in the background of agriculture finance in India. Informal Credit 12.5
@@ -157,8 +135,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 DISASTER MANAGEMENT
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-12 2017 On December 2004, tsunami brought havoc on 14 countries including India. Discuss the factors responsible for occurrence of Tsunami and its effects on life and economy. In the light of guidelines of NDMA (2010) describe the mechanisms for preparedness to reduce the risk during such events. Tsunami 15
 
 13 2016 With reference to National Disaster Management Authority (NDMA) guidelines, discuss the measures to be adopted to mitigate the impact of the recent incidents of cloudbursts in many places of Uttarakhand. Cloudburst 12.5
 
@@ -175,10 +151,6 @@ ENVIRONMENT
 Conservation; Environmental pollution and degradation; Environmental Impact Assessment; El Nino and La Nina fallouts
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-25 2017 Not many years ago, river linking was a concept but it is becoming reality in the country. Discuss the advantages of river linking and its possible impact on the environment. River Interlinking 10
-
-26 2017 'Climate Change' is a global problem. How will India be affected by climate change? How will Himalayan and coastal states of India be affected by climate change? Climate Change impact on Himalaya & Coastal 15
 
 27 2016 Give an account of the current status and the targets to be achieved pertaining to renewable energy sources in the country. Discuss in brief the importance of National Programme on Light Emitting Diodes (LEDs). LED 12.5
 
@@ -206,8 +178,6 @@ S&T developments and everyday applications & effects; Awareness in fields of IT,
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-17 2017 Stem cell therapy is gaining popularity in India to treat a wide variety of medical conditions including Leukaemia, Thalassemia, damaged cornea and several burns. Describe briefly what stem cell therapy is and what advantages it has over other treatments? Stem cell 10
-
 18 2015 What are the areas of prohibitive labour that can be sustainably managed by robots? Discuss the initiatives that can propel research in premier research institutes for substantive and gainful innovation. Robots 12.5
 
 19 2015 India's Traditional Knowledge Digital Library (TKDL) which has a database containing formatted information on more than 2 million medicinal formulations is proving a powerful weapon in the country's fight against erroneous patents. Discuss the pros and cons of making this database publicly available under open-source licensing. TKDL 12.5
@@ -228,10 +198,6 @@ Achievements of Indians in S&T; Indigenisation of technology & development of ne
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-11 2017 Give an account of the growth and development of nuclear science and technology in India. What is the advantage of fast breeder reactor programme in India? Nuclear Energy 15
-
-12 2017 India has achieved remarkable successes in unmanned space missions including the Chandrayaan and Mars Orbiter Mission, but has not ventured into manned space mission, both in terms of technology and logistics? Explain critically. Manned space mission 10
-
 13 2016 Why is nanotechnology one of the key technologies of the 21st century? Describe the salient features of Indian Government's Mission on Nanoscience and Technology and the scope of its application in the development process of the country. Nanotech mission 12.5
 
 14 2016 Discuss India's achievements in the field of Space Science and Technology. How the application of this technology has helped India in its socio-economic development? India's achievement in space 12.5
@@ -247,12 +213,6 @@ INTERNAL SECURITY
 Linkages between Development & spread of Extremism; Linkages of Organized crime and Terrorism
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-13 2017 The north-eastern region of India has been infested with insurgency for a very long time. Analyze the major reasons for the survival of armed insurgency in this region. North east 10
-
-14 2017 The scourge of terrorism is a grave challenge to national security. What solutions do you suggest to curb this growing menace? What are the major sources of terrorist funding? Terror challenge 15
-
-15 2017 Mob violence is emerging as a serious law and order problem in India. By giving suitable examples, analyze the causes and consequences of such violence. Mob violence 12.5
 
 16 2016 Terrorism is emerging as a competitive industry over the last few decades. Analyse the above statement. Terrorism as competitive industry 12.5
 
@@ -293,8 +253,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Basics of Cyber Security; Role of media and social-networking sites in internal security challenges; Internal security challenges through communication networks.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-8 2017 Discuss the potential threats of Cyber attack and the security framework to prevent it. Threats of Cyber attack 10
 
 9 2016 Use of Internet and social media by non-state actors for subversive activities is a major concern. How have these been misused in the recent past? Suggest effective guidelines to curb the above threat. Social media by non-state actors 12.5
 
