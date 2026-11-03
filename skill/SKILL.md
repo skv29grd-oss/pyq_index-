@@ -144,7 +144,7 @@ For every date added: `python3 pyq_index-/skill/verify.py today_YYYY-MM-DD.json 
 
 ## 5. Corpus helpers
 
-`load_pyq.py` expected output: `pyq_db` 2017-2026 with GS1 20, GS2 20, GS3 20, GS4 19, Essay 8 each; `old index 2013-2016: 324`; Prelims stems 100 for each of 2017-2026.
+`load_pyq.py` expected output: `pyq_db` 2017-2026 with GS1 20, GS2 20, GS3 20, GS4 19, Essay 8 each; `old index 2013-2016: 326`; Prelims stems 100 for each of 2017-2026.
 
 I-6b split of a workbook into day CSVs:
 
