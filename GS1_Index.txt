@@ -18,21 +18,7 @@ Salient aspects of Art, Architecture, Literature from Ancient to Modern Times
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-18 2018 Safeguarding the Indian art heritage is the need of the moment. Discuss. Safeguard Heritage 10
-
-19 2018 How do you justify the view that the level of excellence of Gupta numismatic art is not at all noticeable in later times? Gupta Coins 10
-
-20 2018
-
-The Bhakti movement received a remarkable re-orientation with the advent of Sri Chaitanya Mahaprabhu. Discuss.
-
-Bhakti Movement 15
-
-21 2018
-
-Assess the importance of the accounts of the Chinese and Arab travellers in the reconstruction of the history of India
-
-China Arab Travellers 10
+1 2017 How do you justify the view that the level of excellence of Gupta numismatic art is not at all noticeable in later times? Gupta Coins 10
 
 22 2017
 
@@ -93,10 +79,6 @@ Sangam Literature 10
 Mid-18th century - Present (significant events, personalities, issues); Freedom struggle (various stages, important contributors from different parts of the country)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-18 2018 Throw light on the significance of the thoughts of
-
-Mahatma Gandhi in the present times. Gandhi 10
 
 19 2017
 
@@ -214,12 +196,6 @@ World History: 18th century events (e.g. Industrial revolution, WWs, redrawn bou
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-6 2018
-
-Why indentured labour was taken by the British from India to other colonies? Have they been able to preserve their cultural identity over there?
-
-Colonisation 15
-
 7 2017 What problems were germane to the decolonization
 
 process of Malay Peninsula. Decolonisation Malay 10
@@ -277,22 +253,6 @@ SOCIETY
 Salient features of Indian Society; Diversity of India; Social Empowerment, Communalism, Regionalism & Secularism
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-21 2018
-
-Communalism arises either due to power struggle or relative deprivation. Argue by giving suitable illustrations.
-
-Communalism 15
-
-22 2018 How the Indian concept of secularism is different from
-
-the western model of secularism? Discuss. Secularism 10
-
-23 2018
-
-Caste system is assuming new identities and associational forms. Hence, caste system cannot be eradicated in India. Comment.
-
-Caste System 10
 
 24 2017 What are the two major legal initiatives by the State
 
@@ -362,22 +322,6 @@ Population and associated issues; Poverty and Development issues
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-10 2018
-
-Mention core strategies for the transformation of aspirational districts in India and explain the nature of convergence, collaboration and competition for its success.
-
-Aspirational Districts 15
-
-11 2018 Discuss whether formation of new states in recent times
-
-is beneficial or not for the economy of India. New States Formation 15
-
-12 2018
-
-Despite implementation of various programmes for eradication of poverty by the government in India, poverty is still existing.' Explain by giving reasons.
-
-Poverty Eradication Failure 10
-
 13 2016
 
 An essential condition to eradicate poverty is to liberate the poor from deprivation. Substantiate this statement with suitable examples
@@ -401,12 +345,6 @@ factors rather than social values. Discuss. Joint Family Lifecycle 10
 Urbanization problems and remedies
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-8 2018
-
-The ideal solution of depleting ground water resources in India is water harvesting system. How can it be made effective in urban areas?
-
-Water Harvesting 15
 
 9 2017
 
@@ -444,12 +382,6 @@ Effects of Globalization on Indian society
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-6 2018
-
-Globalization is generally said to promote cultural homogenization but due to this cultural specificities appear to be strengthened in the Indian Society. Elucidate.
-
-Globalisation & Homogenisation 15
-
 7 2016 To what extent globalization has influenced the core of
 
 cultural diversity in India? Explain. Globalisation & Local Identity 12.5
@@ -465,12 +397,6 @@ aged population in India. Globalisation & Old Age 10
 Role of women and women's organisation
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-6 2018
-
-Women's movement in India has not addressed the issues of women of lower social strata. Substantiate your view.
-
-Women movement 15
 
 7 2015
 
@@ -505,14 +431,6 @@ GEOGRAPHY
 Salient Features of World Physical Geography; Important Geophysical phenomena (earthquakes, tsunami, volcanoes, cyclones); Geographical features and location
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-18 2018 Define mantle plume and explain its role in plate
-
-tectonics. Plate Tectonics 10
-
-19 2018 Why is Indian Regional Navigational Satellite System
-
-(IRNSS) needed? How does it help in navigation? IRNSS 10
 
 20 2017 How does the Juno Mission of NASA help to understand
 
@@ -563,10 +481,6 @@ drift? Discuss the prominent evidences in its support. Continental Drift Theory 
 Changes in critical geographical features and in flora and fauna and the effect of such changes
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-10 2018 What is water stress? How and why does it differ
-
-regionally in India? Water resource 15
 
 11 2017
 
@@ -634,10 +548,6 @@ Distribution of key Natural Resources (World, South Asia, Indian subcontinent)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-14 2018 Why is India taking keen interest in resources of Arctic
-
-Region? Arctic Region 10
-
 15 2016
 
 In what way micro-watershed Development projects help in water conservation in drought prone and semi-arid regions of India.
@@ -703,16 +613,6 @@ Atomic Energy 10
 Factors responsible for location of Industries (primary, secondary, tertiary; India, world)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-11 2018
-
-What is the significance of Industrial Corridors in India? Identify industrial corridors, explain their main characteristics.
-
-Industrial Corridors 15
-
-12 2018 Define blue revolution, explain the problems and
-
-strategies for pisciculture development in India Blue Revolution 15
 
 13 2017
 

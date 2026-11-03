@@ -7,7 +7,7 @@ pyq_db/2026/2026 Prelims GS1.csv
 pyq_db/2026/2026 Mains GS1.csv ... 2026 Mains GS4.csv
 pyq_db/2026/2026 Mains Essay.csv
 pyq_db/2025/... (same six files)
-pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/ (same six files), pyq_db/2018/ (five files: Mains GS1 pending)
+pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/, pyq_db/2018/ (same six files)
 ```
 
 Same 16 columns in every file:
@@ -31,7 +31,7 @@ Same 16 columns in every file:
 | 2021 | 100 Qs, 200 marks (official Set A scan) | 20 / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q3 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (28 Oct 2026) |
 | 2020 | 100 Qs, 200 marks (official Series A scan) | 20 / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (30 Oct 2026) |
 | 2019 | 100 Qs, 200 marks (official booklet BKL-F-GHP scan) | 20 / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
-| 2018 | 100 Qs, 200 marks (official booklet CYRF-F-TXLI scan, pages marked A) | GS1 **pending** (old index) / 20 / 20, 250 each (official scan) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
+| 2018 | 100 Qs, 200 marks (official booklet CYRF-F-TXLI scan, pages marked A) | 20 / 20 / 20, 250 each (official scan; GS1 added later the same day) | 13 parts (Q1–Q6, Q6 = three quotations) + 6 case studies (Q7–Q12), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
 | 2017 and earlier | old index | old index | old index (no case-study text) | missing | pending |
 
 ## How 2025 and 2026 were verified (25 Oct 2026)
@@ -103,6 +103,6 @@ Kept as printed (not errors in this file): GS4 2025 Q11 (MGNREGA) gives no perce
 ## How 2018 was built (3 Nov 2026)
 
 - **Official scans (user-supplied):** Prelims 2018 GS-I (booklet code CYRF-F-TXLI, page footers marked A; file name QP-CSP-18-GS-I-C), Mains 2018 GS2, GS3, GS4 and Essay. Same method as 2019 (300 dpi, tesseract, two-column split for Prelims, re-typed and checked word by word; doubtful digits, tables and quotes checked on page images, e.g. Prelims Q4, Q34, Q64, Q92, Q100; GS2 Q7, Q16; GS3 Q16). Flag `official_verified`.
-- **Mains GS1 2018 was not supplied** (a second copy of the 2019 Prelims PDF came instead). GS1 2018 stays in `GS1_Index.txt`; `load_pyq.py` now moves years paper by paper (`YRS_OLD` per paper) and its duplicate guard checks paper-year pairs.
+- **Mains GS1 2018** came in a second upload (GENERAL-STUDIES-PAPER-I.pdf), same method; quote marks checked on the image (Q7 ‘Dead Zones’, Q8 and Q14 double quotes, Q9 single quotes). `load_pyq.py` keeps `YRS_OLD` per paper and checks duplicates by paper-year, so a year can move paper by paper. The GS1 index item 'Gupta numismatic art' was mislabelled 2018 and re-added as 2017 (GS1 2017 Q1).
 - OCR fixes, not wording changes: "sine qua non", "Briefly", "programme?", "cyber crimes", "outcry", "CIA", "A good life", "does not conform", Prelims "occur(s)", "FSSAI", "Iraq", "Iyer"; ₹ signs restored in GS4 Q7.
 - Removed from the old indexes: 54 Mains records (GS2–GS4) and 66 Prelims lines tagged 2018. Two GS index items were mislabelled 2018 and re-added as 2017 (on best knowledge; confirm when the 2017 papers are added): GS2 "Rights of Persons with Disabilities Act, 2016 …" and GS3 "reasons for poor acceptance of food processing unit …". A GS4 index item on probity mislabelled 2018 duplicated 2019 GS4 Q5(a) and was dropped.
