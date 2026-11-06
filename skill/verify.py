@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ VERIFY (v18). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
+"""CA-PYQ VERIFY (v19). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
+Run from the folder holding pyq_bank.json (load_pyq.py output).
 Prints OK when every check passes; the untraced-figure list is a review prompt, not a failure."""
 import csv, json, re, sys, glob, os, openpyxl
 
@@ -13,12 +14,27 @@ HEAD = ['Date', 'GS Area', 'Syllabus Tag', 'Match', 'CA Topic / Headline', 'Prel
         'Source', 'V&R Recall (Vajiram & Ravi)']
 
 wb = openpyxl.load_workbook(XLSX, rich_text=True)
-assert wb.sheetnames == ['Revision Cards', 'Master Log', 'PYQ Year Frequency', 'How to Use']
+assert wb.sheetnames == ['Revision Cards', 'Master Log', 'PYQ Year Frequency', 'PYQ Bank', 'How to Use']
 ml = wb['Master Log']
 assert [c.value for c in ml[1]] == HEAD
 
 assert len({o['date'] for o in today}) == 1, 'one date per JSON'
 V8 = today[0]['date'] >= '2026-10-31'          # v8 rules apply from 31 Oct 2026
+V19 = today[0]['date'] >= '2026-11-04'         # v19: rows store PYQ IDs (pyq_ids); text comes from the PYQ bank
+BANK = json.load(open('pyq_bank.json', encoding='utf-8')) if os.path.exists('pyq_bank.json') else None
+assert not V19 or BANK, 'pyq_bank.json not found: run verify from the folder where load_pyq.py wrote it'
+ID_RX = re.compile(r'^[PME]20\d\d-[A-Za-z0-9&-]+$')
+PAPER_ORDER = ['Prelims', 'GS1', 'GS2', 'GS3', 'GS4', 'Essay']
+def pyq_line(k):
+    v = BANK[k]
+    if v['exam'] == 'Prelims':
+        return f"P {v['year']}: {v['text']}"
+    return f"{v['paper']} {v['year']}" + (f" ({v['marks']})" if v['marks'] else '') + f": {v['text']}"
+def excerpt_lines(o):
+    if V19:
+        return [pyq_line(k) for k in o['pyq_ids']] or ['No PYQ match in corpus']
+    return [l.strip() for l in o['pyq_excerpt'].splitlines() if l.strip()]
+VR_CACHE = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'vr_topics.json'), encoding='utf-8'))
 NEWS = ('The Hindu', 'Indian Express')
 is_news = lambda o: o['source'].startswith(NEWS)
 if V8:
@@ -41,6 +57,9 @@ if V8:
             vt = o.get('vr_topic'); assert isinstance(vt, dict) and 'facts' in vt and 'page' in vt, f'vr_topic missing: {t}'
             assert len(vt['facts']) == 0 or 2 <= len(vt['facts']) <= 4, t
             assert all(len(f.split()) <= 25 for f in vt['facts']), t
+            cached = VR_CACHE.get(parts[3])        # v19: permanent V&R cache keyed by Subtopic
+            assert cached is not None, f'Subtopic not in data/vr_topics.json (run vr_cache.py add): {parts[3]}'
+            assert vt == {'page': cached['page'], 'facts': cached['facts']}, f'vr_topic differs from the cache (run vr_cache.py fill): {parts[3]}'
             key = o['tag']
             if key in by_tag:
                 assert by_tag[key] == vt, f'same tag, different syllabus block: {t}'
@@ -57,10 +76,20 @@ for o in today:
     assert any(m.startswith(('[Way forward]', '[Counterpoint]')) for m in o['mains']), t
     c = [x.lower() for x in o['prelims'] + o['mains']]
     assert len(c) == len(set(c)), f'repeated fact: {t}'
-    yrs = set(re.findall(r'\b(20[12]\d)\b', o['years']))
-    exc = set(re.findall(r'\b(20[12]\d)\b', o['pyq_excerpt']))
-    assert yrs <= exc, (t, sorted(yrs - exc))
-    assert len([l for l in o['pyq_excerpt'].splitlines() if l.strip()]) >= len(yrs), t
+    if V19:
+        ids = o.get('pyq_ids')
+        assert isinstance(ids, list), f'v19: pyq_ids list required: {t}'
+        assert not ({'years', 'papers', 'pyq_excerpt'} & set(o)), f'v19: years/papers/pyq_excerpt are derived from pyq_ids, do not write them: {t}'
+        assert all(isinstance(k, str) and ID_RX.match(k) and k in BANK for k in ids), f'unknown PYQ ID: {t} -> {[k for k in ids if k not in BANK]}'
+        assert len(ids) == len(set(ids)), f'duplicate PYQ ID: {t}'
+        yp = [(BANK[k]['year'], BANK[k]['paper']) for k in ids]
+        assert len(yp) == len(set(yp)), f'one PYQ per year per paper: {t}'
+        assert o['match'] == 'Emerging' or ids, f'Direct/Thematic row needs at least one PYQ ID: {t}'
+    else:
+        yrs = set(re.findall(r'\b(20[12]\d)\b', o['years']))
+        exc = set(re.findall(r'\b(20[12]\d)\b', o['pyq_excerpt']))
+        assert yrs <= exc, (t, sorted(yrs - exc))
+        assert len([l for l in o['pyq_excerpt'].splitlines() if l.strip()]) >= len(yrs), t
     nl = [l.strip() for l in o['note'].splitlines() if l.strip()]
     assert len(nl) == 3 and nl[0].startswith('[Prelims 2027]') and nl[1].startswith('[Mains 2027]') and nl[2].startswith('[Link]'), t
     assert all(len(l.split()) <= 35 for l in nl), t
@@ -76,7 +105,7 @@ PYQ_RX = re.compile(r'^(P 20\d\d|(GS[1-4]|Essay) 20\d\d( \([^)]*\))?): \S')
 if V10:
     n_sub = 0
     for o in today:
-        lines = [l.strip() for l in o['pyq_excerpt'].splitlines() if l.strip()]
+        lines = excerpt_lines(o)
         n_sub += len(lines)
         if o['match'] == 'Emerging' and lines == ['No PYQ match in corpus']:
             continue
@@ -84,9 +113,22 @@ if V10:
         assert not any(l.endswith('\u2026') or re.match(r'^\+\d+ more', l) for l in lines), f"truncated/capped PYQs: {o['topic'][:40]}"
     got = sum(1 for r in ml.iter_rows(min_row=2, values_only=True) if str(r[0])[:10] == today[0]['date'])
     assert got == n_sub, f'Master Log sub-rows {got} != PYQ lines {n_sub}'
+if V19:                                           # full text in the workbook comes from the bank
+    from collections import Counter
+    want = Counter(BANK[k]['text'] for o in today for k in o['pyq_ids'])
+    have = Counter(r[9] for r in ml.iter_rows(min_row=2, values_only=True) if str(r[0])[:10] == today[0]['date'] and r[9] in want)
+    assert have == want, 'Master Log PYQ text does not match the PYQ bank'
+    bank_ids = {r[0] for r in wb['PYQ Bank'].iter_rows(min_row=2, values_only=True)}
+    assert {k for o in today for k in o['pyq_ids']} <= bank_ids, 'PYQ Bank tab misses an ID of this date'
 
 up = list(csv.reader(open(UPLOAD_CSV, newline='', encoding='utf-8')))
 assert up[0] == HEAD and len(up) - 1 == len(today) and all(len(r) == 13 for r in up), 'upload CSV mismatch'
+if V19:                                           # CSV keeps IDs, never question text
+    for r in up[1:]:
+        cell = [l for l in r[9].split('\n') if l]
+        assert cell == ['No PYQ match in corpus'] or all(ID_RX.match(l) for l in cell), f'v19 CSV must hold PYQ IDs: {r[4][:40]}'
+        if cell != ['No PYQ match in corpus']:
+            assert r[7] == ', '.join(sorted({BANK[k]['year'] for k in cell})), f'PYQ Years not derived from IDs: {r[4][:40]}'
 
 src = open(SOURCE_TXT, encoding='utf-8', errors='ignore').read()
 norm = lambda s: re.sub(r'[\s‐-―]+', ' ', s.replace('’', "'").replace('“', '"').replace('”', '"'))
@@ -118,7 +160,8 @@ design = [
     ('print title', str(ml.print_title_rows).replace('$', '') == '1:1'),
     ('Calibri 12', {(c.font.name, c.font.sz) for ws in wb for r in ws.iter_rows() for c in r if c.value is not None} == {('Calibri', 12)}),
     ('body wraps', all(c.alignment.wrap_text for c in ml[2])),
-    ('tab colours', [wb[n].sheet_properties.tabColor.rgb[-6:] for n in wb.sheetnames] == ['1F3864', '2E75B6', '44546A', 'A6A6A6']),
+    ('tab colours', [wb[n].sheet_properties.tabColor.rgb[-6:] for n in wb.sheetnames] == ['1F3864', '2E75B6', '44546A', '8497B0', 'A6A6A6']),
+    ('bank freeze/filter', wb['PYQ Bank'].freeze_panes == 'B2' and wb['PYQ Bank'].auto_filter.ref == f"A1:H{wb['PYQ Bank'].max_row}"),
 ]
 bad = [n for n, ok in design if not ok]
 assert not bad, bad

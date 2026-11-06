@@ -2,6 +2,14 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v19 — 2026-11-06
+- PYQ IDs instead of question text (rows from 4 Nov 2026): rows carry `pyq_ids`; the builder sorts them, derives PYQ Years and Paper(s), stores the IDs in the CSV and shows the full corpus text in Revision Cards and Master Log (v10 full-text rule kept in the workbook). Cuts the largest CSV column and the text Claude writes per row; corpus corrections now reach logged rows automatically.
+- New PYQ Bank tab (4th; tab `8497B0`): every matched PYQ once with ID, paper, year, full text, number of CA items and dates, most-matched first. Workbook now has five tabs.
+- `q.py` searches `pyq_bank.json` and prints the PYQ ID first. IDs are the corpus `id` column; old-index Prelims 2011-2012 records get `P<year>-<section>-Q<n>`.
+- Permanent V&R syllabus-base cache `data/vr_topics.json` keyed by Subtopic (seeded with the 50 Subtopics logged 31 Oct-3 Nov 2026), with `skill/vr_cache.py fill` / `add` (`--replace` only when the user asks or a fact is superseded). Not-found Subtopics are cached too. Replaces the within-month reuse rule.
+- `verify.py`: v19 checks on `pyq_ids`, IDs in the CSV, Master Log text = bank text, PYQ Bank tab, five tabs; every syllabus block (from 31 Oct 2026) must equal its cache entry.
+- Rows before 4 Nov 2026 unchanged: their day CSVs rebuild byte-identical.
+
 ## v18 — 2026-11-06
 - PYQ coverage fixed: Mains 2013-2014 moved to `pyq_db/` on 6 Nov 2026, but SKILL.md still listed them as old-index years with an expected old-index count of 179 (loader now prints 0). Year ranges and expected `load_pyq.py` output now live only in the repo `README.md`; SKILL.md points there and stops the run if counts differ.
 - Corpus changes are no longer skill versions: they update `README.md` and the new `CORPUS_CHANGELOG.md` (history v11-v17 reconstructed there) without archiving the skill or bumping `VERSION`.

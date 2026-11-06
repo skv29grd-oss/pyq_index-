@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ Match Log builder (v10: 13 columns; Master Log shows one sub-row per matched PYQ).
+"""CA-PYQ Match Log builder (v19: 13 columns; Master Log shows one sub-row per matched PYQ; rows store PYQ IDs).
 
 Usage:
   python3 ca_pyq_build.py --logs day1.csv day2.csv ... --today TODAY.json \
@@ -7,10 +7,13 @@ Usage:
 
 --logs     = the per-day logs exported from Drive as CSV (11-column schema below; header row required;
              day-sheets whose ninth header still reads 'Representative PYQ (excerpt)' are accepted).
-TODAY.json = list of objects: date, topic, source, gs_area, years, papers, pyq_excerpt, match,
-             note, prelims [list of str], mains [list of str, each starting with a [Tag]].
-             pyq_excerpt holds every matched question, one per line; note holds the three
-             tagged lines [Prelims 2027] / [Mains 2027] / [Link].
+TODAY.json = list of objects: date, topic, source, gs_area, tag, pyq_ids [list of PYQ IDs], match,
+             note, prelims [list of str], mains [list of str, each starting with a [Tag]], vr_topic.
+             v19 (rows from 4 Nov 2026): pyq_ids replaces years, papers and pyq_excerpt; the builder
+             derives PYQ Years and Paper(s) from the IDs, stores the IDs (one per line) in the CSV and
+             shows the full question text from --pyq-bank (pyq_bank.json written by load_pyq.py).
+             Older JSON (years, papers, pyq_excerpt with full text) is still accepted.
+             note holds the three tagged lines [Prelims 2027] / [Mains 2027] / [Link].
 Writes the formatted workbook (all days, locked design: Calibri 12 everywhere) and a Drive-safe CSV
 of today's rows only. This script is the single source of truth for the look — never hand-format.
 """
@@ -43,6 +46,41 @@ THIN = Side(style='thin', color='BFBFBF')
 BOX = Border(left=THIN, right=THIN, top=THIN, bottom=THIN)
 TOP = Alignment(vertical='top', wrap_text=True)
 TOPC = Alignment(vertical='top', horizontal='center', wrap_text=True)
+
+ID_RX = re.compile(r'^[PME]20\d\d-[A-Za-z0-9&-]+$')     # P2021-001, M2021-GS3-07, E2026-A1, P2012-MoH-Q13
+NO_MATCH = 'No PYQ match in corpus'
+PAPER_ORDER = ['Prelims', 'GS1', 'GS2', 'GS3', 'GS4', 'Essay']
+BANK = {}                                            # filled from --pyq-bank
+
+def id_lines(cell):
+    """The PYQ IDs of a stored excerpt cell, or None if the cell holds text (rows before v19)."""
+    ls = [l.strip() for l in str(cell or '').split('\n') if l.strip()]
+    return ls if ls and all(ID_RX.match(l) for l in ls) else None
+
+def bank_entry(k):
+    if k not in BANK:
+        raise SystemExit(f'PYQ ID not in the PYQ bank: {k} (run load_pyq.py; pass --pyq-bank)')
+    return BANK[k]
+
+def pyq_line(k):
+    v = bank_entry(k)
+    if v['exam'] == 'Prelims':
+        return f"P {v['year']}: {v['text']}"
+    return f"{v['paper']} {v['year']}" + (f" ({v['marks']})" if v['marks'] else '') + f": {v['text']}"
+
+def expand(cell):
+    """Stored cell -> excerpt text: IDs become 'P <year>: ...' / 'GS<n> <year> (<marks>): ...' lines."""
+    ids = id_lines(cell)
+    return '\n'.join(pyq_line(k) for k in ids) if ids else cell
+
+def sort_ids(ids):
+    return sorted(ids, key=lambda k: (bank_entry(k)['year'], PAPER_ORDER.index(bank_entry(k)['paper']), k))
+
+def derive(ids):
+    """PYQ Years and Paper(s) cells from the IDs ('—' when there is no match)."""
+    yrs = sorted({bank_entry(k)['year'] for k in ids})
+    pap = [p for p in PAPER_ORDER if any(bank_entry(k)['paper'] == p for k in ids)]
+    return (', '.join(yrs) or '\u2014'), (' + '.join(pap) or '\u2014')
 
 def F(**kw):
     return Font(name=FONT, size=SZ, **kw)
@@ -86,8 +124,14 @@ def load(log_paths, today_path):
                 rows.append([x[pos[h]] if h in pos and pos[h] < len(x) else '' for h in INTERNAL])
     if today_path:
         for o in json.load(open(today_path, encoding='utf-8')):
+            if 'pyq_ids' in o:                       # v19
+                ids = sort_ids(o['pyq_ids'])
+                yrs, pap = derive(ids)
+                exc = '\n'.join(ids) or NO_MATCH
+            else:
+                yrs, pap, exc = o['years'], o['papers'], o['pyq_excerpt']
             rows.append([o['date'], o['gs_area'], o['match'], o['topic'], bullets(o['prelims']),
-                         bullets(o['mains']), o['years'], o['papers'], o['pyq_excerpt'], o['note'], o['source'],
+                         bullets(o['mains']), yrs, pap, exc, o['note'], o['source'],
                          vr_text(o), o.get('tag', '')])
     seen, out = set(), []
     for x in rows:                                  # de-duplicate on date + topic start
@@ -170,7 +214,7 @@ def build(rows, out_xlsx):
                 ('PYQ years', f'{yrs}   —   {pap}', 'years'),
                 ('Prelims recall', pre, 'pre'),
                 ('Mains recall', mai, 'mains'),
-            ] + [(('Prelims ' + yy) if pp == 'Prelims' else (f"{pp.split(' ')[0]} {yy}" + (' ' + pp.split(' ', 1)[1] if ' ' in pp else '')) if yy else 'PYQ', q, 'pyq') for yy, pp, q in split_pyqs(exc)] + [
+            ] + [(('Prelims ' + yy) if pp == 'Prelims' else (f"{pp.split(' ')[0]} {yy}" + (' ' + pp.split(' ', 1)[1] if ' ' in pp else '')) if yy else 'PYQ', q, 'pyq') for yy, pp, q in split_pyqs(expand(exc))] + [
                 ('Expected 2027 Qs', note, 'note'),
             ] + ([('V&R recall', vr, 'vr')] if vr else [])
             for label, val, kind in card:
@@ -225,7 +269,7 @@ def build(rows, out_xlsx):
     prev = None
     for x in rows:
         y = [x[k] for k in PERM]
-        pyqs = split_pyqs(x[8])
+        pyqs = split_pyqs(expand(x[8]))
         first = wl.max_row + 1
         for s_i, (yy, pp, q) in enumerate(pyqs):
             vals = []
@@ -316,7 +360,38 @@ def build(rows, out_xlsx):
     wf.sheet_view.showGridLines = False
     wf.sheet_properties.tabColor = SLATE
 
-    # ---------- Sheet 4: How to Use ----------
+    # ---------- Sheet 4: PYQ Bank (v19): every matched PYQ once, full text ----------
+    wp = wb.create_sheet('PYQ Bank')
+    used = OrderedDict()
+    for x in rows:
+        for k in id_lines(x[8]) or []:
+            used.setdefault(k, []).append(x[0])
+    wp.append(['PYQ ID', 'Paper', 'Year', 'Q', 'Marks', 'Full question', 'CA items', 'CA dates'])
+    for c in wp[1]:
+        c.font = F(bold=True, color='FFFFFF'); c.fill = fill(NAVY); c.border = BOX
+        c.alignment = Alignment(vertical='center', horizontal='center', wrap_text=True)
+    wp.row_dimensions[1].height = 36
+    pw = {'A': 18, 'B': 10, 'C': 8, 'D': 10, 'E': 8, 'F': 90, 'G': 10, 'H': 30}
+    for col, w in pw.items():
+        wp.column_dimensions[col].width = w
+    order = sorted(used, key=lambda k: (-len(used[k]), -int(bank_entry(k)['year']), PAPER_ORDER.index(bank_entry(k)['paper']), k))
+    for k in order:
+        v = bank_entry(k)
+        dates = ', '.join(nice_date(d)[:6] for d in sorted(set(used[k]), reverse=True))
+        wp.append([k, v['paper'], v['year'], v['q'], v['marks'] if v['exam'] == 'Mains' else '', v['text'], len(used[k]), dates])
+    if not order:
+        wp.append(['\u2014', '', '', '', '', 'No PYQ IDs in these rows: rows dated before 4 Nov 2026 keep the full question in the PYQ excerpt column.', '', ''])
+    for i in range(2, wp.max_row + 1):
+        for j in range(1, 9):
+            c = wp.cell(i, j); c.font = F(); c.border = BOX; c.alignment = TOPC if j in (2, 3, 4, 5, 7) else TOP
+        wp.cell(i, 1).font = F(bold=True, color=NAVY)
+        wp.cell(i, 6).font = F(italic=True, color='404040')
+        wp.row_dimensions[i].height = max(est_height(wp.cell(i, 6).value, pw['F']), est_height(wp.cell(i, 8).value, pw['H']))
+    wp.freeze_panes = 'B2'
+    wp.auto_filter.ref = f'A1:H{wp.max_row}'
+    wp.sheet_properties.tabColor = '8497B0'
+
+    # ---------- Sheet 5: How to Use ----------
     wh = wb.create_sheet('How to Use')
     guide = [
         ('What this is', ''),
@@ -325,6 +400,7 @@ def build(rows, out_xlsx):
         ('Revision Cards', 'Read-first view. One card per news item, newest day first; two columns so it reads on a phone without sideways scrolling.'),
         ('Master Log', 'The same data as a filterable table. Filter Match = Direct or a GS Area; sort by PYQ Years.'),
         ('PYQ Year Frequency', 'How many logged items link to each PYQ year, and how many of those are Direct.'),
+        ('PYQ Bank', 'Every past question matched in these rows, once: PYQ ID, paper, year, full text, how many CA items matched it and on which dates (most-matched first). From 4 Nov 2026 the data CSV stores PYQ IDs; the cards and Master Log show the full text from the bank.'),
         ('Card fields', ''),
         ('#n · Match', 'Direct = a PYQ asked this exact theme. Thematic = the item is a fresh example for a related PYQ. Emerging = not asked yet; high-probability for 2027.'),
         ('PYQ years', 'Every year the theme appeared, Prelims and Mains, with the papers.'),
@@ -373,7 +449,11 @@ if __name__ == '__main__':
     ap.add_argument('--logs', nargs='*', default=[]); ap.add_argument('--today')
     ap.add_argument('--out-xlsx', required=True); ap.add_argument('--out-day-csv')
     ap.add_argument('--monthly-dir', help='also write one workbook per month: <dir>/CA-PYQ Match Log YYYY-MM.xlsx')
+    ap.add_argument('--pyq-bank', default='pyq_bank.json', help='PYQ bank from load_pyq.py (needed for rows with PYQ IDs)')
     a = ap.parse_args()
+    import os
+    if os.path.exists(a.pyq_bank):
+        BANK.update(json.load(open(a.pyq_bank, encoding='utf-8')))
     rows = load(a.logs, a.today)
     build(rows, a.out_xlsx)
     if a.monthly_dir:
