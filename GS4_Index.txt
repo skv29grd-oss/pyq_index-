@@ -6,34 +6,19 @@ SECTION-A: THEORY QUESTIONS
 
 [Ethics and Human Interface, Determinants and Consequences of Ethics in Human Actions; Dimensions of Ethics; Ethics in Private and Public Relationships]
 
-15 2013 The good of an individual is contained in the good of all. What do you understand by this statement? How can this principle be implemented in public life? Good of All 10
-
 [Human Values - Lessons from the Lives and Teachings of Great Leaders, Reformers and Administrators; Role of Family, Society and Educational Institutions in Inculcating Values]
-
-8 2013 What do you understand by 'values' and 'ethics'? In what way is it important to be ethical along with being professionally competent? Values W/O Character 10
-9 2013 Some people feel that values keep changing with time and situation, while others strongly believe that there are certain universal and eternal human values. Give your perception in this regard with due justification. Changing Values 10
 
 [Attitude: Content, Structure, Function; its Influence and Relation with Thought and Behaviour; Moral and Political Attitudes; Social Influence and Persuasion]
 
-11 2013 It is often said that 'politics' and 'ethics' do not go together. What is your opinion? Justify your answer with illustrations. Politics V/S Ethics 10
-
 [Aptitude and Foundational Values for Civil Service: Integrity, Impartiality and Non-partisanship, Objectivity, Dedication to Public Service, Empathy, Tolerance and Compassion towards weaker sections]
 
-15 2013 What do you understand by the following terms in the context of public service: a) Integrity b) Perseverance c) Spirit of service d) Commitment e) Courage of conviction f) Personal opinion. Terms 10
-16 2013 Indicate two more attributes which you consider important for public service. Justify your answer. Public Service 10
-
 [Emotional Intelligence - Concepts, and their Utilities and Application in Administration and Governance]
-
-10 2013 What is 'emotional intelligence' and how can it be developed in people? How does it help an individual in taking ethical decisions? EI Development 10
 
 [Contributions of moral thinkers and philosophers from India and the world]
 
 Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's principles (truth, nonviolence, seven sins, faith); Immanuel Kant on morality/law; Sardar Patel; Jawaharlal Nehru; Dalai Lama on peace/faith; Guru Nanak; Mahavira; Abdul Kalam (3 key societal members - father, mother, teacher; corruption-free nation of beautiful minds); Potter Stewart on ethics vs law; Erik Erikson on interdependence; Swami Vivekananda on perseverance/service; Socrates on morality/unexamined life; Savitribai Phule on gender responsibility; Buddha's teachings; John Rawls's theory of social justice; Kautilya's views on corruption; Max Weber on bureaucratic morality; forgiveness; Abraham Lincoln on character/adversity; Aristotle on desire vs enemies. Each carries 10 marks; topics tagged: Faith, Ethics V/S Hate, Law V/S Ethics, Adaptability, Guru Nanak, Mahavira, Kindness, Women strength, 3 Key Societal Members, Ethics, Interdependence, Peace, Perseverance, Morality, Selflessness, Help, Gender Responsibility, Buddha, Characters, Thoughts, Unexamined Life, Character (Napoleon Bonaparte quote on rulers), 7 Sins, John Rawl's, Kautilya's Views, Weber Bureaucratic Morality, Forgiveness, Ethical Conduct, Trust, Greed, Character, Desire.
 
 [Public/Civil Service Values and Ethics in Public Administration: Status and Problems; Ethical Concerns and Dilemmas in Government and Private Institutions; Laws, Rules, Regulations and Conscience as Sources of Ethical Guidance; Accountability and Ethical Governance; Strengthening of Ethical and Moral Values in Governance; Ethical Issues in International Relations and Funding; Corporate Governance]
-
-27 2013 What do you understand by the term 'voice of conscience'? How do you prepare yourself to heed to the voice of conscience? Voice of Conscience 10
-28 2013 What is meant by 'crisis of conscience'? Narrate one incident when you were faced with such a crisis and how you resolved it. Crisis of Conscience 10
 
 [Ethical issues in international relations and funding, Corporate governance]
 
@@ -43,13 +28,6 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 SECTION-B: CASE STUDIES (2013-2024) - topic index only
 ===================================================================
 [NOTE: Case studies are long descriptive scenarios (20 marks each); the underlying PDF extraction suffered severe OCR column-merge garbling on nearly every case in this section, making faithful full-text reconstruction unreliable. Below is a verified year + core-dilemma + topic-tag index for quick keyword/topic matching against daily current affairs; consult the source PDF (GS_4_PYQs_2013_25 in the PYQs folder) for exact original wording of any specific case.]
-
-63 2013 Knowledge W/O Character 20 (Mr. A, top-performing but misconduct-prone team manager at AInfoTech, inappropriate behaviour towards female colleagues)
-64 2013 RTI 20 (PIO discovers RTI-requested info implicates his own earlier wrong decision - disclose fully, partially, or deflect)
-65 2013 Insider Trading 20 (Finance Ministry officer; confidential housing/construction policy info sought by builder close to his superior)
-66 2013 Child Labour 20 (Sivakasi firecracker industry; household-based units employing outside children below 14 disguised as "relatives")
-67 2013 Work Culture 20 (Junior Engineer inspecting flyover construction finds serious safety lacunae/deviations from design; Chief Engineer pressures to ignore and proceed)
-68 2013 Ethicality Of Nepotism 20 (technical institute selection panel chairman; PS of govt functionary seeks favour for relative's professorship in exchange for clearing pending institute funding)
 
 [NOTE: This is a plain-text extraction/index of the TATHASTU Institute Of Civil Services GS-4 (Ethics) Mains PYQ compilation (2013-2024). Section-A (theory) is faithfully reconstructed from OCR text. Section-B (case studies) is summarized as a year/topic/one-line-gist index due to severe OCR column-merge garbling of the original long-form case narratives in the source PDF extraction; for exact case-study wording, refer to GS_4_PYQs_2013_25 PDF in the PYQs folder.]
 

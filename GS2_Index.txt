@@ -18,65 +18,17 @@ Historical underpinnings, evolution; Features, amendments, significant provision
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-26 2013 The Apex Court Judgement(s) on Section 66A of IT Act, has resulted in a slightly different practical interpretation of "freedom of speech and expression"? Article 19 12.5
-
 Qs. No. YEAR QUESTION TOPIC MARKS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-22 2013
-
-The role of individual MPs (Members of Parliament) has diminished over the years and as a result healthy constructive debates on policy issues are not usually witnessed. How far can this be attributed to the anti-defection law, which was legislated but with a different intention?
-
-Anti-defection 10
-
-Separation of Powers (between different organs, dispute redressal mechanisms, institutions); Judiciary (structure, organisation, functioning)
-
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-14 2013 The Supreme Court of India keeps a check on arbitrary amending power of the Parliament in Constitution. Discuss critically.
-
-Basic Structure Doctrine
-
-Functions & responsibilities of the Union and the States; issues and challenges of federal structure. Devolution of powers and finances to local levels; challenges therein.
-
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-18 2013
-
-Recent directives from Ministry of Petroleum and Natural Gas are perceived by the 'Nagas' as a threat to override the exceptional status enjoyed by the State. Discuss in light of Article 371A of the Indian Constitution.
-
-Local Level 10
-
-19 2013
-
-Many State Governments further bifurcate geographical administrative areas like Districts and Talukas for better governance. In light of the above, can it also be justified that more number of smaller States would bring in effective governance at State level? Discuss.
-
-Local Level 10
-
-20 2013
-
-Constitutional mechanisms to resolve the inter-state water disputes have failed to address and solve the problems. Is the failure due to structural or process inadequacy or both? Discuss.
-
-Water Dispute 10
-
-Appointment to various Constitutional posts; Constitutional Bodies (powers, functions and responsibilities); Statutory, Regulatory and Quasi-judicial bodies.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
 NCPCR 15
-
-25 2013
-
-Discuss the recommendations of the 13th Finance Commission which have been a departure from the previous commissions for strengthening the local government finances.
-
-FC 10
-
-26 2013
-
-The product diversification of financial institutions and insurance companies, resulting in overlapping of products and services strengthens the case for the merger of the two regulatory agencies, namely SEBI and IRDA. Justify.
-
-Financial Bodies 10
 
 SOCIAL JUSTICE
 
@@ -84,25 +36,9 @@ Welfare Schemes (centre, states; performance, mechanisms, protection of vulnerab
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-14 2013 The basis of providing urban amenities in rural areas (PURA) is rooted in establishing connectivity. Comment. PURA 10
-
-15 2013 Electronic cash transfer system for the welfare schemes is an ambitious project to minimize corruption, eliminate wastage and facilitate reforms. Comment. DBT 10
-
-Poverty and Hunger
-
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-9 2013 The Central Government frequently complains on the poor performance of the State Governments in eradicating suffering of the vulnerable sections of the society. Restructuring of Centrally sponsored schemes across the sectors for ameliorating the cause of vulnerable sections of population aims at providing flexibility to the States in better implementation. Critically evaluate. Scheme 10
-
-Social Sector & Social Services (health, education, human resources - issues in development, management)
-
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-20 2013 The concept of Mid Day Meal (MDM) scheme is almost a century old in India with early beginnings in Madras Presidency in pre-independent India. The scheme has again been given impetus in most states in the last two decades. Critically examine its twin objectives, latest mandates and success. Scheme Health 10
-
-21 2013 Identify the Millennium Development Goals (MDGs) that are related to health. Discuss the success of the actions taken by the Government for achieving the same. Health 10
-
-Government Policies & Interventions for development of various sectors (issues in their design, implementation)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
@@ -112,45 +48,15 @@ Important aspects of governance; Transparency and accountability (institutional 
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-18 2013 Though Citizen's charters have been formulated by many public service delivery organizations, there is no corresponding improvement in the level of citizens' satisfaction and quality of services being provided. Analyze. Citizen's Charter 10
-
-19 2013 "A national Lokpal, however strong it may be, cannot resolve the problems of immorality in public affairs". Discuss. Lokpal 10
-
-Development Processes & Development industry (role of NGOs, SHGs, groups & associations, donors, charities, institutional and other stakeholders); Pressure Groups & Formal, Informal associations (and their role in the polity); Role of Civil Services in a democracy.
-
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-22 2013 Pressure group politics is sometimes seen as the informal face of politics. With regards to the above, assess the structure and functioning of pressure groups in India. Pressure Group 10 (approx.)
-
-23 2013 The legitimacy and accountability of Self-Help Groups (SHGs) and their patrons, the micro-finance outfits, need systematic assessment and scrutiny for the sustained success of the concept. Discuss. SHG 10 (approx.)
 
 INTERNATIONAL RELATIONS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-8 2013 The proposed withdrawal of International Security Assistance Force (ISAF) from Afghanistan in 2014 is fraught with major security implications for the countries of the region. Examine in light of the fact that India is faced with a plethora of challenges and needs to safeguard its own strategic interests. Afghanistan 10
-
-9 2013 What do you understand by 'The String of Pearls'? How does it impact India? Briefly outline the steps taken by India to counter this. South East Asia 10
-
-10 2013 The protests in Shahbag Square in Dhaka in Bangladesh reveal a fundamental split in society between the nationalists and Islamic forces. What is its significance for India? Bangladesh 10
-
-11 2013 Discuss the political developments in Maldives in the last two years. Should they be of any cause of concern to India? Maldives 10
-
-12 2013 In respect of India - Sri Lanka relations, discuss how domestic factors influence foreign policy. Sri Lanka 10
-
-13 2013 What is meant by Gujral doctrine? Does it have any relevance today? Discuss. Policy 10
-
-Effect of Policies & Politics of Developed and Developing countries on India (India's interests, diaspora)
-
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-20 2013 Economic ties between India and Japan while growing in the recent years are still far below their potential. Elucidate the policy constraints which are inhibiting this growth. Japan 10
-
-Important International institutions, agencies, fora (structure, mandate); Bilateral, Regional, Global groupings & Agreements (involving and/or affecting India)
-
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-23 2013 The World Bank and the IMF, collectively known as the Bretton Woods Institutions, are the two intergovernmental pillars supporting the structure of the world's economic and financial order. Superficially, the World Bank and the IMF exhibit many common characteristics, yet their role, functions and mandate are distinctly different. Elucidate. WB IMF 10
 
 [NOTE: This is a plain-text extraction of the TATHASTU Institute Of Civil Services GS-2 (Polity, Governance, Social Justice, IR) Mains PYQ compilation (2013-2024), OCR-cleaned where possible. Some multi-column entries in the original PDF were column-merged by the extractor and have been reconstructed to the best readable interpretation; a few short fragments (marked [garbled]) could not be fully reconstructed. Cross-check against the source PDF (GS_2_PYQs_2013_25__lyst1780640646295.pdf in the PYQs folder) for exact original wording if needed for citation.]
 

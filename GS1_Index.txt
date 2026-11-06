@@ -18,89 +18,11 @@ Salient aspects of Art, Architecture, Literature from Ancient to Modern Times
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-30 2013 Chola architecture represents a high watermark in the
-
-evolution of temple architecture. Discuss. Chola 5 31 2013 Discuss the Tandava dance as recorded in the early
-
-Indian inscriptions. Tandava Dance 5
-
-32 2013
-
-Though not very useful from the point of view of a connected political history of South India, the Sangam literature portrays the social and economic conditions of its time with remarkable vividness. Comment.
-
-Sangam Literature 10
-
-Mid-18th century - Present (significant events, personalities, issues); Freedom struggle (various stages, important contributors from different parts of the country)
+Qs. No. YEAR QUESTION TOPIC MARKS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-32 2013 In many ways, Lord Dalhousie was the founder of
-
-modern India. Elaborate. Dalhousie 10
-
-33 2013
-
-Several foreigners made India their homeland and participated in various movements. Analyze their role in the Indian struggle for freedom.
-
-Foreigners contributions 10
-
-34 2013
-
-Defying the barriers of age, gender and religion, the Indian women became the torch bearer during the struggle for freedom in India. Discuss.
-
-Contributors 10
-
-Post-Independence Consolidation and Reorganisation within country
-
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-4 2013
-
-Critically discuss the objectives of Bhoodan and Gramdan movements initiated by Acharya Vinoba Bhave and their success.
-
-Bhoodan Gramdan 10
-
-5 2013 Write a critical note on the evolution and significance of
-
-the slogan "Jai Jawan Jai Kisan". Jai Jawan Jai Kisan 10
-
-6 2013 Discuss the contribution of Maulana Abul Kalam Azad to
-
-pre-and post-independent India. MA Kalam Azad 10
-
-7 2013
-
-Analyze the circumstances that led to the Tashkent Agreement in 1966. Discuss the highlights of the agreement.
-
-Tashkent Agreement 10
-
-8 2013
-
-Critically examine the compulsions which prompted India to play a decisive roles in the emergence of Bangladesh.
-
-1971 Bangladesh Birth 10
-
-World History: 18th century events (e.g. Industrial revolution, WWs, redrawn boundaries, colonisation, decolonisation); Political philosophies (communism, capitalism, socialism) and their effect on society
-
-Qs. No. YEAR QUESTION TOPIC MARKS
-
-14 2013 What policy instruments were deployed to contain the
-
-great economic depression? 1929 Great Depression 10
-
-15 2013 The American Revolution was an economic revolt
-
-against mercantilism. Substantiate. American Revolution 10
-
-16 2013 Africa was chopped into states artificially created by
-
-accident of European competition. Analyse. Colonisation 10
-
-17 2013
-
-Latecomer Industrial revolution in Japan involved certain factors that were markedly different from what west had experienced.
-
-Industrial Revolution Japan 10
 
 SOCIETY
 
@@ -108,37 +30,13 @@ Salient features of Indian Society; Diversity of India; Social Empowerment, Comm
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-35 2013 Growing feeling of regionalism is an important factor in
-
-the generation of demand for a separate state. Discuss. Regionalism 10
-
-Population and associated issues; Poverty and Development issues
+Qs. No. YEAR QUESTION TOPIC MARKS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-14 2013 Discuss the various social problems which originated
-
-out of the speedy process of urbanization in India. Problems 10
-
-Effects of Globalization on Indian society
-
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-9 2013 Critically examine the effects of globalization on the
-
-aged population in India. Globalisation & Old Age 10
-
-Role of women and women's organisation
-
-Qs. No. YEAR QUESTION TOPIC MARKS
-
-11 2013
-
-Male membership needs to be encouraged in order to make women's organization free from gender bias. Comment.
-
-Gender bias 10
 
 GEOGRAPHY
 
@@ -146,72 +44,10 @@ Salient Features of World Physical Geography; Important Geophysical phenomena (e
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-25 2013 Bring out the causes for more frequent landslides in the
-
-Himalayas than in Western Ghats. Landslides 5
-
-26 2013
-
-Major hot deserts in northern hemisphere are located between 20-30 degree north and on the western side of the continents. Why?
-
-Hot Deserts 10
-
-27 2013 There is no formation of deltas by rivers of the Western
-
-Ghat. Why? Delta 5
-
-28 2013
-
-The recent cyclone on the east coast of India was called "Phailin". How are the tropical cyclones named across the world?
-
-Tropical Cyclone 5
-
-29 2013 What do you understand by the theory of continental
-
-drift? Discuss the prominent evidences in its support. Continental Drift Theory 5
-
-Changes in critical geographical features and in flora and fauna and the effect of such changes
+Qs. No. YEAR QUESTION TOPIC MARKS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-22 2013
-
-What do you understand by the phenomenon of temperature inversion in meteorology? How does it affect the weather and the habitants of the place?
-
-Temperature Inversion 5
-
-23 2013 Bring out the causes for the formation of heat islands in
-
-the urban habitat of the world. Heat Islands 5
-
-Distribution of key Natural Resources (World, South Asia, Indian subcontinent)
-
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-25 2013
-
-It is said India has substantial reserves of shale oil and gas, which can feed the needs of country for quarter century. However, tapping of the resources doesn't appear to be high on the agenda. Discuss critically the availability and issues involved.
-
-Shale Oil Gas 10
-
-26 2013
-
-With growing scarcity of fossil fuels, the atomic energy is gaining more and more significance in India. Discuss the availability of raw material required for the generation of atomic energy in India and in the world.
-
-Atomic Energy 10
-
-Factors responsible for location of Industries (primary, secondary, tertiary; India, world)
-
-Qs. No. YEAR QUESTION TOPIC MARKS
-
-18 2013 Analyze the factors for highly decentralized textile
-
-industry in India (cotton). Cotton 5
-
-19 2013
-
-Do you agree that there is a growing trend of opening new sugar mills in the Southern states of India? Discuss with justification
-
-Sugar 5
 
 [NOTE: 2025 and 2026 papers live only in pyq_db/<year>/ (web-verified); this index covers 2011-2024.]

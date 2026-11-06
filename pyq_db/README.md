@@ -7,7 +7,7 @@ pyq_db/2026/2026 Prelims GS1.csv
 pyq_db/2026/2026 Mains GS1.csv ... 2026 Mains GS4.csv
 pyq_db/2026/2026 Mains Essay.csv
 pyq_db/2025/... (same six files)
-pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/, pyq_db/2018/, pyq_db/2017/, pyq_db/2016/ (same six files); pyq_db/2015/ (same six files); pyq_db/2014/ (same six files); pyq_db/2013/ (Prelims only)
+pyq_db/2024/, pyq_db/2023/, pyq_db/2022/, pyq_db/2021/, pyq_db/2020/, pyq_db/2019/, pyq_db/2018/, pyq_db/2017/, pyq_db/2016/ (same six files); pyq_db/2015/ (same six files); pyq_db/2014/ (same six files); pyq_db/2013/ (same six files; Essay has one 250-mark essay in four options)
 ```
 
 Same 16 columns in every file:
@@ -36,7 +36,7 @@ Same 16 columns in every file:
 | 2016 | 100 Qs, 200 marks (official booklet B-APM-P-CKB scan, pages marked 65A) | 20 / 20 / 20, 12.5 marks each, 250 (official scan) | 8 parts (Q1–Q4) + 4 two-part questions (Q5–Q8, one row each) + 6 case studies (Q9–Q12 20 marks, Q13–Q14 25 marks), 250 (official scan) | 8 topics (official scan) | yes (3 Nov 2026) |
 | 2015 | 100 Qs, 200 marks (official booklet B-AQN-O-JUA scan, pages marked 63A) | 20 / 20 / 20, 12.5 marks each, 250 (official paper) | 12 parts (Q1–Q4 (a)/(b), Q1(b) 200 words) + Q5–Q8 + 6 case studies (Q9–Q12 20 marks, Q13–Q14 25 marks), 250 (official paper) | 8 topics (official paper) | yes (3 Nov 2026) |
 | 2014 | 100 Qs, 200 marks (official booklet B-FVS-N-IVUA scan, pages marked 58A) | 25 (10 marks, 150 words) / 20 / 20 (12.5 marks, 200 words), 250 each (official scan) | 13 parts (Q1–Q5 (a)/(b), Q6–Q8; 10 marks, 150 words) + 6 case studies (Q9–Q14, 20 marks, 250 words), 250 (official scan) | 8 topics (official scan) | yes (6 Nov 2026) |
-| 2013 | 100 Qs, 200 marks (official booklet B-BRO-M-HTA scan, pages marked 46A) | old index | old index | missing | Prelims only |
+| 2013 | 100 Qs, 200 marks (official booklet B-BRO-M-HTA scan, pages marked 46A) | 25 (10 marks, 200 words), 250 (30 rows; 5-mark parts 100 words; official scan) | 25 (10 marks, 200 words), 250 (official scan) | 28 rows (25 Qs; 10 marks, 200 words; 5-mark parts 100 words), 250 (official scan) | 18 rows: 12 Section A parts + 6 case studies (Q9–Q14), 250 (official scan) | yes (6 Nov 2026) |
 | 2011–2012 | old index | — | — | — | pending |
 
 ## How 2025 and 2026 were verified (25 Oct 2026)
@@ -90,7 +90,14 @@ Kept as printed (not errors in this file): GS4 2025 Q11 (MGNREGA) gives no perce
 - GS4 2022 Q3(a)–(c) carry the paper's instruction line ("What does each of the following quotations mean to you?") in each part; Q5(b) is one 10-mark row (`word_limit` = `30 each`).
 - 2022 removed from the old indexes the same day: 71 Prelims lines (index counts recomputed) and 76 Mains records (GS1 20, GS2 20, GS3 21, GS4 15 — the old index had mis-dated items, e.g. a 2021 Bhakti question tagged 2022).
 
-**Single copy rule:** each year exists in one place only. 2025 and 2026 live only here; their records were removed from the old `*_Index.txt` files and the raw 2026 text files were deleted (still in git history). 2023, 2024 and then 2022 were likewise removed from the old indexes on 27 Oct 2026. 2021 was moved the same way on 28 Oct 2026 and 2020 on 30 Oct 2026. The old indexes now cover Prelims 2011-2012 and Mains 2013 only (2014 Mains moved to `pyq_db/` on 6 Nov 2026). `load_pyq.py` (repo root) reads each year from exactly one source and fails if a year appears twice.
+**Single copy rule:** each year exists in one place only. 2025 and 2026 live only here; their records were removed from the old `*_Index.txt` files and the raw 2026 text files were deleted (still in git history). 2023, 2024 and then 2022 were likewise removed from the old indexes on 27 Oct 2026. 2021 was moved the same way on 28 Oct 2026 and 2020 on 30 Oct 2026. The old indexes now cover Prelims 2011-2012 only (Mains 2014 and 2013 moved to `pyq_db/` on 6 Nov 2026). `load_pyq.py` (repo root) reads each year from exactly one source and fails if a year appears twice.
+
+## How Mains 2013 was built (6 Nov 2026)
+
+- **Official scans (user-supplied):** Mains 2013 GS1, GS2, GS3, GS4 and Essay (booklet codes A-BRL-M-HTUA to D). Fax-print scans with no text layer: 300 dpi render, tesseract OCR of the English text, re-typed, then checked against the page images. Flag `official_verified`; GS4 Section B rows also carry `case_study`.
+- GS1 has 30 rows (25 questions; Q2, Q19, Q20, Q22, Q23 split into 5-mark parts). GS3 has 28 rows (Q9, Q16, Q17 split). GS4 Q6(a)-(c) rows carry the shared lead-in, as in 2015/2017. Essay 2013 has four topics in the one 250-mark essay; four rows at 250 marks keep the loader total at 1000.
+- Removed from the old indexes: 98 Mains records tagged 2013 (GS1 30, GS2 25, GS3 28, GS4 15). One of the GS3 records, "What constraints and challenges do financial institutions face in supplying agricultural finances ...", is not in the official 2013 GS3 paper and was moved to `Index_year_unverified.txt`; the other 97 match the paper. The old index never held GS3 Q5 (agricultural subsidies) or GS4 Q6(a)-(c); both are now in `pyq_db/2013/`.
+- `load_pyq.py` now reads no Mains year from the old indexes; run on 6 Nov 2026 with no duplicate paper-year.
 
 ## How Mains 2014 was built (6 Nov 2026)
 

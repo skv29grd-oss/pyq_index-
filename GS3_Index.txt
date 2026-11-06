@@ -18,33 +18,13 @@ Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth,
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-30 2013 With a consideration towards the strategy of inclusive growth, the new companies bill, 2013 has indirectly made CSR a mandatory obligation. Discuss the challenges expected in its implementation in right earnest. Also discuss other provisions in the bill and their implications. CSR 10
-
 [Budgeting section]
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-9 2013 What are the reasons for introduction of Fiscal responsibility and Budget Management (FRBM) act, 2003? Discuss critically its salient features and their effectiveness. FRBM Act 2003 10
-
-10 2013 What is meaning of the term tax-expenditure? Taking housing sector as an example, discuss how it influences budgetary policies of the government. Tax Expenditure 10
-
-11 2013 Discuss the rationale for introducing Goods and services tax in India. Bring out critically the reasons for delay in roll out for its regime. GST 10
-
-Infrastructure (energy, ports, roads, airports, railways); Investment models
-
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-13 2013 Adaptation of PPP model for infrastructure development of the country has not been free from criticism. Critically discuss the pros and cons of the model. PPP Criticism 10
-
-Effects of Liberalisation on the economy; Changes in Industrial policy & their effects on Industrial Growth
-
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-7 2013 Though India allowed foreign direct investment (FDI) in what is called multi brand retail through joint venture route in September 2012, the FDI even after a year, has not picked up. Discuss the reasons. FDI multiretail 5
-
-8 2013 Discuss the impact of FDI entry into multi-trade retail sector on supply chain management in commodity trade pattern of the economy. FDI multiretail 5
-
-9 2013 Examine the impact of liberalization on companies owned by Indian. Are the competing with the MNCs satisfactorily? LPG Impact 10
 
 AGRICULTURE
 
@@ -52,21 +32,9 @@ Major crops, Cropping Patterns in various parts of the country, Different types 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-16 2013 India needs to strengthen measures to promote the pink revolution in food industry for better nutrition and health. Critically elucidate the statement. Pink Revolution 10
-
-Land Reforms in India
-
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-6 2013 Establish the relationship between land reform, agriculture productivity and elimination of poverty in Indian Economy. Discuss the difficulty in designing and implementation of the agriculture friendly land reforms in India. Relationship 10
-
-Farm subsidies and MSP and issues therein (direct and indirect); PDS (objectives, functioning, limitations, revamping, issues of buffer stocks & food security)
-
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-8 2013 What constraints and challenges do financial institutions face in supplying agricultural finances? How can technology be used to better reach and serve rural clients? 10
-
-9 2013 Food security bill is expected to eliminate hunger and malnutrition in India. Critically discuss various apprehensions in its effective implementation along with the concerns it generated. Food Bill 10
 
 [Additional entry, agriculture subsidies/WTO]: What are the different types of agriculture subsidies given to farmers at the national and state levels? Critically analyze the distortions created by it in WTO regime with reference to agriculture. Types of agriculture subsidies 10
 
@@ -74,39 +42,13 @@ DISASTER MANAGEMENT
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-17 2013 Vulnerability assessment is a key component of the National Disaster Management guidelines. What are the important elements from a disaster management administrator's point of view in India, September 2010 guidelines? Vulnerability Assessment 10
-
 ENVIRONMENT
 
 Conservation; Environmental pollution and degradation; Environmental Impact Assessment; El Nino and La Nina fallouts
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-33 2013 Enumerate the National Water Policy of India. Taking river Ganges as an example, discuss the strategies which may be adopted for river water pollution control and management. What are the legal provisions for management and handling of hazardous wastes in India? National Water Policy 10
-
-34 2013 What do you understand by run of the river hydroelectricity project? How is it different from any other hydroelectricity project? Hydroelectricity 5
-
-35 2013 Write a note on India's green energy corridor to alleviate the problems of conventional energy. Green Corridor 10
-
-36 2013 What are the consequences of illegal mining? Discuss the ministry of environment and forests' concept of "GO AND NO GO" zones for coal mining. Coal mining 10
-
-SCIENCE & TECHNOLOGY
-
-S&T developments and everyday applications & effects; Awareness in fields of IT, Space, Computers, Robotics, Nanotech, Biotech, IPR issues
-
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-21 2013 What do you understand by fixed dose drug combinations (FDCs)? Discuss their merits and demerits. FDC 10
-
-22 2013 How does the 3D printing technology work? List out the advantages and disadvantages of the technology. 3D printing 5
-
-23 2013 Bring out the circumstances in 2005 which forced amendment to section 3(d) in the Indian Patent Law, 1970. Discuss how it has been utilized by Supreme Court in its judgment rejecting Novartis patent application for "Glivec". Discuss briefly the pros and cons of the decision. IPR 10
-
-24 2013 What is an FRP composite material? How are they manufactured? Discuss their applications in aviation and automobile industry. FRP 5
-
-25 2013 What do you understand by Umpire decision review in cricket? Discuss its various components. Explain how silicon tape on the edge of a bat may fool the system? Technology for cricket 10
-
-Achievements of Indians in S&T; Indigenisation of technology & development of new technology
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
@@ -116,29 +58,11 @@ Linkages between Development & spread of Extremism; Linkages of Organized crime 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-19 2013 Article 244 of Indian Constitution relates to Administration of Scheduled areas and tribal areas. Analyze the impact of non-implementation of the provisions of fifth schedule on the growth of Left Wing Extremism. Article 244 10
-
-Border Areas (security challenges and management thereof); Security forces & agencies (mandate); Role of External State & Non-State actors in creating internal security challenges
-
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-20 2013 How far are India's internal security challenges linked with border management, particularly in view of the long porous borders with most countries of South Asia and Myanmar? South Asia & Myanmar 10
-
-Money Laundering & Prevention
-
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-3 2013 Money laundering poses a serious threat to country's economic sovereignty. What is its significance for India and what steps are required to be taken to control this menace? Economic Sovereignty 10
-
-Basics of Cyber Security; Role of media and social-networking sites in internal security challenges; Internal security challenges through communication networks.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-12 2013 What are social networking sites and what security implications do these sites present? Social networking site 10
-
-13 2013 What is digital signature? What does its authentication mean? Give various salient built-in features of a digital signature. Digital signature 5
-
-14 2013 Cyber warfare is considered by some defense analysts to be a larger threat than even Al Qaeda or terrorism. What do you understand by Cyber warfare? Outline the cyber threats which India is vulnerable to and bring out the state of the country's preparedness to deal with the same. Cyber warfare 10
 
 [NOTE: This is a plain-text extraction of the TATHASTU Institute Of Civil Services GS-3 (Economy, Infrastructure, Agriculture, Environment, S&T, Disaster Management, Internal Security) Mains PYQ compilation (2013-2024), OCR-cleaned where possible. Cross-check against the source PDF (GS_3_PYQs_2013_25__lyst1780640677913.pdf in the PYQs folder) for exact original wording if needed for citation.]
 

@@ -5,16 +5,16 @@ Writes: mains_recs.json   [{paper, year, text, marks}]  (GS1-GS4 + Essay)
         prelims_lines.txt one Prelims question per line; full year papers as 'YYYY Qn: stem'
 
 Single source per year (no duplicates):
-  - pyq_db/<year>/<year> <paper>.csv (the only copy): Prelims 2013-2026, Mains 2014-2026
+  - pyq_db/<year>/<year> <paper>.csv (the only copy): Prelims 2013-2026, Mains 2013-2026
     (official papers; Mains 2024 and 2025-26 web-verified)
-  - old *_Index.txt files: Prelims 2011-2012, Mains 2013
+  - old *_Index.txt files: Prelims 2011-2012 only (no Mains years remain)
 """
 import csv, glob, json, os, re, sys
 from collections import Counter
 
 D = sys.argv[1] if len(sys.argv) > 1 else '.'
 # old-index years per Mains paper (a year can move to pyq_db paper by paper)
-YRS_OLD = {1: r'2013', 2: r'2013', 3: r'2013', 4: r'2013'}
+YRS_OLD = {i: r'(?!x)x' for i in (1, 2, 3, 4)}   # never matches: no Mains years left in the old indexes
 
 MARKS = {'2.5', '5', '7.5', '8', '10', '12.5', '15', '20', '25'}
 recs = []
@@ -59,6 +59,6 @@ old_keys = {(r['paper'], r['year']) for r in recs if 'q' not in r}
 db_keys = {(r['paper'], r['year']) for r in recs if 'q' in r}
 assert not old_keys & db_keys, 'a pyq_db paper-year is also present in the old index'
 print('mains records:', dict(sorted(Counter((r['paper'], r['year']) for r in recs if r['year'] in map(str, db_years)).items())),
-      '| old index Mains 2013:', sum(1 for r in recs if 'q' not in r))
+      '| old index Mains records:', sum(1 for r in recs if 'q' not in r))
 print('prelims lines:', len(P), '| full-paper stems by year:',
       dict(sorted(Counter(l[:4] for l in P if re.match(r'^20\d\d Q\d+:', l)).items())))
