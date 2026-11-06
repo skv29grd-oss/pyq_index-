@@ -2,6 +2,11 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v22 — 2026-11-06
+- New Topic Register tab: one row per Syllabus Tag across all months (rows from 31 Oct 2026), with every CA date and headline, all PYQ years and papers, latest Prelims/Mains recall and V&R syllabus base; the builder reads all `data/CA-PYQ Data *.csv`. Repeat coverage (e.g. GRAP 31 Oct, 1 Nov, 3 Nov) now sits in one row.
+- Priority score = (distinct PYQ years + 1) x distinct CA dates (+1 so never-asked Emerging themes are not zero); new High-Probability (7 days) tab: top 15 subtopics with CA in the last 7 days. Workbook now has seven tabs.
+- Emerging reserve in P-0: 3-4 of the 20 daily slots go to genuine Emerging candidates first; verify requires at least 3 Emerging rows from 4 Nov 2026, or an `emerging_short` reason.
+
 ## v21 — 2026-11-06
 - V&R block (column 13) is fixed syllabus theory of the row's topic and subtopic only, never news details; P-7 step 2 and §6 rewritten, SIR example changed to Article 324(1), voter qualification and CEO/DEO/ERO roles.
 - `vr_pool.py add` rejects dated daily pages and news wording in facts, flags years from 2025; new `remove` retires a page (IDs never reused, URL not re-added).

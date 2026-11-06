@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ Match Log builder (v20: 13 columns; Master Log shows one sub-row per matched PYQ; rows store PYQ IDs).
+"""CA-PYQ Match Log builder (v22: Topic Register + High-Probability tabs; 13 columns; Master Log shows one sub-row per matched PYQ; rows store PYQ IDs).
 
 Usage:
   python3 ca_pyq_build.py --logs day1.csv day2.csv ... --today TODAY.json \
@@ -21,7 +21,7 @@ of today's rows only. This script is the single source of truth for the look —
 """
 import argparse, csv, json, math, re
 from collections import Counter, OrderedDict
-from datetime import datetime
+from datetime import datetime, timedelta
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.cell.rich_text import CellRichText, TextBlock
@@ -202,13 +202,48 @@ def split_pyqs(exc):
             out.append(('', '', line))
     return out or [('', '', str(exc or ''))]
 
+MATCH_RANK = {'Direct': 3, 'Thematic': 2, 'Emerging': 1}
+PAPER_RX = re.compile(r'Prelims|GS[1-4]|Essay')
+DIM = 'A6A6A6'
+
+def topic_register(all_rows):
+    """v22: one entry per Syllabus Tag across all logged months (tags exist from 31 Oct 2026).
+    score = (distinct PYQ years + 1) x distinct CA dates; +1 keeps never-asked (Emerging) themes above zero."""
+    reg = OrderedDict()
+    for x in sorted(all_rows, key=lambda x: x[0], reverse=True):
+        if x[12]:
+            reg.setdefault(x[12], []).append(x)
+    out = []
+    for tag, items in reg.items():                  # items newest first
+        parts = [p.strip() for p in tag.split('\u203a')]
+        dates = sorted({x[0] for x in items}, reverse=True)
+        yrs = sorted({y for x in items for y in re.findall(r'\b(20[0-2]\d)\b', x[6] or '')})
+        paps = [p for p in PAPER_ORDER if any(p in PAPER_RX.findall(x[7] or '') for x in items)]
+        best = max((x[2] for x in items), key=lambda m: MATCH_RANK.get(m, 0))
+        vr = next((x[11] for x in items if x[11]), '')
+        out.append({'tag': tag, 'line': ' \u203a '.join(parts[:3]), 'sub': parts[-1], 'dates': dates, 'yrs': yrs,
+                    'paps': paps, 'best': best, 'score': (len(yrs) + 1) * len(dates), 'items': items, 'vr': vr})
+    out.sort(key=lambda r: r['dates'][0], reverse=True)
+    out.sort(key=lambda r: -r['score'])                # stable: score desc, then latest CA date desc
+    return out
+
+def mains_q(note):
+    return next((l.strip() for l in str(note or '').split('\n') if l.strip().startswith('[Mains 2027]')), '')
+
+def header_row(ws, r, labels, height=36):
+    for j, v in enumerate(labels, 1):
+        c = ws.cell(r, j, v)
+        c.font = F(bold=True, color='FFFFFF'); c.fill = fill(NAVY); c.border = BOX
+        c.alignment = Alignment(vertical='center', horizontal='center', wrap_text=True)
+    ws.row_dimensions[r].height = height
+
 def nice_date(d):
     try:
         return datetime.strptime(d, '%Y-%m-%d').strftime('%d %b %Y')
     except ValueError:
         return d
 
-def build(rows, out_xlsx):
+def build(rows, out_xlsx, all_rows=None):
     wb = Workbook()
     by_date = OrderedDict()
     for x in rows:
@@ -348,7 +383,75 @@ def build(rows, out_xlsx):
     wl.page_setup.fitToWidth = 1; wl.page_setup.fitToHeight = 0
     wl.sheet_properties.pageSetUpPr.fitToPage = True
 
-    # ---------- Sheet 3: PYQ Year Frequency ----------
+    # ---------- Sheet 3: Topic Register (v22): one row per syllabus subtopic, all months ----------
+    reg = topic_register(all_rows if all_rows is not None else rows)
+    wt = wb.create_sheet('Topic Register')
+    tw = {'A': 8, 'B': 30, 'C': 34, 'D': 11, 'E': 22, 'F': 14, 'G': 16, 'H': 62, 'I': 55, 'J': 58, 'K': 55}
+    for col, w in tw.items():
+        wt.column_dimensions[col].width = w
+    header_row(wt, 1, ['Score', 'Subtopic', 'Syllabus (Paper \u203a Subject \u203a Topic)', 'Best match', 'PYQ years (all items)',
+                       'PYQ papers', 'CA dates', 'CA items (newest first)', 'Latest Prelims recall', 'Latest Mains recall',
+                       'Syllabus base (V&R, latest)'])
+    for e in reg:
+        lt = e['items'][0]
+        vals = [e['score'], e['sub'], e['line'], e['best'], ', '.join(e['yrs']) or '\u2014', ' + '.join(e['paps']) or '\u2014',
+                ', '.join(nice_date(d)[:6] for d in e['dates']),
+                '\n'.join(f"{nice_date(x[0])[:6]} \u00b7 {x[2]} \u00b7 {x[3]}" for x in e['items']), lt[4], lt[5], e['vr']]
+        wt.append(vals)
+        i = wt.max_row
+        for j in range(1, 12):
+            c = wt.cell(i, j); c.font = F(); c.alignment = TOPC if j in (1, 4, 6) else TOP; c.border = BOX
+        wt.cell(i, 1).font = F(bold=True, color=NAVY)
+        wt.cell(i, 2).font = F(bold=True, color=SLATE)
+        wt.cell(i, 5).font = F(bold=True, color=NAVY)
+        wt.cell(i, 10).value = mains_rich(lt[5])
+        if e['best'] in MATCH_FILL:
+            wt.cell(i, 4).fill = fill(MATCH_FILL[e['best']]); wt.cell(i, 4).font = F(bold=True, color=MATCH_INK[e['best']])
+        wt.row_dimensions[i].height = max(est_height(v, tw[chr(64 + j)]) for j, v in enumerate(vals, 1))
+    if not reg:
+        wt.append(['', 'No tagged rows yet (the Syllabus Tag starts on 31 Oct 2026).'] + [''] * 9)
+        for j in range(1, 12):
+            wt.cell(2, j).font = F(); wt.cell(2, j).border = BOX
+    wt.freeze_panes = 'C2'
+    wt.auto_filter.ref = f'A1:K{wt.max_row}'
+    wt.sheet_properties.tabColor = '548235'
+    wt.page_setup.orientation = 'landscape'
+
+    # ---------- Sheet 4: High-Probability (7 days) (v22): weekly ranked themes ----------
+    wq = wb.create_sheet('High-Probability (7 days)')
+    end = max((x[0] for x in (all_rows if all_rows is not None else rows)), default='')
+    try:
+        start = (datetime.strptime(end, '%Y-%m-%d') - timedelta(days=6)).strftime('%Y-%m-%d')
+    except ValueError:
+        start = end
+    week = [e for e in reg if any(start <= d <= end for d in e['dates'])][:15]
+    wq.merge_cells(start_row=1, start_column=1, end_row=1, end_column=10)
+    b = wq.cell(1, 1, f"Week {nice_date(start)} \u2013 {nice_date(end)}  \u00b7  top {len(week)} themes with CA this week  \u00b7  score = (PYQ years + 1) \u00d7 CA dates")
+    b.font = F(bold=True, color='FFFFFF'); b.fill = fill('C55A11'); b.alignment = Alignment(vertical='center', horizontal='left', indent=1)
+    wq.row_dimensions[1].height = 26
+    qw = {'A': 7, 'B': 8, 'C': 30, 'D': 34, 'E': 11, 'F': 22, 'G': 16, 'H': 14, 'I': 60, 'J': 60}
+    for col, w in qw.items():
+        wq.column_dimensions[col].width = w
+    header_row(wq, 2, ['Rank', 'Score', 'Subtopic', 'Syllabus (Paper \u203a Subject \u203a Topic)', 'Best match', 'PYQ years',
+                       'CA dates (all)', 'This week', 'Latest headline', 'Latest [Mains 2027] question'])
+    for n, e in enumerate(week, 1):
+        lt = e['items'][0]
+        vals = [n, e['score'], e['sub'], e['line'], e['best'], ', '.join(e['yrs']) or '\u2014',
+                ', '.join(nice_date(d)[:6] for d in e['dates']),
+                ', '.join(nice_date(d)[:6] for d in e['dates'] if start <= d <= end), lt[3], mains_q(lt[9])]
+        wq.append(vals)
+        i = wq.max_row
+        for j in range(1, 11):
+            c = wq.cell(i, j); c.font = F(); c.alignment = TOPC if j in (1, 2, 5) else TOP; c.border = BOX
+        wq.cell(i, 2).font = F(bold=True, color=NAVY)
+        wq.cell(i, 3).font = F(bold=True, color=SLATE)
+        if e['best'] in MATCH_FILL:
+            wq.cell(i, 5).fill = fill(MATCH_FILL[e['best']]); wq.cell(i, 5).font = F(bold=True, color=MATCH_INK[e['best']])
+        wq.row_dimensions[i].height = max(est_height(v, qw[chr(64 + j)]) for j, v in enumerate(vals, 1))
+    wq.freeze_panes = 'A3'
+    wq.sheet_properties.tabColor = 'C55A11'
+
+    # ---------- Sheet 5: PYQ Year Frequency ----------
     wf = wb.create_sheet('PYQ Year Frequency')
     yc, yd = Counter(), Counter()
     for x in rows:
@@ -383,7 +486,7 @@ def build(rows, out_xlsx):
     wf.sheet_view.showGridLines = False
     wf.sheet_properties.tabColor = SLATE
 
-    # ---------- Sheet 4: PYQ Bank (v19): every matched PYQ once, full text ----------
+    # ---------- Sheet 6: PYQ Bank (v19): every matched PYQ once, full text ----------
     wp = wb.create_sheet('PYQ Bank')
     used = OrderedDict()
     for x in rows:
@@ -414,7 +517,7 @@ def build(rows, out_xlsx):
     wp.auto_filter.ref = f'A1:H{wp.max_row}'
     wp.sheet_properties.tabColor = '8497B0'
 
-    # ---------- Sheet 5: How to Use ----------
+    # ---------- Sheet 7: How to Use ----------
     wh = wb.create_sheet('How to Use')
     guide = [
         ('What this is', ''),
@@ -422,6 +525,8 @@ def build(rows, out_xlsx):
         ('Tabs', ''),
         ('Revision Cards', 'Read-first view. One card per news item, newest day first; two columns so it reads on a phone without sideways scrolling.'),
         ('Master Log', 'The same data as a filterable table. Filter Match = Direct or a GS Area; sort by PYQ Years.'),
+        ('Topic Register', 'Topic-wise Mains revision: one row per syllabus subtopic across all months (from 31 Oct 2026, when the Syllabus Tag starts). It grows with every CA date: all dates, every headline, all PYQ years and papers, the latest Prelims and Mains recall and the V&R syllabus base. Sorted by Score.'),
+        ('High-Probability (7 days)', 'The 15 highest-scoring subtopics that appeared in the last 7 days of the log. Score = (number of distinct PYQ years + 1) \u00d7 number of CA dates: often asked and keeps returning in the news = likely in 2027. The +1 keeps never-asked (Emerging) themes in the ranking.'),
         ('PYQ Year Frequency', 'How many logged items link to each PYQ year, and how many of those are Direct.'),
         ('PYQ Bank', 'Every past question matched in these rows, once: PYQ ID, paper, year, full text, how many CA items matched it and on which dates (most-matched first). From 4 Nov 2026 the data CSV stores PYQ IDs; the cards and Master Log show the full text from the bank.'),
         ('Card fields', ''),
@@ -478,13 +583,16 @@ if __name__ == '__main__':
     if os.path.exists(a.pyq_bank):
         BANK.update(json.load(open(a.pyq_bank, encoding='utf-8')))
     rows = load(a.logs, a.today)
-    build(rows, a.out_xlsx)
+    import glob, os
+    repo_logs = sorted(glob.glob(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'CA-PYQ Data *.csv')))
+    ALL = load(list(a.logs) + repo_logs, a.today)       # all months, for the Topic Register (duplicates dropped)
+    build(rows, a.out_xlsx, ALL)
     if a.monthly_dir:
         import os
         os.makedirs(a.monthly_dir, exist_ok=True)
         for ym in sorted({x[0][:7] for x in rows}):
             month_rows = [x for x in rows if x[0][:7] == ym]
-            build(month_rows, os.path.join(a.monthly_dir, f'CA-PYQ Match Log {ym}.xlsx'))
+            build(month_rows, os.path.join(a.monthly_dir, f'CA-PYQ Match Log {ym}.xlsx'), [x for x in ALL if x[0][:7] <= ym])
             print('monthly:', ym, len(month_rows), 'rows')
     if a.today and a.out_day_csv:
         d = json.load(open(a.today, encoding='utf-8'))[0]['date']

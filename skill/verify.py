@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ VERIFY (v20). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
+"""CA-PYQ VERIFY (v22). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
 Run from the folder holding pyq_bank.json (load_pyq.py output).
 Prints OK when every check passes; the untraced-figure list is a review prompt, not a failure."""
 import csv, json, re, sys, glob, os, openpyxl
@@ -14,13 +14,17 @@ HEAD = ['Date', 'GS Area', 'Syllabus Tag', 'Match', 'CA Topic / Headline', 'Prel
         'Source', 'V&R Recall (Vajiram & Ravi)']
 
 wb = openpyxl.load_workbook(XLSX, rich_text=True)
-assert wb.sheetnames == ['Revision Cards', 'Master Log', 'PYQ Year Frequency', 'PYQ Bank', 'How to Use']
+assert wb.sheetnames == ['Revision Cards', 'Master Log', 'Topic Register', 'High-Probability (7 days)', 'PYQ Year Frequency', 'PYQ Bank', 'How to Use']
 ml = wb['Master Log']
 assert [c.value for c in ml[1]] == HEAD
 
 assert len({o['date'] for o in today}) == 1, 'one date per JSON'
 V8 = today[0]['date'] >= '2026-10-31'          # v8 rules apply from 31 Oct 2026
-V19 = today[0]['date'] >= '2026-11-04'         # v19: rows store PYQ IDs (pyq_ids); text comes from the PYQ bank
+V19 = today[0]['date'] >= '2026-11-04'         # v20-v22 rules share this cutover (first run under them)
+if V19:                                           # v22: Emerging reserve, at least 3 of the day's rows
+    n_em = sum(1 for o in today if o['match'] == 'Emerging')
+    short = next((o.get('emerging_short') for o in today if o.get('emerging_short')), '')
+    assert n_em >= 3 or short, f'v22: reserve 3-4 slots for Emerging themes (got {n_em}); if the day had fewer Emerging candidates, set "emerging_short": "<reason>" on one row'         # v19: rows store PYQ IDs (pyq_ids); text comes from the PYQ bank
 BANK = json.load(open('pyq_bank.json', encoding='utf-8')) if os.path.exists('pyq_bank.json') else None
 assert not V19 or BANK, 'pyq_bank.json not found: run verify from the folder where load_pyq.py wrote it'
 ID_RX = re.compile(r'^[PME]20\d\d-[A-Za-z0-9&-]+$')
@@ -182,7 +186,8 @@ design = [
     ('print title', str(ml.print_title_rows).replace('$', '') == '1:1'),
     ('Calibri 12', {(c.font.name, c.font.sz) for ws in wb for r in ws.iter_rows() for c in r if c.value is not None} == {('Calibri', 12)}),
     ('body wraps', all(c.alignment.wrap_text for c in ml[2])),
-    ('tab colours', [wb[n].sheet_properties.tabColor.rgb[-6:] for n in wb.sheetnames] == ['1F3864', '2E75B6', '44546A', '8497B0', 'A6A6A6']),
+    ('tab colours', [wb[n].sheet_properties.tabColor.rgb[-6:] for n in wb.sheetnames] == ['1F3864', '2E75B6', '548235', 'C55A11', '44546A', '8497B0', 'A6A6A6']),
+    ('register freeze/filter', wb['Topic Register'].freeze_panes == 'C2' and wb['Topic Register'].auto_filter.ref == f"A1:K{wb['Topic Register'].max_row}"),
     ('bank freeze/filter', wb['PYQ Bank'].freeze_panes == 'B2' and wb['PYQ Bank'].auto_filter.ref == f"A1:H{wb['PYQ Bank'].max_row}"),
 ]
 bad = [n for n, ok in design if not ok]
@@ -191,4 +196,18 @@ for f in glob.glob(os.path.join(OUT, 'CA-PYQ Match Log 20??-??.xlsx')):
     ym = f[-12:-5]
     m = openpyxl.load_workbook(f, read_only=True)['Master Log']
     assert all(str(r[0])[:7] == ym for r in m.iter_rows(min_row=2, values_only=True) if r[0]), f'mixed months in {f}'
+tr = wb['Topic Register']                       # v22: one row per tag; today's tagged items listed with today's date
+reg = {(r[1], r[2]): r for r in tr.iter_rows(min_row=2, values_only=True) if r[1] and r[2]}
+assert len(reg) == tr.max_row - 1 or tr.max_row == 2, 'Topic Register: one row per syllabus subtopic'
+nd = __import__('datetime').datetime.strptime(today[0]['date'], '%Y-%m-%d').strftime('%d %b')
+for o in today:
+    if o.get('tag'):
+        parts = [p.strip() for p in o['tag'].split('\u203a')]
+        r = reg.get((parts[3], ' \u203a '.join(parts[:3])))
+        assert r and nd in str(r[6]), f"Topic Register misses today's item: {parts[3]}"
+        assert r[0] == (len([y for y in str(r[4]).split(', ') if y.isdigit()]) + 1) * len(str(r[6]).split(', ')), f'score formula: {parts[3]}'
+hp = [r for r in wb['High-Probability (7 days)'].iter_rows(min_row=3, values_only=True) if r[0]]
+assert len(hp) <= 15 and [r[0] for r in hp] == list(range(1, len(hp) + 1)), 'High-Probability: ranks 1..n, at most 15'
+assert all(hp[i][1] >= hp[i + 1][1] for i in range(len(hp) - 1)), 'High-Probability: score order'
+assert all(r[7] for r in hp), 'High-Probability: every theme has a CA date this week'
 print('OK', len(today), 'items,', ml.max_row - 1, 'Master Log sub-rows')
