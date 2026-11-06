@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ VERIFY (v10). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
+"""CA-PYQ VERIFY (v18). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
 Prints OK when every check passes; the untraced-figure list is a review prompt, not a failure."""
 import csv, json, re, sys, glob, os, openpyxl
 
@@ -35,6 +35,8 @@ if V8:
         parts = [p.strip() for p in o.get('tag', '').split('\u203a')]
         assert len(parts) == 4 and all(parts), f'tag must be Paper \u203a Subject \u203a Topic \u203a Subtopic: {t}'
         assert tuple(parts[:3]) in SYL, f'tag not in syllabus.md: {t} -> {parts[:3]}'
+        area = 'Essay' if parts[0] == parts[1] else f'{parts[0]} {parts[1]}'   # v18: GS Area = tag Paper + Subject
+        assert o.get('gs_area') == area, f'GS Area must be "{area}" (Paper + Subject of the tag), got "{o.get("gs_area")}": {t}'
         if is_news(o):
             vt = o.get('vr_topic'); assert isinstance(vt, dict) and 'facts' in vt and 'page' in vt, f'vr_topic missing: {t}'
             assert len(vt['facts']) == 0 or 2 <= len(vt['facts']) <= 4, t

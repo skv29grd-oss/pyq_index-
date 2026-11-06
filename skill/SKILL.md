@@ -1,6 +1,6 @@
 # Daily CA → PYQ Match (UPSC CSE 2027) — full instructions
 
-Version: **v17** (2026-11-03; rules marked v8/v9 apply from 31 Oct 2026, v10 from 1 Nov 2026; v11-v17 = corpus coverage updates). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
+Version: **v18** (2026-11-06; rules marked v8/v9 apply from 31 Oct 2026, v10 from 1 Nov 2026; v11-v17 = corpus coverage updates; v18 = GS Area derived from the Syllabus Tag, corpus coverage moved out of the skill). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
 
 Triggered manually by the user ("run today's match", "run it up to today", a newspaper PDF upload, or the skill name). Never schedule it.
 
@@ -14,9 +14,13 @@ Triggered manually by the user ("run today's match", "run it up to today", a new
 | `skill/q.py` | PYQ regex search helper |
 | `skill/syllabus.md` | Official syllabus lines (Paper \| Subject \| Topic) used for the Syllabus Tag |
 | `load_pyq.py` (repo root) | Loads the PYQ corpus |
+| `README.md` (repo root) | PYQ corpus coverage and the expected `load_pyq.py` output — the single source for both (not a skill file) |
+| `CORPUS_CHANGELOG.md` (repo root) | One entry per PYQ corpus change (not a skill file) |
 | `skill/VERSION` | Current version number, e.g. `7` |
 | `skill/CHANGELOG.md` | One entry per version: number, date, what changed and why |
 | `skill/versions/v<N>_<YYYY-MM-DD>/` | Frozen copy of version N's files, dated the day it was archived (i.e. replaced) |
+
+**Corpus changes are not skill changes (v18).** Adding or correcting PYQ years (`pyq_db/`, old `*_Index.txt` files, `load_pyq.py`) changes no file in `skill/`. In the same commit, update the coverage table and expected counts in `README.md` and add an entry to `CORPUS_CHANGELOG.md`. Do not archive the skill or bump `skill/VERSION` for a corpus change.
 
 **Versioning rule (mandatory, every change to anything in `skill/`):**
 1. Read `skill/VERSION` → N. Today's date → D (Asia/Calcutta).
@@ -39,7 +43,7 @@ The pointer skill in the user's Claude settings stays short and does not change 
 
 Run checklist (tick every box before replying):
 
-- [ ] Repo `skv29grd-oss/pyq_index-` attached with **push** access (`add_repo`, access `push`), cloned to `/home/claude/pyq_index-`; `load_pyq.py` prints the expected counts (§5)
+- [ ] Repo `skv29grd-oss/pyq_index-` attached with **push** access (`add_repo`, access `push`), cloned to `/home/claude/pyq_index-`; `load_pyq.py` prints the expected counts in `README.md` (§5)
 - [ ] Gap check against `data/CA-PYQ Data YYYY-MM.csv`: every date from the last logged date to today with a paper on Drive is run, oldest first (I-6)
 - [ ] Every page of each paper read (state page count)
 - [ ] Next IAS, Drishti IAS and Vajiram & Ravi (Prelims + Mains pages) pulled for each date, or reason stated; latest posted date per site noted
@@ -59,13 +63,13 @@ Run checklist (tick every box before replying):
 | I-2 | Next IAS | `nextias.com/ca/current-affairs/DD-MM-YYYY`; articles `…/DD-MM-YYYY/<slug>`; short items `…/news-in-brief-DD-MM-YYYY` | WebFetch index, then article pages for figures |
 | I-3 | Drishti IAS | `drishtiias.com/current-affairs-news-analysis-editorials/news-analysis/DD-MM-YYYY` | Same |
 | I-3b | Vajiram & Ravi (daily) | Prelims `vajiramandravi.com/current-affairs/upsc-prelims-current-affairs/YYYY/MM/DD/` · Mains `vajiramandravi.com/current-affairs/upsc-mains-current-affairs/YYYY/MM/DD/` | WebFetch each index for titles + URLs, then each article with a short facts-only prompt (exact figures). Use (a) to enrich rows of the same story, merged into topic and recall like Next IAS/Drishti (P-7); (b) V&R-only items with a syllabus hook become rows, Source `V&R (DD-MM-YYYY)`. Leave out facts that look like V&R typos |
-| I-4 | PYQ corpus | `pyq_db/<year>/<year> <paper>.csv` (Prelims 2013-2026, Mains 2015-2026); old indexes for Prelims 2011-2012, Mains 2013-2014 | `python3 pyq_index-/load_pyq.py pyq_index-` from `/home/claude`. Never download PYQ files from Drive. If GitHub is unreachable, stop and tell the user |
-| I-6 | Past daily data | `data/CA-PYQ Data YYYY-MM.csv` in the repo (12 columns, header, CRLF row endings, LF inside quoted cells) | `git fetch origin main && git reset --hard origin/main` first. Count rows per Date. **Gap check:** every date from the last logged date up to today that has a paper on Drive is run this session, oldest first, each as its own date. The old Drive CSV store is retired |
+| I-4 | PYQ corpus | `pyq_db/<year>/<year> <paper>.csv` and the old topic indexes; years per source in `README.md` | `python3 pyq_index-/load_pyq.py pyq_index-` from `/home/claude`. Never download PYQ files from Drive. If GitHub is unreachable, stop and tell the user |
+| I-6 | Past daily data | `data/CA-PYQ Data YYYY-MM.csv` in the repo (13 columns, O-1 order, header, CRLF row endings, LF inside quoted cells) | `git fetch origin main && git reset --hard origin/main` first. Count rows per Date. **Gap check:** every date from the last logged date up to today that has a paper on Drive is run this session, oldest first, each as its own date. The old Drive CSV store is retired |
 | I-6b | Fallback if the CSV lacks days the user ran | Latest `CA-PYQ Match Log YYYY-MM.xlsx` (chat or Drive) | Split its Master Log by Date (§5) and append the missing dates in the same push |
 
 **Site dates.** All three sites post late; today's page is often empty. Find each site's latest posted date and pull every date from the last logged date to that one. Web items dated D go into date D's rows (merged with that day's newspaper rows for the same story) — never under a later newspaper date. Only if date D gets no newspaper run do they go under the nearest run date, with the web date in `Source` (`Next IAS (29-10-2026)`).
 
-PYQ coverage: full papers in `pyq_db/` for Prelims 2013-2026 and Mains (GS1-GS4, Essay) 2015-2026; topic indexes for Mains 2013-2014 (GS4 case studies index-only → `[partial]`; no Essay before 2015); Prelims 2011-2012 topic-wise, incomplete. A new year goes into `pyq_db/<year>/` as six CSVs (or paper by paper) and is removed from the old indexes in the same commit (`YRS_OLD` in `load_pyq.py` is per Mains paper).
+PYQ coverage: see the table in `README.md` (single source; do not copy year ranges into this file). Any year read from an old topic index (not from `pyq_db/`) is topic-wise and may be incomplete; say so in the reply when a match relies on it. A new year goes into `pyq_db/<year>/` as six CSVs (or paper by paper) and is removed from the old indexes in the same commit (`YRS_OLD` in `load_pyq.py` is per Mains paper); this is a corpus change (§0).
 
 Oversized tool results are saved to files: decode with Python, never paste into context.
 
@@ -77,7 +81,7 @@ Oversized tool results are saved to files: decode with Python, never paste into 
 
 **P-2 Merge.** One row per theme per date; merge same-date web coverage. A continuation of an earlier day is a new row with "refines the DD Mon entry" in `[Link]`.
 
-**P-3 Match all PYQ years.** 2-4 precise patterns per item with `skill/q.py` (copy it next to `mains_recs.json`; label ending `!` = case-sensitive). Read every hit; keep genuine matches. List every year ascending with papers. Quote every match in `pyq_excerpt`, one per line, ascending (`P <year>:` / `GS<n> <year> (<marks>):`). **v10: the full question text as stored in the corpus — never truncate, no `…`, no `+N more` cap.** **One year → one quoted question**; same year in two papers → two lines; never summarise. (Prelims 2011-2012 and Mains 2013-2014 come from topic indexes, so their stored text is the index wording.) Full text: filter `mains_recs.json` by year/paper/substring; `prelims_lines.txt` by its key (`Env Q59 (2016)`, `2022 Q44:`).
+**P-3 Match all PYQ years.** 2-4 precise patterns per item with `skill/q.py` (copy it next to `mains_recs.json`; label ending `!` = case-sensitive). Read every hit; keep genuine matches. List every year ascending with papers. Quote every match in `pyq_excerpt`, one per line, ascending (`P <year>:` / `GS<n> <year> (<marks>):`). **v10: the full question text as stored in the corpus — never truncate, no `…`, no `+N more` cap.** **One year → one quoted question**; same year in two papers → two lines; never summarise. (Years read from the old topic indexes — see `README.md` — keep the index wording as their stored text.) Full text: filter `mains_recs.json` by year/paper/substring; `prelims_lines.txt` by its key (`Env Q59 (2016)`, `2022 Q44:`).
 
 **P-4 Classify.** Direct = PYQ asked this exact theme/place/fact · Thematic = fresh example for a related PYQ · Emerging = not asked yet.
 
@@ -89,6 +93,8 @@ Oversized tool results are saved to files: decode with Python, never paste into 
 
 **P-8 Syllabus Tag (v8).** Every row gets `tag` = `Paper › Subject › Topic › Subtopic` (separator ` › `). Paper, Subject and Topic are copied exactly from one line of `skill/syllabus.md`; Subtopic is the specific concept, law or institution (short, e.g. `Air pollution — GRAP, CAQM`). Use the Mains paper when the item has Mains value; `Prelims` only for Prelims-only facts. Items on the same subtopic get the identical tag; before inventing a subtopic, check the month's CSV for an existing tag on the same theme and reuse it.
 
+**P-8a GS Area (v18).** `gs_area` is derived from the tag, never typed freely: `<Paper> <Subject>` exactly as in the tag (e.g. `GS2 International Relations`, `GS3 Science & Technology`, `Prelims Environment`); for `Essay › Essay › …` it is `Essay`. No abbreviations (`IR`, `S&T`), no second paper, no subtopic. The allowed values are therefore exactly the Paper + Subject pairs in `skill/syllabus.md`. Rows dated before 31 Oct 2026 have no tag and keep their old free-text GS Area.
+
 **P-7 V&R (v9).** Vajiram & Ravi is used in two separate ways.
 - **Daily news facts → the row itself.** Treat V&R's daily Prelims/Mains articles exactly like Next IAS and Drishti: merge their facts on the same story into the row's topic sentence and Prelims/Mains recall (within the usual counts and word limits; replace weaker points rather than exceed them), and add `V&R (DD-MM-YYYY)` to `Source`. V&R-only stories can be rows, counting toward the 5 web items (P-0). No `vr` field from 31 Oct 2026.
 - **Syllabus base → column 13 (`V&R Recall`).** Only this goes in the column, as below.
@@ -97,7 +103,7 @@ Rows of 29-30 Oct 2026 were written before v9 and keep V&R daily facts in column
 
 **Syllabus base (v8/v9, newspaper rows only; the only content of column 13).** For each distinct tag on a newspaper row, find V&R's page on that exact syllabus subtopic: `WebSearch` with `allowed_domains: ["vajiramandravi.com"]` and the subtopic words; prefer `vajiramandravi.com/upsc-exam/<topic>/` pages, else a V&R explainer on the same subtopic. Fetch it with a facts-only prompt and write `vr_topic = {"page": "<page title>", "facts": [2-4 lines, ≤25 words each]}` — core static knowledge (law + year, body, constitutional provision, concept, standard, key data) not already in the row's Prelims/Mains recall. Keep only current figures; if the page shows a superseded target, give the current one and mark the old one `(earlier target)`. Never borrow a page on a different subtopic; if none exists, `vr_topic = {"page": "", "facts": []}` (builder writes `No V&R topic page found`). **Same tag → identical `vr_topic`** within the day; if the month's CSV already has a `[Syllabus base – <same subtopic>]` block, reuse it word for word. Web-only rows carry no `vr_topic`, so their column 13 is blank.
 
-Write each date's rows to `today_YYYY-MM-DD.json`: list of objects with `date, topic, source, gs_area, tag, years, papers, pyq_excerpt, match, note, prelims, mains` and, for newspaper rows, `vr_topic` (no `vr` field from 31 Oct 2026). A `rowsYYYYMMDD.py` with an `R(...)` helper, dumped to JSON, keeps rows consistent. Save all source text used (paper, Next IAS, Drishti, V&R facts) into one `source_<dates>.txt` for VERIFY.
+Write each date's rows to `today_YYYY-MM-DD.json`: list of objects with `date, topic, source, gs_area` (P-8a)`, tag, years, papers, pyq_excerpt, match, note, prelims, mains` and, for newspaper rows, `vr_topic` (no `vr` field from 31 Oct 2026). A `rowsYYYYMMDD.py` with an `R(...)` helper, dumped to JSON, keeps rows consistent. Save all source text used (paper, Next IAS, Drishti, V&R facts) into one `source_<dates>.txt` for VERIFY.
 
 ## 3. OUTPUT
 
@@ -140,11 +146,11 @@ Four tabs, all Calibri 12: Revision Cards (phone-first, newest day first; V&R re
 
 ## 4. VERIFY
 
-For every date added: `python3 pyq_index-/skill/verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source_<dates>.txt` → fix until it prints `OK`. From 1 Nov 2026 (v10) it also checks every PYQ line is `P <year>:` / `GS<n> <year> (<marks>):`, none truncated or capped, and Master Log sub-rows = PYQ lines. From 31 Oct 2026 it checks the 15 + 5 cap, every tag against `syllabus.md`, the syllabus block on newspaper rows only, and identical blocks for identical tags. The untraced-figure list is a review prompt (Act years and Articles are fine; an unsourced outlay is not).
+For every date added: `python3 pyq_index-/skill/verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source_<dates>.txt` → fix until it prints `OK`. From 1 Nov 2026 (v10) it also checks every PYQ line is `P <year>:` / `GS<n> <year> (<marks>):`, none truncated or capped, and Master Log sub-rows = PYQ lines. From 31 Oct 2026 it checks the 15 + 5 cap, every tag against `syllabus.md`, GS Area = the tag's Paper + Subject (v18, P-8a), the syllabus block on newspaper rows only, and identical blocks for identical tags. The untraced-figure list is a review prompt (Act years and Articles are fine; an unsourced outlay is not).
 
 ## 5. Corpus helpers
 
-`load_pyq.py` expected output: `pyq_db` GS1 20, GS2 20, GS3 20, Essay 8 for each of 2015-2026 and GS4 19 for 2017-2026 (2015, 2016: 18); `old index Mains 2013-2014: 179`; Prelims stems 100 for each of 2013-2026.
+`load_pyq.py` expected output: the "Expected `load_pyq.py` output" section of `README.md`. If the printed counts differ, stop and tell the user; do not run the match on an unexpected corpus.
 
 I-6b split of a workbook into day CSVs:
 

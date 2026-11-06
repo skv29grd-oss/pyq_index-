@@ -2,6 +2,12 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v18 — 2026-11-06
+- PYQ coverage fixed: Mains 2013-2014 moved to `pyq_db/` on 6 Nov 2026, but SKILL.md still listed them as old-index years with an expected old-index count of 179 (loader now prints 0). Year ranges and expected `load_pyq.py` output now live only in the repo `README.md`; SKILL.md points there and stops the run if counts differ.
+- Corpus changes are no longer skill versions: they update `README.md` and the new `CORPUS_CHANGELOG.md` (history v11-v17 reconstructed there) without archiving the skill or bumping `VERSION`.
+- I-6 corrected: the data CSV has 13 columns (was "12").
+- New P-8a: GS Area = the Syllabus Tag's Paper + Subject (`Essay` for Essay), no free text or abbreviations; `verify.py` enforces it from 31 Oct 2026. Tagged rows of 31 Oct-2 Nov 2026 relabelled in the data CSVs (8 rows: `GS2 IR` and `GS3 S&T` to full names). Rows before 31 Oct 2026 keep their free-text GS Area.
+
 ## v17 — 2026-11-03
 - PYQ corpus: Mains GS4 2015 added from the official paper (2015 now complete); GS4 2015 removed from old index; coverage lines and expected counts updated (old index Mains 2013-2014: 179).
 
