@@ -2,6 +2,11 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v21 — 2026-11-06
+- V&R block (column 13) is fixed syllabus theory of the row's topic and subtopic only, never news details; P-7 step 2 and §6 rewritten, SIR example changed to Article 324(1), voter qualification and CEO/DEO/ERO roles.
+- `vr_pool.py add` rejects dated daily pages and news wording in facts, flags years from 2025; new `remove` retires a page (IDs never reused, URL not re-added).
+- Pool: 3 news pages retired (V0002 SIR phases, V0003 SC SIR ruling, V0004 SSR vs SIR); theory pages on Article 324 (V0006) and ECI structure (V0007) added.
+
 ## v20 — 2026-11-06
 - V&R content pool `data/vr_pool.json`: V&R syllabus/explainer pages filed under each `syllabus.md` line, each as 4-12 facts in Claude's own words with title and URL (V&R text itself is not stored). New `skill/vr_pool.py` (`status`, `add`, `find`, `show`). One-time, resumable build in new §6 (target 8 pages per line); seeded with 5 pages on the RPA line.
 - Rows from 4 Nov 2026: newspaper rows pick 2-4 enriching facts by ID (`vr_facts`, e.g. `V0002.5`) instead of `vr_topic`; builder renders column 13 from the pool. A V&R page is searched during a daily run only when the pool has nothing relevant, and is then added to the pool.

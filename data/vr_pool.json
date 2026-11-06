@@ -27,72 +27,6 @@
    ],
    "added": "2026-11-06"
   },
-  "V0002": {
-   "line": "GS2 | Polity | Salient features of the Representation of People's Act",
-   "url": "https://vajiramandravi.com/current-affairs/special-intensive-revision-of-electoral-rolls/",
-   "title": "Special Intensive Revision (SIR), Meaning, Phases, Latest News 2026",
-   "subtopics": [
-    "Special Intensive Revision",
-    "SIR",
-    "electoral rolls",
-    "Booth Level Officers",
-    "Form 6 7 8",
-    "Section 21 RPA"
-   ],
-   "facts": [
-    "SIR is the ECI's time-bound house-to-house re-verification of rolls, unlike routine summary revision; Booth Level Officers hand out and collect enumeration forms.",
-    "SIR steps: notification with a qualifying date, house visits, data checks, draft roll, claims and objections, notice and hearing, then final roll.",
-    "Form 6 is for inclusion, Form 7 for objection or deletion, Form 8 for correction or shifting residence.",
-    "Article 324 vests superintendence of roll preparation in the ECI; Article 326 provides adult suffrage subject to legal disqualifications.",
-    "RPA 1950: Section 16 bars non-citizens; Section 19 ties enrolment to age and ordinary residence; Section 21(3) allows a special revision anytime for recorded reasons.",
-    "Section 22 lets EROs correct, transpose or delete entries after verification; the procedure is in the Registration of Electors Rules, 1960.",
-    "Phase I in Bihar (June-September 2025) cut the electorate from 7.89 crore to about 7.42 crore.",
-    "Phase II covered 9 States and 3 UTs (about 51 crore electors); Phase III covers 16 States and 3 UTs with over 3.94 lakh BLOs.",
-    "On 27 May 2026 the Supreme Court (ADR vs ECI) held SIR within the ECI's statutory mandate and consistent with free and fair elections.",
-    "BLOs make two to three visits before an elector is treated as untraceable; appeals go to the designated appellate authority and then the CEO."
-   ],
-   "added": "2026-11-06"
-  },
-  "V0003": {
-   "line": "GS2 | Polity | Salient features of the Representation of People's Act",
-   "url": "https://vajiramandravi.com/current-affairs/sc-upholds-special-intensive-revision-sir/",
-   "title": "SC Upholds Special Intensive Revision (SIR)",
-   "subtopics": [
-    "SIR judgment",
-    "Article 324",
-    "citizenship and electoral rolls",
-    "disenfranchisement"
-   ],
-   "facts": [
-    "The Supreme Court upheld the Bihar SIR and allowed similar exercises in other States and UTs.",
-    "The Court described Article 324 as a continuing source of ECI power to protect the electoral process at every stage.",
-    "It accepted the ECI's grounds: urbanisation, migration, unreported deaths and duplicate entries after more than two decades without an intensive revision.",
-    "Enrolment in a roll is only a rebuttable presumption of citizenship, not conclusive proof.",
-    "Safeguards ordered: published lists of excluded names with reasons, notice and hearing, and judicial remedies against wrongful deletion.",
-    "Persons deleted for absence, duplication, death, shifting or citizenship doubts may challenge the ECI decision before competent courts.",
-    "Critics fear disenfranchisement and a blurring of electoral administration with citizenship determination; supporters cite cleaner rolls and wider Article 324 scope.",
-    "The Bench held that electoral rolls are not static and must change with demographic and residential shifts."
-   ],
-   "added": "2026-11-06"
-  },
-  "V0004": {
-   "line": "GS2 | Polity | Salient features of the Representation of People's Act",
-   "url": "https://vajiramandravi.com/current-affairs/special-summary-revision-key-differences-between-ssr-and-sir/",
-   "title": "Special Summary Revision: Key Differences Between SSR and SIR",
-   "subtopics": [
-    "Special Summary Revision",
-    "SSR vs SIR",
-    "electoral roll revision",
-    "Section 21(2) RPA"
-   ],
-   "facts": [
-    "Special Summary Revision is the ECI's routine roll update: it adds newly eligible voters and removes dead or shifted electors.",
-    "Under SSR existing voters stay enrolled unless due process supports deletion; SIR asks electors to re-establish eligibility.",
-    "Section 21(2) of RPA 1950 requires roll revision before every general election and in any year the ECI directs, with reference to a qualifying date.",
-    "Rolls are prepared constituency-wise with the Electoral Registration Officer as the statutory authority, under Article 324, RPA 1950 and the 1960 Rules."
-   ],
-   "added": "2026-11-06"
-  },
   "V0005": {
    "line": "GS2 | Polity | Salient features of the Representation of People's Act",
    "url": "https://vajiramandravi.com/current-affairs/ordinarily-resident/",
@@ -110,12 +44,70 @@
     "Section 20A, added in 2010, lets Non-Resident Indians register at the address in their passport while living abroad."
    ],
    "added": "2026-11-06"
+  },
+  "V0006": {
+   "line": "GS2 | Polity | Constitutional posts and bodies: appointment, powers, functions, responsibilities",
+   "url": "https://vajiramandravi.com/current-affairs/article-324-of-the-constitution/",
+   "title": "Article 324 of the Constitution, Key Provisions, Powers & Functions",
+   "subtopics": [
+    "Article 324",
+    "Election Commission",
+    "electoral rolls superintendence",
+    "CEC removal",
+    "Election Commissioners tenure",
+    "CEC and ECs Act 2023"
+   ],
+   "facts": [
+    "Article 324(1) vests superintendence, direction and control of electoral rolls and of elections to Parliament, State Legislatures, President and Vice-President in the ECI.",
+    "Article 324(2): the ECI is the CEC plus such number of Election Commissioners as the President fixes; appointments are subject to any law made by Parliament.",
+    "Article 324(3): the CEC acts as Chairman of the Commission when other Election Commissioners are appointed.",
+    "Article 324(5): the CEC can be removed only like a Supreme Court judge, and his service conditions cannot be varied to his disadvantage after appointment.",
+    "Other Election Commissioners and Regional Commissioners can be removed only on the recommendation of the CEC.",
+    "Article 324(6): the President or a Governor must provide the ECI or Regional Commissioners the staff they request.",
+    "CEC and Other ECs (Appointment, Conditions of Service and Term of Office) Act, 2023: President appoints on a committee of PM, Lok Sabha LoP and a PM-nominated Cabinet Minister.",
+    "Under the 2023 Act, appointees must hold or have held a post equal to Secretary to the Government of India and have election-management experience.",
+    "Tenure of the CEC and ECs: six years or until age 65, whichever is earlier; they are not eligible for reappointment.",
+    "The 2023 Act followed Anoop Baranwal v Union of India (2023), where the SC had set an interim panel of PM, LoP and CJI, and repealed the 1991 Act."
+   ],
+   "added": "2026-11-06"
+  },
+  "V0007": {
+   "line": "GS2 | Polity | Constitutional posts and bodies: appointment, powers, functions, responsibilities",
+   "url": "https://vajiramandravi.com/current-affairs/election-commission-of-india-eci/",
+   "title": "Election Commission of India (ECI), Structure, Framework, Composition",
+   "subtopics": [
+    "Election Commission of India",
+    "ECI composition",
+    "multi-member commission",
+    "Model Code of Conduct",
+    "electoral rolls",
+    "delimitation"
+   ],
+   "facts": [
+    "The ECI is a permanent constitutional body under Article 324 supervising elections to Parliament, State Legislatures and the offices of President and Vice-President.",
+    "It was a single-member body until 1989 and has been a three-member body (CEC and two Election Commissioners) since October 1993.",
+    "All three members have equal powers, salary and status; decisions are taken by majority, with the CEC as head.",
+    "CEC removal needs a motion passed by a special majority in both Houses on proved misbehaviour or incapacity, as for a Supreme Court judge.",
+    "Delimitation is carried out by a separate Delimitation Commission set up by the Centre, not by the ECI.",
+    "The ECI prepares and revises electoral rolls, schedules polls, deploys polling staff and enforces the Model Code of Conduct.",
+    "S. Subramaniam Balaji v State of Tamil Nadu (2013): the SC asked the ECI to frame guidelines on election manifestos, later made part of the Model Code.",
+    "The Commission's staff is drawn from central and state government services."
+   ],
+   "added": "2026-11-06"
   }
  },
  "searched": {
   "GS2 | Polity | Salient features of the Representation of People's Act": [
    "Representation of the People Act 1950 electoral rolls UPSC",
    "Special Intensive Revision electoral rolls Election Commission UPSC"
+  ],
+  "GS2 | Polity | Constitutional posts and bodies: appointment, powers, functions, responsibilities": [
+   "Election Commission of India Article 324 composition removal UPSC notes"
   ]
+ },
+ "retired": {
+  "V0002": "https://vajiramandravi.com/current-affairs/special-intensive-revision-of-electoral-rolls/",
+  "V0003": "https://vajiramandravi.com/current-affairs/sc-upholds-special-intensive-revision-sir/",
+  "V0004": "https://vajiramandravi.com/current-affairs/special-summary-revision-key-differences-between-ssr-and-sir/"
  }
 }

@@ -1,8 +1,8 @@
-"""V&R syllabus content pool (v20): data/vr_pool.json.
+"""V&R syllabus content pool (v21): data/vr_pool.json.
 
-One-time build: every syllabus line in skill/syllabus.md gets up to TARGET V&R syllabus/explainer pages,
-each stored as 4-12 key facts in Claude's own words (never V&R's text), with title, URL and subtopic keywords.
-Daily rows then pick 2-4 enriching facts by ID (vr_facts) instead of fetching V&R pages.
+One-time build: every syllabus line in skill/syllabus.md gets up to TARGET V&R syllabus-notes pages,
+each stored as 4-12 facts of FIXED THEORY in Claude's own words (never V&R's text; no news, no current
+figures), with title, URL and subtopic keywords. Daily rows pick 2-4 theory facts by ID (vr_facts).
 
 Usage (from /home/claude, clone at pyq_index-/):
   python3 pyq_index-/skill/vr_pool.py status            coverage per syllabus line; lines still below TARGET
@@ -13,6 +13,7 @@ Usage (from /home/claude, clone at pyq_index-/):
         for each newspaper row: best pool pages for its tag and headline, facts numbered by ID
         ('~' = fact already in the row's recall: do not pick it)
   python3 pyq_index-/skill/vr_pool.py show V0003        one page in full
+  python3 pyq_index-/skill/vr_pool.py remove V0003 ...  retire pages (IDs are never reused; the URL is not re-added)
 """
 import json, os, re, sys
 from datetime import date
@@ -23,6 +24,8 @@ SYLLABUS = os.path.join(HERE, 'syllabus.md')
 TARGET = 8
 NEWS = ('The Hindu', 'Indian Express')
 URL_RX = re.compile(r'^https://(web\.)?vajiramandravi\.com/\S+$')
+NEWS_URL = re.compile(r'/20\d\d/\d\d/\d\d/|daily-current-affairs|upsc-(mains|prelims)-current-affairs')
+NEWS_WORDS = re.compile(r'\b(recent(ly)?|latest|currently|as of|this year|ongoing|last (week|month|year)|news)\b', re.I)
 STOP = set('a an the of in on and or for to by with from as at is are was be its it this that their his her into under over'
            ' india indian national new act law rules role issues issue related between vs'.split())
 
@@ -38,7 +41,7 @@ def syllabus_lines():
 def load():
     if os.path.exists(POOL):
         return json.load(open(POOL, encoding='utf-8'))
-    return {'pages': {}, 'searched': {}}
+    return {'pages': {}, 'searched': {}, 'retired': {}}
 
 
 def save(p):
@@ -84,14 +87,16 @@ def cmd_add(pool, path):
     line = b.get('line', '')
     if line not in syllabus_lines():
         sys.exit(f'line not in syllabus.md: {line}')
-    seen = {norm_url(v['url']) for v in pool['pages'].values()}
-    n = len(pool['pages'])
+    retired = pool.setdefault('retired', {})
+    seen = {norm_url(v['url']) for v in pool['pages'].values()} | {norm_url(u) for u in retired.values()}
+    n = max([int(k[1:]) for k in list(pool['pages']) + list(retired)] or [0])
     added = []
     for pg in b.get('pages', []):
         u = norm_url(pg.get('url', ''))
         assert URL_RX.match(u), f'not a V&R URL: {u}'
+        assert not NEWS_URL.search(u), f'daily news page, not syllabus theory: {u}'
         if u in seen:
-            print('skip (already in pool):', u); continue
+            print('skip (already in pool or retired):', u); continue
         t = pg.get('title', '').strip(); subs = [s.strip() for s in pg.get('subtopics', []) if s.strip()]
         facts = [f.strip() for f in pg.get('facts', []) if f.strip()]
         assert t and subs, f'title and subtopics required: {u}'
@@ -99,6 +104,11 @@ def cmd_add(pool, path):
         long_ = [f for f in facts if len(f.split()) > 30]
         assert not long_, f'facts are short notes (<=30 words): {long_[0][:60]}'
         assert len({f.lower() for f in facts}) == len(facts), f'repeated fact: {u}'
+        newsy = [f for f in facts if NEWS_WORDS.search(f)]
+        assert not newsy, f'news wording in a theory fact (fixed theory only): {newsy[0][:70]}'
+        for f in facts:
+            if re.search(r'\b20(2[5-9])\b', f):
+                print(f'  check: recent year in a theory fact (keep only if it is settled law or a fixed fact): {f[:80]}')
         n += 1
         k = f'V{n:04d}'
         assert k not in pool['pages']
@@ -143,7 +153,7 @@ def cmd_find(pool, path):
 
 
 def main():
-    if len(sys.argv) < 2 or sys.argv[1] not in ('status', 'add', 'find', 'show'):
+    if len(sys.argv) < 2 or sys.argv[1] not in ('status', 'add', 'find', 'show', 'remove'):
         sys.exit(__doc__)
     pool = load()
     c = sys.argv[1]
@@ -153,6 +163,11 @@ def main():
         cmd_add(pool, sys.argv[2])
     elif c == 'find':
         cmd_find(pool, sys.argv[2])
+    elif c == 'remove':
+        r = pool.setdefault('retired', {})
+        for k in sys.argv[2:]:
+            r[k] = pool['pages'].pop(k)['url']; print('retired', k, r[k])
+        save(pool)
     else:
         print(json.dumps(pool['pages'][sys.argv[2]], ensure_ascii=False, indent=1))
 
