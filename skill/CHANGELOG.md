@@ -2,6 +2,10 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v23 — 2026-11-06
+- V&R block (column 13) now always carries a link: the pool page URL(s) after the facts, or, when the pool has nothing on the subtopic, a web search link restricted to vajiramandravi.com for the subtopic words. The link is a clickable hyperlink in Revision Cards and Master Log column M; verify.py requires a V&R link on every newspaper row from 4 Nov 2026.
+- Rows of 4-6 Nov 2026 re-rendered with links (only column 13 changed).
+
 ## v22 — 2026-11-06
 - New Topic Register tab: one row per Syllabus Tag across all months (rows from 31 Oct 2026), with every CA date and headline, all PYQ years and papers, latest Prelims/Mains recall and V&R syllabus base; the builder reads all `data/CA-PYQ Data *.csv`. Repeat coverage (e.g. GRAP 31 Oct, 1 Nov, 3 Nov) now sits in one row.
 - Priority score = (distinct PYQ years + 1) x distinct CA dates (+1 so never-asked Emerging themes are not zero); new High-Probability (7 days) tab: top 15 subtopics with CA in the last 7 days. Workbook now has seven tabs.

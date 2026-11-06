@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ Match Log builder (v22: Topic Register + High-Probability tabs; 13 columns; Master Log shows one sub-row per matched PYQ; rows store PYQ IDs).
+"""CA-PYQ Match Log builder (v23: V&R block carries page links; v22: Topic Register + High-Probability tabs; 13 columns; Master Log shows one sub-row per matched PYQ; rows store PYQ IDs).
 
 Usage:
   python3 ca_pyq_build.py --logs day1.csv day2.csv ... --today TODAY.json \
@@ -160,6 +160,16 @@ def pool_fact(fid):
         raise SystemExit(f'V&R pool fact not found: {fid}')
     return VR_POOL[k], VR_POOL[k]['facts'][int(n) - 1]
 
+def vr_search_url(sub):
+    """v23: web search restricted to vajiramandravi.com for the subtopic words (always resolves)."""
+    from urllib.parse import quote_plus
+    words = re.sub(r'[\u2014\u2013,;:()]', ' ', sub)
+    return 'https://www.google.com/search?q=' + quote_plus('site:vajiramandravi.com ' + ' '.join(words.split()))
+
+def first_url(text):
+    m = re.search(r'https://\S+', str(text or ''))
+    return m.group(0) if m else None
+
 def vr_text(o):
     """Column 13. v9 rows (with 'vr_topic'): syllabus base only, newspaper rows only.
     Rows written before v9 (no 'vr_topic') keep the old [CA] text from 'vr'."""
@@ -168,11 +178,13 @@ def vr_text(o):
         if not is_newspaper(o):
             return ''
         sub = o.get('tag', '').split(' \u203a ')[-1]
-        if not o['vr_facts']:
-            return f'[Syllabus base \u2013 {sub}] No V&R pool content on this subtopic'
+        if not o['vr_facts']:                 # v23: no pool page yet -> a V&R search link for the subtopic
+            return f'[Syllabus base \u2013 {sub}] Not in the V&R pool yet. Find it on V&R: {vr_search_url(sub)}'
         got = [pool_fact(f) for f in o['vr_facts']]
         titles = list(dict.fromkeys(pg['title'] for pg, _ in got))
-        return f"[Syllabus base \u2013 {sub}] (V&R: {'; '.join(titles)})\n" + bullets([f for _, f in got])
+        urls = list(dict.fromkeys(pg['url'] for pg, _ in got))
+        return (f"[Syllabus base \u2013 {sub}] (V&R: {'; '.join(titles)})\n" + bullets([f for _, f in got])
+                + '\nV&R link: ' + ' ; '.join(urls))
     t = o.get('vr_topic')
     if t is None:                      # legacy rows (29-30 Oct 2026)
         v = o.get('vr')
@@ -294,6 +306,8 @@ def build(rows, out_xlsx, all_rows=None):
                     b.value = val; b.font = F(italic=True, color='404040')
                 elif kind == 'vr':
                     b.value = val; b.font = F(); b.fill = fill('FFF7E6')
+                    if first_url(val):
+                        b.hyperlink = first_url(val)     # v23: click opens the V&R page or search
                 elif kind == 'pre':
                     b.value = val; b.font = F(); b.fill = fill('F4F9F1')
                 else:
@@ -343,6 +357,8 @@ def build(rows, out_xlsx, all_rows=None):
             i = wl.max_row
             if s_i == 0:
                 wl.cell(i, MAINS_C).value = mains_rich(x[5])
+                if first_url(x[11]):
+                    wl.cell(i, NC).hyperlink = first_url(x[11])   # v23: column M link
             for j in range(1, NC + 1):
                 c = wl.cell(i, j)
                 c.font = F(); c.alignment = TOP; c.border = BOX; c.fill = fill(band[x[0]])

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ VERIFY (v22). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
+"""CA-PYQ VERIFY (v23). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
 Run from the folder holding pyq_bank.json (load_pyq.py output).
 Prints OK when every check passes; the untraced-figure list is a review prompt, not a failure."""
 import csv, json, re, sys, glob, os, openpyxl
@@ -153,6 +153,8 @@ if V19:                                           # CSV keeps IDs, never questio
     for r in up[1:]:
         cell = [l for l in r[9].split('\n') if l]
         assert cell == ['No PYQ match in corpus'] or all(ID_RX.match(l) for l in cell), f'v19 CSV must hold PYQ IDs: {r[4][:40]}'
+        if r[11].startswith(NEWS):               # v23: every newspaper V&R block carries a V&R link
+            assert 'vajiramandravi.com' in r[12], f'v23: V&R block needs a page or search link: {r[4][:40]}'
         if cell != ['No PYQ match in corpus']:
             assert r[7] == ', '.join(sorted({BANK[k]['year'] for k in cell})), f'PYQ Years not derived from IDs: {r[4][:40]}'
 
