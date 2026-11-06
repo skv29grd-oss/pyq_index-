@@ -18,35 +18,11 @@ Historical underpinnings, evolution; Features, amendments, significant provision
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-1 2014 Two parallel run schemes of the Government viz. the Adhaar Card and NPR, one as voluntary and the other as compulsory, have led to debates at national levels and also litigations. On merits, discuss whether or not both schemes need run concurrently. Analyse the potential of the schemes to achieve developmental benefits and equitable growth. Aadhaar NPR 12.5
-
-25 2014 What do you understand by the concept of Parliamentary Standing Committees? Discuss their growth from suitable examples in the light of Departmental system (of Parliament and State govts.). Committee 12.5
-
 26 2013 The Apex Court Judgement(s) on Section 66A of IT Act, has resulted in a slightly different practical interpretation of "freedom of speech and expression"? Article 19 12.5
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-4 2014
-
-The size of the cabinet should be as big as governmental work justifies and as big as the Prime Minister can manage as a team. How far the efficacy of a government then is inversely related to the size of the cabinet? Discuss.
-
-Cabinet Size 12.5
-
-5 2014
-
-Instances of President's delay in commuting death sentences has come under public debate as denial of justice. Should there be a time limit specified for the President to accept/reject such petitions? Analyse.
-
-Article 72 12.5
-
-Union and State Legislatures (structure, functioning, conduct of business, powers & privileges; issues therein); Salient features of the Representation of People's Act.
-
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-21 2014
-
-The 'Powers, Privileges and Immunities of Parliament and its Members' as envisaged in Article 105 of the Constitution leave room for a large number of un-codified and unenumerated privileges to continue. Assess the reasons for the absence of legal codification of the 'parliamentary privileges'. How can this problem be addressed?
-
-Parliamentary Privileges (Article 105) 12.5
 
 22 2013
 
@@ -58,12 +34,6 @@ Separation of Powers (between different organs, dispute redressal mechanisms, in
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-13 2014
-
-Starting from inventing the 'basic structure' doctrine, the judiciary has played a highly proactive role in ensuring that India develops into a thriving democracy. In light of the statement, evaluate the role played by judicial activism in achieving the ideals of democracy.
-
-Role Of Judiciary 10
-
 14 2013 The Supreme Court of India keeps a check on arbitrary amending power of the Parliament in Constitution. Discuss critically.
 
 Basic Structure Doctrine
@@ -71,12 +41,6 @@ Basic Structure Doctrine
 Functions & responsibilities of the Union and the States; issues and challenges of federal structure. Devolution of powers and finances to local levels; challenges therein.
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-17 2014
-
-Though the federal principle is dominant in our Constitution and that principle is one of its basic features, but it is equally true that federalism under the Indian Constitution leans in favour of a strong Centre, a feature that militates against the concept of strong federalism. Discuss.
-
-Federalism 12.5
 
 18 2013
 
@@ -102,18 +66,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 
 NCPCR 15
 
-23 2014
-
-National Human Rights Commission (NHRC) in India can be most effective when its tasks are adequately supported by other mechanisms that ensure the accountability of a government. In light of the above observation assess the role of NHRC as an effective complement to the judiciary and other institutions in promoting and protecting human rights standards.
-
-NHRC 12.5
-
-24 2014
-
-The setting up of a Rail Tariff Authority to regulate fares will subject the cash strapped Indian Railways to demand subsidy for obligation to operate nonprofitable routes and services. Taking into account the experience in the power sector, discuss if the proposed reform is expected to benefit the consumers, the Indian Railways or the private container operators.
-
-Railway Authority 12.5
-
 25 2013
 
 Discuss the recommendations of the 13th Finance Commission which have been a departure from the previous commissions for strengthening the local government finances.
@@ -132,8 +84,6 @@ Welfare Schemes (centre, states; performance, mechanisms, protection of vulnerab
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-13 2014 Do government's schemes for up-lifting vulnerable and backward communities by protecting resources required for them, lead to their exclusion in establishing businesses in urban economics? Scheme 12.5
-
 14 2013 The basis of providing urban amenities in rural areas (PURA) is rooted in establishing connectivity. Comment. PURA 10
 
 15 2013 Electronic cash transfer system for the welfare schemes is an ambitious project to minimize corruption, eliminate wastage and facilitate reforms. Comment. DBT 10
@@ -148,10 +98,6 @@ Social Sector & Social Services (health, education, human resources - issues in 
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-18 2014 An athlete participates in Olympics for personal triumph and nation's glory; victors are showered with cash incentives by various agencies, on their return. Discuss the merit of state sponsored talent hunt and its cultivation as against the rationale of a reward mechanism as encouragement. HR 12.5
-
-19 2014 Should the premier institutes like IITs/IIMs be allowed to retain premier status, allowed more academic independence in designing courses and also decide mode/criteria of selection of students. Discuss in light of the growing challenges. Educational Institutions 12.5
-
 20 2013 The concept of Mid Day Meal (MDM) scheme is almost a century old in India with early beginnings in Madras Presidency in pre-independent India. The scheme has again been given impetus in most states in the last two decades. Critically examine its twin objectives, latest mandates and success. Scheme Health 10
 
 21 2013 Identify the Millennium Development Goals (MDGs) that are related to health. Discuss the success of the actions taken by the Government for achieving the same. Health 10
@@ -159,8 +105,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Government Policies & Interventions for development of various sectors (issues in their design, implementation)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-7 2014 Though 100 percent FDI is already allowed in non-news media like a trade publication and general entertainment channel, the Government is mulling over the proposal for increased FDI in news media for quite some time. What difference would an increase in FDI make? Critically evaluate the pros and cons. FDI 12.5
 
 GOVERNANCE
 
@@ -176,10 +120,6 @@ Development Processes & Development industry (role of NGOs, SHGs, groups & assoc
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-20 2014 The penetration of Self-Help Groups (SHGs) in rural areas in promoting participation in development programmes is facing socio-cultural hurdles. Examine. SHG 12.5
-
-21 2014 Has the Cadre based Civil Services Organisation been the cause of slow change in India? Critically examine. Civil Services 12.5
-
 22 2013 Pressure group politics is sometimes seen as the informal face of politics. With regards to the above, assess the structure and functioning of pressure groups in India. Pressure Group 10 (approx.)
 
 23 2013 The legitimacy and accountability of Self-Help Groups (SHGs) and their patrons, the micro-finance outfits, need systematic assessment and scrutiny for the sustained success of the concept. Discuss. SHG 10 (approx.)
@@ -187,8 +127,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 INTERNATIONAL RELATIONS
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-7 2014 With respect to the South China sea, maritime territorial disputes and rising tension affirm the need for safeguarding maritime security to ensure freedom of navigation and over flight throughout the region. In this context, discuss the bilateral issues between India and China. China 12.5
 
 8 2013 The proposed withdrawal of International Security Assistance Force (ISAF) from Afghanistan in 2014 is fraught with major security implications for the countries of the region. Examine in light of the fact that India is faced with a plethora of challenges and needs to safeguard its own strategic interests. Afghanistan 10
 
@@ -211,14 +149,6 @@ Qs. No. YEAR QUESTION TOPIC MARKS
 Important International institutions, agencies, fora (structure, mandate); Bilateral, Regional, Global groupings & Agreements (involving and/or affecting India)
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-19 2014 The aim of Information Technology Agreements (ITAs) is to lower all taxes and tariffs on information technology products by signatories to zero. What impact should such agreements have on India's interests? Agreement 12.5
-
-20 2014 Some of the International funding agencies have special terms for economic participation stipulating a substantial component of the aid to be used for sourcing equipment from the leading countries. Discuss on merits of such terms and if, there exists a strong case not to accept such conditions in the Indian context. Funding Agency 12.5
-
-21 2014 India has recently signed to become founding member of a New Development Bank (NDB) and also the Asian Infrastructure Investment Bank (AIIB). How will the role of the two Banks be different? Discuss the significance of these two Banks for India. NDB AIIB 12.5
-
-22 2014 WTO is an important international institution where decisions taken affect countries in profound manner. What is India's stand on the latest round of talks on food security, and how binding are their decisions? Critically analyse the mandate of WTO. WTO 12.5
 
 23 2013 The World Bank and the IMF, collectively known as the Bretton Woods Institutions, are the two intergovernmental pillars supporting the structure of the world's economic and financial order. Superficially, the World Bank and the IMF exhibit many common characteristics, yet their role, functions and mandate are distinctly different. Elucidate. WB IMF 10
 

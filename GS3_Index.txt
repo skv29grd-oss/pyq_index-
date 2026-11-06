@@ -18,10 +18,6 @@ Indian Economy (Issues relating to: Planning, Mobilisation of resources, Growth,
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-28 2014 While we found India's demographic dividend, we ignore the dropping rates of employability. What are we missing while doing so? Where will the jobs that India desperately needs come from? Explain. Employment 12.5
-
-29 2014 Capitalism has guided the world economy to unprecedented prosperity. However, it often encourages shortsightedness and contributes to wide disparities between the rich and the poor. In this light, would it be correct to believe and adopt capitalism driving inclusive growth in India? Discuss. Capitalism & Inclusive Growth 12.5
-
 30 2013 With a consideration towards the strategy of inclusive growth, the new companies bill, 2013 has indirectly made CSR a mandatory obligation. Discuss the challenges expected in its implementation in right earnest. Also discuss other provisions in the bill and their implications. CSR 10
 
 [Budgeting section]
@@ -38,17 +34,11 @@ Infrastructure (energy, ports, roads, airports, railways); Investment models
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-11 2014 Explain how private public partnership agreements, in longer gestation infrastructure projects, can transfer unsuitable liabilities to the future. What arrangements need to be put in place to ensure that successive generations' capacities are not compromised? PPP 12.5
-
-12 2014 National urban transport policy emphasizes on moving people instead of moving vehicles. Discuss critically the success of various strategies of the government in this regard. National Urban Transport 12.5
-
 13 2013 Adaptation of PPP model for infrastructure development of the country has not been free from criticism. Critically discuss the pros and cons of the model. PPP Criticism 10
 
 Effects of Liberalisation on the economy; Changes in Industrial policy & their effects on Industrial Growth
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-6 2014 Foreign direct investment in the defence sector is now said to be liberalised. What influence this is expected to have on Indian defence and economy in the short and long run? FDI Defence 12.5
 
 7 2013 Though India allowed foreign direct investment (FDI) in what is called multi brand retail through joint venture route in September 2012, the FDI even after a year, has not picked up. Discuss the reasons. FDI multiretail 5
 
@@ -62,23 +52,17 @@ Major crops, Cropping Patterns in various parts of the country, Different types 
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-15 2014 There is also a point of view that agriculture produce market committees (APMCs) set up under the state acts have not only impeded the development of agriculture but also have been the cause of food inflation in India. Critically examine. APMC & Food Inflation 12.5
-
 16 2013 India needs to strengthen measures to promote the pink revolution in food industry for better nutrition and health. Critically elucidate the statement. Pink Revolution 10
 
 Land Reforms in India
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-5 2014 The right to fair compensation and transparency land acquisition, rehabilitation and resettlement act, 2013 has come into effect from 1 January 2014. What implication would it have on industrialisation and agriculture in India? LARR 12.5
-
 6 2013 Establish the relationship between land reform, agriculture productivity and elimination of poverty in Indian Economy. Discuss the difficulty in designing and implementation of the agriculture friendly land reforms in India. Relationship 10
 
 Farm subsidies and MSP and issues therein (direct and indirect); PDS (objectives, functioning, limitations, revamping, issues of buffer stocks & food security)
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-7 2014 "In the villages itself no form of credit organisation will be suitable except the cooperative society" - All India rural credit survey. Discuss this statement in the background of agriculture finance in India. Informal Credit 12.5
 
 8 2013 What constraints and challenges do financial institutions face in supplying agricultural finances? How can technology be used to better reach and serve rural clients? 10
 
@@ -90,8 +74,6 @@ DISASTER MANAGEMENT
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-16 2014 Drought has been recognised as a disaster in view of its peculiar temporal duration, slow onset and lasting effect on various vulnerable sections. With a focus on drought, discuss the mechanism for preparedness to deal with disaster management. Drought 12.5
-
 17 2013 Vulnerability assessment is a key component of the National Disaster Management guidelines. What are the important elements from a disaster management administrator's point of view in India, September 2010 guidelines? Vulnerability Assessment 10
 
 ENVIRONMENT
@@ -99,10 +81,6 @@ ENVIRONMENT
 Conservation; Environmental pollution and degradation; Environmental Impact Assessment; El Nino and La Nina fallouts
 
 Qs. No. YEAR QUESTION TOPIC MARKS
-
-31 2014 Environmental impact assessment studies are increasingly undertaken before project is cleared by the government. Discuss the environmental impacts of coal-fired thermal plants located at Pitheads. Coal 12.5
-
-32 2014 Should the pursuit of carbon credit and clean development mechanism set up under UNFCCC be maintained even though there has been a massive slide in the value of carbon credit? Discuss with respect to India's energy needs for economic growth. Carbon Credit 12.5
 
 33 2013 Enumerate the National Water Policy of India. Taking river Ganges as an example, discuss the strategies which may be adopted for river water pollution control and management. What are the legal provisions for management and handling of hazardous wastes in India? National Water Policy 10
 
@@ -118,8 +96,6 @@ S&T developments and everyday applications & effects; Awareness in fields of IT,
 
 Qs. No. YEAR QUESTION TOPIC MARKS
 
-20 2014 In a globalised world, intellectual property rights assume significance and are a source of litigation. Broadly distinguish between the terms - copyrights, patents and trade secrets. IPR 12.5
-
 21 2013 What do you understand by fixed dose drug combinations (FDCs)? Discuss their merits and demerits. FDC 10
 
 22 2013 How does the 3D printing technology work? List out the advantages and disadvantages of the technology. 3D printing 5
@@ -134,10 +110,6 @@ Achievements of Indians in S&T; Indigenisation of technology & development of ne
 
 No. Qs. YEAR QUESTION TOPIC MARKS
 
-16 2014 Can overuse and the availability of antibiotics without doctor's prescription, be the contributors to the emergence of drug-resistant diseases in India? What are the available mechanisms for monitoring and control? Critically discuss the various issues involved. AMR 12.5
-
-17 2014 Scientific research in Indian universities is declining, because a career in science is not as attractive as our business, engineering or administration, and the universities are becoming consumer oriented. Critically comment. STEM decline 12.5
-
 INTERNAL SECURITY
 
 Linkages between Development & spread of Extremism; Linkages of Organized crime and Terrorism
@@ -149,16 +121,6 @@ No. Qs. YEAR QUESTION TOPIC MARKS
 Border Areas (security challenges and management thereof); Security forces & agencies (mandate); Role of External State & Non-State actors in creating internal security challenges
 
 No. Qs. YEAR QUESTION TOPIC MARKS
-
-15 2014 China and Pakistan have entered into an agreement for development of an economic corridor. What threat does it pose for India's security? Critically examine. China & Pakistan 12.5
-
-16 2014 In 2012, the longitudinal marking of the high-risk areas for piracy was moved from 65 East to 78 East in the Arabian Sea by International Maritime Organisation. What impact does this have on India's maritime security concerns? Maritime Border 12.5
-
-17 2014 How does illegal transborder migration pose a threat to India's security? Discuss the strategies to curb this; bring out the factors which give impetus to such migration. Transborder Migration 12.5
-
-18 2014 The diverse nature of India as a multireligious and multi-ethnic society is not immune to the impact of radicalism which has been in her neighbourhood. Discuss along with the strategies to be adopted to counter this environment. Radicalism 12.5
-
-19 2014 International civil aviation laws provide all countries complete and exclusive sovereignty over the airspace above the territory. What do you understand by airspace? What are the implications of these laws on the space above this airspace? Discuss the challenges which this poses and suggests ways to contain the threat. Airspace 12.5
 
 20 2013 How far are India's internal security challenges linked with border management, particularly in view of the long porous borders with most countries of South Asia and Myanmar? South Asia & Myanmar 10
 

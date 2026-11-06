@@ -6,31 +6,24 @@ SECTION-A: THEORY QUESTIONS
 
 [Ethics and Human Interface, Determinants and Consequences of Ethics in Human Actions; Dimensions of Ethics; Ethics in Private and Public Relationships]
 
-14 2014 Human beings should always be treated as 'ends' in themselves and never as merely 'means'. Explain the meaning and significance of this statement, giving its implications in the modern techno-economic society. Means V/S End 10
 15 2013 The good of an individual is contained in the good of all. What do you understand by this statement? How can this principle be implemented in public life? Good of All 10
 
 [Human Values - Lessons from the Lives and Teachings of Great Leaders, Reformers and Administrators; Role of Family, Society and Educational Institutions in Inculcating Values]
 
-6 2014 The current society is plagued with widespread trust-deficit. What are the consequences of this situation for personal and societal wellbeing? What can you do at the personal level to make yourself trustworthy? Trust Deficit 10
-7 2014 We are witnessing increasing instances of sexual violence against women in the country. Despite existing legal provisions, incidences are on the rise. Suggest some innovative measures to tackle this menace. Sexual Violence 10
 8 2013 What do you understand by 'values' and 'ethics'? In what way is it important to be ethical along with being professionally competent? Values W/O Character 10
 9 2013 Some people feel that values keep changing with time and situation, while others strongly believe that there are certain universal and eternal human values. Give your perception in this regard with due justification. Changing Values 10
 
 [Attitude: Content, Structure, Function; its Influence and Relation with Thought and Behaviour; Moral and Political Attitudes; Social Influence and Persuasion]
 
-9 2014 What factors affect the formation of a person's attitude towards social problems? What contrasting attitudes do you notice about the caste system in our society? How do you explain the existence of these contrasting attitudes? Contrasting Attitude 10
-10 2014 In the context of defense services, 'patriotism' demands readiness to lay down one's life. What does patriotism imply in everyday civil life? Patriotism 10
 11 2013 It is often said that 'politics' and 'ethics' do not go together. What is your opinion? Justify your answer with illustrations. Politics V/S Ethics 10
 
 [Aptitude and Foundational Values for Civil Service: Integrity, Impartiality and Non-partisanship, Objectivity, Dedication to Public Service, Empathy, Tolerance and Compassion towards weaker sections]
 
-14 2014 Integrity without knowledge is weak and useless, but knowledge without integrity is dangerous and dreadful. Explain your stand with illustrations from the modern context. Integrity without Knowledge 10
 15 2013 What do you understand by the following terms in the context of public service: a) Integrity b) Perseverance c) Spirit of service d) Commitment e) Courage of conviction f) Personal opinion. Terms 10
 16 2013 Indicate two more attributes which you consider important for public service. Justify your answer. Public Service 10
 
 [Emotional Intelligence - Concepts, and their Utilities and Application in Administration and Governance]
 
-9 2014 All human beings aspire for happiness. Do you agree? What does happiness mean to you? Explain with examples. Happiness 10
 10 2013 What is 'emotional intelligence' and how can it be developed in people? How does it help an individual in taking ethical decisions? EI Development 10
 
 [Contributions of moral thinkers and philosophers from India and the world]
@@ -39,30 +32,18 @@ Quote-based questions (2013-2024) on: Vivekananda's teachings; Mahatma Gandhi's 
 
 [Public/Civil Service Values and Ethics in Public Administration: Status and Problems; Ethical Concerns and Dilemmas in Government and Private Institutions; Laws, Rules, Regulations and Conscience as Sources of Ethical Guidance; Accountability and Ethical Governance; Strengthening of Ethical and Moral Values in Governance; Ethical Issues in International Relations and Funding; Corporate Governance]
 
-25 2014 What does ethics seek to promote in human life? Why is it all the more important in public administration? Ethics Importance 10
-26 2014 What does 'accountability' mean in the context of public service? What measures can be adopted to ensure individual and collective accountability of public servants? Accountability 10
 27 2013 What do you understand by the term 'voice of conscience'? How do you prepare yourself to heed to the voice of conscience? Voice of Conscience 10
 28 2013 What is meant by 'crisis of conscience'? Narrate one incident when you were faced with such a crisis and how you resolved it. Crisis of Conscience 10
 
 [Ethical issues in international relations and funding, Corporate governance]
 
-12 2014 What do you understand by 'probity' in public life? What are the difficulties in practicing it? How can these be overcome? Probity in Public Life 10
-
 [Codes of Ethics, Codes of Conduct, Citizen's Charters, Work Culture, Quality of Service Delivery, Utilization of Public Funds, Challenges of Corruption]
-
-15 2014 There is heavy ethical responsibility on public servants handling public funds with wide-ranging impact on society/environment. What steps have you taken to improve your ethical competence? Ethical Responsibility on Public Servant 10
-16 2014 It is often said that poverty leads to corruption; however affluent/powerful people also indulge in corruption. What are the basic causes of corruption? Support with examples. Corruption 10
 
 ===================================================================
 SECTION-B: CASE STUDIES (2013-2024) - topic index only
 ===================================================================
 [NOTE: Case studies are long descriptive scenarios (20 marks each); the underlying PDF extraction suffered severe OCR column-merge garbling on nearly every case in this section, making faithful full-text reconstruction unreliable. Below is a verified year + core-dilemma + topic-tag index for quick keyword/topic matching against daily current affairs; consult the source PDF (GS_4_PYQs_2013_25 in the PYQs folder) for exact original wording of any specific case.]
 
-58 2014 Ethicality Of Bribe 20 (equipment supply officer; competitor offers hefty bribe for tender approval vs losing the order)
-59 2014 Ethical Conviction 20 (honest officer transferred to notoriously inefficient dept.; retaliatory false sexual-harassment complaint by troublemakers after disciplinary warnings)
-60 2014 Rural Migration 20 (rapid rural-to-urban migration causing socio-economic/urban strain; educated youth, landless poor, farmers all migrating)
-61 2014 Work Culture 20 (Rameshwar, new civil servant; discovers fund misappropriation, recruitment cheating, told by seniors to stay silent)
-62 2014 Ethical Conduct in Public Service 20 (friend's dilemma on whether individual ethical stance is worth career/family risk when majority is unethical)
 63 2013 Knowledge W/O Character 20 (Mr. A, top-performing but misconduct-prone team manager at AInfoTech, inappropriate behaviour towards female colleagues)
 64 2013 RTI 20 (PIO discovers RTI-requested info implicates his own earlier wrong decision - disclose fully, partially, or deflect)
 65 2013 Insider Trading 20 (Finance Ministry officer; confidential housing/construction policy info sought by builder close to his superior)
