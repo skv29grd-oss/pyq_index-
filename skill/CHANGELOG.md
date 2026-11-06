@@ -2,6 +2,12 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v20 — 2026-11-06
+- V&R content pool `data/vr_pool.json`: V&R syllabus/explainer pages filed under each `syllabus.md` line, each as 4-12 facts in Claude's own words with title and URL (V&R text itself is not stored). New `skill/vr_pool.py` (`status`, `add`, `find`, `show`). One-time, resumable build in new §6 (target 8 pages per line); seeded with 5 pages on the RPA line.
+- Rows from 4 Nov 2026: newspaper rows pick 2-4 enriching facts by ID (`vr_facts`, e.g. `V0002.5`) instead of `vr_topic`; builder renders column 13 from the pool. A V&R page is searched during a daily run only when the pool has nothing relevant, and is then added to the pool.
+- `verify.py`: `vr_facts` exist in the pool, 2-4 (or `[]`), from a page on the row's syllabus line or sharing a subtopic keyword, not repeating the row's recall, identical for the same tag on one date.
+- v19 cache (`vr_cache.py`, `data/vr_topics.json`) kept only for reruns of 31 Oct-3 Nov 2026.
+
 ## v19 — 2026-11-06
 - PYQ IDs instead of question text (rows from 4 Nov 2026): rows carry `pyq_ids`; the builder sorts them, derives PYQ Years and Paper(s), stores the IDs in the CSV and shows the full corpus text in Revision Cards and Master Log (v10 full-text rule kept in the workbook). Cuts the largest CSV column and the text Claude writes per row; corpus corrections now reach logged rows automatically.
 - New PYQ Bank tab (4th; tab `8497B0`): every matched PYQ once with ID, paper, year, full text, number of CA items and dates, most-matched first. Workbook now has five tabs.

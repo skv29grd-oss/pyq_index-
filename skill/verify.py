@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ VERIFY (v19). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
+"""CA-PYQ VERIFY (v20). Usage: python3 verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source.txt [outputs_dir]
 Run from the folder holding pyq_bank.json (load_pyq.py output).
 Prints OK when every check passes; the untraced-figure list is a review prompt, not a failure."""
 import csv, json, re, sys, glob, os, openpyxl
@@ -34,6 +34,12 @@ def excerpt_lines(o):
     if V19:
         return [pyq_line(k) for k in o['pyq_ids']] or ['No PYQ match in corpus']
     return [l.strip() for l in o['pyq_excerpt'].splitlines() if l.strip()]
+VR_POOL = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'vr_pool.json'), encoding='utf-8'))['pages']
+VR_STOP = set('a an the of in on and or for to by with from as at is are was be its it this that their his her into under over'
+              ' india indian national new act law rules role issues issue related between vs'.split())   # = vr_pool.STOP
+def vr_fact(fid):
+    k, _, n = fid.partition('.')
+    return VR_POOL[k]['facts'][int(n) - 1] if k in VR_POOL and n.isdigit() and 1 <= int(n) <= len(VR_POOL[k]['facts']) else None
 VR_CACHE = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'vr_topics.json'), encoding='utf-8'))
 NEWS = ('The Hindu', 'Indian Express')
 is_news = lambda o: o['source'].startswith(NEWS)
@@ -53,7 +59,23 @@ if V8:
         assert tuple(parts[:3]) in SYL, f'tag not in syllabus.md: {t} -> {parts[:3]}'
         area = 'Essay' if parts[0] == parts[1] else f'{parts[0]} {parts[1]}'   # v18: GS Area = tag Paper + Subject
         assert o.get('gs_area') == area, f'GS Area must be "{area}" (Paper + Subject of the tag), got "{o.get("gs_area")}": {t}'
-        if is_news(o):
+        if is_news(o) and V19:                     # v20: enriching facts by ID from data/vr_pool.json
+            vf = o.get('vr_facts')
+            assert isinstance(vf, list) and 'vr_topic' not in o, f'v20: newspaper rows need vr_facts (list of pool fact IDs), no vr_topic: {t}'
+            assert len(vf) == 0 or 2 <= len(vf) <= 4, f'vr_facts: 2-4 fact IDs (or [] if the pool has nothing on the subtopic): {t}'
+            assert len(vf) == len(set(vf)) and all(vr_fact(f) for f in vf), f'unknown or repeated V&R pool fact: {t} -> {vf}'
+            W = lambda x: {w for w in re.findall(r'[a-z0-9]+', x.lower()) if len(w) > 2} - VR_STOP
+            line3, sub4 = ' | '.join(parts[:3]), parts[3]
+            for f in vf:                           # relevance: same syllabus line, or a shared subtopic keyword
+                pg = VR_POOL[f.split('.')[0]]
+                assert pg['line'] == line3 or W(sub4) & W(' '.join(pg['subtopics']) + ' ' + pg['title']), f'V&R fact {f} is from an unrelated page ({pg["title"][:40]}): {t}'
+            recall = ' '.join(o['prelims'] + o['mains']).lower()
+            assert not any(vr_fact(f).lower().rstrip('.') in recall for f in vf), f'V&R fact repeats the row recall (pick enriching facts): {t}'
+            key = o['tag']
+            if key in by_tag:
+                assert by_tag[key] == vf, f'same tag, different vr_facts on one date: {t}'
+            by_tag[key] = vf
+        elif is_news(o):
             vt = o.get('vr_topic'); assert isinstance(vt, dict) and 'facts' in vt and 'page' in vt, f'vr_topic missing: {t}'
             assert len(vt['facts']) == 0 or 2 <= len(vt['facts']) <= 4, t
             assert all(len(f.split()) <= 25 for f in vt['facts']), t
@@ -65,7 +87,7 @@ if V8:
                 assert by_tag[key] == vt, f'same tag, different syllabus block: {t}'
             by_tag[key] = vt
         else:
-            assert not o.get('vr_topic'), f'syllabus block only for newspaper items: {t}'
+            assert not o.get('vr_topic') and not o.get('vr_facts'), f'syllabus block only for newspaper items: {t}'
 for o in today:
     t = o['topic'][:40]
     assert o['match'] in ('Direct', 'Thematic', 'Emerging'), t

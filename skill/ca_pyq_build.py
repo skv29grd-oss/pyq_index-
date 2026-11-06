@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ Match Log builder (v19: 13 columns; Master Log shows one sub-row per matched PYQ; rows store PYQ IDs).
+"""CA-PYQ Match Log builder (v20: 13 columns; Master Log shows one sub-row per matched PYQ; rows store PYQ IDs).
 
 Usage:
   python3 ca_pyq_build.py --logs day1.csv day2.csv ... --today TODAY.json \
@@ -14,6 +14,8 @@ TODAY.json = list of objects: date, topic, source, gs_area, tag, pyq_ids [list o
              shows the full question text from --pyq-bank (pyq_bank.json written by load_pyq.py).
              Older JSON (years, papers, pyq_excerpt with full text) is still accepted.
              note holds the three tagged lines [Prelims 2027] / [Mains 2027] / [Link].
+             v20 (rows from 4 Nov 2026): newspaper rows carry vr_facts [2-4 fact IDs from
+             data/vr_pool.json, e.g. V0002.5] instead of vr_topic; column 13 is rendered from the pool.
 Writes the formatted workbook (all days, locked design: Calibri 12 everywhere) and a Drive-safe CSV
 of today's rows only. This script is the single source of truth for the look — never hand-format.
 """
@@ -146,10 +148,31 @@ def load(log_paths, today_path):
 def is_newspaper(o):
     return any(o.get('source', '').startswith(n) for n in NEWSPAPER)
 
+VR_POOL = {}
+
+def pool_fact(fid):
+    if not VR_POOL:
+        import os
+        VR_POOL.update(json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'vr_pool.json'),
+                                      encoding='utf-8'))['pages'])
+    k, _, n = fid.partition('.')
+    if k not in VR_POOL or not n.isdigit() or not 1 <= int(n) <= len(VR_POOL[k]['facts']):
+        raise SystemExit(f'V&R pool fact not found: {fid}')
+    return VR_POOL[k], VR_POOL[k]['facts'][int(n) - 1]
+
 def vr_text(o):
     """Column 13. v9 rows (with 'vr_topic'): syllabus base only, newspaper rows only.
     Rows written before v9 (no 'vr_topic') keep the old [CA] text from 'vr'."""
     dmy = o['date'][8:10] + '-' + o['date'][5:7] + '-' + o['date'][:4]
+    if 'vr_facts' in o:                # v20: enriching facts picked from the V&R pool
+        if not is_newspaper(o):
+            return ''
+        sub = o.get('tag', '').split(' \u203a ')[-1]
+        if not o['vr_facts']:
+            return f'[Syllabus base \u2013 {sub}] No V&R pool content on this subtopic'
+        got = [pool_fact(f) for f in o['vr_facts']]
+        titles = list(dict.fromkeys(pg['title'] for pg, _ in got))
+        return f"[Syllabus base \u2013 {sub}] (V&R: {'; '.join(titles)})\n" + bullets([f for _, f in got])
     t = o.get('vr_topic')
     if t is None:                      # legacy rows (29-30 Oct 2026)
         v = o.get('vr')
@@ -408,7 +431,7 @@ def build(rows, out_xlsx):
         ('Mains recall', 'Answer-ready points, tagged [Intro data], [Issue], [Judgment], [Committee], [Way forward], [Counterpoint], [Ethics].'),
         ('PYQ excerpts', 'Every past question matched to the item, in full, one per year: P = Prelims, GS1-GS4 = Mains with marks. In the Master Log each PYQ is its own sub-row (year, paper, full question) under the item; the item cells are merged across its sub-rows, and Date, GS Area, Syllabus Tag and Match repeat (greyed) so filters keep whole items.'),
         ('Syllabus', 'Exact syllabus portion: Paper \u203a Subject \u203a Topic (official syllabus line) \u203a Subtopic. Filter the Master Log on it to revise topic-wise.'),
-        ('V&R recall', "Syllabus base for newspaper items (from 31 Oct 2026): core facts from Vajiram & Ravi's page on that exact syllabus subtopic; identical for items sharing a subtopic. V&R's daily news facts are merged into the Prelims/Mains recall, like Next IAS and Drishti. Rows of 29-30 Oct 2026 show V&R daily facts here."),
+        ('V&R recall', "Syllabus base for newspaper items (from 31 Oct 2026): core static facts from Vajiram & Ravi's syllabus pages on the item's subtopic; from 4 Nov 2026 picked from the V&R content pool to add what the item's recall does not already cover. V&R's daily news facts are merged into the Prelims/Mains recall, like Next IAS and Drishti. Rows of 29-30 Oct 2026 show V&R daily facts here."),
         ('Expected 2027 Qs', 'How the examiner would use this item in 2027: one probable Prelims stem, one probable Mains question with paper and marks, and the PYQ years it extends. The two lines test different things by design.'),
         ('Revision routine', ''),
         ('Daily (10 min)', "Read today's cards: Prelims recall aloud, one Mains point per card in your own words."),

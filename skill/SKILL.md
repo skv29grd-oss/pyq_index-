@@ -1,6 +1,6 @@
 # Daily CA → PYQ Match (UPSC CSE 2027) — full instructions
 
-Version: **v18** (2026-11-06; rules marked v8/v9 apply from 31 Oct 2026, v10 from 1 Nov 2026; v11-v17 = corpus coverage updates; v18 = GS Area derived from the Syllabus Tag, corpus coverage moved out of the skill; v19 = PYQ IDs instead of question text from 4 Nov 2026, permanent V&R syllabus-base cache). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
+Version: **v18** (2026-11-06; rules marked v8/v9 apply from 31 Oct 2026, v10 from 1 Nov 2026; v11-v17 = corpus coverage updates; v18 = GS Area derived from the Syllabus Tag, corpus coverage moved out of the skill; v19 = PYQ IDs instead of question text from 4 Nov 2026; v20 = V&R syllabus content pool, rows pick enriching facts by ID). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
 
 Triggered manually by the user ("run today's match", "run it up to today", a newspaper PDF upload, or the skill name). Never schedule it.
 
@@ -12,12 +12,14 @@ Triggered manually by the user ("run today's match", "run it up to today", a new
 | `skill/ca_pyq_build.py` | Workbook + day-CSV builder (locked design). Run it from the clone; never retype it |
 | `skill/verify.py` | VERIFY step |
 | `skill/q.py` | PYQ regex search helper (prints PYQ IDs) |
-| `skill/vr_cache.py` | Fills and saves the V&R syllabus base from the permanent cache (P-7) |
+| `skill/vr_pool.py` | V&R content pool: `status`, `add` (pool build, §6), `find` (facts for a day's rows, P-7), `show` |
+| `skill/vr_cache.py` | v19 legacy: V&R block cache for reruns of 31 Oct-3 Nov 2026 only |
 | `skill/syllabus.md` | Official syllabus lines (Paper \| Subject \| Topic) used for the Syllabus Tag |
 | `load_pyq.py` (repo root) | Loads the PYQ corpus |
 | `README.md` (repo root) | PYQ corpus coverage and the expected `load_pyq.py` output — the single source for both (not a skill file) |
 | `CORPUS_CHANGELOG.md` (repo root) | One entry per PYQ corpus change (not a skill file) |
-| `data/vr_topics.json` | Permanent V&R syllabus-base cache keyed by Subtopic (data, not a skill file: adding entries needs no version bump) |
+| `data/vr_pool.json` | V&R syllabus content pool: pages per syllabus line, each as 4-12 facts in Claude's words with title + URL (data, not a skill file: adding pages needs no version bump) |
+| `data/vr_topics.json` | v19 legacy cache (31 Oct-3 Nov 2026 rows); not used from 4 Nov 2026 |
 | `skill/VERSION` | Current version number, e.g. `7` |
 | `skill/CHANGELOG.md` | One entry per version: number, date, what changed and why |
 | `skill/versions/v<N>_<YYYY-MM-DD>/` | Frozen copy of version N's files, dated the day it was archived (i.e. replaced) |
@@ -39,7 +41,7 @@ The pointer skill in the user's Claude settings stays short and does not change 
 | Stage | What happens |
 |---|---|
 | 1. Inputs | Paper (Drive) · Next IAS + Drishti + Vajiram & Ravi (web) · PYQ corpus and monthly data CSV (GitHub) · gap check |
-| 2. Processing | Extract → **select ≤15 newspaper + ≤5 web items** → match all PYQ years → classify → recall → expected 2027 Qs → Syllabus Tag → V&R syllabus base (cache first) |
+| 2. Processing | Extract → **select ≤15 newspaper + ≤5 web items** → match all PYQ years → classify → recall → expected 2027 Qs → Syllabus Tag → V&R syllabus base (pool facts by ID) |
 | 3. Output | Build monthly workbook (13-column locked design) → send it → push day rows to the GitHub CSV → verify |
 | 4. Reply | 5-8 lines: rows per date, top Direct hits, new Emerging themes, each site's latest date, caveats |
 
@@ -50,10 +52,10 @@ Run checklist (tick every box before replying):
 - [ ] Every page of each paper read (state page count)
 - [ ] Next IAS, Drishti IAS and Vajiram & Ravi (Prelims + Mains pages) pulled for each date, or reason stated; latest posted date per site noted
 - [ ] At most 15 newspaper rows + 5 web-only rows per date (P-0)
-- [ ] Every row: `pyq_ids` — one PYQ ID per matched question, every year (v19; no question text, no years/papers fields), Match class, 3-5 Prelims + 3-4 Mains recall, three MECE note lines, a Syllabus Tag from `syllabus.md`; V&R daily facts merged into recall; newspaper rows a `vr_topic` from `vr_cache.py fill`, new Subtopics fetched once and saved with `vr_cache.py add` (P-7)
+- [ ] Every row: `pyq_ids` — one PYQ ID per matched question, every year (v19; no question text, no years/papers fields), Match class, 3-5 Prelims + 3-4 Mains recall, three MECE note lines, a Syllabus Tag from `syllabus.md`; V&R daily facts merged into recall; newspaper rows 2-4 enriching `vr_facts` from the V&R pool via `vr_pool.py find` (P-7)
 - [ ] Every figure, name and quote traceable to source text (P-5.5)
 - [ ] Workbook built with `skill/ca_pyq_build.py`; `skill/verify.py` prints OK for every date run; current month's file sent
-- [ ] Day rows appended to the GitHub monthly CSV (13 columns, CRLF row endings) and `data/vr_topics.json` updated, in one commit; pushed, re-fetched and row-counted
+- [ ] Day rows appended to the GitHub monthly CSV (13 columns, CRLF row endings) and `data/vr_pool.json` if pages were added, in one commit; pushed, re-fetched and row-counted
 
 ---
 
@@ -103,14 +105,13 @@ Oversized tool results are saved to files: decode with Python, never paste into 
 
 Rows of 29-30 Oct 2026 were written before v9 and keep V&R daily facts in column 13.
 
-**Syllabus base (v8/v9; v19 cache; newspaper rows only; the only content of column 13).** Fetch once, reuse forever:
-1. `python3 pyq_index-/skill/vr_cache.py fill today_YYYY-MM-DD.json` copies `vr_topic` from `data/vr_topics.json` for every newspaper row whose Subtopic (last part of the tag) is cached, and lists the Subtopics still MISSING with close cached ones. If a close one names the same concept, change the row's tag to that Subtopic (P-8) and fill again instead of fetching.
-2. Only for each MISSING Subtopic, do the search below.
-3. `python3 pyq_index-/skill/vr_cache.py add today_YYYY-MM-DD.json` saves the new Subtopics (not-found ones too, so they are not searched again). Never refetch a cached Subtopic. Only when the user asks, or the day's news shows a cached fact is superseded, refetch it, put the new block in the row and run `add … --replace "<Subtopic>"`; say so in the reply.
+**Syllabus base (v20: V&R pool; newspaper rows only; the only content of column 13).** No V&R page is fetched during a daily run unless the pool lacks the subtopic:
+1. `python3 pyq_index-/skill/vr_pool.py find today_YYYY-MM-DD.json` lists, for each newspaper row's tag, the pool pages on the same syllabus line or sharing a subtopic keyword, with every fact numbered by ID (`V0002.5`). Facts marked `~` are already in the row's recall.
+2. Pick 2-4 facts that **enrich** the row: static syllabus knowledge the row's topic, Prelims and Mains recall do not already give (law + year, Article, body, concept, standard, key data, judgment). Write their IDs as `vr_facts` (e.g. news on SIR → GS2 › Polity › Salient features of the Representation of People's Act › Electoral rolls — SIR → `["V0002.5", "V0003.4", "V0001.10"]`). Same tag on the same date → identical `vr_facts`. Prefer current figures; never pick a superseded one.
+3. MISSING (no relevant page) → search V&R once for that subtopic (`WebSearch`, `allowed_domains: ["vajiramandravi.com"]`), write the relevant pages as a pool batch for the row's syllabus line (§6 rules) and `vr_pool.py add` it, then pick. Only if V&R has nothing on it: `vr_facts: []` (column 13 says so); count these in the reply.
+The builder renders column 13 from the pool: `[Syllabus base – <Subtopic>] (V&R: <page titles>)` + the facts. Web-only rows carry no `vr_facts`, so their column 13 is blank. Rows of 31 Oct-3 Nov 2026 used `vr_topic` + `data/vr_topics.json` (v19, `vr_cache.py`), kept only for reruns of those dates.
 
-Search for a MISSING Subtopic: find V&R's page on that exact syllabus subtopic: `WebSearch` with `allowed_domains: ["vajiramandravi.com"]` and the subtopic words; prefer `vajiramandravi.com/upsc-exam/<topic>/` pages, else a V&R explainer on the same subtopic. Fetch it with a facts-only prompt and write `vr_topic = {"page": "<page title>", "facts": [2-4 lines, ≤25 words each]}` — core static knowledge (law + year, body, constitutional provision, concept, standard, key data) not already in the row's Prelims/Mains recall. Keep only current figures; if the page shows a superseded target, give the current one and mark the old one `(earlier target)`. Never borrow a page on a different subtopic; if none exists, `vr_topic = {"page": "", "facts": []}` (builder writes `No V&R topic page found`). **Same Subtopic → identical `vr_topic`**, across all months (the cache enforces it). Web-only rows carry no `vr_topic`, so their column 13 is blank.
-
-Write each date's rows to `today_YYYY-MM-DD.json`: list of objects with `date, topic, source, gs_area` (P-8a)`, tag, pyq_ids` (P-3)`, match, note, prelims, mains` and, for newspaper rows, `vr_topic` (no `vr` field from 31 Oct 2026; no `years`, `papers` or `pyq_excerpt` from 4 Nov 2026). A `rowsYYYYMMDD.py` with an `R(...)` helper, dumped to JSON, keeps rows consistent. Save all source text used (paper, Next IAS, Drishti, V&R facts) into one `source_<dates>.txt` for VERIFY.
+Write each date's rows to `today_YYYY-MM-DD.json`: list of objects with `date, topic, source, gs_area` (P-8a)`, tag, pyq_ids` (P-3)`, match, note, prelims, mains` and, for newspaper rows, `vr_facts` (P-7; no `vr` field from 31 Oct 2026; no `years`, `papers`, `pyq_excerpt` or `vr_topic` from 4 Nov 2026). A `rowsYYYYMMDD.py` with an `R(...)` helper, dumped to JSON, keeps rows consistent. Save all source text used (paper, Next IAS, Drishti, V&R facts) into one `source_<dates>.txt` for VERIFY.
 
 ## 3. OUTPUT
 
@@ -149,13 +150,13 @@ Run from `/home/claude` so the builder finds `pyq_bank.json` (or pass `--pyq-ban
 
 **O-3 Deliver.** `SendUserFile` the current month's workbook (attach, one-line caption).
 
-**O-4 Store on GitHub.** In the clone: fetch + hard reset to `origin/main`; read the month's CSV with `csv`; if its header lacks `Syllabus Tag`, insert that column (blank for old rows) after `GS Area`; assert none of the new dates exist; append rows from each `upload_YYYY-MM-DD.csv` (skip header) in date order, values unchanged; write with `csv.writer` (CRLF). New month → new `data/CA-PYQ Data YYYY-MM.csv` with the 13-column header. Commit `Add CA-PYQ rows for DD Mon YYYY (N)` with the session attribution lines; `git push origin HEAD:main`. Verify: fetch, `origin/main` is your commit, CSV rows = number of items in the monthly workbook (Master Log has more sheet rows from v10 because of PYQ sub-rows), all rows 13 fields. The CSV stays one row per item; PYQ IDs stay newline-separated in one cell. Commit `data/vr_topics.json` in the same commit when `vr_cache.py add` changed it. A rerun of an already-logged date replaces that date's rows (say so in the commit message). Never use a subagent to retype the CSV. Tell the user the Drive copy of the workbook is now theirs to replace.
+**O-4 Store on GitHub.** In the clone: fetch + hard reset to `origin/main`; read the month's CSV with `csv`; if its header lacks `Syllabus Tag`, insert that column (blank for old rows) after `GS Area`; assert none of the new dates exist; append rows from each `upload_YYYY-MM-DD.csv` (skip header) in date order, values unchanged; write with `csv.writer` (CRLF). New month → new `data/CA-PYQ Data YYYY-MM.csv` with the 13-column header. Commit `Add CA-PYQ rows for DD Mon YYYY (N)` with the session attribution lines; `git push origin HEAD:main`. Verify: fetch, `origin/main` is your commit, CSV rows = number of items in the monthly workbook (Master Log has more sheet rows from v10 because of PYQ sub-rows), all rows 13 fields. The CSV stays one row per item; PYQ IDs stay newline-separated in one cell. Commit `data/vr_pool.json` in the same commit when `vr_pool.py add` changed it. A rerun of an already-logged date replaces that date's rows (say so in the commit message). Never use a subagent to retype the CSV. Tell the user the Drive copy of the workbook is now theirs to replace.
 
 **O-5 Reply** (concise): rows per date (newspaper/web) and match mix; candidates dropped by the cap; 3-5 top Direct items with PYQ years; new Emerging themes; each site's latest date; inputs not read; caveats.
 
 ## 4. VERIFY
 
-For every date added: `python3 pyq_index-/skill/verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source_<dates>.txt` → fix until it prints `OK`. From 1 Nov 2026 (v10) it also checks every PYQ line is `P <year>:` / `GS<n> <year> (<marks>):`, none truncated or capped, and Master Log sub-rows = PYQ lines. From 31 Oct 2026 it checks the 15 + 5 cap, every tag against `syllabus.md`, GS Area = the tag's Paper + Subject (v18, P-8a), the syllabus block on newspaper rows only, identical blocks for identical tags, and each block equal to its `data/vr_topics.json` entry (v19). From 4 Nov 2026 (v19) it checks `pyq_ids` (every ID in `pyq_bank.json`, no duplicates, one per year per paper, at least one for Direct/Thematic, no `years`/`papers`/`pyq_excerpt` fields), IDs (not text) in the CSV with derived PYQ Years, the Master Log text equal to the bank text, and the PYQ Bank tab. Run it from `/home/claude` (it reads `pyq_bank.json` there). The untraced-figure list is a review prompt (Act years and Articles are fine; an unsourced outlay is not).
+For every date added: `python3 pyq_index-/skill/verify.py today_YYYY-MM-DD.json upload_YYYY-MM-DD.csv source_<dates>.txt` → fix until it prints `OK`. From 1 Nov 2026 (v10) it also checks every PYQ line is `P <year>:` / `GS<n> <year> (<marks>):`, none truncated or capped, and Master Log sub-rows = PYQ lines. From 31 Oct 2026 it checks the 15 + 5 cap, every tag against `syllabus.md`, GS Area = the tag's Paper + Subject (v18, P-8a), the syllabus block on newspaper rows only, identical blocks for identical tags, and (31 Oct-3 Nov reruns) each block equal to its `data/vr_topics.json` entry. From 4 Nov 2026 (v20): newspaper rows have 2-4 `vr_facts` (or `[]`) that exist in the pool, come from a page on the row's syllabus line or sharing a subtopic keyword, do not repeat the row's recall, and are identical for the same tag on one date. From 4 Nov 2026 (v19) it checks `pyq_ids` (every ID in `pyq_bank.json`, no duplicates, one per year per paper, at least one for Direct/Thematic, no `years`/`papers`/`pyq_excerpt` fields), IDs (not text) in the CSV with derived PYQ Years, the Master Log text equal to the bank text, and the PYQ Bank tab. Run it from `/home/claude` (it reads `pyq_bank.json` there). The untraced-figure list is a review prompt (Act years and Articles are fine; an unsourced outlay is not).
 
 ## 5. Corpus helpers
 
@@ -177,5 +178,14 @@ for d, rows in by.items():
     with open(f'logs/day_{d}.csv', 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f); w.writerow(hdr); w.writerows(rows)
 ```
+
+## 6. V&R pool build (one-time, resumable)
+
+Triggered by the user ("continue the V&R pool", "build the V&R pool"), not by a daily run. Goal: up to 8 V&R pages for every line of `skill/syllabus.md` (`vr_pool.py status` shows pages and searches per line; work on lines below 8, GS papers first, then Prelims and Essay lines).
+1. For one syllabus line: 2-4 `WebSearch` calls with `allowed_domains: ["vajiramandravi.com"]`, one per main concept of the line (search results carry long page extracts; `WebFetch` a page only when its extract is thin). Do not repeat a query listed under `searched` for that line.
+2. Keep syllabus/explainer pages: `vajiramandravi.com/upsc-exam/<topic>/`, `web.vajiramandravi.com/quest-upsc-notes/…`, `vajiramandravi.com/current-affairs/<topic>/` explainers. Skip dated daily pages (`…/YYYY/MM/DD/`), course or test-series pages, and pages already in the pool.
+3. Per page write 4-12 facts **in your own words** (never copy V&R sentences; at most one quote, under 15 words), each ≤30 words: law + year, Article, body and composition, concept, standard, judgment, key data with its year. Leave out V&R typos and anything you cannot state with certainty. `subtopics` = 2-6 keywords the page covers.
+4. Save as one batch per line (`{"line": "<exact syllabus line>", "queries": [...], "pages": [...]}`), run `python3 pyq_index-/skill/vr_pool.py add batch.json`, then commit `data/vr_pool.json` (`V&R pool: <line> (+N pages)`) and push after every few lines, so a cut-off session loses little.
+5. End the session with `vr_pool.py status` totals and the lines still below 8.
 
 Run your own scripts with plain `python3`; `-I` only for scripts that read downloaded data.
