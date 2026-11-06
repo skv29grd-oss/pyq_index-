@@ -5,6 +5,7 @@ One entry per change to the PYQ corpus (`pyq_db/`, the old `*_Index.txt` files, 
 Entries before 6 Nov 2026 are reconstructed from git history; until v17 these changes were also logged as skill versions v11-v17 in `skill/CHANGELOG.md`.
 
 ## 2026-11-06
+- `load_pyq.py` also writes `pyq_bank.json` (2,821 PYQ IDs: 1,400 Prelims 2013-2026, 182 old-index Prelims 2011-2012, 1,239 Mains) and adds `id` to `mains_recs.json`, for skill v19. Old-index line `AC Q42 (2014/2015)` skipped as a duplicate of `pyq_db` Prelims 2014/2015. `pyq_bank.json` git-ignored like the other loader outputs.
 - Coverage and expected loader counts moved out of `skill/SKILL.md` into `README.md`; this changelog started. `pyq_db/README.md`: 2013 status row fixed (cells had shifted one column; Essay cell was missing).
 - `5a2e367` Mains 2013 (GS1-GS4, Essay) added to `pyq_db/` from official scans; 2013 removed from the old indexes. The loader now reads no Mains year from the old indexes.
 - `64ecd3a` Mains 2014 (GS1-GS4, Essay) added to `pyq_db/` from official papers; removed from the old index.

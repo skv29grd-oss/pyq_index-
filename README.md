@@ -14,7 +14,7 @@ This file is the single source for **corpus coverage** and the **expected `load_
 | Items with unverified year (not loaded) | `Index_year_unverified.txt` |
 | Daily CA-PYQ log | `data/CA-PYQ Data YYYY-MM.csv` |
 
-`python3 load_pyq.py .` builds `mains_recs.json` and `prelims_lines.txt` for matching.
+`python3 load_pyq.py .` builds `mains_recs.json`, `prelims_lines.txt` and `pyq_bank.json` (every question keyed by PYQ ID: the `id` column of `pyq_db`; old-index Prelims records `P<year>-<section>-Q<n>`, e.g. `P2012-MoH-Q13`). The old-index line `AC Q42 (2014/2015)` is skipped: both years are in `pyq_db` (Prelims 2014 Q25 = 2015 Q39).
 
 ## Expected `load_pyq.py` output
 
@@ -29,5 +29,6 @@ Checked on 6 Nov 2026 (commit `5a2e367`). If a run prints anything else, the cor
 | Mains Essay | 4 | 8 | 8 | 8 | 8 |
 | Prelims full-paper stems | 100 | 100 | 100 | 100 | 100 |
 
+- `pyq bank: 2821 IDs | {'Essay': 108, 'GS1': 295, 'GS2': 285, 'GS3': 288, 'GS4': 263, 'Prelims': 1582}`
 - `old index Mains records: 0`
 - `prelims lines: 1833`
