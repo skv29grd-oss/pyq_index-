@@ -1,0 +1,45 @@
+{
+  "id": "shivam-raj",
+  "name": "Shivam Raj",
+  "profile_source": "Resume PDF (MagicalCV), received 2026-11-06",
+  "contact": "Not stored: this repo is public. Phone and email are on the resume only.",
+  "degree": "B.Tech",
+  "branch": "Electronics and Communication Engineering",
+  "branch_tags": ["ECE", "EC", "Electronics", "Electronics & Communication", "E&T", "Electronics & Telecommunication"],
+  "institute": "BIT Sindri, Dhanbad",
+  "course_period": "Aug 2022 - Jun 2026",
+  "grad_year": 2026,
+  "grad_status": "Graduated (with distinction, per resume)",
+  "cgpa": 7.10,
+  "cgpa_scale": 10,
+  "percent_equivalent": null,
+  "percent_note": "University CGPA-to-% conversion not on resume. Mark 'Check' where a job sets a minimum %.",
+  "class12": {"board": "CBSE", "year": 2022, "percent": 84.6},
+  "class10": null,
+  "dob": null,
+  "domicile_state": null,
+  "gate": null,
+  "experience": [
+    {"role": "Data Science Analytics Intern", "org": "Zidio Development", "from": "2024-04", "to": "2024-07", "mode": "Remote", "type": "Internship"}
+  ],
+  "fulltime_experience_months": 0,
+  "skills": ["Python", "C++", "SQL", "MySQL", "DBMS", "Git", "VS Code", "Power BI", "Machine Learning", "Classification", "K-Means clustering", "Predictive analytics", "Data preprocessing", "Feature engineering", "Model evaluation"],
+  "projects": [
+    "Early churn detection using behavioural signals (classification, 85% recall)",
+    "Machine learning model evaluation framework (accuracy/precision/recall/F1, built without high-level libraries)"
+  ],
+  "positions": ["Joint Secretary, Model Club, BIT Sindri", "Joint Treasurer & Event Coordinator, ECE Society, BIT Sindri", "Conducted tech-fest Sandhaan (Tech Mahotsav 24)"],
+  "tracks": {
+    "status": "Default tracks set by Claude from the resume; user to confirm or edit",
+    "govt_psu": [
+      "Graduate-level exams open to any graduate (SSC CGL, IBPS/SBI PO, RBI Grade B, SEBI/NABARD Grade A general)",
+      "ECE technical posts: UPSC ESE (E&T), ISRO/DRDO/BEL/ECIL/BSNL scientist or engineer posts, RRB JE/SSE (electronics), AAI JE (Electronics)",
+      "GATE-EC PSU recruitment (only once a GATE score is added)",
+      "Bank IT/Specialist Officer posts that accept B.Tech ECE",
+      "Apprenticeships (NATS) for 2026 graduates"
+    ],
+    "private": ["Data Analyst", "Data Scientist (fresher)", "ML Engineer (fresher)", "Business Analyst", "Software/Associate Engineer (fresher)", "Electronics/embedded graduate engineer trainee"]
+  },
+  "preferences": {"locations": null, "min_ctc_lpa": null, "fresher_only": true},
+  "missing_inputs": ["dob (age-limit checks)", "domicile_state (state govt jobs)", "GATE paper/year/score if any", "CGPA-to-% conversion rule of the university", "preferred locations and minimum CTC"]
+}

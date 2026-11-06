@@ -32,3 +32,7 @@ Checked on 6 Nov 2026 (commit `5a2e367`). If a run prints anything else, the cor
 - `pyq bank: 2821 IDs | {'Essay': 108, 'GS1': 295, 'GS2': 285, 'GS3': 288, 'GS4': 263, 'Prelims': 1582}`
 - `old index Mains records: 0`
 - `prelims lines: 1833`
+
+## Other contents
+
+`jobs/` holds the separate Job Openings Finder skill and its database (see `jobs/README.md`). It is not part of the PYQ corpus.
