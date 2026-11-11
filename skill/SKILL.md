@@ -1,6 +1,6 @@
 # Daily CA → PYQ Match (UPSC CSE 2027) — full instructions
 
-Version: **v18** (2026-11-06; rules marked v8/v9 apply from 31 Oct 2026, v10 from 1 Nov 2026; v11-v17 = corpus coverage updates; v18 = GS Area derived from the Syllabus Tag, corpus coverage moved out of the skill; v19 = PYQ IDs instead of question text from 4 Nov 2026; v20 = V&R syllabus content pool, rows pick facts by ID; v21 = V&R block is fixed syllabus theory only, never news; v22 = Topic Register, weekly High-Probability list, Emerging reserve; v23 = V&R block always carries a link). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
+Version: **v24** (2026-11-11; rules marked v8/v9 apply from 31 Oct 2026, v10 from 1 Nov 2026; v11-v17 = corpus coverage updates; v18 = GS Area derived from the Syllabus Tag, corpus coverage moved out of the skill; v19 = PYQ IDs instead of question text from 4 Nov 2026; v20 = V&R syllabus content pool, rows pick facts by ID; v21 = V&R block is fixed syllabus theory only, never news; v22 = Topic Register, weekly High-Probability list, Emerging reserve; v23 = V&R block always carries a link; v24 = from 11 Nov 2026 recall columns are web-verified static material with a link in every bullet, V&R pool and column retired). Current version number lives in `skill/VERSION`; history in `skill/CHANGELOG.md`; every earlier version in `skill/versions/`.
 
 Triggered manually by the user ("run today's match", "run it up to today", a newspaper PDF upload, or the skill name). Never schedule it.
 
@@ -12,13 +12,15 @@ Triggered manually by the user ("run today's match", "run it up to today", a new
 | `skill/ca_pyq_build.py` | Workbook + day-CSV builder (locked design). Run it from the clone; never retype it |
 | `skill/verify.py` | VERIFY step |
 | `skill/q.py` | PYQ regex search helper (prints PYQ IDs) |
-| `skill/vr_pool.py` | V&R content pool: `status`, `add` (pool build, §6), `find` (facts for a day's rows, P-7), `show` |
-| `skill/vr_cache.py` | v19 legacy: V&R block cache for reruns of 31 Oct-3 Nov 2026 only |
+| `skill/recall_bank.py` | v24 recall bank: `find` (verified facts already held per Subtopic), `add` (new verified items, each with URL) |
+| `skill/vr_pool.py` | RETIRED from 11 Nov 2026 (v24); V&R content pool: `status`, `add` (pool build, §6), `find` (facts for a day's rows, P-7), `show` |
+| `skill/vr_cache.py` | RETIRED; v19 legacy: V&R block cache for reruns of 31 Oct-3 Nov 2026 only |
 | `skill/syllabus.md` | Official syllabus lines (Paper \| Subject \| Topic) used for the Syllabus Tag |
 | `load_pyq.py` (repo root) | Loads the PYQ corpus |
 | `README.md` (repo root) | PYQ corpus coverage and the expected `load_pyq.py` output — the single source for both (not a skill file) |
 | `CORPUS_CHANGELOG.md` (repo root) | One entry per PYQ corpus change (not a skill file) |
-| `data/vr_pool.json` | V&R syllabus content pool: pages per syllabus line, each as 4-12 facts in Claude's words with title + URL (data, not a skill file: adding pages needs no version bump) |
+| `data/recall_bank.json` | v24 bank of web-verified Prelims/Mains recall items per Subtopic (text, URL, checked date); data, no version bump |
+| `data/vr_pool.json` | RETIRED from 11 Nov 2026; V&R syllabus content pool: pages per syllabus line, each as 4-12 facts in Claude's words with title + URL (data, not a skill file: adding pages needs no version bump) |
 | `data/vr_topics.json` | v19 legacy cache (31 Oct-3 Nov 2026 rows); not used from 4 Nov 2026 |
 | `skill/VERSION` | Current version number, e.g. `7` |
 | `skill/CHANGELOG.md` | One entry per version: number, date, what changed and why |
@@ -41,7 +43,7 @@ The pointer skill in the user's Claude settings stays short and does not change 
 | Stage | What happens |
 |---|---|
 | 1. Inputs | Paper (Drive) · Next IAS + Drishti + Vajiram & Ravi (web) · PYQ corpus and monthly data CSV (GitHub) · gap check |
-| 2. Processing | Extract → **select ≤15 newspaper + ≤5 web items, 3-4 reserved for Emerging** → match all PYQ years → classify → recall → expected 2027 Qs → Syllabus Tag → V&R syllabus base (pool facts by ID) |
+| 2. Processing | Extract → **select ≤15 newspaper + ≤5 web items, 3-4 reserved for Emerging** → match all PYQ years → classify → recall → expected 2027 Qs → Syllabus Tag → web-verified static recall (v24; recall bank + authentic sources, link per bullet) |
 | 3. Output | Build monthly workbook (13-column locked design) → send it → push day rows to the GitHub CSV → verify |
 | 4. Reply | 5-8 lines: rows per date, top Direct hits, new Emerging themes, each site's latest date, caveats |
 
@@ -52,7 +54,7 @@ Run checklist (tick every box before replying):
 - [ ] Every page of each paper read (state page count)
 - [ ] Next IAS, Drishti IAS and Vajiram & Ravi (Prelims + Mains pages) pulled for each date, or reason stated; latest posted date per site noted
 - [ ] At most 15 newspaper rows + 5 web-only rows per date, of which at least 3 (aim 4) Emerging (P-0)
-- [ ] Every row: `pyq_ids` — one PYQ ID per matched question, every year (v19; no question text, no years/papers fields), Match class, 3-5 Prelims + 3-4 Mains recall, three MECE note lines, a Syllabus Tag from `syllabus.md`; V&R daily facts merged into recall; newspaper rows 2-4 enriching `vr_facts` from the V&R pool via `vr_pool.py find` (P-7)
+- [ ] Every row: `pyq_ids` — one PYQ ID per matched question, every year (v19; no question text, no years/papers fields), Match class, three MECE note lines, a Syllabus Tag from `syllabus.md`; from 11 Nov 2026 (v24) topic = news hook + `Why it matters:`, 4-6 web-verified Prelims facts and 4-6 Mains points each ending with an authentic-source link (P-5); no `vr_facts`; before 11 Nov 2026 the v23 rules apply (3-5 Prelims, 3-4 Mains, `vr_facts`)
 - [ ] Every figure, name and quote traceable to source text (P-5.5)
 - [ ] Workbook built with `skill/ca_pyq_build.py`; `skill/verify.py` prints OK for every date run; current month's file sent
 - [ ] Day rows appended to the GitHub monthly CSV (13 columns, CRLF row endings) and `data/vr_pool.json` if pages were added, in one commit; pushed, re-fetched and row-counted
@@ -89,9 +91,15 @@ Oversized tool results are saved to files: decode with Python, never paste into 
 
 **P-4 Classify.** Direct = PYQ asked this exact theme/place/fact · Thematic = fresh example for a related PYQ · Emerging = not asked yet.
 
-**P-5 CSE 2027 recall.** Prelims 3-5 facts, ≤22 words each. Mains 3-4 points, ≤25 words, each starting with `[Intro data]` `[Issue]` `[Judgment]` `[Committee]` `[Way forward]` `[Counterpoint]` or `[Ethics]`; at least one `[Way forward]`/`[Counterpoint]`. Source facts or certain static facts only; no repeats across lists.
+**P-5 CSE 2027 recall (v24, from 11 Nov 2026; earlier dates keep v23: 3-5 Prelims ≤22 words, 3-4 Mains ≤25 words with `[Intro data]`/`[Issue]`).** The three columns split the job:
+- **CA Topic / Headline:** the news hook (what happened, key figures, names exactly as in source) plus `Why it matters:` (exam relevance for Prelims and Mains). ≤60 words.
+- **Prelims Recall:** 4-6 *static* facts (Article, Act and year, body, composition, scheme, index, place, classification) to remember if an emerging Prelims question is asked on this subtopic. ≤25 words each, not repeating the topic's news.
+- **Mains Recall:** 4-6 reusable answer points for an emerging Mains question on the subtopic. ≤30 words each, starting with `[Provision]` `[Judgment]` `[Committee]` `[Data]` `[Scheme]` `[Example]` `[Way forward]` `[Counterpoint]` or `[Ethics]`; at least one `[Way forward]`/`[Counterpoint]`; no `[Intro data]`/`[Issue]`.
+- **Sourcing:** Prelims and Mains bullets come from authentic web sources, not the newspaper. `python3 pyq_index-/skill/recall_bank.py find today_YYYY-MM-DD.json` lists verified items already held per Subtopic; reuse them (re-check a figure that may have changed). For gaps, `WebSearch` with primary-source `allowed_domains` (`*.gov.in`, `*.nic.in`, indiacode.nic.in, constitutionofindia.net, prsindia.org, sci.gov.in, rbi.org.in, pib.gov.in, UN/WHO/World Bank/IMF/UNESCO/ICJ/WTO/IPCC), confirm each fact in the result, and add it with `recall_bank.py add`. Coaching sites are not accepted as the link. Unverified → leave out; never fill from memory.
+- **Link in every bullet:** each Prelims and Mains bullet ends with the https URL of the page that confirms it; verify checks the domain allowlist.
+- Emerging rows get the fullest recall (6 + 6 where facts exist). Same Subtopic on one date → same facts.
 
-**P-5.5 Source fidelity.** Figures exactly as printed (units, lakh/crore form, ranges). Names with year/ministry/designation. ≤1 quote per row, ≤15 words, verbatim, attributed. Topic ≤45 words. No filler. Unverifiable → leave out.
+**P-5.5 Source fidelity.** Figures exactly as printed (units, lakh/crore form, ranges). Names with year/ministry/designation. ≤1 quote per row, ≤15 words, verbatim, attributed. Topic ≤45 words (≤60 from 11 Nov 2026, v24). No filler. Unverifiable → leave out.
 
 **P-6 Note — three MECE lines:** `[Prelims 2027] <MCQ stem>` / `[Mains 2027] <question> (GSn, marks)` / `[Link] <PYQ years; entry refined>`. Prelims and Mains test different buckets (Prelims: statutory basis/body · provision · place · number/threshold · status; Mains: causes · impacts · institutional design · ethics · way forward · comparison). ≤35 words each. Emerging: `[Link] first appearance — no PYQ yet`.
 
@@ -99,13 +107,13 @@ Oversized tool results are saved to files: decode with Python, never paste into 
 
 **P-8a GS Area (v18).** `gs_area` is derived from the tag, never typed freely: `<Paper> <Subject>` exactly as in the tag (e.g. `GS2 International Relations`, `GS3 Science & Technology`, `Prelims Environment`); for `Essay › Essay › …` it is `Essay`. No abbreviations (`IR`, `S&T`), no second paper, no subtopic. The allowed values are therefore exactly the Paper + Subject pairs in `skill/syllabus.md`. Rows dated before 31 Oct 2026 have no tag and keep their old free-text GS Area.
 
-**P-7 V&R (v9).** Vajiram & Ravi is used in two separate ways.
+**P-7 V&R (v9; syllabus-base part retired v24).** From 11 Nov 2026 only the daily-news use below applies; ignore the syllabus-base block and column 13 (blank, no `vr_facts`, no placeholder).
 - **Daily news facts → the row itself.** Treat V&R's daily Prelims/Mains articles exactly like Next IAS and Drishti: merge their facts on the same story into the row's topic sentence and Prelims/Mains recall (within the usual counts and word limits; replace weaker points rather than exceed them), and add `V&R (DD-MM-YYYY)` to `Source`. V&R-only stories can be rows, counting toward the 5 web items (P-0). No `vr` field from 31 Oct 2026.
 - **Syllabus base → column 13 (`V&R Recall`).** Only this goes in the column, as below.
 
 Rows of 29-30 Oct 2026 were written before v9 and keep V&R daily facts in column 13.
 
-**Syllabus base (v20 pool; v21 fixed theory only; newspaper rows only; the only content of column 13).** Column 13 is the fixed syllabus theory of the row's topic and subtopic that the user must remember in the exam, not the news. No V&R page is fetched during a daily run unless the pool lacks the subtopic:
+**Syllabus base (RETIRED from 11 Nov 2026; v20 pool; v21 fixed theory only; newspaper rows only; the only content of column 13).** Column 13 is the fixed syllabus theory of the row's topic and subtopic that the user must remember in the exam, not the news. No V&R page is fetched during a daily run unless the pool lacks the subtopic:
 1. `python3 pyq_index-/skill/vr_pool.py find today_YYYY-MM-DD.json` lists, for each newspaper row's tag, the pool pages on the same syllabus line or sharing a subtopic keyword, with every fact numbered by ID (`V0002.5`). Facts marked `~` are already in the row's recall.
 2. Pick 2-4 facts of **fixed syllabus theory** on the row's syllabus topic and subtopic: what the examiner expects you to know about that subtopic whatever the news is (constitutional Articles, Acts and sections, institutions and their composition and powers, concepts and classifications, landmark judgments, committees). Never news details (the event, its phases, latest figures, the ruling or controversy in the news); the row's topic and recall carry those. Skip facts marked `~` and facts the row already states. Write their IDs as `vr_facts` (e.g. news on SIR → GS2 › Polity › Salient features of the Representation of People's Act › Electoral rolls — SIR → `["V0006.1", "V0001.4", "V0001.6"]`: Article 324(1), voter qualification, CEO/DEO/ERO roles). Same tag on the same date → identical `vr_facts`.
 3. MISSING (no relevant page) → search V&R once for the subtopic's theory page (`WebSearch`, `allowed_domains: ["vajiramandravi.com"]`), write the relevant pages as a pool batch for the row's syllabus line (§6 rules) and `vr_pool.py add` it, then pick. Only if V&R has nothing on it: `vr_facts: []` (column 13 says so); count these in the reply.
@@ -181,7 +189,7 @@ for d, rows in by.items():
         w = csv.writer(f); w.writerow(hdr); w.writerows(rows)
 ```
 
-## 6. V&R pool build (one-time, resumable)
+## 6. V&R pool build (RETIRED from 11 Nov 2026, v24; kept for history)
 
 Triggered by the user ("continue the V&R pool", "build the V&R pool"), not by a daily run. Goal: up to 8 V&R pages for every line of `skill/syllabus.md` (`vr_pool.py status` shows pages and searches per line; work on lines below 8, GS papers first, then Prelims and Essay lines).
 1. For one syllabus line: 2-4 `WebSearch` calls with `allowed_domains: ["vajiramandravi.com"]`, one per main concept of the line (search results carry long page extracts; `WebFetch` a page only when its extract is thin). Do not repeat a query listed under `searched` for that line.

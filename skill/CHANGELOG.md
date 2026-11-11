@@ -2,6 +2,12 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v24 — 2026-11-11
+- Topic column = news hook + "Why it matters:" (≤60 words). Prelims Recall = 4-6 static facts; Mains Recall = 4-6 reusable points; both from authentic web sources with a primary-source link in every bullet (domain allowlist in verify.py).
+- New `skill/recall_bank.py` + `data/recall_bank.json`: verified facts reused per Subtopic.
+- V&R pool, `vr_facts` and column 13 retired for rows from 11 Nov 2026 (column kept blank; CSV stays 13 columns). V&R daily news still merged as a news source.
+- verify.py: v24 branch for dates ≥ 2026-11-11; builder returns blank column 13. Earlier rows untouched.
+
 ## v23 — 2026-11-06
 - V&R block (column 13) now always carries a link: the pool page URL(s) after the facts, or, when the pool has nothing on the subtopic, a web search link restricted to vajiramandravi.com for the subtopic words. The link is a clickable hyperlink in Revision Cards and Master Log column M; verify.py requires a V&R link on every newspaper row from 4 Nov 2026.
 - Rows of 4-6 Nov 2026 re-rendered with links (only column 13 changed).

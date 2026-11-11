@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CA-PYQ Match Log builder (v23: V&R block carries page links; v22: Topic Register + High-Probability tabs; 13 columns; Master Log shows one sub-row per matched PYQ; rows store PYQ IDs).
+"""CA-PYQ Match Log builder (v24: V&R column blank from 11 Nov 2026, recall bullets carry links; v23: V&R block carries page links; v22: Topic Register + High-Probability tabs; 13 columns; Master Log shows one sub-row per matched PYQ; rows store PYQ IDs).
 
 Usage:
   python3 ca_pyq_build.py --logs day1.csv day2.csv ... --today TODAY.json \
@@ -173,6 +173,8 @@ def first_url(text):
 def vr_text(o):
     """Column 13. v9 rows (with 'vr_topic'): syllabus base only, newspaper rows only.
     Rows written before v9 (no 'vr_topic') keep the old [CA] text from 'vr'."""
+    if o['date'] >= '2026-11-11':      # v24: V&R syllabus column retired; recall bullets carry their own links
+        return ''
     dmy = o['date'][8:10] + '-' + o['date'][5:7] + '-' + o['date'][:4]
     if 'vr_facts' in o:                # v20: enriching facts picked from the V&R pool
         if not is_newspaper(o):

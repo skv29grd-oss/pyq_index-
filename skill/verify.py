@@ -46,6 +46,25 @@ def vr_fact(fid):
     return VR_POOL[k]['facts'][int(n) - 1] if k in VR_POOL and n.isdigit() and 1 <= int(n) <= len(VR_POOL[k]['facts']) else None
 VR_CACHE = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'vr_topics.json'), encoding='utf-8'))
 NEWS = ('The Hindu', 'Indian Express')
+V24D = '2026-11-11'                                  # v24: static, web-verified recall with a link in every bullet; V&R column retired
+from urllib.parse import urlparse
+URL_RX = re.compile(r'https://[^\s)\]]+')
+ALLOW = {'prsindia.org', 'un.org', 'who.int', 'worldbank.org', 'imf.org', 'unesco.org', 'ipcc.ch', 'wto.org', 'icj-cij.org', 'oecd.org',
+         'fao.org', 'wmo.int', 'unep.org', 'unfccc.int', 'itu.int', 'icao.int', 'constitutionofindia.net', 'ohchr.org', 'iucn.org'}
+def host_ok(u):
+    h = (urlparse(u).hostname or '').lower()
+    return h.endswith(('.gov.in', '.nic.in')) or h in ALLOW or any(h.endswith('.' + a) for a in ALLOW)
+TAGS24 = ('[Provision]', '[Judgment]', '[Committee]', '[Data]', '[Scheme]', '[Example]', '[Way forward]', '[Counterpoint]', '[Ethics]')
+def check_v24(o, t):
+    assert not o.get('vr_facts') and not o.get('vr_topic') and not o.get('vr'), f'v24: no V&R fields: {t}'
+    assert 4 <= len(o['prelims']) <= 6 and 4 <= len(o['mains']) <= 6, f'v24: 4-6 Prelims and 4-6 Mains bullets: {t}'
+    assert 'Why it matters:' in o['topic'] and len(o['topic'].split()) <= 60, f'v24: topic = news hook + "Why it matters:", <=60 words: {t}'
+    for b in o['prelims'] + o['mains']:
+        us = URL_RX.findall(b)
+        assert us and all(host_ok(u) for u in us), f'v24: every recall bullet needs a link on an authentic domain: {t} -> {b[:50]}'
+    assert all(len(URL_RX.sub('', p).split()) <= 25 for p in o['prelims']), f'v24: Prelims bullet <=25 words: {t}'
+    assert all(m.startswith(TAGS24) and len(URL_RX.sub('', m).split()) <= 30 for m in o['mains']), f'v24: Mains bullet starts with a v24 tag, <=30 words: {t}'
+    assert any(m.startswith(('[Way forward]', '[Counterpoint]')) for m in o['mains']), t
 is_news = lambda o: o['source'].startswith(NEWS)
 if V8:
     here = os.path.dirname(os.path.abspath(__file__))
@@ -63,7 +82,9 @@ if V8:
         assert tuple(parts[:3]) in SYL, f'tag not in syllabus.md: {t} -> {parts[:3]}'
         area = 'Essay' if parts[0] == parts[1] else f'{parts[0]} {parts[1]}'   # v18: GS Area = tag Paper + Subject
         assert o.get('gs_area') == area, f'GS Area must be "{area}" (Paper + Subject of the tag), got "{o.get("gs_area")}": {t}'
-        if is_news(o) and V19:                     # v20: enriching facts by ID from data/vr_pool.json
+        if o['date'] >= V24D:
+            check_v24(o, t)
+        elif is_news(o) and V19:                     # v20: enriching facts by ID from data/vr_pool.json
             vf = o.get('vr_facts')
             assert isinstance(vf, list) and 'vr_topic' not in o, f'v20: newspaper rows need vr_facts (list of pool fact IDs), no vr_topic: {t}'
             assert len(vf) == 0 or 2 <= len(vf) <= 4, f'vr_facts: 2-4 fact IDs (or [] if the pool has nothing on the subtopic): {t}'
@@ -95,11 +116,12 @@ if V8:
 for o in today:
     t = o['topic'][:40]
     assert o['match'] in ('Direct', 'Thematic', 'Emerging'), t
-    assert 3 <= len(o['prelims']) <= 5 and 3 <= len(o['mains']) <= 4, t
-    assert all(any(m.startswith(g) for g in TAGS) for m in o['mains']), t
-    assert all(len(p.split()) <= 22 for p in o['prelims']), t
-    assert all(len(m.split()) <= 25 for m in o['mains']), t
-    assert any(m.startswith(('[Way forward]', '[Counterpoint]')) for m in o['mains']), t
+    if o['date'] < V24D:
+        assert 3 <= len(o['prelims']) <= 5 and 3 <= len(o['mains']) <= 4, t
+        assert all(any(m.startswith(g) for g in TAGS) for m in o['mains']), t
+        assert all(len(p.split()) <= 22 for p in o['prelims']), t
+        assert all(len(m.split()) <= 25 for m in o['mains']), t
+        assert any(m.startswith(('[Way forward]', '[Counterpoint]')) for m in o['mains']), t
     c = [x.lower() for x in o['prelims'] + o['mains']]
     assert len(c) == len(set(c)), f'repeated fact: {t}'
     if V19:
@@ -120,7 +142,7 @@ for o in today:
     assert len(nl) == 3 and nl[0].startswith('[Prelims 2027]') and nl[1].startswith('[Mains 2027]') and nl[2].startswith('[Link]'), t
     assert all(len(l.split()) <= 35 for l in nl), t
     assert re.search(r'\(GS[1-4],\s*\d{1,2}(\.5)?\)', nl[1]), f'Mains line needs (GSn, marks): {t}'
-    assert len(o['topic'].split()) <= 45, t
+    assert len(o['topic'].split()) <= (60 if o['date'] >= V24D else 45), t
     if not V8:                                    # legacy rows only
         assert 'vr' in o, f'missing vr: {t}'
     else:
@@ -153,7 +175,7 @@ if V19:                                           # CSV keeps IDs, never questio
     for r in up[1:]:
         cell = [l for l in r[9].split('\n') if l]
         assert cell == ['No PYQ match in corpus'] or all(ID_RX.match(l) for l in cell), f'v19 CSV must hold PYQ IDs: {r[4][:40]}'
-        if r[11].startswith(NEWS):               # v23: every newspaper V&R block carries a V&R link
+        if r[11].startswith(NEWS) and r[0] < V24D:               # v23 (retired from 11 Nov 2026, v24): every newspaper V&R block carries a V&R link
             assert 'vajiramandravi.com' in r[12], f'v23: V&R block needs a page or search link: {r[4][:40]}'
         if cell != ['No PYQ match in corpus']:
             assert r[7] == ', '.join(sorted({BANK[k]['year'] for k in cell})), f'PYQ Years not derived from IDs: {r[4][:40]}'
@@ -168,8 +190,8 @@ FILLER = ('it may be noted', 'in this regard', 'it is important to note', 'needl
 dig = lambda s: re.sub(r'[,\s]', '', s).rstrip('.')
 flat_d, untraced = dig(flat), []
 for o in today:
-    blob = ' '.join([o['topic']] + o['prelims'] + o['mains'] + (o.get('vr') if isinstance(o.get('vr'), list) else [])
-                    + ((o.get('vr_topic') or {}).get('facts') or []))
+    blob = URL_RX.sub('', ' '.join([o['topic']] + o['prelims'] + o['mains'] + (o.get('vr') if isinstance(o.get('vr'), list) else [])
+                    + ((o.get('vr_topic') or {}).get('facts') or [])))
     assert not any(f in blob.lower() for f in FILLER), o['topic'][:40]
     for n in set(re.findall(r'\d[\d,.]*', blob)):
         if len(dig(n)) >= 3 and dig(n) not in flat_d:
