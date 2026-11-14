@@ -1236,5 +1236,925 @@
     "checked": "2026-11-12"
    }
   ]
+ },
+ "India-US interim trade agreement": {
+  "prelims": [
+   {
+    "text": "Framework for an Interim Agreement announced 7 February 2026; broader US-India Bilateral Trade Agreement (BTA) talks were launched on 13 February 2025.",
+    "url": "https://www.commerce.gov.in/files/2026-02/UNITED%20STATES-INDIA%20JOINT%20STATEMENT%2007.02.2026.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "US to apply a reciprocal tariff of 18% on originating Indian goods including textiles, leather, plastics and organic chemicals.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2224783&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "India to eliminate or reduce tariffs on all US industrial goods and many food and agricultural products such as tree nuts and soybean oil.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2224783&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "India intends to purchase $500 billion of US energy, aircraft, precious metals, technology products and coking coal over five years.",
+    "url": "https://www.commerce.gov.in/files/2026-02/UNITED%20STATES-INDIA%20JOINT%20STATEMENT%2007.02.2026.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "India-US Trade Policy Forum was established in 2005; the 14th TPF met in New Delhi on 12 January 2024.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/India-US-Bilateral-Brief-072026.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Rules of origin to ensure benefits accrue predominately to the US and India; both commit to preferential market access in sectors of respective interest.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2224783&reg=3&lang=2",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Provision]",
+    "text": "Framework commits both sides to address non-tariff barriers: US medical devices, restrictive ICT import licensing and acceptance of US or international standards within six months of entry into force.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2224783&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Either country may modify its commitments if the other changes the agreed tariffs, building a reversibility clause into the framework.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2224783&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Example]",
+    "text": "Economic security alignment: supply chain resilience, inbound and outbound investment reviews, export controls and digital trade rules via the BTA.",
+    "url": "https://www.commerce.gov.in/files/2026-02/UNITED%20STATES-INDIA%20JOINT%20STATEMENT%2007.02.2026.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "India would buy $500 billion of US goods by 2031; US to remove reciprocal tariffs on pharmaceuticals and aircraft parts only if the interim deal concludes.",
+    "url": "https://prsindia.org/policy/monthly-policy-review/february-2026",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "On 20 February 2026 the US Supreme Court held reciprocal tariffs illegal; the US re-imposed tariffs and India's Commerce Ministry said it was examining implications.",
+    "url": "https://prsindia.org/policy/monthly-policy-review/february-2026",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Use BTA negotiations to expand market access and press the US request to keep lowering tariffs on Indian goods, while protecting sensitive farm and dairy sectors.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2236134&reg=3&lang=1",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "Exports — Foreign Trade Policy 2023, RoDTEP": {
+  "prelims": [
+   {
+    "text": "Foreign Trade Policy 2023 was launched on 31 March 2023 and came into effect on 1 April 2023.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2039117&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "FTP 2023 targets $2 trillion of goods and services exports by 2030.",
+    "url": "https://content.dgft.gov.in/Website/Citizen%20Charter.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "RoDTEP has been implemented since 1 January 2021; from 15 December 2022 it covers pharmaceuticals, chemicals and iron and steel articles.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2039117&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "RoSCTL has operated since 7 March 2019 to support labour-oriented textile exports.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2039117&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "District Export Promotion Committees are chaired by the Collector and co-chaired by the DGFT Regional Authority under Districts as Export Hubs.",
+    "url": "https://content.dgft.gov.in/Website/dgftprod/61d61bc2-272e-4880-b96c-c8f685a3b244/Foreign%20Trade%20Policy%202023.pdf",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Data]",
+    "text": "RoDTEP covers 10,642 tariff lines at 8-digit level; the FY 2025-26 budget allocation is ₹18,232.50 crore.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2152478&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Scheme]",
+    "text": "Districts as Export Hubs adopts a bottoms-up approach: identify export products in each district, address bottlenecks and generate local employment.",
+    "url": "https://content.dgft.gov.in/Website/Citizen%20Charter.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "FTP 2023 prioritises SCOMET dual-use items, e-commerce exports and collaboration with States and Districts, and relies on process re-engineering and automation.",
+    "url": "https://www.commerce.gov.in/files/2025-08/Commerce_AR-2024-25-English-1.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "RoDTEP benefit of ₹42,036 crore was granted from 1 April 2021 to 31 March 2024.",
+    "url": "https://www.commerce.gov.in/files/2025-04/Annual-Report-English-Lower-Resolution-1.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Raise FTA utilisation through the Common Digital Platform for Certificates of Origin and diversify markets through trade agreements.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2039117&reg=3&lang=2",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "Quad — leaders summit and IPMDA": {
+  "prelims": [
+   {
+    "text": "Quad came together during the 2004 tsunami response; elevated to leaders' level in 2021, with the first virtual summit on 12 March 2021.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/Quad_brief_October_2023.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Formally the grouping is the 'Quad', not the Quadrilateral Security Dialogue; four pillars include maritime and transnational security and critical technologies.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/Quad_2026.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Leaders' summits: Tokyo 24 May 2022, Hiroshima 20 May 2023, Wilmington 21 September 2024.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/Quad_2026.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "IPMDA was launched at the 2022 Tokyo summit to give partners near-real-time maritime domain data.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2057460&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "MAITRI, the Maritime Initiative for Training in the Indo-Pacific, was announced at Wilmington in 2024 with India hosting the first workshop.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2057454",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Scheme]",
+    "text": "IPMDA helps over two dozen countries access dark-vessel data through the Pacific Islands Forum Fisheries Agency, Southeast Asia and IFC-IOR Gurugram.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2057460&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Example]",
+    "text": "Wilmington launched the Quad-at-Sea Ship Observer Mission, Quad Indo-Pacific Logistics Network pilot and Quad Ports of the Future Partnership.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/Quad_2026.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "Quad Infrastructure Fellowships expanded to over 2,200 experts, with well over 1,300 fellowships already provided.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2057454",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Example]",
+    "text": "Quad Cancer Moonshot, announced in 2024, targets cervical cancer in the Indo-Pacific using public and private resources.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/Unclassified_Quad_Brief_Feb_2025.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Leaders committed to secure Quad funding through national budgets and deepen interparliamentary exchanges so the grouping endures beyond summitry.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2057454",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "Matsya-6000 — Deep Ocean Mission and Samudrayaan": {
+  "prelims": [
+   {
+    "text": "Deep Ocean Mission was approved by the Cabinet in 2021 at ₹4,077 crore for five years, implemented by the Ministry of Earth Sciences.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1791489&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Deep Ocean Mission was launched w.e.f. 7 September 2021 as a Central Sector Scheme; Samudrayaan is a project under it.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1942909&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Matsya-6000 is built to operate for 12 hours normally and sustain up to 96 hours in emergencies.",
+    "url": "https://www.pib.gov.in/PressNoteDetails.aspx?id=155043&NoteId=155043&ModuleId=3&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "A 2.1 m titanium alloy human sphere is being developed with the Vikram Sarabhai Space Centre of ISRO.",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/apr/doc202242649701.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Ocean Mineral Explorer OMe 6000, a deep-water AUV, has been deployed for exploration under the mission.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1942909&reg=48&lang=2",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Scheme]",
+    "text": "Deep Ocean Mission has six components including deep-sea mining and submersible technology, ocean climate advisory services and an Advanced Marine Station for Ocean Biology.",
+    "url": "https://www.moes.gov.in/static/uploads/2025/08/fefaa0d4f69986a524f57d62f2d52a6d.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "Target resources are nickel, cobalt, rare earths and manganese, accessible only through direct human observation and sampling at depth.",
+    "url": "https://www.pib.gov.in/PressReleaseshare.aspx?PRID=1885366&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Example]",
+    "text": "India joins the USA, Russia, Japan, France and China as countries with manned subsea vehicles.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1791489&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Example]",
+    "text": "Wet harbour trials of the 500 m human submersible were completed and pilots trained aboard France's NAUTILE in 2025.",
+    "url": "https://www.moes.gov.in/static/uploads/2026/06/3ef583815579d5a48f3b11d0d5119333.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Commercial deep-sea mineral exploration should follow global rules set by the International Seabed Authority.",
+    "url": "https://www.pib.gov.in/PressNoteDetails.aspx?id=155043&NoteId=155043&ModuleId=3&reg=3&lang=2",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "UAPA — unlawful association ban procedure": {
+  "prelims": [
+   {
+    "text": "UAPA 1967 section 3(1): Centre may declare an association unlawful by notification in the Official Gazette.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1470/3/A1967-37.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Section 4: Centre must refer the notification to the UAPA Tribunal within thirty days; the Tribunal decides within six months.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1470/3/A1967-37.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Section 3(3): the notification has no effect until the Tribunal confirms it, except where immediate effect is directed for reasons stated in writing.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1470/3/A1967-37.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Section 6: a confirmed notification stays in force for five years from the date it becomes effective.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1470/3/A1967-37.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Section 13(1): taking part in or abetting unlawful activity is punishable with imprisonment up to seven years and fine.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1470/3/A1967-37.pdf",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Provision]",
+    "text": "Section 6(2) lets the Centre cancel a notification any time, on its own motion or on an aggrieved person's application, whether or not the Tribunal confirmed it.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1470/3/A1967-37.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Section 3(2) requires grounds in the notification but does not require disclosure of facts the Centre considers against public interest.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1470/3/A1967-37.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Example]",
+    "text": "The Centre declared four Jammu and Kashmir Peoples League factions unlawful on 15 March 2024; the Tribunal confirmed on 29 August 2024.",
+    "url": "https://www.mha.gov.in/sites/default/files/2024-09/OrderJKPL_13092024.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Sections 7 and 8 empower the Centre to prohibit use of funds and notify places used by a banned association.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1470/3/A1967-37.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Where privilege is claimed the Tribunal itself examines the material without disclosing it to the association, limiting the association's ability to contest the grounds.",
+    "url": "https://www.mha.gov.in/sites/default/files/2024-09/OrderJKPL_13092024.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Ensure timely Tribunal adjudication within the six-month limit and reasoned review of renewals so bans stay proportionate.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1470/3/A1967-37.pdf",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "FCRA Amendment Bill 2026 — JPC consultation": {
+  "prelims": [
+   {
+    "text": "FCRA 2010 replaced the 1976 Act; Presidential assent was on 26 September 2010.",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/jul/doc2026722929001.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "2020 amendment: foreign contribution only in an 'FCRA account' at State Bank of India, New Delhi Main Branch; sub-granting to other associations prohibited.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287897&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "2020 amendment cut the administrative expense ceiling from 50% to 20% of foreign contribution received.",
+    "url": "https://prsindia.org/billtrack/the-foreign-contribution-regulation-amendment-bill-2020",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Registration ceases after five years unless renewed; the 2020 amendment requires Aadhaar or passport details of office-bearers.",
+    "url": "https://fcraonline.nic.in/home/PDF_Doc/fc_faq_04102022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Suspension of registration is up to 180 days, extendable by a further 180 days after the 2020 amendment.",
+    "url": "https://prsindia.org/billtrack/the-foreign-contribution-regulation-amendment-bill-2020",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Data]",
+    "text": "Centre cancelled over 19,000 recipient registrations between 2011 and 2019, the Statement of Objects of the 2020 Bill recorded.",
+    "url": "https://prsindia.org/files/bills_acts/bills_parliament/2020/FCRA%20Amendment%202020.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Section 3 bars foreign contribution to election candidates and others, and to acceptance that harms sovereignty, integrity, security or communal harmony.",
+    "url": "https://fcraonline.nic.in/home/PDF_Doc/fc_faq_04102022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Government says FCRA is a transparency and disclosure framework, not a ban: receipts must be registered, channelled through a designated account and reported.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287897&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "Nearly 20,000 cancelled registrations and about 15,000 deemed ceased left thousands of crore of assets in limbo under Section 15 vesting.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287897&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Provide a clear State authority to take possession of assets of cancelled registrations and ensure proportionate, hearing-based cancellation.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2287897&reg=48&lang=2",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "SCO — membership and India": {
+  "prelims": [
+   {
+    "text": "SCO was established on 15 June 2001 by China, Kazakhstan, Kyrgyzstan, Russia, Tajikistan and Uzbekistan; its predecessor Shanghai Five formed in April 1996.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/India-SCO_Cooperation.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "India and Pakistan became full members on 9 June 2017 at the Astana Summit; India had observer status since July 2005.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/SCO_Brief_September_2022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Iran became a member at the SCO summit hosted virtually by India on 4 July 2023.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/India-SCO_Cooperation.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "SCO now lists ten members including Belarus; India assumed the rotating chairmanship in 2023.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2255790&reg=3&lang=1",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "The 25th SCO Summit at Tianjin approved the SCO Universal Center for Countering Security Challenges and Threats and an SCO Anti-Drug Center.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/India-SCO_Cooperation.pdf",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Provision]",
+    "text": "India signed the Memorandum of Obligations in June 2016 and acceded to 34 SCO agreements, including the Shanghai Convention on Combating Terrorism, Separatism and Extremism.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/SCO_Brief_September_2022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Example]",
+    "text": "India's chairmanship theme SECURE: Security, Economic cooperation, Connectivity, Unity, Respect for sovereignty and integrity, Environment protection, articulated at Qingdao in 2018.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1918263",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "After 2017 expansion SCO covered about 42% of world population, 20% of GDP and 22% of landmass.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1532376",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Example]",
+    "text": "India joined its first SCO military anti-terror drill at Chebarkul, Russia in August 2018.",
+    "url": "https://www.mea.gov.in/Portal/ForeignRelation/SCO_Brief_September_2022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "India uses SCO to press zero tolerance for terrorism and greater trade, economic cooperation and connectivity.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2139116&reg=48&lang=2",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "Cyber incidents — CERT-In reporting duties": {
+  "prelims": [
+   {
+    "text": "CERT-In is the national agency for cyber incident response under section 70B of the IT Act 2000, appointed by notification of 27 October 2009.",
+    "url": "https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "CERT-In directions of 28 April 2022 under section 70B(6) require cyber incidents to be reported within 6 hours of noticing.",
+    "url": "https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Directions mandate ICT logs kept for a rolling 180 days within Indian jurisdiction and clock synchronisation with NIC or NPL NTP servers.",
+    "url": "https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Failure to comply with CERT-In directions may invite punitive action under section 70B(7) of the IT Act.",
+    "url": "https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Data centres, VPS, cloud and VPN providers must keep accurate user registration data for five years after cancellation.",
+    "url": "https://www.cert-in.org.in/PDF/Guidelines_for_Smart_City_Infrastructure.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "CERT-In is the national agency for responding to cyber security incidents under section 70B of the IT Act 2000.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2115416&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "CERT-In issued Cyber Security Directions on 28 April 2022 under section 70B(6); they became effective after 60 days.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1820904&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Directions cover clock synchronisation, mandatory incident reporting, ICT log maintenance and subscriber registration by data centres, VPS, VPN and cloud providers.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1820904&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Directions also set KYC norms for virtual asset service providers, exchange providers and custodian wallet providers.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1820904&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "National Cyber Coordination Centre, implemented by CERT-In, scans cyberspace for threats and shares metadata with agencies.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2115416&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "CERT-In leads CSIRT-Fin, the Computer Security Incident Response Team for the finance sector.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2116341&reg=3&lang=2",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Provision]",
+    "text": "Reportable incidents include ransomware, DDoS, data breaches and leaks, attacks on critical infrastructure, SCADA, digital payments, cloud systems and AI or ML systems.",
+    "url": "https://www.cert-in.org.in/PDF/CERT-In_Directions_70B_28.04.2022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Government entities must nominate a Chief Information Security Officer and report cyber incidents to CERT-In within 6 hours under its guidelines.",
+    "url": "https://www.cert-in.org.in/PDF/guidelinesgovtentities.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Reporting duty is statutory and overrides contractual confidentiality clauses under section 81 of the IT Act, CERT-In's FAQs state.",
+    "url": "https://www.cert-in.org.in/PDF/FAQs_on_CyberSecurityDirections_May2022.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Build sectoral CSIRTs and share incident information with NIC-CERT and regulators, as CERT-In's government guidelines require.",
+    "url": "https://www.cert-in.org.in/PDF/guidelinesgovtentities.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "CERT-In can call for information and issue directions to service providers, intermediaries, data centres and body corporate to coordinate incident response.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1820904&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Scheme]",
+    "text": "CERT-In runs an automated threat intelligence exchange platform sharing tailored alerts, and has a Cyber Crisis Management Plan for ministries, States and critical sectors.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2115416&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "CERT-In conducted 109 cyber security mock drills with 1,438 participating organisations and empanelled 200 security auditing organisations.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2116341&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Example]",
+    "text": "CERT-In published 44 FAQs on 18 May 2022 to clarify applicability, reporting timeframes and logging requirements of its directions.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1826388&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "MSMEs sought more time to comply; CERT-In extended their timeline to 25 September 2022, showing compliance burden on small entities.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1837487&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Strengthen sectoral response teams such as CSIRT-Fin and regular mock drills so critical sectors can detect and contain incidents quickly.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2116341&reg=3&lang=2",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "Supreme Court restructuring — Constitutional Court proposal": {
+  "prelims": [
+   {
+    "text": "Article 130: the Supreme Court sits in Delhi or other places the CJI appoints with the President's approval.",
+    "url": "https://www.constitutionofindia.net/articles/article-130-seat-of-supreme-court/",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Article 136 gives the Supreme Court discretion to grant special leave to appeal from any court or tribunal, except armed forces tribunals.",
+    "url": "https://www.constitutionofindia.net/articles/article-136-special-leave-to-appeal-by-the-supreme-court/",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Law Commission's 229th Report (5 August 2009) proposed a Constitution Bench at Delhi and four Cassation Benches at Delhi, Chennai or Hyderabad, Kolkata and Mumbai.",
+    "url": "https://api.sci.gov.in/jonew/judis/43789.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "The Supreme Court Full Court on 18 February 2010 unanimously resolved that the Law Commission's recommendations could not be accepted.",
+    "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=82669&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "In 2016 the Supreme Court referred the question of a National Court of Appeal to a Constitution Bench.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2042983&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Parliamentary Standing Committee on Law and Justice reported on 7 August 2023 recommending regional benches under Article 130.",
+    "url": "https://prsindia.org/policy/report-summaries/judicial-processes-and-their-reforms",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Committee]",
+    "text": "The Standing Committee (Chair: Sushil Kumar Modi) saw Delhi-centric access as a barrier to justice; regional benches decide appeals while constitutional matters stay in Delhi.",
+    "url": "https://prsindia.org/policy/report-summaries/judicial-processes-and-their-reforms",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Committee]",
+    "text": "Law Commission's 229th Report recommended splitting the apex court into a Constitution Bench and regional Cassation Benches handling High Court appeals.",
+    "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=82669&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Judgment]",
+    "text": "The Supreme Court has itself lamented that unfettered special leave petitions converted it into a mere court of appeal, contrary to the framers' intent for Article 136.",
+    "url": "https://api.sci.gov.in/jonew/judis/43789.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "The Full Court found no justification for benches outside Delhi in 2010, reflecting the judiciary's resistance to restructuring.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2042983&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Article 130 already lets the CJI, with the President's approval, sit outside Delhi without a constitutional amendment; the Committee said it can create four or five regional benches.",
+    "url": "https://prsindia.org/policy/report-summaries/judicial-processes-and-their-reforms",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Pair any split with a case-filtering power for special leave petitions so docket pressure falls and the apex court hears fewer, constitutional matters.",
+    "url": "https://prsindia.org/policy/report-summaries/judicial-processes-and-their-reforms",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "TB — WHO Global TB Report 2026 and NTEP": {
+  "prelims": [
+   {
+    "text": "WHO End TB Strategy 2030 targets: 80% reduction in TB incidence rate and 90% reduction in TB deaths compared with 2015.",
+    "url": "https://iris.who.int/server/api/core/bitstreams/e97dd6f4-b567-4396-8680-717bac6869a9/content",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "SDG target 3.3 includes ending the TB epidemic by 2030.",
+    "url": "https://cdn.who.int/media/docs/default-source/documents/tuberculosis/executive-summary-global-tb-report-2019.pdf?sfvrsn=cee1d35f_2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "RNTCP was renamed National TB Elimination Programme in 2020, aiming to eliminate TB in India by 2025.",
+    "url": "https://dghs.mohfw.gov.in/national-tuberculosis-elimination-programme.php",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "UN held high-level meetings on TB in 2018 and 2023; 2023 funding targets are $22 billion a year by 2027 and $5 billion for research.",
+    "url": "https://iris.who.int/server/api/core/bitstreams/e97dd6f4-b567-4396-8680-717bac6869a9/content",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "In 2024 India accounted for 25% of global TB cases, followed by Indonesia 10% and the Philippines 6.8%.",
+    "url": "https://www.who.int/news/item/12-11-2025-global-gains-in-tuberculosis-response-endangered-by-funding-challenges",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Catastrophic costs mean total TB costs above 20% of annual household income; the End TB target is zero such households.",
+    "url": "https://iris.who.int/server/api/core/bitstreams/e97dd6f4-b567-4396-8680-717bac6869a9/content",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Data]",
+    "text": "India accounts for 25% of global cases and 33% of the gap between estimated MDR/RR-TB cases and people enrolled on treatment (2024).",
+    "url": "https://iris.who.int/server/api/core/bitstreams/e97dd6f4-b567-4396-8680-717bac6869a9/content",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "India accounted for 23% of global TB deaths in 2025, WHO's Global Tuberculosis Report 2026 stated.",
+    "url": "https://iris.who.int/server/api/core/bitstreams/726b4727-ac22-432d-96e7-563210b8fb32/content",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "About 50% of TB-affected households face catastrophic costs, far above the End TB target of zero.",
+    "url": "https://iris.who.int/server/api/core/bitstreams/726b4727-ac22-432d-96e7-563210b8fb32/content",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Between 2015 and 2024 incidence fell 12% against the 50% milestone for 2025, and deaths fell 29% against 75%.",
+    "url": "https://iris.who.int/server/api/core/bitstreams/e97dd6f4-b567-4396-8680-717bac6869a9/content",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "UN 2023 political declaration set coverage targets for rapid diagnostics, treatment and social benefits alongside funding and research goals for 2023-2030.",
+    "url": "https://iris.who.int/server/api/core/bitstreams/726b4727-ac22-432d-96e7-563210b8fb32/content",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "World Health Assembly in May 2026 asked WHO to develop a post-2030 global TB strategy for adoption at the 81st Assembly.",
+    "url": "https://iris.who.int/server/api/core/bitstreams/726b4727-ac22-432d-96e7-563210b8fb32/content",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "NPPA — trade margin rationalisation and DPCO 2013": {
+  "prelims": [
+   {
+    "text": "DPCO 2013 was notified under the National Pharmaceuticals Pricing Policy 2012 and the Essential Commodities Act 1955.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1843838",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "NPPA, under the Department of Pharmaceuticals, fixes ceiling prices of scheduled medicines in Schedule-I, adopted from the National List of Essential Medicines.",
+    "url": "https://pib.gov.in/PressReleseDetailm.aspx?PRID=2116220",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "For non-scheduled formulations manufacturers cannot raise MRP by more than 10% over the preceding 12 months.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2200938&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Paragraph 19 of DPCO 2013 gives NPPA extraordinary powers in public interest; it was first used in 2019 on 42 anti-cancer drugs.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1566632&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Ceiling prices were fixed for 935 scheduled formulations as on 1 December 2025.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2200938&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Consumers can check revised drug prices on the Pharma Sahi Daam app and the NPPA website.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2324743&reg=48&lang=2",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Data]",
+    "text": "NPPA found non-scheduled anti-cancer medicines carry average markup of about 170%, reaching 700% or more in some cases.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2321092&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Scheme]",
+    "text": "The 2026 exercise covers 137 non-scheduled anti-cancer drugs with trade margin capped at 30% of MRP, effective 9 November 2026.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2324743&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "The 2019 pilot on 42 drugs cut prices of about 500 brands by about 50% on average, saving about ₹984 crore annually.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2200938&reg=3&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Committee]",
+    "text": "Standing Committee on Chemicals and Fertilizers (6 August 2026) noted no timeframe to integrate permanent trade margin rationalisation into DPCO 2013.",
+    "url": "https://prsindia.org/policy/report-summaries/review-of-role-functions-and-duties-of-the-national-pharmaceutical-pricing-authority",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Companies must maintain production and supply of notified formulations to prevent artificial shortages as margins fall.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2324743&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Broaden NPPA's sales data beyond a private source covering about 70% of the market, adding hospital, Jan Aushadhi and e-commerce sales.",
+    "url": "https://prsindia.org/policy/report-summaries/review-of-role-functions-and-duties-of-the-national-pharmaceutical-pricing-authority",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "PDS — ONORC and NFSA 2013": {
+  "prelims": [
+   {
+    "text": "NFSA 2013 covers up to 75% of rural and 50% of urban population, which at Census 2011 is 81.35 crore persons.",
+    "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1977139",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Priority households get 5 kg foodgrains per person per month; Antyodaya Anna Yojana households get 35 kg per household per month.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2179514&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "NFSA initial subsidised prices were ₹3, ₹2 and ₹1 per kg for rice, wheat and coarse grains; the Act commenced on 5 July 2013.",
+    "url": "https://dfpd.gov.in/WriteReadData/AnnualRecordUploadDocuments/b9c640b8-5889-4ffd-a62d-5b56c5d4f029_Food%20AR%202024-25%20English%20small%20size.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "PMGKAY gives free foodgrains from 1 January 2023; free distribution was extended for five years from 1 January 2024.",
+    "url": "https://dfpd.gov.in/WriteReadData/AnnualRecordUploadDocuments/b9c640b8-5889-4ffd-a62d-5b56c5d4f029_Food%20AR%202024-25%20English%20small%20size.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Section 10 of NFSA: State Governments identify Antyodaya and priority households within the coverage determined under section 9.",
+    "url": "https://dfpd.gov.in/WriteReadData/Other/nfsa_1.pdf",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Scheme]",
+    "text": "ONORC lets about 81 crore beneficiaries take entitled grain from any fair price shop using ration or Aadhaar card with biometric e-PoS authentication.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2179514&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Example]",
+    "text": "ONORC particularly benefits migrant labourers and prevents duplication of ration cards.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2179514&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "About 80.67 crore persons were covered under NFSA against a maximum coverage of 81.35 crore.",
+    "url": "https://dfpd.gov.in/WriteReadData/AnnualRecordUploadDocuments/b9c640b8-5889-4ffd-a62d-5b56c5d4f029_Food%20AR%202024-25%20English%20small%20size.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "In December 2025, 97.9% of transactions at ePOS-enabled fair price shops used Aadhaar authentication.",
+    "url": "https://prsindia.org/budgets/parliament/demand-for-grants-2026-27-analysis-food-and-public-distribution",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Duplicate or bogus ration cards still hamper targeting; ration cards are being linked with Aadhaar and a central beneficiary repository is maintained.",
+    "url": "https://prsindia.org/budgets/parliament/demand-for-grants-2026-27-analysis-food-and-public-distribution",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Extend coverage to about 79 lakh additional eligible beneficiaries and continue weeding out ineligible cards through updated lists.",
+    "url": "https://prsindia.org/budgets/parliament/demand-for-grants-2026-27-analysis-food-and-public-distribution",
+    "checked": "2026-11-14"
+   }
+  ]
+ },
+ "Fertiliser subsidy — NBS Rabi 2026-27": {
+  "prelims": [
+   {
+    "text": "Nutrient Based Subsidy scheme has operated since 1 April 2010 for phosphatic and potassic fertilisers.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "NBS gives a fixed per-kg subsidy on nutrients N, P, K and S; rates are revised annually or biannually.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Under NBS the P&K sector is decontrolled: companies set MRP at reasonable levels, subject to government oversight.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Government makes 28 grades of P&K fertilisers available through NBS; ammonium sulphate was added from Rabi 2025-26.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Rabi 2025-26 NBS per kg of nutrient: N ₹43.02, P ₹47.96, K ₹2.38 and S ₹2.87; DAP ₹29,805 per tonne.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
+    "checked": "2026-11-14"
+   },
+   {
+    "text": "Boron and zinc fortified or coated P&K fertilisers receive extra subsidy of ₹300 and ₹500 per tonne respectively.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
+    "checked": "2026-11-14"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Data]",
+    "text": "India allocated over ₹2.04 lakh crore in NBS subsidies across 2022-23 to 2024-25 for indigenous and imported P&K fertilisers.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Data]",
+    "text": "Tentative requirement for Rabi 2025-26 was about ₹37,952 crore, about ₹736 crore above Kharif 2025.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Scheme]",
+    "text": "NBS aims to align subsidy with global price trends of fertilisers and raw materials while encouraging balanced nutrient application.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Cabinet fixes NBS rates each season considering international prices of urea, DAP, MOP and sulphur.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2334972&reg=48&lang=2",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Because MRP is decontrolled and only monitored, farmer prices depend on government oversight of company pricing.",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc202583598601.pdf",
+    "checked": "2026-11-14"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Encourage balanced use of N, P, K and S through nutrient-linked subsidy and fortified grades rather than reliance on urea and DAP alone.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
+    "checked": "2026-11-14"
+   }
+  ]
  }
 }
