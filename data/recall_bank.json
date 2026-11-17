@@ -25,6 +25,21 @@
     "text": "MEA is India's Central Authority for extradition requests; Letters Rogatory and MLAT requests are separate channels for legal assistance.",
     "url": "https://static.pib.gov.in/WriteReadData/userfiles/ISII_ComprehensiveGuidelinesMutualLegalAssistance_17122019.pdf",
     "checked": "2026-11-11"
+   },
+   {
+    "text": "India signed the Hague Service Convention; the formal method of service in India has followed it since 1 August 2007, per MEA.",
+    "url": "https://www.mea.gov.in/service-of-summons-abroad.htm",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Department of Legal Affairs is India's Central Authority under the Hague Convention of 1965 for service abroad of judicial and extra-judicial documents.",
+    "url": "https://www.doj.gov.in/static/uploads/2025/09/5526331464ba2e1608aeaa107a81d764.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Section 29, Code of Civil Procedure 1908 deals with service of foreign summonses and other processes.",
+    "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/2191/1/A190805.pdf",
+    "checked": "2026-11-17"
    }
   ],
   "mains": [
@@ -57,6 +72,18 @@
     "text": "Contest jurisdiction on sovereign-immunity grounds and route evidence requests through treaty-based legal assistance rather than public confrontation.",
     "url": "https://static.pib.gov.in/WriteReadData/userfiles/ISII_ComprehensiveGuidelinesMutualLegalAssistance_17122019.pdf",
     "checked": "2026-11-11"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "MEA: Hague Convention documents cannot be served directly on defendants in India by a private judicial officer; service must go through the proper authority.",
+    "url": "https://www.mea.gov.in/service-of-summons-abroad.htm",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "MHA guidance: a country with a Mutual Legal Assistance Treaty must consider serving documents, while non-treaty countries have no such obligation.",
+    "url": "https://www.mha.gov.in/sites/default/files/2022-09/Guid_service_pro250309_4[1].pdf",
+    "checked": "2026-11-17"
    }
   ]
  },
@@ -2154,6 +2181,598 @@
     "text": "Encourage balanced use of N, P, K and S through nutrient-linked subsidy and fortified grades rather than reliance on urea and DAP alone.",
     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2211384&reg=3&lang=1",
     "checked": "2026-11-14"
+   }
+  ]
+ },
+ "Quantum technology — National Quantum Mission": {
+  "prelims": [
+   {
+    "text": "National Quantum Mission (NQM) approved by the Union Cabinet on 19 April 2023, outlay ₹6,003.65 crore for 2023-24 to 2030-31; implemented by DST.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2111953&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "NQM is one of nine initiatives conceptualised under the Prime Minister's Science Technology Innovation Advisory Council (PM-STIAC).",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2111953&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Four Thematic Hubs (T-Hubs): quantum computing, quantum communication, quantum sensing and metrology, quantum materials and devices.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1997785&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Targets: intermediate-scale quantum computers of 20-50 physical qubits in 3 years, 50-100 in 5 years, 50-1000 in 8 years.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2115324&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Aim includes satellite-based secure quantum communication between two ground stations over 2,000 km within India.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2115324&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "T-Hubs link 152 researchers from 43 institutions across 17 States and 2 Union Territories through 14 Technical Groups and 17 Project Teams.",
+    "url": "https://www.dst.gov.in/static/uploads/2026/07/3ffac728429fbdda48653688978fbdb3.pdf",
+    "checked": "2026-11-17"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Scheme]",
+    "text": "NQM outlay is phased over eight years: ₹704.105 crore in 2023-24, ₹1,178.645 crore in 2024-25 and ₹1,260.985 crore in 2025-26.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2115865&reg=3&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "T-Hubs follow a Hub-Spoke-Spike model linking institutions, so research, capacity building, startups and industry work together.",
+    "url": "https://dst.gov.in/sites/default/files/Quantum-Safe-Ecosystem-in-India.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Example]",
+    "text": "DST Task Force chaired by Dr Rajkumar Upadhyay prepared the plan for a quantum-safe ecosystem and migration to post-quantum cryptography.",
+    "url": "https://dst.gov.in/sites/default/files/Report_TaskForce_PQMigration_4Feb26%20(v1).pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Task Force warns quantum capability may advance fast while cryptographic migration stays slow and linear, a systemic risk to national security.",
+    "url": "https://dst.gov.in/sites/default/files/Report_TaskForce_PQMigration_4Feb26%20(v1).pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Mission Governing Board stressed manpower and startups; the Principal Scientific Adviser urged empowering Hubs to build human capacity.",
+    "url": "https://dst.gov.in/mission-governing-board-finalises-implementation-strategy-and-timelines-nqm",
+    "checked": "2026-11-17"
+   }
+  ]
+ },
+ "India-Bangladesh — Hasina extradition request": {
+  "prelims": [
+   {
+    "text": "India-Bangladesh Extradition Treaty dates from 2013; MEA lists it among India's extradition treaties and arrangements.",
+    "url": "https://www.mea.gov.in/leta",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "An amendment to the India-Bangladesh Extradition Treaty was signed in July 2016 during the Bangladesh Home Minister's visit.",
+    "url": "https://www.mea.gov.in/Uploads/PublicationDocs/29521_MEA_ANNUAL_REPORT_2016_17_new.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Treaty obliges each State to extradite persons charged with, found guilty of, or wanted to enforce a penalty for, an extraditable offence.",
+    "url": "https://www.mea.gov.in/Portal/LegalTreatiesDoc/BG13B1143.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Extradition Act, 1962 is the legislative basis for extradition from India, which also needs a treaty, agreement or arrangement.",
+    "url": "https://www.mea.gov.in/extradition-from-india",
+    "checked": "2026-11-17"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Provision]",
+    "text": "Treaty Article 6 lets a requested State refuse extradition if the offence is of a political character, so classification of the charges matters.",
+    "url": "https://www.mea.gov.in/Portal/LegalTreatiesDoc/BG13B1143.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "The treaty duty to extradite is subject to its other provisions; refusal grounds are written into the text, so surrender is not automatic.",
+    "url": "https://www.mea.gov.in/Portal/LegalTreatiesDoc/BG13B1143.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Extradition Act, 1962 places no bar on extraditing Indian nationals, so India's own practice cuts both ways in any reciprocity argument.",
+    "url": "https://www.mea.gov.in/extradition-from-india",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Example]",
+    "text": "The 2016 amendment shows the treaty can be revised by protocol when both governments agree, as during the July 2016 ministerial visit.",
+    "url": "https://www.mea.gov.in/Uploads/PublicationDocs/29521_MEA_ANNUAL_REPORT_2016_17_new.pdf",
+    "checked": "2026-11-17"
+   }
+  ]
+ },
+ "Cyclones — IMD naming and warnings": {
+  "prelims": [
+   {
+    "text": "IMD classes: depression 31-49 kmph, deep depression 50-61, cyclonic storm 62-88, severe cyclonic storm 89-117 kmph.",
+    "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/sop.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Very severe cyclonic storm 64-89 knots, extremely severe 90-119 knots, super cyclonic storm 120 knots and above.",
+    "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/faq.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "RSMC New Delhi names a North Indian Ocean cyclone once its maximum sustained wind reaches 34 knots (62 kmph).",
+    "url": "https://internal.imd.gov.in/press_release/20200428_pr_788.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Naming over the North Indian Ocean began in 2004 (first name Onil); names are used sequentially, column-wise.",
+    "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/Souvenir_RSMC_17Aug.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "WMO/ESCAP Panel adopted a new name list in April 2020; it includes Arnab (Bangladesh), Murasu (India) and Akvan (Iran).",
+    "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/tc-names.pdf",
+    "checked": "2026-11-17"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Provision]",
+    "text": "IMD standard operating procedure links each cyclone class to expected damage and action, such as total suspension of fishing operations.",
+    "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/sop.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Data]",
+    "text": "A cyclonic storm of 62-88 kmph causes damage to thatched huts and breaks tree branches; a severe storm extensively damages thatched roofs and power lines.",
+    "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/sop.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Example]",
+    "text": "RSMC New Delhi names tropical cyclones forming over the North Indian Ocean, including the Bay of Bengal and Arabian Sea, from the agreed Panel list.",
+    "url": "https://internal.imd.gov.in/press_release/20200428_pr_788.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "IMD FAQ: cyclone intensity and size are only weakly associated, so category alone does not show the area at risk; read warnings with track forecasts.",
+    "url": "https://rsmcnewdelhi.imd.gov.in/images/pdf/faq.pdf",
+    "checked": "2026-11-17"
+   }
+  ]
+ },
+ "LWE — National Policy and Action Plan 2015": {
+  "prelims": [
+   {
+    "text": "National Policy and Action Plan to address LWE was approved in 2015: security measures, development interventions, rights and entitlements of local communities.",
+    "url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2026-pdfs/LS03022026/58.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Police and public order are State subjects under the Seventh Schedule; the Centre supplements State efforts against LWE.",
+    "url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2026-pdfs/LS03022026/58.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Security Related Expenditure (SRE) scheme reimburses LWE-affected States for operations, training, surrender-cum-rehabilitation and ex-gratia; ₹3,681.73 crore released since 2014-15.",
+    "url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2026-pdfs/LS03022026/58.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Special Central Assistance fills critical public-infrastructure gaps in Most LWE affected Districts; ₹3,953.67 crore released.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2223092&reg=3&lang=1",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Government set a deadline to eliminate Naxalism by 31 March 2026, termed Naxalmukt Bharat Abhiyan.",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/apr/doc2025410538201.pdf",
+    "checked": "2026-11-17"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Data]",
+    "text": "LWE violence incidents fell 89% from 1,936 in 2010 to 222 in 2025.",
+    "url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2025-pdfs/LS16122025/2591.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Data]",
+    "text": "LWE-affected districts fell from 126 to 90 in April 2018, then 70 in July 2021; PIB now says no district is categorised as LWE affected.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2291043&reg=48&lang=1",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Strategy is whole-of-government: security forces, India Reserve Battalions, helicopters, fortified police stations, intelligence sharing and State police modernisation funds.",
+    "url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2026-pdfs/LS03022026/481.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Example]",
+    "text": "Surrender-cum-Rehabilitation Policy under SRE gives surrendered cadre an immediate grant and incentives for surrendering weapons and ammunition.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2223092&reg=3&lang=1",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Government says focus on development in tribal and remote areas addressed the root cause; sustain roads, schooling and entitlements in formerly affected districts.",
+    "url": "https://www.mha.gov.in/MHA1/Par2017/pdfs/par2025-pdfs/RS17122025/1994.pdf",
+    "checked": "2026-11-17"
+   }
+  ]
+ },
+ "NGT Act 2010 — polluter pays and restitution": {
+  "prelims": [
+   {
+    "text": "NGT was established under Section 3 of the National Green Tribunal Act, 2010 (Act 19 of 2010), in force from 18 October 2010.",
+    "url": "https://www.greentribunal.gov.in/sites/default/files/rti_gazette_notification/Information_Relating_To_National_Green_Tribunal_Under_Section_4(1)_(B)_of_The_Right_To_Information_Act_2005.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Section 15(1): relief and compensation to victims of pollution under Schedule I enactments, restitution of damaged property, and restitution of the environment.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/2025/1/AA2010__19green.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Section 20: while passing orders the NGT must apply sustainable development, the precautionary principle and the polluter pays principle.",
+    "url": "https://www.greentribunal.gov.in/sites/default/files/rti_gazette_notification/Information_Relating_To_National_Green_Tribunal_Under_Section_4(1)_(B)_of_The_Right_To_Information_Act_2005.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Section 14 gives original jurisdiction over substantial environmental questions; Section 16 gives appellate jurisdiction against specified orders.",
+    "url": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Rejoinder%20of%20the%20Applicant%20to%20Reply%20filed%20by%20R-2%20in%20OA%20No.89-2020%20(page%20nos.573-666).pdf",
+    "checked": "2026-11-17"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Judgment]",
+    "text": "NGT Principal Bench: under polluter pays, the polluter bears restoration cost; environmental compensation funds remediation, as part of sustainable development.",
+    "url": "https://www.greentribunal.gov.in/gen_pdf_test.php?filepath=L25ndF9kb2N1bWVudHMvbmd0L2Nhc2Vkb2MvanVkZ2VtZW50cy9ERUxISS8yMDIzLTEyLTA3LzE3MDE5NDI5MzM0OTk0OTU2ODY2NTcxOTY5NTA1NTc4LnBkZg%3D%3D",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Section 15(1)(a) compensation is tied to Schedule I enactments; restitution of property and environment under (b) and (c) carries no such wording.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/2025/1/AA2010__19green.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Limitation can bar claims: Section 14 disputes carry a six-month period, and Section 15 relief claims must be filed within five years.",
+    "url": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Compilation%20of%20Case%20Law%20by%20Applicant%20in%20OA%20No.35-2022%20(page%20nos.444-520).pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Article 21 includes the right to a clean and healthy environment; no person has a legal or fundamental right to pollute it.",
+    "url": "https://www.greentribunal.gov.in/gen_pdf_test.php?filepath=L25ndF9kb2N1bWVudHMvbmd0L2Nhc2Vkb2MvanVkZ2VtZW50cy9ERUxISS8yMDIzLTEyLTA3LzE3MDE5NDI5MzM0OTk0OTU2ODY2NTcxOTY5NTA1NTc4LnBkZg%3D%3D",
+    "checked": "2026-11-17"
+   }
+  ]
+ },
+ "Freedom of religion — Articles 25 and 26": {
+  "prelims": [
+   {
+    "text": "Article 25(1): all persons equally entitled to freedom of conscience and to freely profess, practise and propagate religion, subject to public order, morality, health.",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/19150/1/constitution_of_india.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Article 25(2) preserves State power to regulate economic, financial, political or other secular activity associated with religious practice.",
+    "url": "https://api.sci.gov.in/supremecourt/2006/9287/9287_2006_1_1501_57054_Judgement_08-Nov-2024.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Article 26: every religious denomination or section may establish institutions, manage its own religious affairs, own property and administer it in accordance with law.",
+    "url": "https://www.constitutionofindia.net/articles/article-26-freedom-to-manage-religious-affairs/",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Articles 25 to 28 fall under the heading Right to freedom of religion; Article 25 protects persons, Article 26 denominations and sections.",
+    "url": "https://api.sci.gov.in/supremecourt/2006/9287/9287_2006_1_1501_57054_Judgement_08-Nov-2024.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Supreme Court: Article 25 protects the right to transmit or spread religion by exposition of its tenets; it gives no right to convert others.",
+    "url": "https://api.sci.gov.in/jonew/judis/5403.pdf",
+    "checked": "2026-11-17"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Judgment]",
+    "text": "Courts may decide whether a rite is essential to a religion; the Tandava dance case tested it under Articles 25 and 26.",
+    "url": "https://api.sci.gov.in/jonew/judis/9690.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Judgment]",
+    "text": "A religious denomination has the right to manage its own religious affairs, including spending trust property on religious purposes set by the founder.",
+    "url": "https://api.sci.gov.in/jonew/judis/949.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Judgment]",
+    "text": "Auroville case: Shri Aurobindo's teachings were held not religious, so the Society and township were not a religious denomination under Articles 25 and 26.",
+    "url": "https://api.sci.gov.in/jonew/judis/9868.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Article 26 rights are subject to public order, morality and health, and Article 26(d) allows administering property only in accordance with law.",
+    "url": "https://www.constitutionofindia.net/articles/article-26-freedom-to-manage-religious-affairs/",
+    "checked": "2026-11-17"
+   }
+  ]
+ },
+ "Student suicides — UGC equity regulations and National Task Force": {
+  "prelims": [
+   {
+    "text": "UGC (Promotion of Equity in Higher Educational Institutions) Regulations, 2012 apply to all higher educational institutions in India.",
+    "url": "https://www.ugc.gov.in/pdfnews/4360105_UGC-Promotion-of-Equity-in-Higher-Educational-Institutions-Regulations-2012.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "The Regulations target discrimination on caste, creed, religion, language, ethnicity, gender and disabilities; equity means a level playing field for all students.",
+    "url": "https://www.ugc.gov.in/pdfnews/4360105_UGC-Promotion-of-Equity-in-Higher-Educational-Institutions-Regulations-2012.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "The Regulations provide for Equal Opportunity Cells in each higher educational institution.",
+    "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1577808&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "UGC gives financial assistance to eligible colleges and universities to set up Equal Opportunity Centres for disadvantaged groups.",
+    "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1577808&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Supreme Court constituted a National Task Force, headed by a former Supreme Court judge, on student mental well-being in higher educational institutions.",
+    "url": "https://api.sci.gov.in/supremecourt/2019/30988/30988_2019_3_10_61151_Order_24-Apr-2025.pdf",
+    "checked": "2026-11-17"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Provision]",
+    "text": "UGC mechanisms against caste discrimination: Equal Opportunity Cells, SC/ST grievance redressal committees and liaison officers for SC/ST students and staff.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2197829&reg=3&lang=1",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Judgment]",
+    "text": "Supreme Court order of 24 April 2025: aims at an institutional mechanism for student well-being against suicides from discrimination, academic pressure and harassment.",
+    "url": "https://api.sci.gov.in/supremecourt/2019/30988/30988_2019_3_10_61151_Order_24-Apr-2025.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Judgment]",
+    "text": "2026 INSC 62: the Task Force reviewed laws, policies and public data on student suicides from SRS and NCRB sources.",
+    "url": "https://api.sci.gov.in/supremecourt/2024/40105/40105_2024_7_301_67552_Judgement_15-Jan-2026.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Example]",
+    "text": "The Court declined to restrain notification of draft UGC Equity Regulations, 2025, noting they are in the right direction on preventing on-campus discrimination.",
+    "url": "https://api.sci.gov.in/supremecourt/2019/30988/30988_2019_3_10_61151_Order_24-Apr-2025.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Build support systems that ameliorate, not exacerbate, existing inequities, to disarm stressors that fall hardest on marginalised students.",
+    "url": "https://api.sci.gov.in/supremecourt/2024/40105/40105_2024_7_301_67552_Judgement_15-Jan-2026.pdf",
+    "checked": "2026-11-17"
+   }
+  ]
+ },
+ "Health financing — National Health Accounts and OOPE": {
+  "prelims": [
+   {
+    "text": "NHA 2022-23 is the tenth report, prepared by the National Health Accounts Technical Secretariat at NHSRC, using the System of Health Accounts 2011 framework.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2265816&reg=1&lang=1",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Government Health Expenditure share of Total Health Expenditure rose from 28.6% (2013-14) to 43.7% (2022-23).",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2265816&reg=1&lang=1",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Out-of-pocket expenditure share of Total Health Expenditure fell from 64.2% in 2013-14 to 43.4% in 2022-23.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2265816&reg=1&lang=1",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Total Health Expenditure covers current and capital spending by government and private sources, including external funds.",
+    "url": "https://nhsrcindia.org/sites/default/files/2024-09/NHA%202020-21.pdf",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "WHO Global Health Expenditure Database offers comparable health expenditure data for 195 countries and territories since 2000.",
+    "url": "https://apps.who.int/nha/database/",
+    "checked": "2026-11-17"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Data]",
+    "text": "Decade trend: rising government spending cut the households' out-of-pocket share from 64.2% to 43.4% of total health expenditure by 2022-23.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2265816&reg=1&lang=1",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "WHO 2024: out-of-pocket spending stayed the main health financing source in 30 low and lower-middle-income countries.",
+    "url": "https://www.who.int/news/item/12-12-2024-new-who-report-reveals-governments-deprioritizing-health-spending",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Data]",
+    "text": "WHO: average per capita government health spending fell in 2022 from 2021 in all income groups after the early pandemic surge.",
+    "url": "https://www.who.int/news/item/12-12-2024-new-who-report-reveals-governments-deprioritizing-health-spending",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Protecting people from financial hardship due to out-of-pocket health costs is fundamental to health for all, WHO says on UHC Day.",
+    "url": "https://www.who.int/news/item/12-12-2024-new-who-report-reveals-governments-deprioritizing-health-spending",
+    "checked": "2026-11-17"
+   }
+  ]
+ },
+ "Monetary policy — MPC and inflation targeting": {
+  "prelims": [
+   {
+    "text": "Section 45ZA, RBI Act 1934: Centre, with RBI, fixes the inflation target; 2016 notification set 4%, upper tolerance 6%, lower 2%.",
+    "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=151264&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "MPC has six members: three from RBI including the Governor as ex-officio Chairperson, and three appointed by the Centre on a Search-cum-Selection Committee's recommendation.",
+    "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?relid=148405&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "MPC fixes the benchmark policy rate (repo rate) needed to contain inflation within the target; provisions came into force on 27 June 2016.",
+    "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=151264&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "MPC must meet at least four times a year; failure to meet the target is examined under Section 45ZN.",
+    "url": "https://prsindia.org/theprsblog/inflation-targets-not-met-%E2%80%93-mpc-to-examine-today",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "MPC mandate is CPI (combined) inflation of 4% with a 6% upper and 2% lower tolerance bound.",
+    "url": "https://www.rbi.org.in/commonman/english/scripts/PressReleases.aspx?Id=3249",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Centre sets the CPI inflation target every five years with RBI; 4% with ±2% band notified in 2016, retained in March 2021.",
+    "url": "https://prsindia.org/policy/monthly-policy-review/august-2025",
+    "checked": "2026-11-17"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Provision]",
+    "text": "The statutory framework makes price stability the objective while keeping in mind growth; the MPC uses the repo rate as its instrument.",
+    "url": "https://www.pib.gov.in/newsite/printrelease.aspx?relid=151264&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Failure to meet the target triggers Section 45ZN scrutiny; factors constituting failure were notified in the Gazette on 27 June 2016.",
+    "url": "https://prsindia.org/theprsblog/inflation-targets-not-met-%E2%80%93-mpc-to-examine-today",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Data]",
+    "text": "MPC eased from February 2025: 25 bps in April and 50 bps in June 2025 took the repo rate to 5.5%, with stance back to neutral.",
+    "url": "https://www.rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=23707",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "RBI issued a discussion paper on 21 August 2025 inviting views for the monetary policy framework review due in March 2026.",
+    "url": "https://www.rbi.org.in/scripts/BS_ViewBulletin.aspx?Id=23707",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Inflation outside the tolerance band for three consecutive quarters is considered a failure under the flexible inflation-targeting framework.",
+    "url": "https://prsindia.org/policy/report-summaries/review-of-monetary-policy-framework-by-rbi",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Data]",
+    "text": "Average inflation fell from 6.8% in 2012-16 to 4.9% since the framework began; headline stayed within 2-6% three-fourths of the time in the first review period.",
+    "url": "https://prsindia.org/policy/report-summaries/review-of-monetary-policy-framework-by-rbi",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "Arguments exist to drop food and fuel from the target as they are volatile and respond weakly to monetary policy; all targeters except Uganda use headline inflation.",
+    "url": "https://prsindia.org/policy/report-summaries/review-of-monetary-policy-framework-by-rbi",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "A review of the inflation target was due by the end of March 2026, so band width and the headline-versus-core choice remain open.",
+    "url": "https://prsindia.org/policy/monthly-policy-review/august-2025",
+    "checked": "2026-11-17"
+   }
+  ]
+ },
+ "Coastal security — Sea Vigil and CDSRE": {
+  "prelims": [
+   {
+    "text": "Sea Vigil-26, fifth edition of the Pan-India Coastal Defence Exercise, runs 11-19 November 2026 with the Indian Navy as lead agency.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335093&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Phases: Coastal Defence and Security Readiness Evaluation (CDSRE) 11-17 November, then the Sea Phase on 18-19 November 2026.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335093&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Sea Vigil was conceptualised in 2018 to validate maritime security measures after the 26/11 Mumbai attacks; first held 22-23 January 2019.",
+    "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1570836",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "Sea Vigil-26 spans the entire coastline and Exclusive Economic Zone and involves all Coastal States and Union Territories.",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335093&reg=48&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "text": "The drill is a build-up to the Navy's Theatre Level Readiness Operational Exercise (TROPEX).",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2335415&reg=48&lang=2",
+    "checked": "2026-11-17"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Data]",
+    "text": "Sea Vigil 24 CDSRE audited over 950 critical coastal locations including fish landing centres, lighthouses, ports and coastal police stations.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2076147",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "Sea Vigil 24 spanned the 11,098 km coastline and involved six Central ministries and 21 Central and State agencies.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2075105&reg=3&lang=2",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Example]",
+    "text": "Sea Vigil 24 served as a platform to evaluate inter-agency coordination and identify gaps in India's coastal security infrastructure.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2076147",
+    "checked": "2026-11-17"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "Sea Vigil is a national-level initiative giving a holistic appraisal of maritime defence capability beyond State exercises; follow up on the gaps it identifies.",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2073000",
+    "checked": "2026-11-17"
    }
   ]
  }
