@@ -2,6 +2,9 @@
 
 Archived copies of every earlier version are in `skill/versions/v<N>_<YYYY-MM-DD>/` (date = day archived).
 
+## v25 — 2026-11-24
+- verify.py ALLOW adds `rbi.org.in`, `sansad.in`, `imo.org`. SKILL.md already listed rbi.org.in as a source, but verify rejected it, forcing dropped or re-sourced items (17–24 Nov 2026).
+
 ## v24 — 2026-11-11
 - Topic column = news hook + "Why it matters:" (≤60 words). Prelims Recall = 4-6 static facts; Mains Recall = 4-6 reusable points; both from authentic web sources with a primary-source link in every bullet (domain allowlist in verify.py).
 - New `skill/recall_bank.py` + `data/recall_bank.json`: verified facts reused per Subtopic.

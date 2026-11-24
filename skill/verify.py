@@ -50,7 +50,8 @@ V24D = '2026-11-11'                                  # v24: static, web-verified
 from urllib.parse import urlparse
 URL_RX = re.compile(r'https://[^\s)\]]+')
 ALLOW = {'prsindia.org', 'un.org', 'who.int', 'worldbank.org', 'imf.org', 'unesco.org', 'ipcc.ch', 'wto.org', 'icj-cij.org', 'oecd.org',
-         'fao.org', 'wmo.int', 'unep.org', 'unfccc.int', 'itu.int', 'icao.int', 'constitutionofindia.net', 'ohchr.org', 'iucn.org'}
+         'fao.org', 'wmo.int', 'unep.org', 'unfccc.int', 'itu.int', 'icao.int', 'constitutionofindia.net', 'ohchr.org', 'iucn.org',
+         'rbi.org.in', 'sansad.in', 'imo.org'}   # v25
 def host_ok(u):
     h = (urlparse(u).hostname or '').lower()
     return h.endswith(('.gov.in', '.nic.in')) or h in ALLOW or any(h.endswith('.' + a) for a in ALLOW)
