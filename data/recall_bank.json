@@ -5476,5 +5476,71 @@
     "checked": "2026-11-24"
    }
   ]
+ },
+ "D-SIBs — RBI list and Basel III capital surcharge": {
+  "prelims": [
+   {
+    "text": "RBI issued the D-SIB framework on 22 July 2014, updated on 28 December 2023.",
+    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61729",
+    "checked": "2026-11-24"
+   },
+   {
+    "text": "2025 list: SBI in Bucket 4 (0.80% of RWAs), HDFC Bank in Bucket 2 (0.40%), ICICI Bank in Bucket 1 (0.20%).",
+    "url": "https://www.rbi.org.in/scripts/PublicationsView.aspx?Id=23684",
+    "checked": "2026-11-24"
+   },
+   {
+    "text": "The additional CET1 requirement applies over and above the capital conservation buffer.",
+    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61729",
+    "checked": "2026-11-24"
+   },
+   {
+    "text": "Five buckets: 0.20% to 1.00% of RWAs; Bucket 5 (1%) is kept empty as a deterrent against rising scores.",
+    "url": "https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4362",
+    "checked": "2026-11-24"
+   },
+   {
+    "text": "Indicators: size (40% weight), interconnectedness, substitutability and complexity (20% each).",
+    "url": "https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4362",
+    "checked": "2026-11-24"
+   },
+   {
+    "text": "Banks with size above 2% of GDP (Basel III leverage-ratio exposure) form the assessment sample.",
+    "url": "https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4362",
+    "checked": "2026-11-24"
+   }
+  ],
+  "mains": [
+   {
+    "tag": "[Provision]",
+    "text": "The framework follows BCBS methodology; G20 leaders in November 2011 asked BCBS and FSB to extend the G-SIB framework to D-SIBs.",
+    "url": "https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=2861",
+    "checked": "2026-11-24"
+   },
+   {
+    "tag": "[Provision]",
+    "text": "A foreign G-SIB branch in India keeps a surcharge proportionate to its India share of global RWAs.",
+    "url": "https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4362",
+    "checked": "2026-11-24"
+   },
+   {
+    "tag": "[Example]",
+    "text": "SBI moved from Bucket 3 to 4 and HDFC Bank from 1 to 2 in the 2023 list, effective 1 April 2025.",
+    "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=57006",
+    "checked": "2026-11-24"
+   },
+   {
+    "tag": "[Way forward]",
+    "text": "D-SIBs face more intensive supervision and must keep sound risk governance; RBI reviews the methodology at least every three years.",
+    "url": "https://www.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4362",
+    "checked": "2026-11-24"
+   },
+   {
+    "tag": "[Counterpoint]",
+    "text": "RBI's 2013 FSR noted the top five banks held about 35% of assets, so too-big-to-fail was less critical in India.",
+    "url": "https://www.rbi.org.in/scripts/PublicationReportDetails.aspx?ID=792",
+    "checked": "2026-11-24"
+   }
+  ]
  }
 }
